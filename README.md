@@ -1,3 +1,5 @@
+showdown calculator fork with battle maison sets instead of competitive ones; original readme follows
+
 Honko Damage Calculator
 =======================
 
