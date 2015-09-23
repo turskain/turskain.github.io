@@ -51,15 +51,17 @@ $.fn.DataTable.ColVis.prototype._fnDomColumnButton = function(i) {
 $.fn.dataTableExt.oSort['damage-pre'] = parseFloat;
 
 function calculate() {
-    var attacker, defender, setName, setTier;
+    var attacker, defender, setName, allMons, setTagA, setTagB;
     var selectedTiers = getSelectedTiers();
     var setOptions = getSetOptions();
     var dataSet = [];
     for (var i = 0; i < setOptions.length; i++) {
         if (setOptions[i].id && typeof setOptions[i].id !== "undefined") {
             setName = setOptions[i].id.substring(setOptions[i].id.indexOf("(") + 1, setOptions[i].id.lastIndexOf(")"));
-            setTier = setName.substring(0, setName.indexOf(" "));
-            if (_.contains(selectedTiers, setTier)) {
+            allMons = (setOptions[i].set !== "Blank Set") ? "Maison" : "";
+			setTagA = (setOptions[i].isCommon) ? "Common" : "";
+			setTagB = (setOptions[i].afterForty) ? "40+" : "";
+            if (_.contains(selectedTiers, allMons) || _.contains(selectedTiers, setTagA) || _.contains(selectedTiers, setTagB)) {
                 attacker = (mode === "one-vs-all") ? new Pokemon($("#p1")) : new Pokemon(setOptions[i].id);
                 defender = (mode === "one-vs-all") ? new Pokemon(setOptions[i].id) : new Pokemon($("#p1"));
                 var field = new Field();
