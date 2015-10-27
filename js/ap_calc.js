@@ -268,7 +268,7 @@ $(".set-selector").change(function() {
                 moveObj.change();
             }
         } else {
-            pokeObj.find(".level").val(100);
+            pokeObj.find(".level").val(50);
             pokeObj.find(".hp .evs").val(0);
             pokeObj.find(".hp .ivs").val(31);
             pokeObj.find(".hp .dvs").val(15);
