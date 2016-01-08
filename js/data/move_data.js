@@ -4,6 +4,18 @@ var MOVES_RBY = {
         type: 'Normal',
         category: 'Physical'
     },
+    'Guillotine': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Horn Drill': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Fissure': {
+        bp: 0,
+        type: 'Ground'
+    },
     'Acid': {
         bp: 40,
         type: 'Poison'
@@ -758,6 +770,10 @@ delete MOVES_GSC['Sludge'];
 delete MOVES_GSC['Wrap'];
 
 var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
+    'Sheer Cold': {
+        bp: 0,
+        type: 'Ice'
+    },
     'Aerial Ace': {
         bp: 60,
         type: 'Flying',
