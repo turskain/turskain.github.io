@@ -425,6 +425,18 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
         bp: 0,
         type: 'Psychic'
     },
+    'Sunny Day': {
+        bp: 0,
+        type: 'Fire'
+    },
+    'Rain Dance': {
+        bp: 0,
+        type: 'Water'
+    },
+    'Sandstorm': {
+        bp: 0,
+        type: 'Rock'
+    },
     'Perish Song': {
         bp: 0,
         type: 'Normal'
@@ -787,6 +799,10 @@ delete MOVES_GSC['Wrap'];
 
 var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
     'Sheer Cold': {
+        bp: 0,
+        type: 'Ice'
+    },
+    'Hail': {
         bp: 0,
         type: 'Ice'
     },
