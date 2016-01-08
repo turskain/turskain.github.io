@@ -122,8 +122,11 @@ var ITEMS_DPP = ITEMS_ADV.concat([
 var ITEMS_BW = ITEMS_DPP.concat([
     'Air Balloon',
     'Bug Gem',
+    'Burn Drive',
+    'Chill Drive',
     'Dark Gem',
     'Dragon Gem',
+    'Douse Drive',
     'Electric Gem',
     'Eviolite',
     'Fighting Gem',
@@ -137,6 +140,7 @@ var ITEMS_BW = ITEMS_DPP.concat([
     'Poison Gem',
     'Psychic Gem',
     'Rock Gem',
+    'Shock Drive',
     'Steel Gem',
     'Water Gem'
 ]);
@@ -156,23 +160,6 @@ ITEMS_XY.splice(ITEMS_XY.indexOf('DeepSeaTooth'), 1, 'Deep Sea Tooth');
 ITEMS_XY.splice(ITEMS_XY.indexOf('NeverMeltIce'), 1, 'Never-Melt Ice');
 ITEMS_XY.splice(ITEMS_XY.indexOf('SilverPowder'), 1, 'Silver Powder');
 ITEMS_XY.splice(ITEMS_XY.indexOf('TwistedSpoon'), 1, 'Twisted Spoon');
-ITEMS_XY.splice(ITEMS_XY.indexOf('Bug Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Dark Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Dragon Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Electric Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Fighting Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Fire Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Flying Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Ghost Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Grass Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Ground Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Ice Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Poison Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Psychic Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Rock Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Steel Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Water Gem'), 1);
-ITEMS_XY.splice(ITEMS_XY.indexOf('Soul Dew'), 1);
 
 function getItemBoostType(item) {
     switch (item) {
@@ -353,4 +340,19 @@ function getNaturalGift(item) {
         return gift;
     }
     return {'t':'Normal','p':1};
+}
+
+function getTechnoBlast(item) {
+    switch (item) {
+        case 'Burn Drive':
+            return 'Fire';
+        case 'Chill Drive':
+            return 'Ice';
+        case 'Douse Drive':
+            return 'Water';
+        case 'Shock Drive':
+            return 'Electric';
+        default:
+            return '';    
+    }
 }
