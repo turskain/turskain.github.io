@@ -8,6 +8,10 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Normal'
     },
+    'Counter': {
+        bp: 0,
+        type: 'Fighting'
+    },
     'Horn Drill': {
         bp: 0,
         type: 'Normal'
@@ -416,6 +420,10 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
         bp: 100,
         type: 'Flying',
         category: 'Special'
+    },
+    'Mirror Coat': {
+        bp: 0,
+        type: 'Fighting'
     },
     'AncientPower': {
         bp: 60,
@@ -1196,6 +1204,10 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         type: 'Water',
         category: 'Physical',
         makesContact: true
+    },
+    'Metal Burst': {
+        bp: 0,
+        type: 'Steel',
     },
     'Aqua Ring': {
         bp: 0,
