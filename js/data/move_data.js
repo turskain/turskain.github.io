@@ -423,7 +423,15 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
     },
     'Mirror Coat': {
         bp: 0,
-        type: 'Fighting'
+        type: 'Psychic'
+    },
+    'Perish Song': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Mean Look': {
+        bp: 0,
+        type: 'Ghost'
     },
     'AncientPower': {
         bp: 60,
@@ -1181,6 +1189,10 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         bp: 0,
         type: 'Normal'
     }
+    'Block': {
+        bp: 0,
+        type: 'Normal'
+    },
 });
 
 delete MOVES_ADV['BubbleBeam'];
