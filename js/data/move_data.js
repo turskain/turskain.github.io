@@ -802,6 +802,10 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         bp: 0,
         type: 'Ice'
     },
+    'Dragon Dance': {
+        bp: 0,
+        type: 'Dragon'
+    },
     'Hail': {
         bp: 0,
         type: 'Ice'
