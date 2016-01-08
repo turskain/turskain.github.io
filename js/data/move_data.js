@@ -1188,11 +1188,11 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
     'Yawn': {
         bp: 0,
         type: 'Normal'
-    }
+    },
     'Block': {
         bp: 0,
         type: 'Normal'
-    },
+    }
 });
 
 delete MOVES_ADV['BubbleBeam'];
