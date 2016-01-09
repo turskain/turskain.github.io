@@ -2252,6 +2252,370 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
 });
 
 var MOVES_XY = $.extend(true, {}, MOVES_BW, {
+  // LAZY SHIT - MOVES ARE GENERALLY PUT INTO GEN WHERE THEY ARE INTRODUCED, CARRIED OVER TO NEXT GEN, THEIR BP MODIFIED AS NEEDED ETC BUT ADDING 80 MOVES IS A PAIN SO I JUST PUT THEM ALL IN 6TH GEN
+  // todo: make it less shit (timeframe: when support for geniv frontier/subway sets is added)
+    'Feather Dance': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Safeguard': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Noble Roar': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Confide': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Misty Terrain': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Tail Whip': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Mat Block': {
+        bp: 0,
+        type: 'Fighting'
+    },
+    'Torment': {
+        bp: 0,
+        type: 'Dark'
+    },
+    'Flower Shield': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Trick-or-Treat': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Pain Split': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Draining Kiss': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Play Nice': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Charm': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Sweet Kiss': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Attract': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Psych Up': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Role Play': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Mystical Fire': {
+        bp: 65,
+        type: 'Fire',
+        category: 'Special'
+    },
+    'Grassy Terrain': {
+        bp: 0,
+        type: 'Grass'
+    },
+    'Fake Tears': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Endeavor': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Baby-Doll Eyes': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Aromatic Mist': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Screech': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Detect': {
+        bp: 0,
+        type: 'Fighting'
+    },
+    'Sand Tomb': {
+        bp: 35,
+        type: 'Ground',
+        category: 'Physical'
+    },
+    'Metal Claw': {
+        bp: 50,
+        type: 'Fairy',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Gastro Acid': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Stun Spore': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Tackle': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Physical'
+    },
+    'Vital Throw': {
+        bp: 70,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Odor Sleuth': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Memento': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Razor Wind': {
+        bp: 80,
+        type: 'Normal',
+        category: 'Physical'
+    },
+    'Teeter Dance': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Swallow': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Dizzy Punch': {
+        bp: 70,
+        type: 'Fairy',
+        category: 'Physical'
+    },
+    'Sleep Powder': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Metal Sound': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Grudge': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Scary Face': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Hypnosis': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Dream Eater': {
+        bp: 100,
+        type: 'Psychic',
+        category: 'Special'
+    },
+    'Telekinesis': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Guard Split': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Wonder Room': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Flatter': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Whirlpool': {
+        bp: 35,
+        type: 'Water',
+        category: 'Special'
+    },
+    'Imprison': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Work Up': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Nightmare': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Rollout': {
+        bp: 30,
+        type: 'Rock',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Captivate': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Foresight': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Power Split': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Gravity': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Smelling Salts': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Lock-On': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Cosmic Power': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Reflect Type': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Grass Whistle': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Snore': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Special'
+    },
+    'Quash': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Follow Me': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Petal Blizzard': {
+        bp: 90,
+        type: 'Grass',
+        category: 'Physical',
+        isSpread: true
+    },
+    'Dig': {
+        bp: 80,
+        type: 'Ground',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Inferno': {
+        bp: 100,
+        type: 'Fire',
+        category: 'Special'
+    },
+    'Heart Stamp': {
+        bp: 60,
+        type: 'Psychic',
+        category: 'Physical'
+    },
+    'Miracle Eye': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Acid Armor': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Focus Energy': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Power Trick': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Embargo': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Egg Bomb': {
+        bp: 100,
+        type: 'Normal',
+        category: 'Physical'
+    },
+    'Ice Ball': {
+        bp: 30,
+        type: 'Ice',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Wring Out': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Ally Switch': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Snatch': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Entrainment': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Trump Card': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Minimize': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Mind Reader': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Heat Crash': {
+        bp: 1,
+        type: 'Fire',
+        category: 'Physical',
+        makesContact: true
+    },
+// END LAZY SHIT
     'Air Cutter': { bp: 60 },
     'Arm Thrust': {
         bp: 15,
