@@ -2299,8 +2299,10 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         type: 'Flying'
     },
     'Draining Kiss': {
-        bp: 0,
-        type: 'Fairy'
+        bp: 50,
+        type: 'Fairy',
+        category: 'Special',
+        makesContact: true
     },
     'Play Nice': {
         bp: 0,
@@ -2366,7 +2368,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     },
     'Metal Claw': {
         bp: 50,
-        type: 'Fairy',
+        type: 'Steel',
         category: 'Physical',
         makesContact: true
     },
@@ -2412,7 +2414,7 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     },
     'Dizzy Punch': {
         bp: 70,
-        type: 'Fairy',
+        type: 'Normal',
         category: 'Physical'
     },
     'Sleep Powder': {
