@@ -2542,6 +2542,11 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         category: 'Physical',
         makesContact: true
     },
+    'Fly': {
+        bp: 95,
+        type: 'Flying',
+        category: 'Physical',
+        makesContact: true
     'Inferno': {
         bp: 100,
         type: 'Fire',
