@@ -66,28 +66,25 @@ function calculate() {
                 defender = (mode === "one-vs-all") ? new Pokemon(setOptions[i].id) : new Pokemon($("#p1"));
                 var field = new Field();
                 var damageResults = calculateMovesOfAttacker(attacker, defender, field);
-                var result, minDamage, maxDamage, minPercentage, maxPercentage, minPixels, maxPixels;
+                var result, minDamage, maxDamage, minPercent, maxPercent; 
                 var defenderSide = field.getSide( ~~(mode === "one-vs-all") );
-                var highestDamage = -1;
+                var highestMaxPercent = -1;
                 var data = [setOptions[i].id];
                 for (var n = 0; n < 4; n++) {
                     result = damageResults[n];
                     minDamage = result.damage[0] * attacker.moves[n].hits;
                     maxDamage = result.damage[result.damage.length-1] * attacker.moves[n].hits;
-                    minPercentage = Math.floor(minDamage * 1000 / defender.maxHP) / 10;
-                    maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP) / 10;
-                    minPixels = Math.floor(minDamage * 48 / defender.maxHP);
-                    maxPixels = Math.floor(maxDamage * 48 / defender.maxHP);
+                    minPercent = Math.floor(minDamage * 1000 / defender.maxHP) / 10;
+                    maxPercent = Math.floor(maxDamage * 1000 / defender.maxHP) / 10;
                     result.koChanceText = attacker.moves[n].bp === 0 ? 'nice move'
                             : getKOChanceText(result.damage, defender, defenderSide, attacker.moves[n].hits, attacker.ability === 'Bad Dreams');
-                    if (maxDamage > highestDamage) {
-                        highestDamage = maxDamage;
+                    if (maxPercent > highestMaxPercent) {
+                        highestMaxPercent = maxPercent;
                         while (data.length > 1) { 
                             data.pop();
                         }
                         data.push( attacker.moves[n].name.replace("Hidden Power", "HP") );
-                        data.push( minPercentage + " - " + maxPercentage + "%" );
-                        data.push( minPixels + " - " + maxPixels + "px" );
+                        data.push( minPercent + " - " + maxPercent + "%" );
                         data.push( result.koChanceText );
                     }
                 }
@@ -170,25 +167,21 @@ function constructDataTable() {
         destroy: true,
         columnDefs: [
             {
-                targets: [3, 5, 6, 7, 8],
+                targets: [4, 5, 6, 7],
                 visible: false,
                 searchable: false
             },
             {
                 targets: [2],
-                type: 'damage100'
+                type: 'damage'
             },
-            {
-                targets: [3],
-                type: 'damage48'
-            },
-            {   targets: [4],
+            {   targets: [3],
                 iDataSort: 2
             }
         ],
         dom: 'C<"clear">fti',
         colVis: {
-            exclude: (gen > 2) ? [0, 1, 2] : (gen === 2) ? [0, 1, 2, 7] : [0, 1, 2, 7, 8],
+            exclude: (gen > 2) ? [0, 1, 2] : (gen === 2) ? [0, 1, 2, 6] : [0, 1, 2, 6, 7],
             stateChange: function(iColumn, bVisible) {
                 var column = table.settings()[0].aoColumns[iColumn];
                 if (column.bSearchable !== bVisible) {
