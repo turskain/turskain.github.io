@@ -209,7 +209,7 @@ var SETDEX_RBY = {
 		"OU Tobybro": {"level":100,"moves":["Amnesia","Surf","Thunder Wave","Rest"]}
 	},
 	"Snorlax": {
-		"OU Fishlax": {"level":100,"moves":["Body Slam","Hyper Beam","Earthquake","Selfdestruct"]},
+		"OU Fishlax": {"level":100,"moves":["Body Slam","Hyper Beam","Earthquake","Self-Destruct"]},
 		"OU Amnesialax": {"level":100,"moves":["Amnesia","Blizzard","Body Slam","Rest"]}
 	},
 	"Starmie": {

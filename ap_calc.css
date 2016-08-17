@@ -15,7 +15,6 @@ a img {
     margin: 0;
     padding: 0;
     float: left;
-
 }
 .nav {
     padding: 15px 6px 15px 6px;
@@ -132,6 +131,9 @@ html, body {
     max-width: 1247px;
     margin: 0 auto;
 }
+div.wrapper > div > span {
+    padding-right: 5px;
+}
 fieldset {
     float: left;
     background-color: #F1F4F9;
@@ -165,14 +167,15 @@ th {
     display: inline-block;
 }
 .poke-info {
-    width: 28em;
+    width: 30em;
 }
-.field-info {
-    width: 28em;
+.field-info, .poke-import {
+    text-align: center;
+    width: 27.5em;
 }
 .holder-0 {
     position: absolute;
-    top: 81px;
+    top: 151px;
 }
 #holder-2 tr {
     white-space: nowrap;
@@ -315,8 +318,11 @@ select.toxic-counter {
 .poke-info input.move-bp {
     width: 2em;
 }
-.move-cat, .move-hits {
-    width: 4em;
+.move-cat {
+    width: 5.7em;
+}
+.move-hits {
+    width: 5em;
 }
 .poke-info .crit-btn {
     font-size: 0.8em;
@@ -361,7 +367,7 @@ select.toxic-counter {
 }
 
 .import-team-text {
-	min-width: 23em;
-	min-height: 35em;
-	resize: none;
+    min-width: 27em;
+    min-height: 10em;
+    resize: vertical;
 }
