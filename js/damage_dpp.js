@@ -200,7 +200,7 @@ function CALCULATE_DAMAGE_DPP(attacker, defender, move, field) {
     } else if (getItemBoostType(attacker.item) === move.type ||
             (((attacker.item === "Adamant Orb" && attacker.name === "Dialga") ||
             (attacker.item === "Lustrous Orb" && attacker.name === "Palkia") ||
-            (attacker.item === "Griseous Orb" && attacker.name === "Giratina-O")) &&
+            (attacker.item === "Griseous Orb" && attacker.name === "Giratina-Origin")) &&
             (move.type === attacker.type1 || move.type === attacker.type2))) {
         basePower = Math.floor(basePower * 1.2);
         description.attackerItem = attacker.item;
@@ -271,7 +271,7 @@ function CALCULATE_DAMAGE_DPP(attacker, defender, move, field) {
         description.attackerItem = attacker.item;
     } else if ((attacker.item === "Light Ball" && attacker.name === "Pikachu") ||
             (attacker.item === "Thick Club" && (attacker.name === "Cubone" || attacker.name === "Marowak") && isPhysical) ||
-            (attacker.item === "DeepSeaTooth" && attacker.name === "Clamperl" && !isPhysical)) {
+            (attacker.item === "Deep Sea Tooth" && attacker.name === "Clamperl" && !isPhysical)) {
         attack *= 2;
         description.attackerItem = attacker.item;
     }
@@ -309,11 +309,11 @@ function CALCULATE_DAMAGE_DPP(attacker, defender, move, field) {
         description.weather = field.weather;
     }
     
-    if ((defender.item === "Soul Dew" && (defender.name === "Latios" || defender.name === "Latias") && !isPhysical) ||
-            (defender.item === "Metal Powder" && defender.name === "Ditto")) {
+    if (defender.item === "Soul Dew" && (defender.name === "Latios" || defender.name === "Latias") && !isPhysical) {
         defense = Math.floor(defense * 1.5);
         description.defenderItem = defender.item;
-    } else if (defender.item === "DeepSeaScale" && defender.name === "Clamperl" && !isPhysical) {
+    } else if ((defender.item === "Deep Sea Scale" && defender.name === "Clamperl" && !isPhysical) ||
+            (defender.item === "Metal Powder" && defender.name === "Ditto" && isPhysical)) {
         defense *= 2;
         description.defenderItem = defender.item;
     }
@@ -323,7 +323,7 @@ function CALCULATE_DAMAGE_DPP(attacker, defender, move, field) {
         description.weather = field.weather;
     }
     
-    if (move.name === "Explosion" || move.name === "Selfdestruct") {
+    if (move.name === "Explosion" || move.name === "Self-Destruct") {
         defense = Math.floor(defense * 0.5);
     }
     
@@ -360,7 +360,7 @@ function CALCULATE_DAMAGE_DPP(attacker, defender, move, field) {
         baseDamage = Math.floor(baseDamage * 1.5);
         description.weather = field.weather;
     } else if ((field.weather === "Sun" && move.type === "Water") || (field.weather === "Rain" && move.type === "Fire") ||
-            (["Rain", "Sand", "Hail"].indexOf(field.weather) !== -1 && move.name === "SolarBeam")) {
+            (["Rain", "Sand", "Hail"].indexOf(field.weather) !== -1 && move.name === "Solar Beam")) {
         baseDamage = Math.floor(baseDamage * 0.5);
         description.weather = field.weather;
     }

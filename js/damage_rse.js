@@ -70,6 +70,8 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
         return {"damage":[0], "description":buildDescription(description)};
     }
     
+    description.HPEVs = defender.HPEVs + " HP";
+    
     var lv = attacker.level;
     if (move.name === "Seismic Toss" || move.name === "Night Shade") {
         return {"damage":[lv], "description":buildDescription(description)};
@@ -103,7 +105,13 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
     
     var isPhysical = typeChart[move.type].category === "Physical";
     var attackStat = isPhysical ? AT : SA;
+    description.attackEVs = attacker.evs[attackStat] +
+            (NATURES[attacker.nature][0] === attackStat ? "+" : NATURES[attacker.nature][1] === attackStat ? "-" : "") + " " +
+            toSmogonStat(attackStat);
     var defenseStat = isPhysical ? DF : SD;
+    description.defenseEVs = defender.evs[defenseStat] +
+            (NATURES[defender.nature][0] === defenseStat ? "+" : NATURES[defender.nature][1] === defenseStat ? "-" : "") + " " +
+            toSmogonStat(defenseStat);
     var at = attacker.rawStats[attackStat];
     var df = defender.rawStats[defenseStat];
     
@@ -119,18 +127,18 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
             (!isPhysical && attacker.item === "Soul Dew" && (attacker.name === "Latios" || attacker.name === "Latias"))) {
         at = Math.floor(at * 1.5);
         description.attackerItem = attacker.item;
-    } else if ((!isPhysical && attacker.item === "DeepSeaTooth" && attacker.name === "Clamperl") ||
+    } else if ((!isPhysical && attacker.item === "Deep Sea Tooth" && attacker.name === "Clamperl") ||
             (!isPhysical && attacker.item === "Light Ball" && attacker.name === "Pikachu") ||
             (isPhysical && attacker.item === "Thick Club" && (attacker.name === "Cubone" || attacker.name === "Marowak"))) {
         at *= 2;
         description.attackerItem = attacker.item;
     }
     
-    if ((!isPhysical && defender.item === "Soul Dew" && (defender.name === "Latios" || defender.name === "Latias")) ||
-            (isPhysical && defender.item === "Metal Powder" && defender.name === "Ditto")) {
+    if (!isPhysical && defender.item === "Soul Dew" && (defender.name === "Latios" || defender.name === "Latias")) {
         df = Math.floor(df * 1.5);
         description.defenderItem = defender.item;
-    } else if (!isPhysical && defender.item === "DeepSeaScale" && defender.name === "Clamperl") {
+    } else if ((!isPhysical && defender.item === "Deep Sea Scale" && defender.name === "Clamperl") ||
+            (isPhysical && defender.item === "Metal Powder" && defender.name === "Ditto")) {
         df *= 2;
         description.defenderItem = defender.item;
     }
@@ -155,7 +163,7 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
         description.attackerAbility = attacker.ability;
     }
     
-    if (move.name === "Explosion" || move.name === "Selfdestruct") {
+    if (move.name === "Explosion" || move.name === "Self-Destruct") {
         df = Math.floor(df / 2);
     }
     
@@ -199,7 +207,7 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
         baseDamage = Math.floor(baseDamage * 1.5);
         description.weather = field.weather;
     } else if ((field.weather === "Sun" && move.type === "Water") || (field.weather === "Rain" && move.type === "Fire") ||
-            (move.name === "SolarBeam" && ["Rain", "Sand", "Hail"].indexOf(field.weather) !== -1)) {
+            (move.name === "Solar Beam" && ["Rain", "Sand", "Hail"].indexOf(field.weather) !== -1)) {
         baseDamage = Math.floor(baseDamage / 2);
         description.weather = field.weather;
     }
@@ -238,3 +246,70 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
     }
     return {"damage":damage, "description":buildDescription(description)};
 }
+
+function buildDescription(description) {
+    var output = "";
+    if (description.attackBoost) {
+        if (description.attackBoost > 0) {
+            output += "+";
+        }
+        output += description.attackBoost + " ";
+    }
+    output = appendIfSet(output, description.attackEVs);
+    output = appendIfSet(output, description.attackerItem);
+    output = appendIfSet(output, description.attackerAbility);
+    if (description.isBurned) {
+        output += "burned ";
+    }
+    output += description.attackerName + " ";
+    if (description.isHelpingHand) {
+        output += "Helping Hand ";
+    }
+    output += description.moveName + " ";
+    if (description.moveBP && description.moveType) {
+        output += "(" + description.moveBP + " BP " + description.moveType + ") ";
+    } else if (description.moveBP) {
+        output += "(" + description.moveBP + " BP) ";
+    } else if (description.moveType) {
+        output += "(" + description.moveType + ") ";
+    }
+    if (description.hits) {
+        output += "(" + description.hits + " hits) ";
+    }
+    output += "vs. ";
+    if (description.defenseBoost) {
+        if (description.defenseBoost > 0) {
+            output += "+";
+        }
+        output += description.defenseBoost + " ";
+    }
+    output = appendIfSet(output, description.HPEVs);
+    if (description.defenseEVs) {
+        output += " / " + description.defenseEVs + " ";
+    }
+    output = appendIfSet(output, description.defenderItem);
+    output = appendIfSet(output, description.defenderAbility);
+    output += description.defenderName;
+    if (description.weather) {
+        
+    } else if (description.weather) {
+        output += " in " + description.weather;
+    }
+    if (description.isReflect) {
+        output += " through Reflect";
+    } else if (description.isLightScreen) {
+        output += " through Light Screen";
+    }
+    if (description.isCritical) {
+        output += " on a critical hit";
+    }
+    return output;
+}
+
+function appendIfSet(str, toAppend) {
+    if (toAppend) {
+        return str + toAppend + " ";
+    }
+    return str;
+}
+

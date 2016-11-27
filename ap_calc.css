@@ -3,7 +3,17 @@ a img {
     border: 0;
 }
 .header {
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
+
+    background: #E5ECFB;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E8EEFC), to(#D7DEEA));
+    background: -moz-linear-gradient(top,  #E8EEFC,  #D7DEEA);
+    background: linear-gradient(top,  #E8EEFC,  #D7DEEA);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8EEFC', endColorstr='#D7DEEA');
+
+    border-bottom: 1px solid #AAA;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, .6), 0px 2px 2px rgba(0, 0, 0, .15);
+    min-height: 50px;
 }
 .header-inner {
     max-width: 605px;
@@ -15,7 +25,6 @@ a img {
     margin: 0;
     padding: 0;
     float: left;
-
 }
 .nav {
     padding: 15px 6px 15px 6px;
@@ -132,6 +141,9 @@ html, body {
     max-width: 1247px;
     margin: 0 auto;
 }
+div.wrapper > div > span {
+    padding-right: 5px;
+}
 fieldset {
     float: left;
     background-color: #F1F4F9;
@@ -153,6 +165,7 @@ th {
     margin: 0.5em 1em 0.5em 0;
 }
 .big-text {
+    text-align: left;
     font-weight: bold;
     font-size: 1.1em;
     margin: 0.5em 0;
@@ -165,14 +178,15 @@ th {
     display: inline-block;
 }
 .poke-info {
-    width: 28em;
+    width: 30em;
 }
-.field-info {
-    width: 28em;
+.field-info, .poke-import {
+    text-align: center;
+    width: 27.5em;
 }
 .holder-0 {
     position: absolute;
-    top: 81px;
+    top: 151px;
 }
 #holder-2 tr {
     white-space: nowrap;
@@ -182,7 +196,7 @@ th {
 .btn {
     text-align: center;
     border: solid 1px #aaaaaa;
-    padding: 4px 8px;
+    padding: 4px 4px;
     position: relative;
     cursor: pointer;
     color: #555555;
@@ -315,8 +329,11 @@ select.toxic-counter {
 .poke-info input.move-bp {
     width: 2em;
 }
-.move-cat, .move-hits {
-    width: 4em;
+.move-cat {
+    width: 5.7em;
+}
+.move-hits {
+    width: 5em;
 }
 .poke-info .crit-btn {
     font-size: 0.8em;
@@ -361,7 +378,7 @@ select.toxic-counter {
 }
 
 .import-team-text {
-	min-width: 23em;
-	min-height: 35em;
-	resize: none;
+    min-width: 27em;
+    min-height: 10em;
+    resize: vertical;
 }
