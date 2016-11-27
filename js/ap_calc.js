@@ -268,7 +268,7 @@ $(".set-selector").change(function() {
                 moveObj.change();
             }
         } else {
-            pokeObj.find(".level").val(50);
+            pokeObj.find(".level").val(100);
             pokeObj.find(".hp .evs").val(0);
             pokeObj.find(".hp .ivs").val(31);
             pokeObj.find(".hp .dvs").val(15);
@@ -512,13 +512,24 @@ $(".gen").change(function () {
             calcHP = CALC_HP_ADV;
             calcStat = CALC_STAT_ADV;
             break;
-        default:
+        case 6:
             pokedex = POKEDEX_XY;
             setdex = SETDEX_XY;
             typeChart = TYPE_CHART_XY;
             moves = MOVES_XY;
             items = ITEMS_XY;
             abilities = ABILITIES_XY;
+            STATS = STATS_GSC;
+            calcHP = CALC_HP_ADV;
+            calcStat = CALC_STAT_ADV;
+            break;
+        default:
+            pokedex = POKEDEX_SM;
+            setdex = SETDEX_SM;
+            typeChart = TYPE_CHART_XY;
+            moves = MOVES_SM;
+            items = ITEMS_SM;
+            abilities = ABILITIES_SM;
             STATS = STATS_GSC;
             calcHP = CALC_HP_ADV;
             calcStat = CALC_STAT_ADV;
@@ -587,8 +598,9 @@ function getSetOptions() {
                     set: setName,
                     text: pokeName + " (" + setName + ")",
                     id: pokeName + " (" + setName + ")",
-					          isCommon: setdex[pokeName][setName]["isCommon"],
-					          afterForty: setdex[pokeName][setName]["afterForty"]
+                    isCommon: setdex[pokeName][setName]["isCommon"],
+                    afterForty: setdex[pokeName][setName]["afterForty"]
+
                 });
             }
         }
@@ -614,8 +626,8 @@ function getSelectOptions(arr, sort) {
 }
 
 $(document).ready(function() {
-    $("#gen6").prop("checked", true);
-    $("#gen6").change();
+    $("#gen7").prop("checked", true);
+    $("#gen7").change();
     $("#percentage").prop("checked", true);
     $("#percentage").change();
 
