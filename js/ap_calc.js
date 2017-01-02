@@ -650,7 +650,7 @@ function getSetOptions(sideID) {
                             setOptions.push({
                                 pokemon : pokeName,
                                 text : pokeName
-                            })
+                            });
                         }
                         setOptions.push({
                             pokemon: pokeName,
@@ -662,6 +662,20 @@ function getSetOptions(sideID) {
                     }
                 }
             }
+        }
+        if (trainer == "All"){
+            if (!found){
+                setOptions.push({
+                    pokemon : pokeName,
+                    text : pokeName
+                });
+            }
+            setOptions.push({
+                pokemon: pokeName,
+                set: "Blank Set",
+                text: pokeName + " (Blank Set)",
+                id: pokeName + " (Blank Set)"
+            });
         }
     }
     return setOptions;
