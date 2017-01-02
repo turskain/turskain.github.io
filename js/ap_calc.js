@@ -585,8 +585,8 @@ $(".gen").change(function () {
     var itemOptions = getSelectOptions(items, true);
     $("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
     
-    $(".set-selector1").val(getSetOptions(1)[0].id);
-    $(".set-selector2").val(getSetOptions(2)[0].id);
+    $(".set-selector1").val(getSetOptions(1)[gen < 4 ? 3 : 1].id);
+    $(".set-selector2").val(getSetOptions(2)[gen < 4 ? 3 : 1].id);
     $(".set-selector").change();
 });
 
@@ -638,12 +638,20 @@ function getSetOptions(sideID) {
     var filterSets = trainerSets[trainer];
     for (var i = 0; i < pokeNames.length; i++) {
         var pokeName = pokeNames[i];
+        found = false;
         if (pokeName in mydex) {
             var setNames = Object.keys(mydex[pokeName]);
             for (var j = 0; j < setNames.length; j++) {
                 var setName = setNames[j];
                 for(var k = 0; k < filterSets.length; k++){
                     if (filterSets[k] == setName || trainer == "Custom" || trainer == "All"){
+                        if (found == false){
+                            found = true;
+                            setOptions.push({
+                                pokemon : pokeName,
+                                text : pokeName
+                            })
+                        }
                         setOptions.push({
                             pokemon: pokeName,
                             set: setName,
@@ -681,7 +689,7 @@ $(document).ready(function() {
     });
     $(".set-selector1").select2({
         formatResult: function(object) {
-            return (object.text);
+            return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
         },
         query: function(query) {
             var pageSize = 30;
@@ -696,14 +704,14 @@ $(document).ready(function() {
             });
         },
         initSelection: function(element, callback) {
-            var data = getSetOptions(1)[0];
+            var data = getSetOptions(1)[gen < 4 ? 3 : 1];
             callback(data);
         }
     });
 
     $(".set-selector2").select2({
         formatResult: function(object) {
-            return object.text;
+            return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
         },
         query: function(query) {
             var pageSize = 30;
@@ -718,7 +726,7 @@ $(document).ready(function() {
             });
         },
         initSelection: function(element, callback) {
-            var data = getSetOptions(2)[0];
+            var data = getSetOptions(2)[gen < 4 ? 3 : 1];
             callback(data);
         }
     });
@@ -729,7 +737,7 @@ $(document).ready(function() {
             return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
         }
     });
-    $(".set-selector1").val(getSetOptions(1)[0].id);
-    $(".set-selector2").val(getSetOptions(2)[0].id);
+    $(".set-selector1").val(getSetOptions(1)[gen < 4 ? 3 : 1].id);
+    $(".set-selector2").val(getSetOptions(2)[gen < 4 ? 3 : 1].id);
     $(".set-selector").change();
 });
