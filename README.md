@@ -1,4 +1,8 @@
-showdown calculator fork with battle maison sets instead of competitive ones; original readme follows
+
+showdown calculator fork with battle tree sets instead of competitive ones;
+also added ability to filter sets by battle tree trainer.
+
+original readme follows
 
 Honko Damage Calculator
 =======================
