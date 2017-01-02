@@ -311,6 +311,9 @@ th {
 .info-group {
     margin: 1em 0;
 }
+.trainer-selector {
+    width: 100%;
+}
 .set-selector {
     width: 100%;
 }
