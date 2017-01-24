@@ -88,6 +88,8 @@ function getDamageResult(attacker, defender, move, field) {
         move.type = getItemBoostType(attacker.item);
     } else if (move.name === "Techno Blast" && attacker.item.indexOf("Drive") !== -1) {
         move.type = getTechnoBlast(attacker.item);
+    } else if (move.name === "Multi-Attack" && attacker.item.indexOf("Memory") !== -1) {
+        move.type = getMultiAttack(attacker.item);
     } else if (move.name === "Natural Gift" && attacker.item.indexOf("Berry") !== -1) {
         var gift = getNaturalGift(attacker.item);
         move.type = gift.t;
@@ -98,31 +100,45 @@ function getDamageResult(attacker, defender, move, field) {
     } else if (move.name === "Nature Power") {
         move.type = field.terrain === "Electric" ? "Electric" : field.terrain === "Grassy" ? "Grass" : field.terrain === "Misty" ? "Fairy" : field.terrain === "Psychic" ? "Psychic" : "Normal";
     }
-    
-    var isAerilate = attacker.ability === "Aerilate" && move.type === "Normal";
-    var isPixilate = attacker.ability === "Pixilate" && move.type === "Normal";
-    var isRefrigerate = attacker.ability === "Refrigerate" && move.type === "Normal";
-    var isGalvanize = attacker.ability === "Galvanize" && move.type === "Normal";
-    var isLiquidVoice = attacker.ability === "Liquid Voice" && move.isSound;
-    if (isAerilate) {
-        move.type = "Flying";
-    } else if (isGalvanize) {
-        move.type = "Electric";
-    } else if (isLiquidVoice) {
-        move.type = "Water";
-    } else if (isPixilate) {
-        move.type = "Fairy";
-    } else if (isRefrigerate) {
-        move.type = "Ice";
-    } else if (attacker.ability === "Normalize") {
-        move.type = "Normal";
-        description.attackerAbility = attacker.ability;
+
+    var isAerilate = false;
+    var isPixilate = false;
+    var isRefrigerate = false;
+    var isGalvanize = false;
+    var isLiquidVoice = false;
+
+    if (!move.isZ) {
+        isAerilate = attacker.ability === "Aerilate" && move.type === "Normal";
+        isPixilate = attacker.ability === "Pixilate" && move.type === "Normal";
+        isRefrigerate = attacker.ability === "Refrigerate" && move.type === "Normal";
+        isGalvanize = attacker.ability === "Galvanize" && move.type === "Normal";
+        isLiquidVoice = attacker.ability === "Liquid Voice" && move.isSound;
+        if (isAerilate) {
+            move.type = "Flying";
+        } else if (isGalvanize) {
+            move.type = "Electric";
+        } else if (isLiquidVoice) {
+            move.type = "Water";
+        } else if (isPixilate) {
+            move.type = "Fairy";
+        } else if (isRefrigerate) {
+            move.type = "Ice";
+        } else if (attacker.ability === "Normalize") {
+            move.type = "Normal";
+            description.attackerAbility = attacker.ability;
+        }
     }
-    
+
     var typeEffect1 = getMoveEffectiveness(move, defender.type1, attacker.ability === "Scrappy" || field.isForesight, field.isGravity);
     var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, attacker.ability === "Scrappy" || field.isForesight, field.isGravity) : 1;
     var typeEffectiveness = typeEffect1 * typeEffect2;
     var PriorityDamageCheck = move.hasPriority && (defAbility === "Queenly Majesty" || defAbility === "Dazzling") && (["Mold Breaker", "Teravolt", "Turboblaze"].indexOf(attacker.ability) !== -1) || (move.givesHealth && attacker.ability === "triage");
+    var resistedKnockOffDamage = (defender.item === "" ||
+            (defender.name === "Giratina-Origin" && defender.item === "Griseous Orb") ||
+            (defender.name.indexOf("Arceus") !== -1 && defender.item.indexOf("Plate") !== -1) ||
+            (defender.name.indexOf("Genesect") !== -1 && defender.item.indexOf("Drive") !== -1) || 
+            (defender.ability.indexOf("RKS System") !== -1 && defender.item.indexOf("Memory") !== -1) || 
+            (defender.item.indexOf(" Z") !== -1));
     
     if (typeEffectiveness === 0 && move.name === "Thousand Arrows") {
         typeEffectiveness = 1;
@@ -135,6 +151,9 @@ function getDamageResult(attacker, defender, move, field) {
     }
     if (move.name === "Synchronoise" && [defender.type1, defender.type2].indexOf(attacker.type1) === -1 &&
             (!attacker.type2 || [defender.type1, defender.type2].indexOf(attacker.type2) === -1)) {
+        return {"damage": [0], "description": buildDescription(description)};
+    }
+    if (move.name === "Dream Eater" && (defender.status !== 'Asleep' && defender.ability !== 'Comatose')) {
         return {"damage": [0], "description": buildDescription(description)};
     }
     if ((defAbility === "Wonder Guard" && typeEffectiveness <= 1) ||
@@ -292,7 +311,7 @@ function getDamageResult(attacker, defender, move, field) {
     } else if (defAbility === "Fluffy" && move.makesContact && move.type === "Fire") {
         bpMods.push(0x2000); 
         description.defenderAbility = defAbility;
-    } else if (defAbility === "Fluffy" && move.makesContact && !attacker.ability === "Long Reach") {
+    } else if (defAbility === "Fluffy" && move.makesContact && attacker.ability !== "Long Reach") {
         bpMods.push(0x800);
         description.defenderAbility = defAbility;
     }
@@ -329,12 +348,14 @@ function getDamageResult(attacker, defender, move, field) {
         bpMods.push(0x800);
         description.moveBP = move.bp / 2;
         description.weather = field.weather;
-    } else if (gen >= 6 && move.name === "Knock Off" && !(defender.item === "" ||
-            (defender.name === "Giratina-Origin" && defender.item === "Griseous Orb") ||
-            (defender.name.indexOf("Arceus") !== -1 && defender.item.indexOf("Plate") !== -1) ||
-            (defender.name.indexOf("Genesect") !== -1 && defender.item.indexOf("Drive") !== -1))) {
+    } else if (gen >= 6 && move.name === "Knock Off" && !resistedKnockOffDamage) {
         bpMods.push(0x1800);
         description.moveBP = move.bp * 1.5;
+    } else if (["Breakneck Blitz","Bloom Doom","Inferno Overdrive","Hydro Vortex","Gigavolt Havoc","Subzero Slammer","Supersonic Skystrike",
+            "Savage Spin-Out","Acid Downpour","Tectonic Rage","Continental Crush","All-Out Pummeling","Shattered Psyche","Never-Ending Nightmare",
+            "Devastating Drake","Black Hole Eclipse","Corkscrew Crash","Twinkle Tackle"].indexOf(move.name) !== -1) {
+        // show z-move power in description
+        description.moveBP = move.bp;
     }
     
     if (field.isHelpingHand) {
