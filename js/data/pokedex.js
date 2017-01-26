@@ -12007,6 +12007,227 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
   },
+  "Silvally-Bug": {
+    "t1": "Bug",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Dark": {
+    "t1": "Dark",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Dragon": {
+    "t1": "Dragon",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Electric": {
+    "t1": "Electric",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Fairy": {
+    "t1": "Fairy",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Fighting": {
+    "t1": "Fighting",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Fire": {
+    "t1": "Fire",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Flying": {
+    "t1": "Flying",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Ghost": {
+    "t1": "Ghost",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Grass": {
+    "t1": "Grass",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Ground": {
+    "t1": "Ground",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Ice": {
+    "t1": "Ice",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Poison": {
+    "t1": "Poison",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Psychic": {
+    "t1": "Psychic",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Rock": {
+    "t1": "Rock",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Steel": {
+    "t1": "Steel",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
+  "Silvally-Water": {
+    "t1": "Water",
+    "bs": {
+      "hp": 95,
+      "at": 95,
+      "df": 95,
+      "sa": 95,
+      "sd": 95,
+      "sp": 95
+    },
+    "w": 100.5,
+    "ab": "RKS System"
+  },
   "Solgaleo": {
     "t1": "Psychic",
     "t2": "Steel",
@@ -12295,5 +12516,33 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 45
     },
     "w": 6.0
+  },
+  "Zygarde-10%": {
+    "t1": "Dragon",
+    "t2": "Ground",
+    "bs": {
+      "hp": 54,
+      "at": 100,
+      "df": 71,
+      "sa": 61,
+      "sd": 85,
+      "sp": 115
+    },
+    "w": 33.5,
+    "ab": "Power Construct"
+  },
+  "Zygarde-Complete": {
+    "t1": "Dragon",
+    "t2": "Ground",
+    "bs": {
+      "hp": 216,
+      "at": 100,
+      "df": 121,
+      "sa": 91,
+      "sd": 95,
+      "sp": 85
+    },
+    "w": 610.0,
+    "ab": "Power Construct"
   }
 });

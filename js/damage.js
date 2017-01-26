@@ -235,6 +235,7 @@ function getDamageResult(attacker, defender, move, field) {
             description.moveBP = basePower;
             break;
         case "Stored Power":
+        case "Power Trip":
             basePower = 20 + 20 * countBoosts(attacker.boosts);
             description.moveBP = basePower;
             break;
@@ -606,6 +607,10 @@ function getDamageResult(attacker, defender, move, field) {
         finalMods.push(0xC00);
         description.isFriendGuard = true;
     }
+    if (field.isAuroraVeil && !isCritical) { //doesn't protect from critical hits
+        finalMods.push(field.format !== "Singles" ? 0xAAC : 0x800); // 0.5x damage from physical and special attacks in singles, 0.66x damage in Doubles
+        description.isAuroraVeil = true;
+    }
     if (attacker.ability === "Sniper" && isCritical) {
         finalMods.push(0x1800);
         description.attackerAbility = attacker.ability;
@@ -647,77 +652,6 @@ function getDamageResult(attacker, defender, move, field) {
         }
     }
     return {"damage":damage, "description":buildDescription(description)};
-}
-
-function buildDescription(description) {
-    var output = "";
-    if (description.attackBoost) {
-        if (description.attackBoost > 0) {
-            output += "+";
-        }
-        output += description.attackBoost + " ";
-    }
-    output = appendIfSet(output, description.attackEVs);
-    output = appendIfSet(output, description.attackerItem);
-    output = appendIfSet(output, description.attackerAbility);
-    if (description.isBurned) {
-        output += "burned ";
-    }
-    output += description.attackerName + " ";
-    if (description.isHelpingHand) {
-        output += "Helping Hand ";
-    }
-    output += description.moveName + " ";
-    if (description.moveBP && description.moveType) {
-        output += "(" + description.moveBP + " BP " + description.moveType + ") ";
-    } else if (description.moveBP) {
-        output += "(" + description.moveBP + " BP) ";
-    } else if (description.moveType) {
-        output += "(" + description.moveType + ") ";
-    }
-    if (description.hits) {
-        output += "(" + description.hits + " hits) ";
-    }
-    output += "vs. ";
-    if (description.defenseBoost) {
-        if (description.defenseBoost > 0) {
-            output += "+";
-        }
-        output += description.defenseBoost + " ";
-    }
-    output = appendIfSet(output, description.HPEVs);
-    if (description.defenseEVs) {
-        output += " / " + description.defenseEVs + " ";
-    }
-    output = appendIfSet(output, description.defenderItem);
-    output = appendIfSet(output, description.defenderAbility);
-    output += description.defenderName;
-    if (description.weather && description.terrain) {
-        
-    } else if (description.weather) {
-        output += " in " + description.weather;
-    } else if (description.terrain) {
-        output += " in " + description.terrain + " Terrain";
-    }
-    if (description.isReflect) {
-        output += " through Reflect";
-    } else if (description.isLightScreen) {
-        output += " through Light Screen";
-    }
-    if (description.isFriendGuard) {
-        output += " with an ally's Friend Guard";
-    }
-    if (description.isCritical) {
-        output += " on a critical hit";
-    }
-    return output;
-}
-
-function appendIfSet(str, toAppend) {
-    if (toAppend) {
-        return str + toAppend + " ";
-    }
-    return str;
 }
 
 function toSmogonStat(stat) {
