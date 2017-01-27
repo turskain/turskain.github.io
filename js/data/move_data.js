@@ -1,4 +1,546 @@
 var MOVES_RBY = {
+// LAZY SHIT DUMMY MOVES FOR SET LOOKUP/NOT HAVING LOTS OF "NO MOVE" LISTINGS PURPOSES
+// also overlaps with moves added into the move data for real
+// todo: never gonna make it better
+    'Block': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Metal Burst': {
+        bp: 0,
+        type: 'Steel',
+    },
+    'Feather Dance': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Dragon Dance': {
+        bp: 0,
+        type: 'Dragon'
+    },
+    'Safeguard': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Noble Roar': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Confide': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Misty Terrain': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Tail Whip': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Mat Block': {
+        bp: 0,
+        type: 'Fighting'
+    },
+    'Torment': {
+        bp: 0,
+        type: 'Dark'
+    },
+    'Flower Shield': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Trick-or-Treat': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Pain Split': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Draining Kiss': {
+        bp: 50,
+        type: 'Fairy',
+        category: 'Special',
+        makesContact: true
+    },
+    'Play Nice': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Charm': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Sweet Kiss': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Attract': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Psych Up': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Role Play': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Mystical Fire': {
+        bp: 65,
+        type: 'Fire',
+        category: 'Special'
+    },
+    'Grassy Terrain': {
+        bp: 0,
+        type: 'Grass'
+    },
+    'Fake Tears': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Endeavor': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Baby-Doll Eyes': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Aromatic Mist': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Screech': {
+        bp: 0,
+        type: 'Flying'
+    },
+    'Detect': {
+        bp: 0,
+        type: 'Fighting'
+    },
+    'Sand Tomb': {
+        bp: 35,
+        type: 'Ground',
+        category: 'Physical'
+    },
+    'Metal Claw': {
+        bp: 50,
+        type: 'Steel',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Gastro Acid': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Stun Spore': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Tackle': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Physical'
+    },
+    'Vital Throw': {
+        bp: 70,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Odor Sleuth': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Memento': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Razor Wind': {
+        bp: 80,
+        type: 'Normal',
+        category: 'Physical'
+    },
+    'Teeter Dance': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Swallow': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Dizzy Punch': {
+        bp: 70,
+        type: 'Normal',
+        category: 'Physical'
+    },
+    'Sleep Powder': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Metal Sound': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Grudge': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Scary Face': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Hypnosis': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Dream Eater': {
+        bp: 100,
+        type: 'Psychic',
+        category: 'Special'
+    },
+    'Telekinesis': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Guard Split': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Wonder Room': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Flatter': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Whirlpool': {
+        bp: 35,
+        type: 'Water',
+        category: 'Special'
+    },
+    'Imprison': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Work Up': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Nightmare': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Rollout': {
+        bp: 30,
+        type: 'Rock',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Captivate': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Foresight': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Power Split': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Gravity': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Smelling Salts': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Lock-On': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Cosmic Power': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Reflect Type': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Grass Whistle': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Snore': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Special'
+    },
+    'Quash': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Follow Me': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Petal Blizzard': {
+        bp: 90,
+        type: 'Grass',
+        category: 'Physical',
+        isSpread: true
+    },
+    'Dig': {
+        bp: 80,
+        type: 'Ground',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Fly': {
+        bp: 95,
+        type: 'Flying',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Inferno': {
+        bp: 100,
+        type: 'Fire',
+        category: 'Special'
+    },
+    'Heart Stamp': {
+        bp: 60,
+        type: 'Psychic',
+        category: 'Physical'
+    },
+    'Miracle Eye': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Acid Armor': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Focus Energy': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Power Trick': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Embargo': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Egg Bomb': {
+        bp: 100,
+        type: 'Normal',
+        category: 'Physical'
+    },
+    'Ice Ball': {
+        bp: 30,
+        type: 'Ice',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Wring Out': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Ally Switch': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Snatch': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Entrainment': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Trump Card': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Minimize': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Mind Reader': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Heat Crash': {
+        bp: 1,
+        type: 'Fire',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Mirror Coat': {
+        bp: 0,
+        type: 'Psychic'
+    },
+    'Sunny Day': {
+        bp: 0,
+        type: 'Fire'
+    },
+    'Rain Dance': {
+        bp: 0,
+        type: 'Water'
+    },
+    'Sandstorm': {
+        bp: 0,
+        type: 'Rock'
+    },
+    'Perish Song': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Mean Look': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Ancient Power': {
+        bp: 60,
+        type: 'Rock',
+        category: 'Special',
+        hasSecondaryEffect: true
+    },
+    'Baton Pass': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Belly Drum': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Bite': {
+        bp: 60,
+        type: 'Dark',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isBite: true
+    },
+    'Bone Rush': {
+        bp: 25,
+        type: 'Ground',
+        category: 'Physical',
+        isMultiHit: true
+    },  
+    'Crabhammer': { alwaysCrit: false },
+    'Cross Chop': {
+        bp: 100,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Crunch': {
+        bp: 80,
+        type: 'Dark',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isBite: true
+    },
+    'Curse': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Destiny Bond': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Encore': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Endure': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Aeroblast': {
+        bp: 100,
+        type: 'Flying',
+        category: 'Special'
+    },
+    'Ancient Power': {
+        bp: 60,
+        type: 'Rock',
+        category: 'Special',
+        hasSecondaryEffect: true
+    },
+    'Baton Pass': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Belly Drum': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Bite': {
+        bp: 60,
+        type: 'Dark',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isBite: true
+    },
+    'Bone Rush': {
+        bp: 25,
+        type: 'Ground',
+        category: 'Physical',
+        isMultiHit: true
+    },  
+    'Crabhammer': { alwaysCrit: false },
+    'Cross Chop': {
+        bp: 100,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Crunch': {
+        bp: 80,
+        type: 'Dark',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isBite: true
+    },
+    'Curse': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Destiny Bond': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Dig': { bp: 60 },
+    'Double-Edge': { bp: 120 },
+    'Dynamic Punch': {
+        bp: 100,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isPunch: true
+    },
+    'Encore': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Endure': {
+        bp: 0,
+        type: 'Normal'
+    },
+// ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
         type: 'Normal',
@@ -429,80 +971,6 @@ var MOVES_RBY = {
 };
 
 var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
-    'Aeroblast': {
-        bp: 100,
-        type: 'Flying',
-        category: 'Special'
-    },
-    'Ancient Power': {
-        bp: 60,
-        type: 'Rock',
-        category: 'Special',
-        hasSecondaryEffect: true
-    },
-    'Baton Pass': {
-        bp: 0,
-        type: 'Normal'
-    },
-    'Belly Drum': {
-        bp: 0,
-        type: 'Normal'
-    },
-    'Bite': {
-        bp: 60,
-        type: 'Dark',
-        category: 'Physical',
-        makesContact: true,
-        hasSecondaryEffect: true,
-        isBite: true
-    },
-    'Bone Rush': {
-        bp: 25,
-        type: 'Ground',
-        category: 'Physical',
-        isMultiHit: true
-    },  
-    'Crabhammer': { alwaysCrit: false },
-    'Cross Chop': {
-        bp: 100,
-        type: 'Fighting',
-        category: 'Physical',
-        makesContact: true
-    },
-    'Crunch': {
-        bp: 80,
-        type: 'Dark',
-        category: 'Physical',
-        makesContact: true,
-        hasSecondaryEffect: true,
-        isBite: true
-    },
-    'Curse': {
-        bp: 0,
-        type: 'Ghost'
-    },
-    'Destiny Bond': {
-        bp: 0,
-        type: 'Ghost'
-    },
-    'Dig': { bp: 60 },
-    'Double-Edge': { bp: 120 },
-    'Dynamic Punch': {
-        bp: 100,
-        type: 'Fighting',
-        category: 'Physical',
-        makesContact: true,
-        hasSecondaryEffect: true,
-        isPunch: true
-    },
-    'Encore': {
-        bp: 0,
-        type: 'Normal'
-    },
-    'Endure': {
-        bp: 0,
-        type: 'Normal'
-    },
     'Explosion': { bp: 250 },
     'Extreme Speed': {
         bp: 80,
