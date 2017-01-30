@@ -831,6 +831,11 @@ var MOVES_RBY = {
         hasSecondaryEffect: true,
         isSpread: true
     },
+    'Rock Throw': {
+        bp: 50,
+        type: 'Rock',
+        category: 'Physical'
+    },
     'Seismic Toss': {
         bp: 100,
         type: 'Fighting',
@@ -971,6 +976,80 @@ var MOVES_RBY = {
 };
 
 var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
+    'Aeroblast': {
+        bp: 100,
+        type: 'Flying',
+        category: 'Special'
+    },
+    'Ancient Power': {
+        bp: 60,
+        type: 'Rock',
+        category: 'Special',
+        hasSecondaryEffect: true
+    },
+    'Baton Pass': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Belly Drum': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Bite': {
+        bp: 60,
+        type: 'Dark',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isBite: true
+    },
+    'Bone Rush': {
+        bp: 25,
+        type: 'Ground',
+        category: 'Physical',
+        isMultiHit: true
+    },  
+    'Crabhammer': { alwaysCrit: false },
+    'Cross Chop': {
+        bp: 100,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Crunch': {
+        bp: 80,
+        type: 'Dark',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isBite: true
+    },
+    'Curse': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Destiny Bond': {
+        bp: 0,
+        type: 'Ghost'
+    },
+    'Dig': { bp: 60 },
+    'Double-Edge': { bp: 120 },
+    'Dynamic Punch': {
+        bp: 100,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isPunch: true
+    },
+    'Encore': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Endure': {
+        bp: 0,
+        type: 'Normal'
+    },
     'Explosion': { bp: 250 },
     'Extreme Speed': {
         bp: 80,
@@ -3451,6 +3530,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Rock Climb': { zp: 175 },
     'Rock Slide': { zp: 140 },
     'Rock Smash': { zp: 100 },
+    'Rock Throw': { zp: 100 },
     'Rock Tomb': { zp: 140 },
     'Rock Wrecker': { zp: 200 },
     'Round': { zp: 120 },
