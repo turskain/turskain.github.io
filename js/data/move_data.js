@@ -707,7 +707,7 @@ var MOVES_RBY = {
     }, 
     'Gust': {
         bp: 40,
-        type: 'Normal'
+        type: 'Normal',
         category: 'Special'
     },
     'Haze': {
@@ -3597,6 +3597,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Shadow Claw': { zp: 140 },
     'Shadow Force': { zp: 190 },
     'Shadow Sneak': { zp: 100 },
+    'Shadow Strike': { zp: 160 },
     'Shattered Psyche': {
         bp: 1,
         type: 'Psychic',

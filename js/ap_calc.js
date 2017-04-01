@@ -325,6 +325,11 @@ $(".set-selector").change(function() {
                 moveObj.change();
             }
         }
+        if (typeof getSelectedTiers === "function") { // doesn't exist when in 1vs1 mode
+            var format = getSelectedTiers()[0];
+            if (format === "LC") pokeObj.find(".level").val(5);
+            if (_.startsWith(format, "VGC")) pokeObj.find(".level").val(50);
+        }
         calcHP(pokeObj);
         calcStats(pokeObj);
         abilityObj.change();
@@ -707,8 +712,10 @@ function getSetOptions(sideID) {
         if (trainer == "All"){
             if (!found){
                 setOptions.push({
-                    pokemon : pokeName,
-                    text : pokeName
+                    pokemon: pokeName,
+                    set: setName,
+                    text: pokeName + " (" + setName + ")",
+                    id: pokeName + " (" + setName + ")"
                 });
             }
             setOptions.push({
@@ -731,6 +738,69 @@ function getSelectOptions(arr, sort) {
         r += '<option value="' + arr[i] + '">' + arr[i] + '</option>';
     }
     return r;
+}
+
+function isGrounded(pokeInfo) {
+    return $("#gravity").prop("checked") || (
+        pokeInfo.find(".type1").val() !== "Flying" &&
+        pokeInfo.find(".type2").val() !== "Flying" &&
+        pokeInfo.find(".ability").val() !== "Levitate" &&
+        pokeInfo.find(".item").val() !== "Air Balloon"
+    );
+}
+
+function getTerrainEffects() {
+    var className = $(this).prop("className");
+    className = className.substring(0, className.indexOf(" "));
+    switch (className) {
+        case "type1":
+        case "type2":
+        case "item":
+            var id = $(this).closest(".poke-info").prop("id");
+            var terrainValue = $("input:checkbox[name='terrain']:checked").val();
+            if (terrainValue === "Electric") {
+                $("#" + id).find("[value='Asleep']").prop("disabled", isGrounded($("#" + id)));
+            } else if (terrainValue === "Misty") {
+                $("#" + id).find(".status").prop("disabled", isGrounded($("#" + id)));
+            }
+            break;
+        case "ability":
+            // with autoset, ability change may cause terrain change, need to consider both sides
+            var terrainValue = $("input:checkbox[name='terrain']:checked").val();
+            if (terrainValue === "Electric") {
+                $("#p1").find(".status").prop("disabled", false);
+                $("#p2").find(".status").prop("disabled", false);
+                $("#p1").find("[value='Asleep']").prop("disabled", isGrounded($("#p1")));
+                $("#p2").find("[value='Asleep']").prop("disabled", isGrounded($("#p2")));
+            } else if (terrainValue === "Misty") {
+                $("#p1").find(".status").prop("disabled", isGrounded($("#p1")));
+                $("#p2").find(".status").prop("disabled", isGrounded($("#p2")));
+            } else {
+                $("#p1").find("[value='Asleep']").prop("disabled", false);
+                $("#p1").find(".status").prop("disabled", false);
+                $("#p2").find("[value='Asleep']").prop("disabled", false);
+                $("#p2").find(".status").prop("disabled", false);
+            }
+            break;
+        default:
+            $("input:checkbox[name='terrain']").not(this).prop("checked", false);
+            if ($(this).prop("checked") && $(this).val() === "Electric") {
+                // need to enable status because it may be disabled by Misty Terrain before.
+                $("#p1").find(".status").prop("disabled", false);
+                $("#p2").find(".status").prop("disabled", false);
+                $("#p1").find("[value='Asleep']").prop("disabled", isGrounded($("#p1")));
+                $("#p2").find("[value='Asleep']").prop("disabled", isGrounded($("#p2")));
+            } else if ($(this).prop("checked") && $(this).val() === "Misty") {
+                $("#p1").find(".status").prop("disabled", isGrounded($("#p1")));
+                $("#p2").find(".status").prop("disabled", isGrounded($("#p2")));
+            } else {
+                $("#p1").find("[value='Asleep']").prop("disabled", false);
+                $("#p1").find(".status").prop("disabled", false);
+                $("#p2").find("[value='Asleep']").prop("disabled", false);
+                $("#p2").find(".status").prop("disabled", false);
+            }
+            break;
+    }
 }
 
 $(document).ready(function() {
