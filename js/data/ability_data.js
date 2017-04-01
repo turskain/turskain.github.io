@@ -51,6 +51,7 @@ var ABILITIES_DPP = ABILITIES_ADV.concat([
     'Magic Guard',
     'Mold Breaker',
     'Motor Drive',
+    'Mountaineer',
     'Normalize',
     'Poison Heal',
     'Reckless',
@@ -110,10 +111,10 @@ var ABILITIES_XY = ABILITIES_BW.concat([
 ]);
 
 var ABILITIES_SM = ABILITIES_XY.concat([
-    'Batter',
+    'Battery',
     'Battle Bond',
     'Beast Boost',
-    'Berzerk',
+    'Berserk',
     'Comatose',
     'Corrosion',
     'Dancer',
@@ -137,7 +138,7 @@ var ABILITIES_SM = ABILITIES_XY.concat([
     'Psychic Surge',
     'Queenly Majesty',
     'RKS System',
-    'Reciever',
+    'Receiver',
     'Schooling',
     'Shadow Shield',
     'Shields Down',
