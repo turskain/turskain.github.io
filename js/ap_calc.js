@@ -307,7 +307,7 @@ $(".set-selector").change(function() {
                 moveObj.change();
             }
         } else {
-            pokeObj.find(".level").val(50);
+            pokeObj.find(".level").val(100);
             pokeObj.find(".hp .evs").val(0);
             pokeObj.find(".hp .ivs").val(31);
             pokeObj.find(".hp .dvs").val(15);
@@ -626,7 +626,7 @@ $(".gen").change(function () {
     var itemOptions = getSelectOptions(items, true);
     $("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
     
-    $(".set-selector2").val(getSetOptions(2)[gen < 3 ? 3 : 1].id);
+    $(".set-selector").val(getSetOptions()[gen < 3 ? 3 : 1].id);
     $(".set-selector").change();
 });
 
@@ -664,53 +664,21 @@ function clearField() {
     $("input:checkbox[name='terrain']").prop("checked", false);
 }
 
-function getSetOptions(sideID) {
+function getSetOptions() {
     var pokeNames = Object.keys(pokedex);
     pokeNames.sort();
     var setOptions = [];
     var idNum = 0;
-    var trainer = $("#p"+sideID).find("input.trainer-selector").val();
-    if (trainer == "" || trainer == undefined) {
-        trainer = "All"
-    }
-    var mydex = setdex;
-    if (trainer == "Custom"){
-        if(localStorage.customsets){
-            mydex = JSON.parse(localStorage.customsets);
-        } else {
-            trainer = "All";
-        }
-    }
-    var filterSets = trainerSets[trainer];
     for (var i = 0; i < pokeNames.length; i++) {
         var pokeName = pokeNames[i];
-        found = false;
-        if (pokeName in mydex) {
-            var setNames = Object.keys(mydex[pokeName]);
+        setOptions.push({
+            pokemon: pokeName,
+            text: pokeName
+        });
+        if (pokeName in setdex) {
+            var setNames = Object.keys(setdex[pokeName]);
             for (var j = 0; j < setNames.length; j++) {
                 var setName = setNames[j];
-                for(var k = 0; k < filterSets.length; k++){
-                    if (filterSets[k] == setName || trainer == "Custom" || trainer == "All"){
-                        if (found == false){
-                            found = true;
-                            setOptions.push({
-                                pokemon : pokeName,
-                                text : pokeName
-                            });
-                        }
-                        setOptions.push({
-                            pokemon: pokeName,
-                            set: setName,
-                            text: pokeName + " (" + setName + ")",
-                            id: pokeName + " (" + setName + ")"
-                        });
-                        break;
-                    }
-                }
-            }
-        }
-        if (trainer == "All"){
-            if (!found){
                 setOptions.push({
                     pokemon: pokeName,
                     set: setName,
@@ -718,13 +686,13 @@ function getSetOptions(sideID) {
                     id: pokeName + " (" + setName + ")"
                 });
             }
-            setOptions.push({
-                pokemon: pokeName,
-                set: "Blank Set",
-                text: pokeName + " (Blank Set)",
-                id: pokeName + " (Blank Set)"
-            });
         }
+        setOptions.push({
+            pokemon: pokeName,
+            set: "Blank Set",
+            text: pokeName + " (Blank Set)",
+            id: pokeName + " (Blank Set)"
+        });
     }
     return setOptions;
 }
@@ -808,39 +776,14 @@ $(document).ready(function() {
     $("#gen7").change();
     $("#percentage").prop("checked", true);
     $("#percentage").change();
-    $(".trainer-selector").select2({
-        data : trainerList,
-        placeholder : "All"
-    });
-    $(".set-selector1").select2({
-        formatResult: function(object) {
-            return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
-        },
-        query: function(query) {
-            var pageSize = 30;
-            var results = _.filter(getSetOptions(1), function(option) {
-                var pokeName = option.pokemon.toUpperCase();
-                // 2nd condition is for Megas; remove when Megas are merged
-                return !query.term || pokeName.indexOf(query.term.toUpperCase()) === 0 || pokeName.indexOf(" " + query.term.toUpperCase()) >= 0;
-            });
-            query.callback({
-                results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
-                more: results.length >= query.page * pageSize
-            });
-        },
-        initSelection: function(element, callback) {
-            var data = getSetOptions(1)[gen < 4 ? 3 : 1];
-            callback(data);
-        }
-    });
 
-    $(".set-selector2").select2({
+    $(".set-selector").select2({
         formatResult: function(object) {
             return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
         },
         query: function(query) {
             var pageSize = 30;
-            var results = _.filter(getSetOptions(2), function(option) {
+            var results = _.filter(getSetOptions(), function(option) {
                 var pokeName = option.pokemon.toUpperCase();
                 // 2nd condition is for Megas; remove when Megas are merged
                 return !query.term || pokeName.indexOf(query.term.toUpperCase()) === 0 || pokeName.indexOf(" " + query.term.toUpperCase()) >= 0;
@@ -851,7 +794,7 @@ $(document).ready(function() {
             });
         },
         initSelection: function(element, callback) {
-            var data = getSetOptions(2)[gen < 3 ? 3 : 1];
+            var data = getSetOptions()[gen < 3 ? 3 : 1];
             callback(data);
         }
     });
@@ -862,8 +805,7 @@ $(document).ready(function() {
             return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
         }
     });
-    $(".set-selector1").val(getSetOptions(1)[gen < 3 ? 3 : 1].id);
-    $(".set-selector2").val(getSetOptions(2)[gen < 3 ? 3 : 1].id);
+    $(".set-selector").val(getSetOptions()[gen < 3 ? 3 : 1].id);
     $(".set-selector").change();
 
     $(".terrain-trigger").bind("change keyup", getTerrainEffects);
