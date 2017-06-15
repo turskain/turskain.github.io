@@ -74,12 +74,14 @@ function getDamageResult(attacker, defender, move, field) {
     }
 
     var defAbility = defender.ability;
-    if (["Mold Breaker", "Teravolt", "Turboblaze"].indexOf(attacker.ability) !== -1) {
-        defAbility = "";
-        description.attackerAbility = attacker.ability;
-    }
-    if (move.name === "Moongeist Beam" || move.name === "Sunsteel Strike") {
-        defAbility = "";
+    if (["Full Metal Body", "Prism Armor", "Shadow Shield"].indexOf(defAbility) === -1) {
+        if (["Mold Breaker", "Teravolt", "Turboblaze"].indexOf(attacker.ability) !== -1) {
+            defAbility = "";
+            description.attackerAbility = attacker.ability;
+        }
+        if (move.name === "Moongeist Beam" || move.name === "Sunsteel Strike") {
+            defAbility = "";
+        }
     }
     
     var isCritical = move.isCrit && ["Battle Armor", "Shell Armor"].indexOf(defAbility) === -1;
@@ -285,16 +287,15 @@ function getDamageResult(attacker, defender, move, field) {
             basePower = p <= 1 ? 200 : p <= 4 ? 150 : p <= 9 ? 100 : p <= 16 ? 80 : p <= 32 ? 40 : 20;
             description.moveBP = basePower;
             break;
-        case "Bulldoze":
-        case "Earthquake":
-            basePower = (field.terrain === "Grassy") ? move.bp / 2 : move.bp;
-            description.terrain = field.terrain;
-            break;
         case "Nature Power":
             basePower = (field.terrain === "Electric" || field.terrain === "Grassy") ? 90 : (field.terrain === "Misty") ? 95 : 80;
             break;
         case "Water Shuriken":
             basePower = (attacker.name === "Greninja-Ash") ? 20 : 15;
+            description.moveBP = basePower;
+            break;
+        case "Wring Out":
+            basePower = Math.max(1, Math.ceil(target.hp * 120 / target.maxhp - 0.5));
             description.moveBP = basePower;
             break;
         default:
@@ -327,10 +328,10 @@ function getDamageResult(attacker, defender, move, field) {
     } else if (defAbility === "Dry Skin" && move.type === "Fire") {
         bpMods.push(0x1400);
         description.defenderAbility = defAbility;
-    } else if (defAbility === "Fluffy" && move.makesContact && move.type === "Fire") {
+    } else if (defAbility === "Fluffy" && (!move.makesContact || attacker.ability === "Long Reach") && move.type === "Fire") {
         bpMods.push(0x2000); 
         description.defenderAbility = defAbility;
-    } else if (defAbility === "Fluffy" && move.makesContact && attacker.ability !== "Long Reach") {
+    } else if (defAbility === "Fluffy" && move.makesContact && attacker.ability !== "Long Reach" && move.type !== "Fire") {
         bpMods.push(0x800);
         description.defenderAbility = defAbility;
     }
@@ -581,6 +582,9 @@ function getDamageResult(attacker, defender, move, field) {
     if (field.isGravity || (defender.type1 !== "Flying" && defender.type2 !== "Flying" &&
             defender.item !== "Air Balloon" && defender.ability !== "Levitate")) {
         if (field.terrain === "Misty" && move.type === "Dragon") {
+            baseDamage = pokeRound(baseDamage * 0x800 / 0x1000);
+            description.terrain = field.terrain;
+        } else if (field.terrain === "Grassy" && (move.name === "Bulldoze" || move.name === "Earthquake")) {
             baseDamage = pokeRound(baseDamage * 0x800 / 0x1000);
             description.terrain = field.terrain;
         }
