@@ -2852,8 +2852,21 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         makesContact: true
     },
     'Dragon Pulse': { bp: 85 },
+    'Draining Kiss': {
+        bp: 50,
+        type: 'Fairy',
+        category: 'Special',
+        makesContact: true,
+        givesHealth: true
+    },
     'Energy Ball': { bp: 90 },
     'Facade': { ignoresBurn: true },
+    'Fell Stinger': {
+        bp: 30,
+        type: 'Bug',
+        category: 'Physical',
+        makesContact: true
+    },
     'Fire Blast': { bp: 110 },
     'Flamethrower': { bp: 90 },
     'Flying Press': {
@@ -2937,6 +2950,12 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
     },
     'Moonlight': { type: 'Fairy' },
     'Muddy Water': { bp: 90 },
+    'Mystical Fire': {
+        bp: 65,
+        type: 'Fire',
+        category: 'Special',
+        hasSecondaryEffect: true
+    },
     'Nature Power': {
         bp: 80,
         type: 'Normal',
@@ -3158,6 +3177,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         isSpread: true,
         zp: 120
     },
+    'Bubble Beam': { zp: 120 },
     'Bug Bite': { zp: 120 },
     'Bug Buzz': { zp: 175 },
     'Bulldoze': { zp: 120 },
@@ -3235,6 +3255,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         makesContact: true,
         zp: 175
     },
+    'Draining Kiss': { zp: 100 },
     'Drill Peck': { zp: 160 },
     'Devastating Drake': {
         bp: 1,
@@ -3271,6 +3292,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Facade': { zp: 140 },
     'Feint': { zp: 100 },
     'Feint Attack': { zp: 120 },
+    'Fell Stinger': { bp: '50', zp: 100 },
     'Fiery Dance': { zp: 160 },
     'Final Gambit': { zp: 180 },
     'Fire Blast': { zp: 185 },
@@ -3481,6 +3503,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         makesContact: true,
         zp: 185
     },
+    'Mystical Fire': { bp: 75, zp: 140 },
     'Natural Gift': { zp: 160 },
     'Needle Arm': { zp: 120 },
     'Never-Ending Nightmare': {
@@ -3629,7 +3652,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     },
     'Shock Wave': { zp: 120 },
     'Signal Beam': { zp: 140 },
-    "Silver Wind": { zp: 120 },
+    'Silver Wind': { zp: 120 },
     'Sinister Arrow Raid': {
         bp: 180,
         type: 'Ghost',
@@ -3776,7 +3799,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         category: 'Physical',
         isZ: true
     },
-    "U-turn": { zp: 140 },
+    'U-turn': { zp: 140 },
     'Uproar': { zp: 175 },
     'V-create': { zp: 220 },
     'Vacuum Wave': { zp: 100 },
@@ -3791,6 +3814,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Weather Ball': { zp: 160 },
     'Wild Charge': { zp: 175 },
     'Wood Hammer': { zp: 190 },
+    'Wring Out': { zp: 190 },
     'X-Scissor': { zp: 160 },
     'Zap Cannon': { zp: 190 },
     'Zen Headbutt': { zp: 160 },
