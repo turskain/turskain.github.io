@@ -63,17 +63,15 @@ $.fn.dataTableExt.oSort['damage48-desc'] = function (a, b) {
 }
 
 function calculate() {
-    var attacker, defender, setName, allMons, setTagA, setTagB;
+    var attacker, defender, setName, setTier;
     var selectedTiers = getSelectedTiers();
     var setOptions = getSetOptions();
     var dataSet = [];
     for (var i = 0; i < setOptions.length; i++) {
         if (setOptions[i].id && typeof setOptions[i].id !== "undefined") {
             setName = setOptions[i].id.substring(setOptions[i].id.indexOf("(") + 1, setOptions[i].id.lastIndexOf(")"));
-            allMons = (setOptions[i].set !== "Blank Set") ? "Maison" : "";
-			setTagA = (setOptions[i].isCommon) ? "Common" : "";
-			setTagB = (setOptions[i].afterForty) ? "40+" : "";
-            if (_.contains(selectedTiers, allMons) || _.contains(selectedTiers, setTagA) || _.contains(selectedTiers, setTagB)) {
+            setTier = setName.substring(0, setName.indexOf(" "));
+            if (_.contains(selectedTiers, setTier)) {
                 attacker = (mode === "one-vs-all") ? new Pokemon($("#p1")) : new Pokemon(setOptions[i].id);
                 defender = (mode === "one-vs-all") ? new Pokemon(setOptions[i].id) : new Pokemon($("#p1"));
                 var field = new Field();
@@ -238,7 +236,7 @@ $(".mode").change(function() {
     if ( $("#one-vs-one").prop("checked") ) {
         window.location.replace( "index.html" );
   } else {
-        window.location.replace( "calc_bc.html?mode=" + $(this).attr("id") );
+        window.location.replace( "honkalculate.html?mode=" + $(this).attr("id") );
   }
 });
 

@@ -73,7 +73,7 @@ $(".result-move").change(function() {
         var result = findDamageResult($(this));
         if (result) {
             $("#mainResult").text(result.description + ": " + result.damageText + " -- " + result.koChanceText);
-            $("#damageValues").text("(" + result.damage.join(", ") + ")");
+            $("#damageValues").text("Possible damage amounts: (" + result.damage.join(", ") + ")");
         }
     }
 });
@@ -112,7 +112,7 @@ $(".gen").change(function () {
 });
 
 $(".mode").change(function() {
-    window.location.replace( "calc_bc.html?mode=" + $(this).attr("id") );
+    window.location.replace( "honkalculate.html?mode=" + $(this).attr("id") );
 });
 
 $(".notation").change(function () {
