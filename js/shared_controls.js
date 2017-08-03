@@ -351,14 +351,14 @@ function showFormes(formeObj, setName, pokemonName, pokemon) {
         var set = setdex[pokemonName][setName];
 
         // Repurpose the previous filtering code to provide the "different default" logic
-        if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
+        if (//(set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
             (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
             (pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
             (pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
             (pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1)) {
             defaultForme = 1;
-        } else if (set.item.indexOf('ite Y') !== -1) {
-            defaultForme = 2;
+        //} else if (set.item.indexOf('ite Y') !== -1) {
+        //    defaultForme = 2;
         }
     }
 
