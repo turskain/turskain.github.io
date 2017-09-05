@@ -733,6 +733,14 @@ var MOVES_RBY = {
         type: 'Normal',
         category: 'Special'
     },
+    'Hyper Fang': {
+        bp: 80,
+        type: 'Normal',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
+        isBite: true
+    },
     'Ice Beam': {
         bp: 95,
         type: 'Ice',
@@ -809,7 +817,7 @@ var MOVES_RBY = {
     'Razor Leaf': {
         bp: 55,
         type: 'Grass',
-        category: 'Special',
+        category: 'Physical',
         alwaysCrit: true
     },
     'Recover': {
@@ -871,7 +879,8 @@ var MOVES_RBY = {
     'Slash': {
         bp: 70,
         type: 'Normal',
-        alwaysCrit: true
+        alwaysCrit: true,
+        makesContact: true
     },
     'Sludge': {
         bp: 65,
@@ -887,7 +896,9 @@ var MOVES_RBY = {
     },
     'Submission': {
         bp: 80,
-        type: 'Fighting'
+        type: 'Fighting',
+        makesContact: true,
+        hasRecoil: true
     },
     'Substitute': {
         bp: 0,
@@ -895,7 +906,8 @@ var MOVES_RBY = {
     },
     'Super Fang': {
         bp: 0,
-        type: 'Normal'
+        type: 'Normal',
+        makesContact: true
     },
     'Surf': {
         bp: 95,
@@ -966,6 +978,12 @@ var MOVES_RBY = {
     'Waterfall': {
         bp: 80,
         type: 'Water',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Wing Attack': {
+        bp: 35,
+        type: 'Flying',
         category: 'Physical',
         makesContact: true
     },
@@ -1330,11 +1348,13 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
         makesContact: true
     },
     'Tri Attack': { hasSecondaryEffect: true },
+    'Wing Attack': { bp: 60 },
     'Zap Cannon': {
         bp: 100,
         type: 'Electric',
         category: 'Special',
-        hasSecondaryEffect: true
+        hasSecondaryEffect: true,
+        isBullet: true
     }
 });
 
@@ -1657,6 +1677,11 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         category: 'Physical',
         makesContact: true,
         isPunch: true
+    },
+    'Sheer Cold': {
+        bp: 1,
+        type: 'Ice',
+        category: 'Special'
     },
     'Shock Wave': {
         bp: 60,
@@ -2335,6 +2360,12 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
         makesContact: true,
         hasRecoil: true
     },
+    'Wring Out': {
+        bp: 1,
+        type: 'Normal',
+        category: 'Special',
+        makesContact: true
+    },
     'X-Scissor': {
         bp: 80,
         type: 'Bug',
@@ -2512,7 +2543,8 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         bp: 50,
         type: 'Steel',
         category: 'Physical',
-        isTwoHit: true
+        isTwoHit: true,
+        makesContact: true
     },
     'Giga Drain': { bp: 75 },
     'Glaciate': {
@@ -2525,6 +2557,13 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
     'Heal Pulse': {
         bp: 0,
         type: 'Psychic'
+    },
+    'Heart Stamp': {
+        bp: 60,
+        type: 'Psychic',
+        category: 'Physical',
+        hasSecondaryEffect: true,
+        makesContact: true
     },
     'Head Charge': {
         bp: 120,
@@ -2689,7 +2728,8 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         type: 'Fire',
         category: 'Special',
         hasSecondaryEffect: true,
-        isSpread: true
+        isSpread: true,
+        isBullet: true
     },
     'Secret Sword': {
         bp: 85,
@@ -2980,7 +3020,8 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         bp: 110,
         type: 'Water',
         category: 'Special',
-        isSpread: true
+        isSpread: true,
+        isPulse: true
     },
     'Overheat': { bp: 130 },
     'Phantom Force': {
@@ -3133,7 +3174,8 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
         bp: 100,
         type: 'Flying',
         category: 'Physical',
-        zp: 180
+        zp: 180,
+        isBullet: true
     },
     'Belch': { zp: 190 },
     'Bite': { zp: 120 },
@@ -3368,6 +3410,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Headbutt': { zp: 140 },
     'Head Charge': { zp: 190 },
     'Head Smash': { zp: 200 },
+    'Heart Stamp': { zp: 120 },
     'Heat Wave': { zp: 175 },
     'Heavy Slam': { zp: 160 },
     'Hex': { zp: 160 },
@@ -3599,7 +3642,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Revenge': { zp: 120 },
     'Reversal': { zp: 160 },
     'Roar of Time': { zp: 200 },
-    'Rock Blast': { zp: 140 },
+    'Rock Blast': { isBullet: true, zp: 140 },
     'Rock Climb': { zp: 175 },
     'Rock Slide': { zp: 140 },
     'Rock Smash': { zp: 100 },

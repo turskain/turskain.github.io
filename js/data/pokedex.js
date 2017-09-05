@@ -2888,7 +2888,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
       "sd": 80,
       "sp": 65
     },
-    "w": 118.0
+    "w": 118.0,
+    "ab": "Technician"
   },
   "Sentret": {
     "t1": "Normal",
@@ -7327,6 +7328,7 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 95
     },
     "w": 92.9,
+    "ab": "Sheer Force",
     "formes": [
       "Darmanitan",
       "Darmanitan-Z"
@@ -11225,7 +11227,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
   "Volbeat": { "bs": { "df": 75, "sd": 85 } },
   "Vulpix": { "formes": ["Vulpix", "Vulpix-Alola"] },
   "Woobat": { "bs": { "hp": 65 } },
-  "Zygrade": { "formes": ["Zygarde", "Zygarde-10%", "Zygarde-Complete"] },
+  "Zygarde": { "formes": ["Zygarde", "Zygarde-10%", "Zygarde-Complete"] },
   "Araquanid": {
     "t1": "Water",
     "t2": "Bug",
