@@ -158,6 +158,14 @@ function getDamageResult(attacker, defender, move, field) {
     if (typeEffectiveness === 0 && move.name === "Thousand Arrows") {
         typeEffectiveness = 1;
     }
+    if (defender.item === "Ring Target" && typeEffectiveness === 0) {
+	if (typeChart[move.type][defender.type1] === 0) {
+		typeEffectiveness = typeEffect2;
+	}
+	else if (typeChart[move.type][defender.type2] === 0) {
+		typeEffectiveness = typeEffect1;
+	}
+    }
     if (typeEffectiveness === 0) {
         return {"damage":[0], "description":buildDescription(description)};
     }
@@ -295,7 +303,7 @@ function getDamageResult(attacker, defender, move, field) {
             description.moveBP = basePower;
             break;
         case "Wring Out":
-            basePower = Math.max(1, Math.ceil(target.hp * 120 / target.maxhp - 0.5));
+            basePower = Math.max(1, Math.ceil(defender.curHP * 120 / defender.maxHP - 0.5));
             description.moveBP = basePower;
             break;
         default:
