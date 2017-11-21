@@ -9820,7 +9820,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 71,
       "sp": 122
     },
-    "w": 40.0
+    "w": 40.0,
+    "ab": "Protean"
   },
   "Hawlucha": {
     "t1": "Fighting",
@@ -11256,6 +11257,20 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "ab": "Fluffy",
     "w": 135.0,
   },
+  "Blacephalon": {
+    "t1": "Fire",
+    "t2": "Ghost",
+    "bs": {
+      "hp": 53,
+      "at": 127,
+      "df": 53,
+      "sa": 151,
+      "sd": 79,
+      "sp": 107
+    },
+    "w": 13.0,
+    "ab": "Beast Boost"
+  },
   "Bounsweet": {
     "t1": "Grass",
     "bs": {
@@ -11773,6 +11788,20 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 25.0
   },
+  "Lycanroc-Dusk": {
+    "t1": "Rock",
+    "bs": {
+      "hp": 75,
+      "at": 117,
+      "df": 65,
+      "sa": 55,
+      "sd": 65,
+      "sp": 110
+    },
+    "w": 25.0,
+    "ab": "Tough Claws",
+    "isAlternateForme": true
+  },
   "Lycanroc-Midnight": {
     "t1": "Rock",
     "bs": {
@@ -11943,6 +11972,20 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 52.0,
     "isAlternateForme": true
   },
+  "Naganadel": {
+    "t1": "Poison",
+    "t2": "Dragon",
+    "bs": {
+      "hp": 73,
+      "at": 73,
+      "df": 73,
+      "sa": 127,
+      "sd": 73,
+      "sp": 121
+    },
+    "w": 150.0,
+    "ab": "Beast Boost"
+  },
   "Necrozma": {
     "t1": "Psychic",
     "bs": {
@@ -11954,6 +11997,49 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 79
     },
     "w": 230.0,
+    "ab": "Prism Armor"
+  },
+  "Necrozma-Dawn-Wings": {
+    "t1": "Psychic",
+    "t2": "Ghost",
+    "bs": {
+      "hp": 97,
+      "at": 113,
+      "df": 109,
+      "sa": 157,
+      "sd": 127,
+      "sp": 77
+    },
+    "w": 350.0,
+    "ab": "Prism Armor"
+  },
+  "Necrozma-Dusk-Mane": {
+    "t1": "Psychic",
+    "t2": "Steel",
+    "bs": {
+      "hp": 97,
+      "at": 157,
+      "df": 127,
+      "sa": 113,
+      "sd": 109,
+      "sp": 77
+    },
+    "w": 460.0,
+    "ab": "Prism Armor"
+  },
+  "Necrozma-Ultra": {
+    "t1": "Psychic",
+    "t2": "Dragon",
+    "bs": {
+      "hp": 97,
+      "at": 167,
+      "df": 97,
+      "sa": 167,
+      "sd": 97,
+      "sp": 129
+    },
+    "w": 230.0,
+    "ab": "Neuroforce"
   },
   "Nihilego": {
     "t1": "Rock",
@@ -11996,20 +12082,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 76.0,
   },
-  "Oricorio-Electric": {
-    "t1": "Electric",
-    "t2": "Flying",
-    "bs": {
-      "hp": 75,
-      "at": 70,
-      "df": 70,
-      "sa": 98,
-      "sd": 70,
-      "sp": 93
-    },
-    "w": 3.4
-  },
-  "Oricorio-Fire": {
+  "Oricorio": {
     "t1": "Fire",
     "t2": "Flying",
     "bs": {
@@ -12020,22 +12093,10 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 70,
       "sp": 93
     },
-    "w": 3.4
+    "w": 3.4,
+    "ab": "Dancer"
   },
-  "Oricorio-Ghost": {
-    "t1": "Ghost",
-    "t2": "Flying",
-    "bs": {
-      "hp": 75,
-      "at": 70,
-      "df": 70,
-      "sa": 98,
-      "sd": 70,
-      "sp": 93
-    },
-    "w": 3.4
-  },
-  "Oricorio-Psychic": {
+  "Oricorio-Pa'u": {
     "t1": "Psychic",
     "t2": "Flying",
     "bs": {
@@ -12046,7 +12107,36 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 70,
       "sp": 93
     },
-    "w": 3.4
+    "w": 3.4,
+    "ab": "Dancer"
+  },
+  "Oricorio-Pom-Pom": {
+    "t1": "Electric",
+    "t2": "Flying",
+    "bs": {
+      "hp": 75,
+      "at": 70,
+      "df": 70,
+      "sa": 98,
+      "sd": 70,
+      "sp": 93
+    },
+    "w": 3.4,
+    "ab": "Dancer"
+  },
+  "Oricorio-Sensu": {
+    "t1": "Ghost",
+    "t2": "Flying",
+    "bs": {
+      "hp": 75,
+      "at": 70,
+      "df": 70,
+      "sa": 98,
+      "sd": 70,
+      "sp": 93
+    },
+    "w": 3.4,
+    "ab": "Dancer"
   },
   "Palossand": {
     "t1": "Ghost",
@@ -12111,6 +12201,19 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 65
     },
     "w": 1.2
+  },
+  "Poipole": {
+    "t1": "Poison",
+    "bs": {
+      "hp": 67,
+      "at": 73,
+      "df": 67,
+      "sa": 73,
+      "sd": 67,
+      "sp": 73
+    },
+    "w": 1.8,
+    "ab": "Beast Boost"
   },
   "Popplio": {
     "t1": "Water",
@@ -12554,7 +12657,21 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 97
     },
     "w": 230.0,
-    "ab": "Full Metal Body",
+    "ab": "Full Metal Body"
+  },
+  "Stakataka": {
+    "t1": "Rock",
+    "t2": "Steel",
+    "bs": {
+      "hp": 61,
+      "at": 131,
+      "df": 211,
+      "sa": 53,
+      "sd": 101,
+      "sp": 13
+    },
+    "w": 820.0,
+    "ab": "Beast Boost"
   },
   "Steenee": {
     "t1": "Grass",
@@ -12833,6 +12950,19 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 45
     },
     "w": 6.0
+  },
+  "Zeraora": {
+    "t1": "Electric",
+    "bs": {
+      "hp": 88,
+      "at": 112,
+      "df": 75,
+      "sa": 102,
+      "sd": 80,
+      "sp": 143
+    },
+    "w": 44.5,
+    "ab": "Volt Absorb"
   },
   "Zygarde-10%": {
     "t1": "Dragon",

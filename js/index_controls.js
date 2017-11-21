@@ -39,14 +39,14 @@ function calculate() {
         maxDisplay = notation === '%' ? Math.floor(maxDamage * 1000 / p2.maxHP) / 10 : Math.floor(maxDamage * 48 / p2.maxHP);
         result.damageText = minDamage + "-" + maxDamage + " (" + minDisplay + " - " + maxDisplay + notation + ")";
         result.koChanceText = p1.moves[i].bp === 0 ? 'nice move'
-                : getKOChanceText(result.damage, p1, p2, field.getSide(1), p1.moves[i].hits, p1.ability === 'Bad Dreams');
+                : getKOChanceText(result.damage, p1, p2, field.getSide(1), p1.moves[i], p1.moves[i].hits, p1.ability === 'Bad Dreams');
         var recoveryText = '';
         if (p1.moves[i].givesHealth) {
             var minHealthRecovered = notation === '%' ? Math.floor(minDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) / 
                 10 : Math.floor(minDamage * p1.moves[i].percentHealed * 48 / p1.maxHP);
             var maxHealthRecovered = notation === '%' ? Math.floor(maxDamage * p1.moves[i].percentHealed * 1000 / p1.maxHP) / 
                 10 : Math.floor(maxDamage * p1.moves[i].percentHealed * 48 / p1.maxHP);
-            recoveryText = ' (recovers between ' + minHealthRecovered + notation + ' and ' + maxHealthRecovered + notation + ')';
+            recoveryText = ' (' + minHealthRecovered + ' - ' + maxHealthRecovered + notation + ' recovered)';
         }
         $(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("Hidden Power", "HP"));
         $(resultLocations[0][i].damage).text(minDisplay + " - " + maxDisplay + notation + recoveryText);
@@ -63,13 +63,13 @@ function calculate() {
         maxDisplay = notation === '%' ? Math.floor(maxDamage * 1000 / p1.maxHP) / 10 : Math.floor(maxDamage * 48 / p1.maxHP);
         result.damageText = minDamage + "-" + maxDamage + " (" + minDisplay + " - " + maxDisplay + notation + ")";
         result.koChanceText = p2.moves[i].bp === 0 ? 'nice move'
-                : getKOChanceText(result.damage, p2, p1, field.getSide(0), p2.moves[i].hits, p2.ability === 'Bad Dreams');
+                : getKOChanceText(result.damage, p2, p1, field.getSide(0), p2.moves[i], p2.moves[i].hits, p2.ability === 'Bad Dreams');
         if (p2.moves[i].givesHealth) {
             var minHealthRecovered = notation === '%' ? Math.floor(minDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) / 
                 10 : Math.floor(minDamage * p2.moves[i].percentHealed * 48 / p2.maxHP);
             var maxHealthRecovered = notation === '%' ? Math.floor(maxDamage * p2.moves[i].percentHealed * 1000 / p2.maxHP) / 
                 10 : Math.floor(maxDamage * p2.moves[i].percentHealed * 48 / p2.maxHP);
-            recoveryText = ' (recovers between ' + minHealthRecovered + notation + ' and ' + maxHealthRecovered + notation + ')';
+            recoveryText = ' (' + minHealthRecovered + ' - ' + maxHealthRecovered + notation + ' recovered)';
         }
         $(resultLocations[1][i].move + " + label").text(p2.moves[i].name.replace("Hidden Power", "HP"));
         $(resultLocations[1][i].damage).text(minDisplay + " - " + maxDisplay + notation + recoveryText);

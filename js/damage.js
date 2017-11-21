@@ -79,7 +79,7 @@ function getDamageResult(attacker, defender, move, field) {
             defAbility = "";
             description.attackerAbility = attacker.ability;
         }
-        if (move.name === "Moongeist Beam" || move.name === "Sunsteel Strike") {
+        if (move.name === "Menacing Moonraze Maelstrom" || move.name === "Moongeist Beam" || move.name === "Searing Sunraze Smash" || move.name === "Sunsteel Strike") {
             defAbility = "";
         }
     }
@@ -408,6 +408,9 @@ function getDamageResult(attacker, defender, move, field) {
     } else if (attacker.ability === "Tough Claws" && move.makesContact) {
         bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
+    } else if (attacker.ability === "Neuroforce" && typeEffectiveness > 1) {
+	bpMods.push(0x1333);
+	description.attackerAbility = attacker.ability;
     }
     
     var isAttackerAura = attacker.ability === (move.type + " Aura");
@@ -436,6 +439,9 @@ function getDamageResult(attacker, defender, move, field) {
     var attack;
     var attackSource = move.name === "Foul Play" ? defender : attacker;
     var attackStat = move.category === "Physical" ? AT : SA;
+    if (move.usesHighestAttackStat) {
+        attackStat = attackSource.stats[AT] >= attackSource.stats[SA] ? AT : SA;
+    }
     description.attackEVs = attacker.evs[attackStat] +
             (NATURES[attacker.nature][0] === attackStat ? "+" : NATURES[attacker.nature][1] === attackStat ? "-" : "") + " " +
             toSmogonStat(attackStat);
@@ -491,8 +497,8 @@ function getDamageResult(attacker, defender, move, field) {
         atMods.push(0x2000);
         description.attackerItem = attacker.item;
     } else if ((gen < 7 && attacker.item === "Soul Dew" && (attacker.name === "Latios" || attacker.name === "Latias") && move.category === "Special") ||
-            (attacker.item === "Choice Band" && move.category === "Physical") ||
-            (attacker.item === "Choice Specs" && move.category === "Special") && !move.isZ) {
+            (attacker.item === "Choice Band" && move.category === "Physical" && !move.isZ) ||
+            (attacker.item === "Choice Specs" && move.category === "Special" && !move.isZ)) {
         atMods.push(0x1800);
         description.attackerItem = attacker.item;
     }

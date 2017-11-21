@@ -257,6 +257,7 @@ $(".move-selector").change(function() {
     if (move.isMultiHit) {
         moveGroupObj.children(".move-hits").show();
         moveGroupObj.children(".move-hits").val($(this).closest(".poke-info").find(".ability").val() === 'Skill Link' ? 5 : 3);
+        moveGroupObj.children(".move-hits").val($(this).closest(".poke-info").find(".item").val() === 'Grip Claw' ? 5 : 3);
     } else {
         moveGroupObj.children(".move-hits").hide();
     }
@@ -310,7 +311,7 @@ $(".set-selector").change(function() {
                 moveObj.change();
             }
         } else {
-            pokeObj.find(".level").val(50);
+            pokeObj.find(".level").val(100);
             pokeObj.find(".hp .evs").val(0);
             pokeObj.find(".hp .ivs").val(31);
             pokeObj.find(".hp .dvs").val(15);
@@ -354,15 +355,15 @@ function showFormes(formeObj, setName, pokemonName, pokemon) {
         var set = setdex[pokemonName][setName];
 
         // Repurpose the previous filtering code to provide the "different default" logic
-        //if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
-        //    (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
-        //    (pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
-        //    (pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
-        //    (pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1)) {
-        //    defaultForme = 1;
-        //} else if (set.item.indexOf('ite Y') !== -1) {
-        //    defaultForme = 2;
-        //}
+        if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
+            (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
+            (pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
+            (pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
+            (pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1)) {
+            defaultForme = 1;
+        } else if (set.item.indexOf('ite Y') !== -1) {
+            defaultForme = 2;
+        }
     }
 
     var formeOptions = getSelectOptions(pokemon.formes, false, defaultForme);
@@ -461,7 +462,7 @@ function Pokemon(pokeInfo) {
                 type: defaultDetails.type,
                 category: defaultDetails.category,
                 isCrit: defaultDetails.alwaysCrit ? true : false,
-                hits: defaultDetails.isMultiHit ? (this.ability === "Skill Link" ? 5 : 3) : defaultDetails.isTwoHit ? 2 : 1
+                hits: defaultDetails.isMultiHit ? ((this.ability === "Skill Link" || this.item === "Grip Claw") ? 5 : 3) : defaultDetails.isTwoHit ? 2 : 1
             }) );
         }
         this.weight = pokemon.w;
@@ -532,15 +533,21 @@ function getMoveDetails(moveInfo, item) {
 
 function getZMoveName(moveName, moveType, item) {
     return moveName.indexOf("Hidden Power") !== -1 ? "Breakneck Blitz" // Hidden Power will become Breakneck Blitz
-            : moveName === "Giga Impact" && item === "Snorlium Z" ? "Pulverizing Pancake"
-            : moveName === "Thunderbolt" && item === "Aloraichium Z" ? "Stoked Sparksurfer"
-            : moveName === "Volt Tackle" && item === "Pikanium Z" ? "Catastropika"
-            : moveName === "Thunderbolt" && item === "Pikashunium Z" ? "10,000,000 Volt Thunderbolt"
-            : moveName === "Psychic" && item === "Mewnium Z" ? "Genesis Supernova"
-            : moveName === "Spirit Shackle" && item === "Decidium Z" ? "Sinister Arrow Raid"
+            : moveName === "Clanging Scales" && item === "Kommonium Z" ? "Clangorous Soulblaze"
             : moveName === "Darkest Lariat" && item === "Incinium Z" ? "Malicious Moonsault"
+            : moveName === "Giga Impact" && item === "Snorlium Z" ? "Pulverizing Pancake"
+            : moveName === "Moongeist Beam" && item === "Lunalium Z" ? "Menacing Moonraze Maelstrom"
+            : moveName === "Photon Geyser" && item === "Ultranecrozium Z" ? "Light That Burns the Sky"
+            : moveName === "Play Rough" && item === "Mimikium Z" ? "Let\'s Snuggle Forever"
+            : moveName === "Psychic" && item === "Mewnium Z" ? "Genesis Supernova"
             : moveName === "Sparkling Aria" && item === "Primarium Z" ? "Oceanic Operetta"
             : moveName === "Spectral Thief" && item === "Marshadium Z" ? "Soul-Stealing 7-Star Strike"
+            : moveName === "Spirit Shackle" && item === "Decidium Z" ? "Sinister Arrow Raid"
+            : moveName === "Stone Edge" && item === "Lycanium Z" ? "Splintered Stormshards"
+            : moveName === "Sunsteel Strike" && item === "Solganium Z" ? "Searing Sunraze Smash"
+            : moveName === "Thunderbolt" && item === "Aloraichium Z" ? "Stoked Sparksurfer"
+            : moveName === "Thunderbolt" && item === "Pikashunium Z" ? "10,000,000 Volt Thunderbolt"
+            : moveName === "Volt Tackle" && item === "Pikanium Z" ? "Catastropika"
             : ZMOVES_TYPING[moveType];
 }
 
