@@ -352,6 +352,8 @@ function showFormes(formeObj, setName, pokemonName, pokemon) {
 	if (setName !== 'Blank Set') {
 		var set = setdex[pokemonName][setName];
 
+    if ( set.item === undefined ) { set.item = "Stick" };
+
 		// Repurpose the previous filtering code to provide the "different default" logic
 		if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
             (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
