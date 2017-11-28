@@ -756,7 +756,10 @@ function getSetOptions() {
 					pokemon: pokeName,
 					set: setName,
 					text: pokeName + " (" + setName + ")",
-					id: pokeName + " (" + setName + ")"
+					id: pokeName + " (" + setName + ")",
+          isCommon: setdex[pokeName][setName]["isCommon"],
+          afterForty: setdex[pokeName][setName]["afterForty"]
+
 				});
 			}
 		}
