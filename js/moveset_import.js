@@ -159,7 +159,7 @@ function addToDex(poke) {
 		if (!customsets["Aegislash-Shield"]) {
 			customsets["Aegislash-Shield"] = {};
 		}
-		customsets["Aegislash-Shield"][poke.nameProp] = 	dexObject;
+		customsets["Aegislash-Shield"][poke.nameProp] = dexObject;
 	}
 	updateDex(customsets);
 }
@@ -216,7 +216,8 @@ function addSets(pokes) {
 		}
 	}
 	if (addedpokes > 0) {
-		alert("Successfully imported " + addedpokes + " sets");
+		alert("Successfully imported " + addedpokes + " set(s)");
+		$("#clearSets").css("display","inline");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}
@@ -227,12 +228,28 @@ function checkExeptions(poke) {
 	case 'Aegislash':
 		poke = "Aegislash-Blade";
 		break;
+	case 'Araquanid-Totem':
+		poke = "Araquanid";
+		break;
 	case 'Basculin-Blue-Striped':
 		poke = "Basculin";
+		break;
+	case 'Gumshoos-Totem':
+		poke = "Gumshoos";
 		break;
 	case 'Keldeo-Resolute':
 		poke = "Keldeo";
 		break;
+	case 'Kommo-o-Totem':
+		poke = "Kommo-o";
+		break;
+	case 'Lurantis-Totem':
+		poke = "Lurantis";
+		break;
+	case 'Marowak-Alola-Totem':
+		poke = "Marowak-Alola";
+		break;
+	case 'Mimikyu-Totem':
 	case 'Mimikyu-Busted':
 		poke = "Mimikyu";
 		break;
@@ -251,6 +268,18 @@ function checkExeptions(poke) {
 	case 'Pikachu-Unova':
 		poke = "Pikachu";
 		break;
+	case 'Raticate-Alola-Totem':
+		poke = "Raticate-Alola";
+		break;
+	case 'Ribombee-Totem':
+		poke = "Ribombee";
+		break;
+	case 'Salazzle-Totem':
+		poke = "Salazzle";
+		break;
+	case 'Vikavolt-Totem':
+		poke = "Vikavolt";
+		break;
 	case 'Vivillon-Fancy':
 	case 'Vivillon-Pokeball':
 		poke = "Vivillon";
@@ -260,9 +289,16 @@ function checkExeptions(poke) {
 
 }
 
+$("#clearSets").click(function(){
+	localStorage.removeItem("customsets");
+	alert("Custom Sets successfully cleared. Please refresh the page.");
+	$("#clearSets").css("display","none");
+});
+
 $(document).ready(function () {
 	placeBsBtn();
 	if (localStorage.customsets) {
 		updateDex(JSON.parse(localStorage.customsets));
+		$("#clearSets").css("display","inline");
 	}
 });
