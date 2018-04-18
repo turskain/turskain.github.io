@@ -1,13 +1,67 @@
 function placeBsBtn() {
-	var importBtn = "<button class='bs-btn bs-btn-default'>Import</button>";
+	var importBtn = "<button id='import' class='bs-btn bs-btn-default'>Import</button>";
 	$("#import-1_wrapper").append(importBtn);
-	$(".bs-btn").click(function () {
+
+	$("#import.bs-btn").click(function () {
 		var pokes = document.getElementsByClassName("import-team-text")[0].value;
 		addSets(pokes);
 	});
 
 
 }
+
+function ExportPokemon(pokeInfo) {
+	var pokemon = new Pokemon(pokeInfo);
+	var EV_counter = 0;
+	var finalText = "";
+	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
+	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
+	if (gen > 2) {
+		finalText += "EVs: ";
+		var EVs_Array = [];
+		for (stat in pokemon.evs) {
+			EV_counter += pokemon.evs[stat];
+			if (EV_counter > 510) {
+				break;
+			} else if (pokemon.evs[stat]) {
+				EVs_Array.push(pokemon.evs[stat] + " " + toSmogonStat(stat));
+			}
+		}
+		finalText += serialize(EVs_Array, " / ");
+		finalText += "\n";
+	}
+	var movesArray = [];
+	for (i = 0; i < 4; i++) {
+		var moveName = pokemon.moves[i].name;
+		if (moveName !== "(No Move)") {
+			finalText += "- " + moveName + "\n";
+		}
+	}
+	finalText = finalText.trim();
+	$("textarea.import-team-text").text(finalText);
+}
+
+$("#exportL").click(function() {
+	ExportPokemon($("#p1"));
+});
+
+$("#exportR").click(function() {
+	ExportPokemon($("#p2"));
+});
+
+function serialize(array, separator) {
+	var text = "";
+	for (i = 0; i < array.length; i++) {
+		if (i < array.length - 1) {
+			text += array[i] + separator;
+		} else {
+			text += array[i];
+		}
+	}
+	return text;
+}
+
 function getAbility(row) {
 	ability = row[1] ? row[1].trim() : '';
 	if (ABILITIES_SM.indexOf(ability) != -1) {
@@ -146,6 +200,7 @@ function addToDex(poke) {
 	dexObject.moves = poke.moves;
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
+	dexObject.isCustomSet = poke.isCustomSet ? true : false;
 	if (localStorage.customsets) {
 		customsets = JSON.parse(localStorage.customsets);
 	} else {
@@ -155,7 +210,7 @@ function addToDex(poke) {
 		customsets[poke.name] = {};
 	}
 	customsets[poke.name][poke.nameProp] = dexObject;
-	if (poke.name == "Aegislash-Blade") {
+	if (poke.name === "Aegislash-Blade") {
 		if (!customsets["Aegislash-Shield"]) {
 			customsets["Aegislash-Shield"] = {};
 		}
@@ -199,25 +254,23 @@ function addSets(pokes) {
 				currentPoke = POKEDEX_SM[currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
-				if (j === 1) {
-					currentPoke.nameProp = currentRow[j - 1].trim();
-
+				if (j === 1 && currentRow[0].trim()) {
+					currentPoke.nameProp = currentRow[0].trim();
 				} else {
 					currentPoke.nameProp = "Custom Set";
-
 				}
+				currentPoke.isCustomSet = true;
 				currentPoke.ability = getAbility(rows[i + 1].split(":"));
 				currentPoke = getStats(currentPoke, rows, i + 1);
 				currentPoke = getMoves(currentPoke, rows, i);
 				addToDex(currentPoke);
 				addedpokes++;
-
 			}
 		}
 	}
 	if (addedpokes > 0) {
 		alert("Successfully imported " + addedpokes + " set(s)");
-		$("#clearSets").css("display","inline");
+		$(bothPokemon("#importedSetsOptions")).css("display","inline");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}
@@ -228,28 +281,15 @@ function checkExeptions(poke) {
 	case 'Aegislash':
 		poke = "Aegislash-Blade";
 		break;
-	case 'Araquanid-Totem':
-		poke = "Araquanid";
-		break;
 	case 'Basculin-Blue-Striped':
 		poke = "Basculin";
-		break;
-	case 'Gumshoos-Totem':
-		poke = "Gumshoos";
 		break;
 	case 'Keldeo-Resolute':
 		poke = "Keldeo";
 		break;
-	case 'Kommo-o-Totem':
-		poke = "Kommo-o";
+	case 'Mimikyu-Busted-Totem':
+		poke = "Mimikyu-Totem";
 		break;
-	case 'Lurantis-Totem':
-		poke = "Lurantis";
-		break;
-	case 'Marowak-Alola-Totem':
-		poke = "Marowak-Alola";
-		break;
-	case 'Mimikyu-Totem':
 	case 'Mimikyu-Busted':
 		poke = "Mimikyu";
 		break;
@@ -268,18 +308,6 @@ function checkExeptions(poke) {
 	case 'Pikachu-Unova':
 		poke = "Pikachu";
 		break;
-	case 'Raticate-Alola-Totem':
-		poke = "Raticate-Alola";
-		break;
-	case 'Ribombee-Totem':
-		poke = "Ribombee";
-		break;
-	case 'Salazzle-Totem':
-		poke = "Salazzle";
-		break;
-	case 'Vikavolt-Totem':
-		poke = "Vikavolt";
-		break;
 	case 'Vivillon-Fancy':
 	case 'Vivillon-Pokeball':
 		poke = "Vivillon";
@@ -289,16 +317,34 @@ function checkExeptions(poke) {
 
 }
 
-$("#clearSets").click(function(){
-	localStorage.removeItem("customsets");
-	alert("Custom Sets successfully cleared. Please refresh the page.");
-	$("#clearSets").css("display","none");
+$(bothPokemon("#clearSets")).click(function () {
+	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
+		localStorage.removeItem("customsets");
+		alert("Custom Sets successfully cleared. Please refresh the page.");
+		$(bothPokemon("#importedSetsOptions")).hide();
+		loadDefaultLists();
+	}
 });
+
+$(bothPokemon("#importedSets")).click(function () {
+	var pokeID = $(this).parent().parent().prop("id");
+	var showCustomSets = $(this).prop("checked");
+	if (showCustomSets) {
+		loadCustomList(pokeID);
+	} else {
+		loadDefaultLists();
+	}
+});
+
+var customSets;
 
 $(document).ready(function () {
 	placeBsBtn();
 	if (localStorage.customsets) {
-		updateDex(JSON.parse(localStorage.customsets));
-		$("#clearSets").css("display","inline");
+		customSets = JSON.parse(localStorage.customsets);
+		updateDex(customSets);		
+		$(bothPokemon("#importedSetsOptions")).css("display","inline");
+	} else {
+		loadDefaultLists();
 	}
 });

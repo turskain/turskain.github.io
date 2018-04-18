@@ -1,9 +1,3 @@
-
-showdown calculator fork with battle tree sets instead of competitive ones;
-also added ability to filter sets by battle tree trainer.
-
-original readme follows
-
 Honko Damage Calculator
 =======================
 
@@ -19,7 +13,7 @@ Most notable for having all-vs-one (wall) and one-vs-all (sweeper) calcs.
 Instructions
 ------------
 
-Double-click `index.html`
+Double-click `index.template.html`.
 
 
 Credits and license
@@ -27,6 +21,6 @@ Credits and license
 
 MIT License.
 
-Written by Honko. ORAS update by gamut-was-taken. SuMo update by Austin. PS theme by Zarel. Other
+Written by Honko. ORAS update by gamut-was-taken. USUM update by Austin. PS theme by Zarel. Other
 contributions by other people; see the repo's commit history and contributor
 list for the full list.
