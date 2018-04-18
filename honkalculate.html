@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css" />
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/colvis/1.1.1/css/dataTables.colVis.css" />
     <link type="text/css" rel="stylesheet" href="./select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./shared_controls.css?4c010ae2" />
+    <link type="text/css" rel="stylesheet" href="./shared_controls.css?287e25e2" />
 </head>
 
 <body>
@@ -318,31 +318,31 @@
                         <div class="gen-specific g3 g4 g5 g6 g7">
                             <label>Nature</label>
                             <select class="nature">
-                                <option value="Adamant">Adamant</option>
+                                <option value="Adamant">Adamant (+Atk, -SpA)</option>
                                 <option value="Bashful">Bashful</option>
-                                <option value="Bold">Bold</option>
-                                <option value="Brave">Brave</option>
-                                <option value="Calm">Calm</option>
-                                <option value="Careful">Careful</option>
+                                <option value="Bold">Bold (+Def, -Atk)</option>
+                                <option value="Brave">Brave (+Atk, -Spe)</option>
+                                <option value="Calm">Calm (+SpD, -Atk)</option>
+                                <option value="Careful">Careful (+SpD, -SpA)</option>
                                 <option value="Docile">Docile</option>
-                                <option value="Gentle">Gentle</option>
+                                <option value="Gentle">Gentle (+SpD, -Def)</option>
                                 <option value="Hardy" selected="selected">Hardy</option>
-                                <option value="Hasty">Hasty</option>
-                                <option value="Impish">Impish</option>
-                                <option value="Jolly">Jolly</option>
-                                <option value="Lax">Lax</option>
-                                <option value="Lonely">Lonely</option>
-                                <option value="Mild">Mild</option>
-                                <option value="Modest">Modest</option>
-                                <option value="Naive">Naive</option>
-                                <option value="Naughty">Naughty</option>
-                                <option value="Quiet">Quiet</option>
+                                <option value="Hasty">Hasty (+Spe, -Def)</option>
+                                <option value="Impish">Impish (+Def, -SpA)</option>
+                                <option value="Jolly">Jolly (+Spe, -SpA)</option>
+                                <option value="Lax">Lax (+Def, -SpD)</option>
+                                <option value="Lonely">Lonely (+Atk, -Def)</option>
+                                <option value="Mild">Mild (+SpA, -Def)</option>
+                                <option value="Modest">Modest (+SpA, -Atk)</option>
+                                <option value="Naive">Naive (+Spe, -SpD)</option>
+                                <option value="Naughty">Naughty (+Atk, -SpD)</option>
+                                <option value="Quiet">Quiet (+SpA, -Spe)</option>
                                 <option value="Quirky">Quirky</option>
-                                <option value="Rash">Rash</option>
-                                <option value="Relaxed">Relaxed</option>
-                                <option value="Sassy">Sassy</option>
+                                <option value="Rash">Rash (+SpA, -SpD)</option>
+                                <option value="Relaxed">Relaxed (+Def, -Spe)</option>
+                                <option value="Sassy">Sassy (+SpD, -Spe)</option>
                                 <option value="Serious">Serious</option>
-                                <option value="Timid">Timid</option>
+                                <option value="Timid">Timid (+Spe, -Atk)</option>
                             </select>
                         </div>
                         <div class="gen-specific g3 g4 g5 g6 g7">
@@ -387,6 +387,9 @@
                         <label>Current HP</label>
                         <input class="current-hp" value="341" />/<span class="max-hp">341</span> (
                         <input class="percent-hp" value="100" />%)
+                        <br />
+                        <br />
+                        Health <div class="hpbar"></div>
                     </div>
                     <div class="move1">
                         <select class="move-selector small-select"></select>
@@ -406,6 +409,20 @@
                             <option value="4">4 hits</option>
                             <option value="5">5 hits</option>
                         </select>
+							  <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
+							  <select class="metronome calc-trigger hide" title="How many times was this move used while holding Metronome?">
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
                     </div>
                     <div class="move2">
                         <select class="move-selector small-select"></select>
@@ -425,6 +442,20 @@
                             <option value="4">4 hits</option>
                             <option value="5">5 hits</option>
                         </select>
+							  <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
+							  <select class="metronome calc-trigger hide" title="How many times was this move used while holding Metronome?">
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
                     </div>
                     <div class="move3">
                         <select class="move-selector small-select"></select>
@@ -444,6 +475,20 @@
                             <option value="4">4 hits</option>
                             <option value="5">5 hits</option>
                         </select>
+							  <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
+							  <select class="metronome calc-trigger hide" title="How many times was this move used while holding Metronome?">
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
                     </div>
                     <div class="move4">
                         <select class="move-selector small-select"></select>
@@ -463,6 +508,20 @@
                             <option value="4">4 hits</option>
                             <option value="5">5 hits</option>
                         </select>
+							  <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
+							  <select class="metronome calc-trigger hide" title="How many times was this move used while holding Metronome?">
+                    			<option value="1">Once</option>
+                    			<option value="2">Twice</option>
+                    			<option value="3">3 times</option>
+                    			<option value="4">4 times</option>
+                    			<option value="5">5 times</option>
+                		  </select>
                     </div>
                 </div>
             </div>
@@ -663,6 +722,9 @@
             </table>
         </fieldset>
     </div>
+    <script type="text/javascript">
+        var linkExtension = '.html';
+    </script>
     <!-- jquery.dataTables is incompatible with newer versions of jQuery -->
     <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> <!-- to be replaced (probably) -->
@@ -670,28 +732,28 @@
     <script type="text/javascript" src="https://cdn.datatables.net/colvis/1.1.1/js/dataTables.colVis.min.js"></script>
     <script type="text/javascript" src="./js/lodash.min.js?d70a9c09"></script>
     <script type="text/javascript" src="./select2/select2.min.js?37d8ecef"></script>
-    <script type="text/javascript" src="./js/data/pokedex.js?dc64a20e"></script>
-    <script type="text/javascript" src="./js/data/setdex_sm.js?8f6debdc"></script>
+    <script type="text/javascript" src="./js/data/pokedex.js?cfba257c"></script>
+    <script type="text/javascript" src="./js/data/setdex_sm.js?aca706cf"></script>
     <script type="text/javascript" src="./js/data/setdex_xy.js?ec3b06ee"></script>
     <script type="text/javascript" src="./js/data/setdex_bw.js?78ee8797"></script>
     <script type="text/javascript" src="./js/data/setdex_dpp.js?08a17698"></script>
     <script type="text/javascript" src="./js/data/setdex_rse.js?fac2ba75"></script>
     <script type="text/javascript" src="./js/data/setdex_gsc.js?35ddf684"></script>
     <script type="text/javascript" src="./js/data/setdex_rby.js?eb4a9c36"></script>
-    <script type="text/javascript" src="./js/data/stat_data.js?25ec054f"></script>
-    <script type="text/javascript" src="./js/data/type_data.js?a39ab362"></script>
+    <script type="text/javascript" src="./js/data/stat_data.js?5a66b065"></script>
+    <script type="text/javascript" src="./js/data/type_data.js?f84833b9"></script>
     <script type="text/javascript" src="./js/data/nature_data.js?0b9893dd"></script>
-    <script type="text/javascript" src="./js/data/ability_data.js?64ee942f"></script>
-    <script type="text/javascript" src="./js/data/item_data.js?b568c54b"></script>
-    <script type="text/javascript" src="./js/data/move_data.js?8ecef7cb"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?5fb50a03"></script>
-    <script type="text/javascript" src="./js/honkalculate_controls.js?623c74d7"></script>
-    <script type="text/javascript" src="./js/damage.js?a20dc589"></script>
-    <script type="text/javascript" src="./js/damage_dpp.js?d51d4520"></script>
-    <script type="text/javascript" src="./js/damage_rse.js?9b85a6c8"></script>
-    <script type="text/javascript" src="./js/damage_gsc.js?6cdc1572"></script>
-    <script type="text/javascript" src="./js/damage_rby.js?830cb8f8"></script>
-    <script type="text/javascript" src="./js/ko_chance.js?0d7e621b"></script>
+    <script type="text/javascript" src="./js/data/ability_data.js?6c8c3493"></script>
+    <script type="text/javascript" src="./js/data/item_data.js?9c2d66f2"></script>
+    <script type="text/javascript" src="./js/data/move_data.js?715f2ab2"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?d0145c39"></script>
+    <script type="text/javascript" src="./js/honkalculate_controls.js?1fae73c3"></script>
+    <script type="text/javascript" src="./js/damage.js?7fc30008"></script>
+    <script type="text/javascript" src="./js/damage_dpp.js?27014f8e"></script>
+    <script type="text/javascript" src="./js/damage_rse.js?21519192"></script>
+    <script type="text/javascript" src="./js/damage_gsc.js?5697bf01"></script>
+    <script type="text/javascript" src="./js/damage_rby.js?548a2942"></script>
+    <script type="text/javascript" src="./js/ko_chance.js?17fefd56"></script>
 
     <div style="clear:both;padding:20px;text-align:right"><p><a href="https://github.com/turskain/turskain.github.io" target="_blank">GitHub repository for the damage calculator</a></p></div>
 
