@@ -26,7 +26,7 @@ $.fn.DataTable.ColVis.prototype._fnDomColumnButton = function(i) {
              * API index that DataTables is using
              */
             var oldIndex = $.fn.dataTableExt.iApiIndex;
-            $.fn.dataTableExt.iApiIndex = that._fnDataTablesApiIndex.call(that);
+			$.fn.dataTableExt.iApiIndex = that._fnDataTablesApiIndex();
             
             // Optimisation for server-side processing when scrolling - don't do a full redraw
             if (dt.oFeatures.bServerSide) {
@@ -235,11 +235,11 @@ function placeBsBtn() {
 }
 
 $(".mode").change(function() {
-    if ( $("#one-vs-one").prop("checked") ) {
-        window.location.replace( "index.html" );
-  } else {
-        window.location.replace( "honkalculate.html?mode=" + $(this).attr("id") );
-  }
+	if ($("#one-vs-one").prop("checked")) {
+		window.location.replace('index' + linkExtension);
+	} else {
+		window.location.replace('honkalculate' + linkExtension + '?mode=' + $(this).attr("id"));
+	}
 });
 
 $(".tiers label").mouseup(function() {
@@ -295,28 +295,33 @@ $(".set-selector").change(function(e) {
 });
 
 var mode, dtHeight, dtWidth;
-$(document).ready(function() {
-    var url = window.location.href;
-    mode = url.substring(url.indexOf('=') + 1, url.length);
-    $("#" + mode).prop("checked", true);
-    $("#holder-2 th:first").text( (mode === "one-vs-all") ? "Defender" : "Attacker" );
-    $("#holder-2").show();
-    
-    calcDTDimensions();
-    constructDataTable();
-    placeBsBtn();
+$(document).ready(function () {
+	var url = window.location.href;
+	var equalsPos = (url.indexOf('='));
+	if (equalsPos < 0) {
+		mode = "one-vs-all";
+	} else {
+		mode = url.substring(equalsPos + 1, url.length);
+	}
+	$("#" + mode).prop("checked", true);
+	$("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
+	$("#holder-2").show();
+
+	calcDTDimensions();
+	constructDataTable();
+	placeBsBtn();
 });
 
 function calcDTDimensions() {
-    $("#holder-2").DataTable( {
-        dom: 'C<"clear">frti'
-    });
-    
-    var theadBottomOffset = getBottomOffset($(".sorting"));
-    var heightUnderDT = getBottomOffset($(".holder-0")) - getBottomOffset($("#holder-2 tbody"));
-    dtHeight = $(document).height() - theadBottomOffset - heightUnderDT;
-    dtWidth = $(window).width() - $("#holder-2").offset().left;
-    dtWidth -= 2 * parseFloat($(".holder-0").css("padding-right"));
+	$("#holder-2").DataTable({
+		dom: 'C<"clear">frti'
+	});
+
+	var theadBottomOffset = getBottomOffset($(".sorting"));
+	var heightUnderDT = getBottomOffset($(".holder-0")) - getBottomOffset($("#holder-2 tbody"));
+	dtHeight = $(document).height() - theadBottomOffset - heightUnderDT;
+	dtWidth = $(window).width() - $("#holder-2").offset().left;
+	dtWidth -= 2 * parseFloat($(".holder-0").css("padding-right"));
 }
 
 function getBottomOffset(obj) {
