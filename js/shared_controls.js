@@ -515,6 +515,16 @@ function Pokemon(pokeInfo) {
 				this.rawStats[stat] = ~~((~~((pokemon.bs[stat] * 2 + ivs + ~~(this.evs[stat] / 4)) * this.level / 100) + 5) * nature);
 			}
 		}
+		if (gen < 3) {
+			var HPDVs = 15;
+			this.maxHP = ~~(((pokemon.bs.hp + HPDVs) * 2 + 63) * this.level / 100) + this.level + 10;
+		} else if (pokemon.bs.hp === 1) {
+			this.maxHP = 1;
+		} else {
+			var HPIVs = ivs;
+			this.maxHP = ~~((pokemon.bs.hp * 2 + HPIVs + ~~(this.HPEVs / 4)) * this.level / 100) + this.level + 10;
+		}
+		this.curHP = this.maxHP;
 		this.ability = (set.ability && typeof set.ability !== "undefined") ? set.ability :
 			(pokemon.ab && typeof pokemon.ab !== "undefined") ? pokemon.ab : "";
 		this.item = (set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0)) ? set.item : "";
