@@ -37,6 +37,7 @@ if (!Array.prototype.indexOf) {
 // input field validation
 var bounds = {
 	"level": [0, 100],
+	"leveloverride": [0, 100],
 	"base": [1, 255],
 	"evs": [0, 252],
 	"ivs": [0, 31],
@@ -57,6 +58,11 @@ function validate(obj, min, max) {
 
 // auto-calc stats and current HP on change
 $(".level").keyup(function () {
+	var poke = $(this).closest(".poke-info");
+	calcHP(poke);
+	calcStats(poke);
+});
+$(".leveloverride").keyup(function () {
 	var poke = $(this).closest(".poke-info");
 	calcHP(poke);
 	calcStats(poke);
@@ -361,6 +367,9 @@ $(".set-selector").change(function () {
 		if (pokemonName in setdex && setName in setdex[pokemonName]) {
 			var set = setdex[pokemonName][setName];
 			pokeObj.find(".level").val(set.level);
+//     HACK!
+			pokeObj.find(".leveloverride").val(set.leveloverride);
+//     END HACK
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : 15);
@@ -488,7 +497,15 @@ function Pokemon(pokeInfo) {
 		this.evs = [];
 
 		var set = setdex[this.name][setName];
-		this.level = set.level;
+    this.level = set.level;
+    //HACK!
+    this.leveloverride = +document.getElementById("leveloverride").value
+    //HACK!
+    if (this.level !== this.leveloverride) {
+      this.level = this.leveloverride
+    }
+
+    //HACK!
 		this.HPEVs = (set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0;
 		this.nature = set.nature;
 		for (var i = 0; i < STATS.length; i++) {
@@ -499,7 +516,15 @@ function Pokemon(pokeInfo) {
 				var dvs = 15;
 				this.rawStats[stat] = ~~(((pokemon.bs[stat] + dvs) * 2 + 63) * this.level / 100) + 5;
 			} else {
-				var ivs = (set.ivs && typeof set.ivs[stat] !== "undefined") ? set.ivs[stat] : 31;
+        this.ivsoverride = +document.getElementById("ivsoverride").value
+        //HACK!
+        if (this.ivsoverride !== 31) {
+        this.realivs = this.ivsoverride
+          
+        } else {
+          this.realivs = 31
+        }
+				var ivs = (set.ivs && typeof set.ivs[stat] !== "undefined") ? set.ivs[stat] : this.realivs;
 				var natureMods = NATURES[this.nature];
 				var nature = natureMods[0] === stat ? 1.1 : natureMods[1] === stat ? 0.9 : 1;
 				this.rawStats[stat] = ~~((~~((pokemon.bs[stat] * 2 + ivs + ~~(this.evs[stat] / 4)) * this.level / 100) + 5) * nature);
@@ -543,6 +568,16 @@ function Pokemon(pokeInfo) {
 			var pokemonName = setName.substring(0, setName.indexOf(" ("));
 			this.name = (pokedex[pokemonName].formes) ? pokeInfo.find(".forme").val() : pokemonName;
 		}
+
+
+		//this.level = set.level;
+    //HACK!
+    //HACK!
+		this.leveloverride = ~~pokeInfo.find(".leveloverride").val();
+    if (this.level !== this.leveloverride) {
+      this.level = this.leveloverride;
+    }
+
 		this.type1 = pokeInfo.find(".type1").val();
 		this.type2 = pokeInfo.find(".type2").val();
 		this.level = ~~pokeInfo.find(".level").val();
