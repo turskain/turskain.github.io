@@ -490,16 +490,6 @@ function Pokemon(pokeInfo) {
 		var set = setdex[this.name][setName];
 		this.level = set.level;
 		this.HPEVs = (set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0;
-		if (gen < 3) {
-			var HPDVs = 15;
-			this.maxHP = ~~(((pokemon.bs.hp + HPDVs) * 2 + 63) * this.level / 100) + this.level + 10;
-		} else if (pokemon.bs.hp === 1) {
-			this.maxHP = 1;
-		} else {
-			var HPIVs = 31;
-			this.maxHP = ~~((pokemon.bs.hp * 2 + HPIVs + ~~(this.HPEVs / 4)) * this.level / 100) + this.level + 10;
-		}
-		this.curHP = this.maxHP;
 		this.nature = set.nature;
 		for (var i = 0; i < STATS.length; i++) {
 			var stat = STATS[i];
