@@ -301,7 +301,7 @@ $(".set-selector").change(function (e) {
 	}
 });
 
-var dtHeight, dtWidth;
+var mode dtHeight, dtWidth;
 $(document).ready(function () {
 	var mode;
 	var url = window.location.href;
