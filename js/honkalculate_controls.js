@@ -1,66 +1,66 @@
-$.fn.DataTable.ColVis.prototype._fnDomColumnButton = function(i) {
-    var
-        that = this,
-        column = this.s.dt.aoColumns[i],
-        dt = this.s.dt;
-    
-    var title = this.s.fnLabel === null ?
-        column.sTitle :
-        this.s.fnLabel(i, column.sTitle, column.nTh);
-    
-    return $(
-            '<li ' + (dt.bJUI ? 'class="ui-button ui-state-default"' : '') + '>' +
-            '<label>' +
-            '<input type="checkbox" />' +
-            '<span>' + title + '</span>' +
-            '</label>' +
-            '</li>'
-        )
-        .click(function(e) {
-            var showHide = !$('input', this).is(":checked");
-            if (e.target.nodeName.toLowerCase() !== "li") {
-                showHide = !showHide;
-            }
-            
-            /* Need to consider the case where the initialiser created more than one table - change the
-             * API index that DataTables is using
-             */
-            var oldIndex = $.fn.dataTableExt.iApiIndex;
+$.fn.DataTable.ColVis.prototype._fnDomColumnButton = function (i) {
+	var
+		that = this,
+		column = this.s.dt.aoColumns[i],
+		dt = this.s.dt;
+
+	var title = this.s.fnLabel === null ?
+		column.sTitle :
+		this.s.fnLabel(i, column.sTitle, column.nTh);
+
+	return $(
+		'<li ' + (dt.bJUI ? 'class="ui-button ui-state-default"' : '') + '>' +
+		'<label>' +
+		'<input type="checkbox" />' +
+		'<span>' + title + '</span>' +
+		'</label>' +
+		'</li>'
+	)
+		.click(function (e) {
+			var showHide = !$('input', this).is(":checked");
+			if (e.target.nodeName.toLowerCase() !== "li") {
+				showHide = !showHide;
+			}
+
+			/* Need to consider the case where the initialiser created more than one table - change the
+			 * API index that DataTables is using
+			 */
+			var oldIndex = $.fn.dataTableExt.iApiIndex;
 			$.fn.dataTableExt.iApiIndex = that._fnDataTablesApiIndex();
-            
-            // Optimisation for server-side processing when scrolling - don't do a full redraw
-            if (dt.oFeatures.bServerSide) {
-                that.s.dt.oInstance.fnSetColumnVis(i, showHide, false);
-                that.s.dt.oInstance.fnAdjustColumnSizing(false);
-                if (dt.oScroll.sX !== "" || dt.oScroll.sY !== "") {
-                    that.s.dt.oInstance.oApi._fnScrollDraw(that.s.dt);
-                }
-                that._fnDrawCallback();
-            } else {
-                that.s.dt.oInstance.fnSetColumnVis(i, showHide);
-            }
-            
-            $.fn.dataTableExt.iApiIndex = oldIndex; /* Restore */
-            
-            if ( (e.target.nodeName.toLowerCase() === 'input' || e.target.nodeName.toLowerCase() === 'li') && that.s.fnStateChange !== null ) {
-                that.s.fnStateChange.call(that, i, showHide);
-            }
-        })[0];
+
+			// Optimisation for server-side processing when scrolling - don't do a full redraw
+			if (dt.oFeatures.bServerSide) {
+				that.s.dt.oInstance.fnSetColumnVis(i, showHide, false);
+				that.s.dt.oInstance.fnAdjustColumnSizing(false);
+				if (dt.oScroll.sX !== "" || dt.oScroll.sY !== "") {
+					that.s.dt.oInstance.oApi._fnScrollDraw(that.s.dt);
+				}
+				that._fnDrawCallback();
+			} else {
+				that.s.dt.oInstance.fnSetColumnVis(i, showHide);
+			}
+
+			$.fn.dataTableExt.iApiIndex = oldIndex; /* Restore */
+
+			if ((e.target.nodeName.toLowerCase() === 'input' || e.target.nodeName.toLowerCase() === 'li') && that.s.fnStateChange !== null) {
+				that.s.fnStateChange.call(that, i, showHide);
+			}
+		})[0];
 };
 
 $.fn.dataTableExt.oSort['damage100-asc'] = function (a, b) {
-    return parseFloat(a) - parseFloat(b);
-}
+	return parseFloat(a) - parseFloat(b);
+};
 $.fn.dataTableExt.oSort['damage100-desc'] = function (a, b) {
-    return parseFloat(b) - parseFloat(a);
-}
+	return parseFloat(b) - parseFloat(a);
+};
 
 $.fn.dataTableExt.oSort['damage48-asc'] = function (a, b) {
-    return parseInt(a) - parseInt(b);
-}
+	return parseInt(a) - parseInt(b);
+};
 $.fn.dataTableExt.oSort['damage48-desc'] = function (a, b) {
-    return parseInt(b) - parseInt(a);
-}
+	return parseInt(b) - parseInt(a);
+};
 
 function calculate() {
     var attacker, defender, setName, allMons, setTagA, setTagB;
@@ -76,6 +76,12 @@ function calculate() {
             if (_.contains(selectedTiers, allMons) || _.contains(selectedTiers, setTagA) || _.contains(selectedTiers, setTagB)) {
                 attacker = (mode === "one-vs-all") ? new Pokemon($("#p1")) : new Pokemon(setOptions[i].id);
                 defender = (mode === "one-vs-all") ? new Pokemon(setOptions[i].id) : new Pokemon($("#p1"));
+			        	if (attacker.ability === "Rivalry") {
+		        			attacker.gender = "genderless";
+		        		}
+				        if (defender.ability === "Rivalry") {
+			         		defender.gender = "genderless";
+				        }
                 var field = new Field();
                 var damageResults = calculateMovesOfAttacker(attacker, defender, field);
                 var result, minDamage, maxDamage, minPercentage, maxPercentage, minPixels, maxPixels;
@@ -115,10 +121,10 @@ function calculate() {
 }
 
 function getSelectedTiers() {
-    var selectedTiers = $('.tiers input:checked').map(function () { 
-        return this.id; 
-    }).get();
-    return selectedTiers;
+	var selectedTiers = $('.tiers input:checked').map(function () {
+		return this.id;
+	}).get();
+	return selectedTiers;
 }
 
 var calculateMovesOfAttacker;
@@ -294,8 +300,9 @@ $(".set-selector").change(function(e) {
     }
 });
 
-var mode, dtHeight, dtWidth;
+var dtHeight, dtWidth;
 $(document).ready(function () {
+	var mode;
 	var url = window.location.href;
 	var equalsPos = (url.indexOf('='));
 	if (equalsPos < 0) {
