@@ -197,7 +197,7 @@ var megaStones = {
 	'Aerodactylite': 'Aerodactyl',
 	'Aggronite': 'Aggron',
 	'Alakazite': 'Alakazam',
-	'Altarite': 'Altaria',
+	'Altarianite': 'Altaria',
 	'Ampharosite': 'Ampharos',
 	'Audinite': 'Audino',
 	'Banettite': 'Banette',
@@ -244,14 +244,13 @@ var megaStones = {
 var mega_Stones = Object.keys(megaStones);
 
 var XY_items = mega_Stones.concat(['Assault Vest',
-	'Safety Googles',
 	'Fairy Gem',
 	'Kee Berry',
 	'Maranga Berry',
 	'Pixie Plate',
 	'Power Herb',
 	'Roseli Berry',
-	'Safety Googles']).sort();
+	'Safety Goggles']).sort();
 
 var ITEMS_XY = ITEMS_BW.concat(XY_items);
 
@@ -521,7 +520,7 @@ function getTechnoBlast(item) {
 
 function getMultiAttack(item) {
 	if (item.indexOf("Memory") !== -1) {
-		return item.substring(0, item.indexOf(" ")); 
+		return item.substring(0, item.indexOf(" "));
 	}
 	return '';
 }
