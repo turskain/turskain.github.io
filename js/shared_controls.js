@@ -1,28 +1,35 @@
 if (!Array.prototype.indexOf) {
-	Array.prototype.indexOf = function (searchElement, fromIndex) { // eslint-disable-line no-extend-native
-		var k;
-		if (this == null) {
-			throw new TypeError('"this" equals null or n is undefined');
-		}
-		var O = Object(this);
-		var len = O.length >>> 0;
-		if (len === 0) {
-			return -1;
-		}
-		var n = +fromIndex || 0;
-		if (Math.abs(n) === Infinity) {
-			n = 0;
-		}
-		if (n >= len) {
-			return -1;
-		}
-		k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
-		while (k < len) {
-			if (k in O && O[k] === searchElement) {
-				return k;
-			}
-			k++;
-		}
+	Array.prototype.indexOf = function(searchElement, fromIndex) {
+	var k;
+
+	if (this == null) {
+		throw new TypeError('"this" equals null or n is undefined');
+	}
+
+	var O = Object(this);
+
+	var len = O.length >>> 0;
+
+	if (len === 0) {
+		return -1;
+	}
+
+	var n = +fromIndex || 0;
+
+	if (Math.abs(n) === Infinity) {
+		n = 0;
+	}
+	if (n >= len) {
+		return -1;
+	}
+
+	k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+	while (k < len) {
+		if (k in O && O[k] === searchElement) {
+	    	return k;
+	  	}
+	  	k++;
+	}
 		return -1;
 	};
 }
@@ -50,11 +57,6 @@ function validate(obj, min, max) {
 
 // auto-calc stats and current HP on change
 $(".level").keyup(function () {
-	var poke = $(this).closest(".poke-info");
-	calcHP(poke);
-	calcStats(poke);
-});
-$(".leveloverride").keyup(function () {
 	var poke = $(this).closest(".poke-info");
 	calcHP(poke);
 	calcStats(poke);
@@ -359,9 +361,6 @@ $(".set-selector").change(function () {
 		if (pokemonName in setdex && setName in setdex[pokemonName]) {
 			var set = setdex[pokemonName][setName];
 			pokeObj.find(".level").val(set.level);
-//     HACK!
-			pokeObj.find(".leveloverride").val(set.leveloverride);
-//     END HACK
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : 15);
@@ -566,14 +565,12 @@ function Pokemon(pokeInfo) {
 			this.name = (pokedex[pokemonName].formes) ? pokeInfo.find(".forme").val() : pokemonName;
 		}
 
-
-		//this.level = set.level;
-    //HACK!
     //HACK!
 		this.leveloverride = ~~pokeInfo.find(".leveloverride").val();
     if (this.level !== this.leveloverride) {
       this.level = this.leveloverride;
     }
+    //HACK!
 
 		this.type1 = pokeInfo.find(".type1").val();
 		this.type2 = pokeInfo.find(".type2").val();
@@ -646,7 +643,7 @@ function getZMoveName(moveName, moveType, item) {
 				moveName === "Giga Impact" && item === "Snorlium Z" ? "Pulverizing Pancake" :
 					moveName === "Moongeist Beam" && item === "Lunalium Z" ? "Menacing Moonraze Maelstrom" :
 						moveName === "Photon Geyser" && item === "Ultranecrozium Z" ? "Light That Burns the Sky" :
-							moveName === "Play Rough" && item === "Mimikium Z" ? "Let's Snuggle Forever" :
+							moveName === "Play Rough" && item === "Mimikium Z" ? "Let\'s Snuggle Forever" :
 								moveName === "Psychic" && item === "Mewnium Z" ? "Genesis Supernova" :
 									moveName === "Sparkling Aria" && item === "Primarium Z" ? "Oceanic Operetta" :
 										moveName === "Spectral Thief" && item === "Marshadium Z" ? "Soul-Stealing 7-Star Strike" :
@@ -656,7 +653,7 @@ function getZMoveName(moveName, moveType, item) {
 														moveName === "Thunderbolt" && item === "Aloraichium Z" ? "Stoked Sparksurfer" :
 															moveName === "Thunderbolt" && item === "Pikashunium Z" ? "10,000,000 Volt Thunderbolt" :
 																moveName === "Volt Tackle" && item === "Pikanium Z" ? "Catastropika" :
-																	moveName === "Nature's Madness" && item === "Tapunium Z" ? "Guardian of Alola" :
+																	moveName === "Nature\'s Madness" && item === "Tapunium Z" ? "Guardian of Alola" :
 																		ZMOVES_TYPING[moveType];
 }
 
@@ -715,8 +712,8 @@ function Side(format, terrain, weather, isGravity, isSR, spikes, isReflect, isLi
 var gen, genWasChanged, notation, pokedex, setdex, typeChart, moves, abilities, items, STATS, calcHP, calcStat;
 
 $(".gen").change(function () {
-	var gen = ~~$(this).val();
-	var genWasChanged = true;
+	gen = ~~$(this).val();
+	genWasChanged = true;
 	switch (gen) {
 	case 1:
 		pokedex = POKEDEX_RBY;
@@ -1024,7 +1021,6 @@ function bothPokemon(selector) {
 }
 
 function loadCustomList(id) {
-	var customSets;
 	var customSetsOptions = getSetOptions(customSets);
 	$("#" + id + " .set-selector").select2({
 		formatResult: function (set) {
