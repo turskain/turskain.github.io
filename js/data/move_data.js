@@ -582,6 +582,30 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Normal'
     },
+    'Instruct': {
+        bp: 0,
+        type: 'Psychic'
+    },
+    'Psychic Terrain': {
+        bp: 0,
+        type: 'Psychic'
+    },
+    'Shore Up': {
+        bp: 0,
+        type: 'Ground'
+    },
+    'Guillotine': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Horn Drill': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Growl': {
+        bp: 0,
+        type: 'Normal'
+    },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
@@ -1421,6 +1445,12 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
 		makesContact: true
 	},
 	'Tri Attack': {hasSecondaryEffect: true},
+	'Twister': {
+		bp: 40,
+		type: 'Dragon',
+		category: 'Special',
+		hasSecondaryEffect: true
+	},
 	'Whirlpool': {
 		bp: 15,
 		type: 'Water',
