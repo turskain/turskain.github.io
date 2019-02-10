@@ -171,6 +171,7 @@ var ITEMS_DPP = ITEMS_ADV.concat([
 ]);
 
 var ITEMS_BW = ITEMS_DPP.concat([
+	'Absorb Bulb',
 	'Air Balloon',
 	'Binding Band',
 	'Bug Gem',
@@ -179,6 +180,7 @@ var ITEMS_BW = ITEMS_DPP.concat([
 	'Dark Gem',
 	'Dragon Gem',
 	'Douse Drive',
+	'Eject Button',
 	'Electric Gem',
 	'Eviolite',
 	'Fighting Gem',
