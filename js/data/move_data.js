@@ -578,6 +578,10 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Normal'
     },
+    'Copycat': {
+        bp: 0,
+        type: 'Normal'
+    },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
@@ -1305,6 +1309,12 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
 	'Moonlight': {
 		bp: 0,
 		type: 'Normal'
+	},
+	'Mud-Slap': {
+		bp: 20,
+		type: 'Ground',
+		category: 'Special',
+		hasSecondaryEffect: true
 	},
 	'Protect': {
 		bp: 0,
@@ -3020,6 +3030,11 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
 	},
 	'Energy Ball': {bp: 90},
 	'Facade': {ignoresBurn: true},
+	'Fairy Wind': {
+		bp: 40,
+		type: 'Fairy',
+		category: 'Special',
+	},
 	'Fell Stinger': {
 		bp: 30,
 		type: 'Bug',
