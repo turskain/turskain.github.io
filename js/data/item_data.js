@@ -331,6 +331,7 @@ var ITEMS_SM = ITEMS_XY.concat([
 	'Steel Memory',
 	'Steelium Z',
 	'Tapunium Z',
+	'Terrain Extender',
 	'Ultranecrozium Z',
 	'Water Memory',
 	'Waterium Z',
