@@ -1,7 +1,5 @@
 var MOVES_RBY = {
-// LAZY SHIT DUMMY MOVES FOR SET LOOKUP/NOT HAVING LOTS OF "NO MOVE" LISTINGS PURPOSES
-// also overlaps with moves added into the move data for real
-// todo: never gonna make it better
+// DUMMY MOVES FOR SET LOOKUP/NOT HAVING LOTS OF "NO MOVE" LISTINGS PURPOSES
     'Block': {
         bp: 0,
         type: 'Normal'
@@ -9,6 +7,10 @@ var MOVES_RBY = {
     'Metal Burst': {
         bp: 0,
         type: 'Steel',
+    },
+    'Fissure': {
+        bp: 0,
+        type: 'Ground',
     },
     'Feather Dance': {
         bp: 0,
@@ -539,6 +541,22 @@ var MOVES_RBY = {
     'Endure': {
         bp: 0,
         type: 'Normal'
+    },
+    'Counter': {
+        bp: 0,
+        type: 'Fighting'
+    },
+    'Aurora Veil': {
+        bp: 0,
+        type: 'Ice'
+    },
+    'Hail': {
+        bp: 0,
+        type: 'Ice'
+    },
+    'Floral Healing': {
+        bp: 0,
+        type: 'Fairy'
     },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
@@ -1700,7 +1718,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
 		isPunch: true
 	},
 	'Sheer Cold': {
-		bp: 1,
+		bp: 0,
 		type: 'Ice',
 		category: 'Special'
 	},
