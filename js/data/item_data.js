@@ -176,6 +176,7 @@ var ITEMS_BW = ITEMS_DPP.concat([
 	'Binding Band',
 	'Bug Gem',
 	'Burn Drive',
+	'Cell Battery',
 	'Chill Drive',
 	'Dark Gem',
 	'Dragon Gem',
