@@ -562,6 +562,22 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Ground'
     },
+    'Electric Terrain': {
+        bp: 0,
+        type: 'Electric'
+    },
+    'Mist': {
+        bp: 0,
+        type: 'Ice'
+    },
+    'Charge': {
+        bp: 0,
+        type: 'Electric'
+    },
+    'Tickle': {
+        bp: 0,
+        type: 'Normal'
+    },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
@@ -802,6 +818,13 @@ var MOVES_RBY = {
     'Leech Seed': {
         bp: 0,
         type: 'Grass'
+    },
+    'Lick': {
+        bp: 30,
+        type: 'Ghost',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
     },
     'Light Screen': {
         bp: 0,
