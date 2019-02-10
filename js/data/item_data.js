@@ -52,8 +52,10 @@ var ITEMS_ADV = ITEMS_GSC.concat([
 	'Iapapa Berry',
 	'Kelpsy Berry',
 	'Lansat Berry',
+	'Lax Incense',
 	'Leppa Berry',
 	'Liechi Berry',
+	'Lum Berry',
 	'Mago Berry',
 	'Magost Berry',
 	'Mental Herb',
@@ -180,12 +182,14 @@ var ITEMS_BW = ITEMS_DPP.concat([
 	'Grass Gem',
 	'Ground Gem',
 	'Ice Gem',
+	'Icy Rock',
 	'Normal Gem',
 	'Poison Gem',
 	'Psychic Gem',
 	'Red Card',
 	'Ring Target',
 	'Rock Gem',
+	'Rocky Helmet',
 	'Shock Drive',
 	'Steel Gem',
 	'Water Gem'
@@ -251,6 +255,7 @@ var XY_items = mega_Stones.concat(['Assault Vest',
 	'Power Herb',
 	'Roseli Berry',
 	'Safety Goggles',
+	'Snowball',
 	'Weakness Policy']).sort();
 
 var ITEMS_XY = ITEMS_BW.concat(XY_items);
