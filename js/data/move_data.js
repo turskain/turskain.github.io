@@ -618,6 +618,10 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Poison'
     },
+    'Cotton Spore': {
+        bp: 0,
+        type: 'Grass'
+    },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
