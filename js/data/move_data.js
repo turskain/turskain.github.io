@@ -558,6 +558,10 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Fairy'
     },
+    'Sand Attack': {
+        bp: 0,
+        type: 'Ground'
+    },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
@@ -659,6 +663,12 @@ var MOVES_RBY = {
     'Double Team': {
         bp: 0,
         type: 'Normal'
+    },
+    'Dragon Breath': {
+        bp: 60,
+        type: 'Dragon',
+        category: 'Special',
+		hasSecondaryEffect: true
     },
     'Dream Eater': {
         bp: 100,
