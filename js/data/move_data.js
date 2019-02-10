@@ -606,6 +606,18 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Normal'
     },
+    'Flash': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Strength Sap': {
+        bp: 0,
+        type: 'Grass'
+    },
+    'Baneful Bunker': {
+        bp: 0,
+        type: 'Poison'
+    },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
