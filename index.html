@@ -588,9 +588,8 @@
         </fieldset>
     </div>
     
-    <div class="panel">
-        <div aria-label="Field information" role="region">
-            <fieldset class="field-info">
+    <div class="panel field-info">
+          <div class="panel-body">
                 <legend align="center">Field</legend>
                 <div aria-labelledby="selectBattleFormatInstruction" class="gen-specific g3 g4 g5 g6 g7" role="radiogroup" style="width: 10.6em; margin: 0 auto 5px;" title="Select the battle format.">
                     <span class="visually-hidden" id="selectBattleFormatInstruction">Select the battle format.</span>
@@ -599,7 +598,7 @@
                     <input class="visually-hidden calc-trigger" type="radio" name="format" value="Doubles" id="doubles-format" />
                     <label class="btn btn-right" for="doubles-format">Doubles</label>
                 </div>
-    <div class="gen-specific g6 g7" style="width: 22.0em; margin: 5px auto;" title="Select the current terrain.">
+    		<div class="gen-specific g6 g7" style="width: 22.0em; margin: 5px auto;" title="Select the current terrain.">
                     <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="" id="noterrain" checked="checked" /><label class="btn btn-small btn-left" for="noterrain">None</label>
                     <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="Electric" id="electric" /><label class="btn btn-small btn-mid" for="electric">Electric</label>
                     <input class="btn-input terrain-trigger calc-trigger" type="radio" name="terrain" value="Grassy" id="grassy" /><label class="btn btn-small btn-mid" for="grassy">Grassy</label>
@@ -756,10 +755,10 @@
         </div>
         <div aria-label="Import team" role="region">
             <fieldset class="poke-import">
-                <legend align="center">Please enter your custom sets here.</legend>
+                <legend align="center">Enter your custom sets here.</legend>
                 <div id="import-1_wrapper" class="dataTables_wrapper no-footer">
                     <form class="import-team">
-                        <textarea class="import-team-text" align="center"></textarea>
+                        <textarea class="import-team-text"></textarea>
                         <!--<button style='position:absolute' class='bs-btn bs-btn-default'>Import</button>-->
                     </form>
                 </div>
