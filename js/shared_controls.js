@@ -82,6 +82,9 @@ $(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
 $(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sp');
 });
+$(".evs").bind("keyup change", function() {
+    calcEvTotal($(this).closest(".poke-info"));
+});
 $(".sl .base").keyup(function () {
 	calcStat($(this).closest(".poke-info"), 'sl');
 });
@@ -422,6 +425,7 @@ $(".set-selector").change(function () {
 		}
 		calcHP(pokeObj);
 		calcStats(pokeObj);
+		calcEvTotal(pokeObj);
 		abilityObj.change();
 		itemObj.change();
 		if (pokemon.gender === "genderless") {
@@ -829,6 +833,7 @@ $(".notation").change(function () {
 
 function clearField() {
 	$("#singles-format").prop("checked", false);
+	$("#doubles-format").prop("checked", true);
 	$("#clear").prop("checked", true);
 	$("#gscClear").prop("checked", true);
 	$("#gravity").prop("checked", false);
