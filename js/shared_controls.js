@@ -695,6 +695,8 @@ function Field() {
 	var isHelpingHand = [$("#helpingHandR").prop("checked"), $("#helpingHandL").prop("checked")]; // affects attacks against opposite side
 	var isFriendGuard = [$("#friendGuardL").prop("checked"), $("#friendGuardR").prop("checked")];
 	var isAuroraVeil = [$("#auroraVeilL").prop("checked"), $("#auroraVeilR").prop("checked")];
+	var isBattery = [$("#batteryR").prop("checked"), $("#batteryL").prop("checked")];
+	var isMinimized = [$("#minimL").prop("checked"), $("#minimR").prop("checked")];
 
 	this.getWeather = function () {
 		return weather;
@@ -707,7 +709,7 @@ function Field() {
 	};
 }
 
-function Side(format, terrain, weather, isGravity, isSR, spikes, isReflect, isLightScreen, isProtected, isAttackerSeeded, isDefenderSeeded, isForesight, isHelpingHand, isFriendGuard, isAuroraVeil) {
+function Side(format, terrain, weather, isGravity, isSR, spikes, isReflect, isLightScreen, isProtected, isAttackerSeeded, isDefenderSeeded, isForesight, isHelpingHand, isFriendGuard, isAuroraVeil, isBattery, isMinimized) {
 	this.format = format;
 	this.terrain = terrain;
 	this.weather = weather;
@@ -723,6 +725,8 @@ function Side(format, terrain, weather, isGravity, isSR, spikes, isReflect, isLi
 	this.isHelpingHand = isHelpingHand;
 	this.isFriendGuard = isFriendGuard;
 	this.isAuroraVeil = isAuroraVeil;
+	this.isBattery = isBattery;
+	this.isMinimized = isMinimized;
 }
 
 var gen, genWasChanged, notation, pokedex, setdex, typeChart, moves, abilities, items, STATS, calcHP, calcStat;
