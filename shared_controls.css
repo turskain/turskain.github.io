@@ -443,7 +443,7 @@ select.toxic-counter {
 }
 
 .import-team-text {
-    min-width: 35em;
+    min-width: 32em;
     min-height: 10em;
     resize: both;
 }
