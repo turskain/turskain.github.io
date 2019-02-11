@@ -440,8 +440,9 @@ function showFormes(formeObj, setName, pokemonName, pokemon) {
 
 	if (setName !== 'Blank Set') {
 		var set = setdex[pokemonName][setName];
+		
 		// Repurpose the previous filtering code to provide the "different default" logic
-		       if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
+	if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
             (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
             (pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
             (pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
@@ -458,32 +459,34 @@ function showFormes(formeObj, setName, pokemonName, pokemon) {
 }
 
 function setSelectValueIfValid(select, value, fallback) {
-	select.val(select.children("option[value='" + value + "']").length ? value : fallback);
+    select.val(select.children('option[value="' + value + '"]').length !== 0 ? value : fallback);
 }
 
-$(".forme").change(function () {
-	var altForme = pokedex[$(this).val()],
-		container = $(this).closest(".info-group").siblings(),
-		fullSetName = container.find(".select2-chosen").first().text(),
-		pokemonName = fullSetName.substring(0, fullSetName.indexOf(" (")),
-		setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
+$(".forme").change(function() {
+    var altForme = pokedex[$(this).val()],
+        container = $(this).closest(".info-group").siblings(),
+        fullSetName = container.find(".select2-chosen").first().text(),
+        pokemonName = fullSetName.substring(0, fullSetName.indexOf(" (")),
+        setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 
-	$(this).parent().siblings().find(".type1").val(altForme.t1);
-	$(this).parent().siblings().find(".type2").val(altForme.t2 ? altForme.t2 : "");
-	$(this).parent().siblings().find(".weight").val(altForme.w);
+    $(this).parent().siblings().find(".type1").val(altForme.t1);
+    $(this).parent().siblings().find(".type2").val(typeof altForme.t2 != "undefined" ? altForme.t2 : "");
+    $(this).parent().siblings().find(".weight").val(altForme.w);
+    var STATS_WITH_HP = ["hp", "at", "df","sa","sd","sp"];
+    for (var i = 0; i <STATS_WITH_HP.length; i++) {
+        var baseStat = container.find("." + STATS_WITH_HP[i]).find(".base");
+        baseStat.val(altForme.bs[STATS_WITH_HP[i]]);
+        baseStat.keyup();
+    }
 
-	for (var i = 0; i < STATS.length; i++) {
-		var baseStat = container.find("." + STATS[i]).find(".base");
-		baseStat.val(altForme.bs[STATS[i]]);
-		baseStat.keyup();
-	}
-	var chosenSet = setdex[pokemonName][setName];
-	if (abilities.indexOf(altForme.ab) !== -1) {
-		container.find(".ability").val(altForme.ab);
-	} else {
-		container.find(".ability").val(chosenSet.ability);
-	}
-	container.find(".ability").keyup();
+    if (abilities.indexOf(altForme.ab) > -1) {
+        container.find(".ability").val(altForme.ab);
+    } else if (setName !== "Blank Set" && abilities.indexOf(setdex[pokemonName][setName].ability) > -1) {
+        container.find(".ability").val(setdex[pokemonName][setName].ability);
+    } else {
+        container.find(".ability").val("");
+    }
+    container.find(".ability").keyup();
 
 	if ($(this).val().indexOf("-Mega") !== -1 && $(this).val() !== "Rayquaza-Mega") {
 		container.find(".item").val("").keyup();
