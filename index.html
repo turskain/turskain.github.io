@@ -622,7 +622,7 @@
                         <label class="btn btn-small btn-right" for="hail">Hail</label>
                     </div>
                     <div class="gen-specific g6 g7" title="Select the current weather condition.">
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Harsh Sunshine" id="harsh-sunshine" />
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Harsh Sun" id="harsh-sunshine" />
                         <label class="btn btn-wide btn-left" for="harsh-sunshine">Harsh Sunshine</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Heavy Rain" id="heavy-rain" />
                         <label class="btn btn-wide btn-mid" for="heavy-rain">Heavy Rain</label>
@@ -647,6 +647,15 @@
                     <label class="btn" for="gravity">Gravity</label>
                 </div>
                 <hr class="gen-specific g2 g3 g4 g5 g6 g7" />
+		    
+		<div class="btn-group gen-specific g7">
+                    <div class="left" title="Is this Pokemon protecting?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="protectL" /><label class="btn btn-xwide" for="protectL">Protect</label>
+                    </div>
+                    <div class="right" title="Is this Pokemon protecting?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="protectR" /><label class="btn btn-xwide" for="protectR">Protect</label>
+                    </div>
+                </div>
                 <table>
                     <thead>
                         <tr>
@@ -655,6 +664,17 @@
                         </tr>
                     </thead>
                     <tbody>
+			<tr class="gen-specific g2 g3 g4 g5 g6 g7">
+                            <td><div class="left" title="Is this Pok&eacute;mon protecting?">
+                                <div hidden id="selectProtectInstruction">Is this Pok&eacute;mon protected?</div>
+                                <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectL" />
+                                <label class="btn btn-wide" for="protectL">Protect</label>
+                            </div></td>
+                            <td><div class="right" title="Is this Pok&eacute;mon protecting?">
+                                <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectR" />
+                                <label class="btn btn-wide" for="protectR">Protect</label>
+                            </div></td>
+                        </tr>
                         <tr class="gen-specific g4 g5 g6 g7">
                             <div hidden id="selectStealthRockInstruction">Is Stealth Rock affecting this side of the field?</div>
                             <td><div class="left" title="Is Stealth Rock affecting this side of the field?">
@@ -712,17 +732,6 @@
                                 <label class="btn btn-left" for="reflectR">Reflect</label>
                                 <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="lightScreenR" />
                                 <label class="btn btn-xwide btn-right" for="lightScreenR">Light Screen</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g2 g3 g4 g5 g6 g7">
-                            <td><div class="left" title="Is this Pok&eacute;mon protected?">
-                                <div hidden id="selectProtectInstruction">Is this Pok&eacute;mon protected?</div>
-                                <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectL" />
-                                <label class="btn btn-wide" for="protectL">Protect</label>
-                            </div></td>
-                            <td><div class="right" title="Is this Pok&eacute;mon protected?">
-                                <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectR" />
-                                <label class="btn btn-wide" for="protectR">Protect</label>
                             </div></td>
                         </tr>
                         <tr>
