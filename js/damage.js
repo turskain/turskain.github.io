@@ -928,6 +928,7 @@ function checkEvo(p1, p2) {
 		p2.boosts[SD] = Math.min(6, p2.boosts[SD] + 2);
 		p2.boosts[SP] = Math.min(6, p2.boosts[SP] + 2);
 	}
+}
 
 function checkStatBoost(p1, p2) {
 	var stat;
