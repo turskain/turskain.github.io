@@ -443,9 +443,9 @@ select.toxic-counter {
 }
 
 .import-team-text {
-    min-width: 27em;
+    min-width: 35em;
     min-height: 10em;
-    resize: vertical;
+    resize: both;
 }
 
 .hpbar {
