@@ -622,8 +622,8 @@
                         <label class="btn btn-small btn-right" for="hail">Hail</label>
                     </div>
                     <div class="gen-specific g6 g7" title="Select the current weather condition.">
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Harsh Sun" id="harsh-sunshine" />
-                        <label class="btn btn-wide btn-left" for="harsh-sunshine">Harsh Sunshine</label>
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Harsh Sunshine" id="harsh-sunshine" />
+                        <label class="btn btn-wide btn-left" for="harsh-sunshine">Harsh Sun</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Heavy Rain" id="heavy-rain" />
                         <label class="btn btn-wide btn-mid" for="heavy-rain">Heavy Rain</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Strong Winds" id="strong-winds" />
@@ -656,6 +656,36 @@
                         <input class="btn-input calc-trigger" type="checkbox" id="protectR" /><label class="btn btn-xwide" for="protectR">Protect</label>
                     </div>
                 </div>
+		<div class="btn-group gen-specific g4 g5 g6 g7 g7">
+                    <div class="left" title="Is Stealth Rock affecting this side of the field?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="srL" /><label class="btn btn-xwide" for="srL">Stealth Rock</label>
+                    </div>
+                    <div class="right" title="Is Stealth Rock affecting this side of the field?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="srR" /><label class="btn btn-xwide" for="srR">Stealth Rock</label>
+                    </div>
+                </div>
+		<div class="btn-group gen-specific g3 g4 g5 g6 g7 g7">
+                    <div class="left" title="Are there Spikes on this side of the field?">
+                        <input class="btn-input calc-trigger" type="radio" name="spikesL" value="0" id="spikesL0" checked="checked" /><label class="btn btn-xsmall btn-left" for="spikesL0">0</label>
+                        <input class="btn-input calc-trigger" type="radio" name="spikesL" value="1" id="spikesL1" /><label class="btn btn-xsmall btn-mid" for="spikesL1">1</label>
+                        <input class="btn-input calc-trigger" type="radio" name="spikesL" value="2" id="spikesL2" /><label class="btn btn-xsmall btn-mid" for="spikesL2">2</label>
+                        <input class="btn-input calc-trigger" type="radio" name="spikesL" value="3" id="spikesL3" /><label class="btn btn-wide btn-right" for="spikesL3">3 Spikes</label>
+                    </div>
+                    <div class="right" title="Are there Spikes on this side of the field?">
+                        <input class="btn-input calc-trigger" type="radio" name="spikesR" value="0" id="spikesR0" checked="checked" /><label class="btn btn-xsmall btn-left" for="spikesR0">0</label>
+                        <input class="btn-input calc-trigger" type="radio" name="spikesR" value="1" id="spikesR1" /><label class="btn btn-xsmall btn-mid" for="spikesR1">1</label>
+                        <input class="btn-input calc-trigger" type="radio" name="spikesR" value="2" id="spikesR2" /><label class="btn btn-xsmall btn-mid" for="spikesR2">2</label>
+                        <input class="btn-input calc-trigger" type="radio" name="spikesR" value="3" id="spikesR3" /><label class="btn btn-wide btn-right" for="spikesR3">3 Spikes</label>
+                    </div>
+                </div>
+		    <div class="btn-group gen-specific g2">
+                    <div class="left" title="Are there Spikes on this side of the field?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="gscSpikesL" /><label class="btn" for="gscSpikesL">Spikes</label>
+                    </div>
+                    <div class="right" title="Are there Spikes on this side of the field?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="gscSpikesR" /><label class="btn" for="gscSpikesR">Spikes</label>
+                    </div>
+                </div>
                 <table>
                     <thead>
                         <tr>
@@ -664,61 +694,6 @@
                         </tr>
                     </thead>
                     <tbody>
-			<tr class="gen-specific g2 g3 g4 g5 g6 g7">
-                            <td><div class="left" title="Is this Pok&eacute;mon protecting?">
-                                <div hidden id="selectProtectInstruction">Is this Pok&eacute;mon protected?</div>
-                                <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectL" />
-                                <label class="btn btn-wide" for="protectL">Protect</label>
-                            </div></td>
-                            <td><div class="right" title="Is this Pok&eacute;mon protecting?">
-                                <input aria-describedby="selectProtectInstruction" class="visually-hidden calc-trigger" type="checkbox" id="protectR" />
-                                <label class="btn btn-wide" for="protectR">Protect</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g4 g5 g6 g7">
-                            <div hidden id="selectStealthRockInstruction">Is Stealth Rock affecting this side of the field?</div>
-                            <td><div class="left" title="Is Stealth Rock affecting this side of the field?">
-                                <input aria-describedby="selectStealthRockInstruction" class="visually-hidden calc-trigger" type="checkbox" id="srL" />
-                                <label class="btn btn-xwide" for="srL">Stealth Rock</label>
-                            </div></td>
-                            <td><div class="right" title="Is Stealth Rock affecting this side of the field?">
-                                <input aria-describedby="selectStealthRockInstruction" class="visually-hidden calc-trigger" type="checkbox" id="srR" />
-                                <label class="btn btn-xwide" for="srR">Stealth Rock</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g3 g4 g5 g6 g7">
-                            <div hidden id="selectSpikeInstruction">Are there Spikes on this side of the field?</div>
-                            <td><div aria-labelledby="selectSpikeInstruction" class="left" role="radiogroup" title="Are there Spikes on this side of the field?">
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesL" value="0" id="spikesL0" checked="checked" />
-                                <label class="btn btn-xsmall btn-left" for="spikesL0">0</label>
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesL" value="1" id="spikesL1" />
-                                <label class="btn btn-xsmall btn-mid" for="spikesL1">1</label>
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesL" value="2" id="spikesL2" />
-                                <label class="btn btn-xsmall btn-mid" for="spikesL2">2</label>
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesL" value="3" id="spikesL3" />
-                                <label class="btn btn-wide btn-right" for="spikesL3">3 Spikes</label>
-                            </div></td>
-                            <td><div aria-labelledby="selectSpikeInstruction" class="right" role="radiogroup" title="Are there Spikes on this side of the field?">
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesR" value="0" id="spikesR0" checked="checked" />
-                                <label class="btn btn-xsmall btn-left" for="spikesR0">0</label>
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesR" value="1" id="spikesR1" />
-                                <label class="btn btn-xsmall btn-mid" for="spikesR1">1</label>
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesR" value="2" id="spikesR2" />
-                                <label class="btn btn-xsmall btn-mid" for="spikesR2">2</label>
-                                <input class="visually-hidden calc-trigger" type="radio" name="spikesR" value="3" id="spikesR3" />
-                                <label class="btn btn-wide btn-right" for="spikesR3">3 Spikes</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g2">
-                            <td><div class="left" title="Are there Spikes on this side of the field?">
-                                <input aria-describedby="selectSpikeInstruction" class="visually-hidden calc-trigger" type="checkbox" id="gscSpikesL" />
-                                <label class="btn" for="gscSpikesL">Spikes</label>
-                            </div></td>
-                            <td><div class="right" title="Are there Spikes on this side of the field?">
-                                <input aria-describedby="selectSpikeInstruction" class="visually-hidden calc-trigger" type="checkbox" id="gscSpikesR" />
-                                <label class="btn" for="gscSpikesR">Spikes</label>
-                            </div></td>
-                        </tr>
                         <tr>
                             <td><div class="left" title="Is this Pok&eacute;mon protected by Reflect and/or Light Screen?">
                                 <div hidden id="selectScreenInstruction">Is this Pok&eacute;mon protected by Reflect and/or Light Screen?</div>
