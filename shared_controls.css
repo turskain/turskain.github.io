@@ -177,6 +177,15 @@ th {
   padding: 15px;
 }
 
+.panel {
+    float: left;
+    display: inline-block;
+    margin: 5px;
+    background-color: #ffffff;
+    border: medium none;
+    border-radius: 1px;
+}
+
 .poke-info {
     width: 28em;
 }
