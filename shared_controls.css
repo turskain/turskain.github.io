@@ -133,7 +133,7 @@ html, body {
     background-color: white;
     color: black;
     margin: 0;
-    padding: 0 1em;
+    padding: 0;
     min-width: 100em;
 }
 .wrapper {
@@ -147,9 +147,11 @@ div.wrapper > div > span {
 fieldset {
     float: left;
     background-color: #f1f1f1;
+    border: 1px solid #AAAAAA;
 }
 legend {
     font-weight: bold;
+    text-align: center;
 }
 th, td {
     padding: 0;
@@ -174,6 +176,10 @@ th {
 .panel {
     float: left;
     display: inline-block;
+    margin: 5px;
+    background-color: #ffffff;
+    border: medium none;
+    border-radius: 1px;
 }
 .panel-body {
   padding: 15px;
