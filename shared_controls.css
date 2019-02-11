@@ -362,6 +362,17 @@ select.toxic-counter {
     height: 1em;
     padding: 3px 3px;
 }
+.poke-info .ev-total, .poke-info .ev-left {
+    font-size: 0.8em;
+}
+
+.poke-info .underLimit {
+    color: #000000;
+}
+
+.poke-info .overLimit {
+    color: #CC0000;
+}
 
 /* field info */
 .field-info .btn {
