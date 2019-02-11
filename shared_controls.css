@@ -196,7 +196,7 @@ th {
 .btn {
     text-align: center;
     border: solid 1px #aaaaaa;
-    padding: 4px 4px;
+    padding: 4px 8px;
     position: relative;
     cursor: pointer;
     color: #555555;
@@ -242,6 +242,20 @@ th {
 }
 .btn-mid {
     border-radius: 0;
+}
+.btn-input:checked + .btn {
+    font-weight: bold;
+    color: #111111;
+    background: #f5f5f5;
+}
+.btn-input[type="radio"]:checked + .btn {
+    cursor: default;
+}
+.btn-input {
+    display: none;
+}
+.btn-input:disabled + .btn {
+    color: #999999;
 }
 .visually-hidden:focus + .btn, /* Add visual indication when focusing on visually hidden elements */
 .btn:hover {
