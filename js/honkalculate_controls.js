@@ -130,7 +130,7 @@ function getSelectedTiers() {
 var calculateMovesOfAttacker;
 $(".gen").change(function () {
 	$(".tiers input").prop("checked", false);
-	$("#singles-format").attr("disabled", false);
+	$("#doubles-format").attr("disabled", false);
 	switch (gen) {
 	case 1:
 		calculateMovesOfAttacker = CALCULATE_MOVES_OF_ATTACKER_RBY;
