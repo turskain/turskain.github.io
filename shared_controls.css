@@ -146,7 +146,7 @@ div.wrapper > div > span {
 }
 fieldset {
     float: left;
-    background-color: #f2f2f2;
+    background-color: #e6e6e6;
 }
 legend {
     font-weight: bold;
@@ -176,8 +176,6 @@ th {
     display: inline-block;
   margin: 5px;
   background-color: #ffffff;
-  border: medium none;
-  border-radius: 2px;
 }
 .panel-body {
   padding: 15px;
