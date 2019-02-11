@@ -181,8 +181,6 @@ th {
     float: left;
     display: inline-block;
     margin: 5px;
-    border: medium none;
-    border-radius: 1px;
 }
 
 .poke-info {
