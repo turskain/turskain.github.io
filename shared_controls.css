@@ -130,10 +130,10 @@ a img {
 /* general page styling */
 html, body {
     font: 10pt Verdana, sans-serif;
-    background-color: white;
+    background-color: #bbeedd;
     color: black;
     margin: 0;
-    padding: 0;
+    padding: 0 1em;
     min-width: 100em;
 }
 .wrapper {
@@ -146,12 +146,10 @@ div.wrapper > div > span {
 }
 fieldset {
     float: left;
-    background-color: #F1F4F9;
-    border: 1px solid #AAAAAA;
+    background-color: #ddffee;
 }
 legend {
     font-weight: bold;
-    text-align: center;
 }
 th, td {
     padding: 0;
@@ -178,11 +176,10 @@ th {
     display: inline-block;
 }
 .poke-info {
-    width: 30em;
+    width: 28em;
 }
 .field-info, .poke-import {
-    text-align: center;
-    width: 27.5em;
+    width: 28em;
 }
 .holder-0 {
     position: absolute;
