@@ -274,12 +274,15 @@ function autosetTerrain(ability, i) {
 	}
 }
 
-$("#p1 .item").bind("keyup change", function () {
-	autosetStatus("#p1", $(this).val());
+$("#p1 .item").bind("keyup change", function() {
+    autosetStatus("#p1", $(this).val());
+});
+$("#p2 .item").bind("keyup change", function() {
+    autosetStatus("#p2", $(this).val());
 });
 
-var lastManualStatus = {"#p1": "Healthy"};
-var lastAutoStatus = {"#p1": "Healthy"};
+var lastManualStatus = {"#p1":"Healthy", "#p2":"Healthy"};
+var lastAutoStatus = {"#p1":"Healthy", "#p2":"Healthy"};
 function autosetStatus(p, item) {
 	var currentStatus = $(p + " .status").val();
 	if (currentStatus !== lastAutoStatus[p]) {
@@ -411,11 +414,6 @@ $(".set-selector").change(function () {
 				moveObj.change();
 			}
 		}
-		if (typeof getSelectedTiers === "function") { // doesn't exist when in 1vs1 mode
-			var format = getSelectedTiers()[0];
-			if (format === "LC") pokeObj.find(".level").val(5);
-			if (_.startsWith(format, "VGC")) pokeObj.find(".level").val(50);
-		}
 		var formeObj = $(this).siblings().find(".forme").parent();
 		itemObj.prop("disabled", false);
 		if (pokemon.formes) {
@@ -438,20 +436,21 @@ $(".set-selector").change(function () {
 function showFormes(formeObj, setName, pokemonName, pokemon) {
 	var defaultForme = 0;
 
-	if (setName !== 'Blank Set') {
+	if (setName !== "Blank Set") {
 		var set = setdex[pokemonName][setName];
-		
+		if (set.item) {
 		// Repurpose the previous filtering code to provide the "different default" logic
-	if ((set.item.indexOf('ite') !== -1 && set.item.indexOf('ite Y') === -1) ||
-            (pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
-            (pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
-            (pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
-            (pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1)) {
+			if (set.item.indexOf("ite") !== -1 && set.item.indexOf("ite Y") === -1) ||
+            pokemonName === "Groudon" && set.item.indexOf("Red Orb") !== -1) ||
+            pokemonName === "Kyogre" && set.item.indexOf("Blue Orb") !== -1) ||
+            pokemonName === "Meloetta" && set.moves.indexOf("Relic Song") !== -1) ||
+            pokemonName === "Rayquaza" && set.moves.indexOf("Dragon Ascent") !== -1)) {
             defaultForme = 1;
-        } else if (set.item.indexOf('ite Y') !== -1) {
+        } else if (set.item.indexOf("ite Y") !== -1) {
             defaultForme = 2;
         }
     }
+}
 
 	var formeOptions = getSelectOptions(pokemon.formes, false, defaultForme);
 	formeObj.children("select").find("option").remove().end().append(formeOptions).change();
