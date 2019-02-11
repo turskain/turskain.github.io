@@ -45,6 +45,8 @@ function CALCULATE_MOVES_OF_ATTACKER_BW(attacker, defender, field) {
 	checkKlutz(defender);
 	checkEvo(attacker, defender);
 	checkEvo(defender, attacker);
+	checkStatBoost(attacker, defender);
+	checkStatBoost(defender, attacker);
 	attacker.stats[SP] = getFinalSpeed(attacker, field.getWeather());
 	defender.stats[DF] = getModifiedStat(defender.rawStats[DF], defender.boosts[DF]);
 	defender.stats[SD] = getModifiedStat(defender.rawStats[SD], defender.boosts[SD]);
