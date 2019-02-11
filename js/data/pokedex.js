@@ -1216,7 +1216,6 @@ var POKEDEX_RBY = {
 		},
 		"w": 62.0,
 		"ab": "Sheer Force"
-		
 	},
 	"Nidoqueen": {
 		"t1": "Poison",
@@ -2933,7 +2932,7 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
 			"sp": 60
 		},
 		"w": 32.5,
-		"gender": "genderless",
+		"gender": "genderless"
 	},
 	"Pupitar": {
 		"t1": "Rock",
@@ -3329,8 +3328,8 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
 			"sd": 85,
 			"sp": 100
 		},
-		"w": 79.5
-		"ab": "Blaze",
+		"w": 79.5,
+		"ab": "Blaze"
 	},
 	"Tyranitar": {
 		"t1": "Rock",
@@ -6555,7 +6554,7 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 			"sp": 90
 		},
 		"w": 34.0,
-		"gender": "genderless",,
+		"gender": "genderless",
 		"ab": "Adaptability"
 	},
 	"Prinplup": {
@@ -11378,7 +11377,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 			"sd": 70,
 			"sp": 92
 		},
-		"w": 19.0,,
+		"w": 19.0,
 		"ab": "Strong Jaw"
 	},
 	"Buzzwole": {
@@ -12063,7 +12062,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 			"sp": 96
 		},
 		"w": 0.7,
-		"ab": "Disguise"
+		"ab": "Disguise",
 		"formes": ["Mimikyu", "Mimikyu-Totem"]
 	},
 	"Mimikyu-Totem": {
@@ -13246,7 +13245,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 			"sp": 30
 		},
 		"w": 0.3,
-		"ab": "Schooling"
+		"ab": "Schooling",
 		"formes": ["Wishiwashi", "Wishiwashi-School"]
 	},
 	"Wishiwashi-School": {
