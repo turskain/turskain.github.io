@@ -686,6 +686,56 @@
                         <input class="btn-input calc-trigger" type="checkbox" id="gscSpikesR" /><label class="btn" for="gscSpikesR">Spikes</label>
                     </div>
                 </div>
+		    <div class="btn-group">
+                    <div class="left" title="Is this Pokemon protected by Reflect and/or Light Screen?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="reflectL" /><label class="btn btn-left" for="reflectL">Reflect</label>
+                        <input class="btn-input calc-trigger" type="checkbox" id="lightScreenL" /><label class="btn btn-xwide btn-right" for="lightScreenL">Light Screen</label>
+                    </div>
+                    <div class="right" title="Is this Pokemon protected by Reflect and/or Light Screen?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="reflectR" /><label class="btn btn-left" for="reflectR">Reflect</label>
+                        <input class="btn-input calc-trigger" type="checkbox" id="lightScreenR" /><label class="btn btn-xwide btn-right" for="lightScreenR">Light Screen</label>
+                    </div>
+                </div>
+		    <div class="btn-group gen-specific g7">
+                    <div class="left" title="Is this Pokemon protected by Aurora Veil?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="auroraVeilL" /><label class="btn btn-wide" for="auroraVeilL">Aurora Veil</label>
+                    </div>
+                    <div class="right" title="Is this Pokemon protected by Aurora Veil?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="auroraVeilR" /><label class="btn btn-wide" for="auroraVeilR">Aurora Veil</label>
+                    </div>
+                </div>
+                <div class="btn-group gen-specific g2 g3 g4 g5 g6 g7">
+                    <div class="left" title="Has this Pokemon been revealed with Foresight or Odor Sleuth?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="foresightL" /><label class="btn btn-wide" for="foresightL">Foresight</label>
+                    </div>
+                    <div class="right" title="Has this Pokemon been revealed with Foresight or Odor Sleuth?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="foresightR" /><label class="btn btn-wide" for="foresightR">Foresight</label>
+                    </div>
+                </div>
+                <div class="btn-group gen-specific g3 g4 g5 g6 g7">
+                    <div class="left" title="Has this Pokemon's power been boosted by an ally's Helping Hand?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="helpingHandL" /><label class="btn btn-xxwide" for="helpingHandL">Helping Hand</label>
+                    </div>
+                    <div class="right" title="Has this Pokemon's power been boosted by an ally's Helping Hand?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="helpingHandR" /><label class="btn btn-xxwide" for="helpingHandR">Helping Hand</label>
+                    </div>
+                </div>
+                <div class="btn-group gen-specific g7">
+                    <div class="left" title="Has this Pokemon's power been boosted by an ally's Battery?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="batteryL" /><label class="btn btn-xxwide" for="batteryL">Battery</label>
+                    </div>
+                    <div class="right" title="Has this Pokemon's power been boosted by an ally's Battery?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="batteryR" /><label class="btn btn-xxwide" for="batteryR">Battery</label>
+                    </div>
+                </div>
+                <div class="btn-group gen-specific g5 g6 g7 g7">
+                    <div class="left" title="Is this Pokemon protected by an ally's Friend Guard?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="friendGuardL" /><label class="btn btn-xxwide" for="friendGuardL">Friend Guard</label>
+                    </div>
+                    <div class="right" title="Is this Pokemon protected by an ally's Friend Guard?">
+                        <input class="btn-input calc-trigger" type="checkbox" id="friendGuardR" /><label class="btn btn-xxwide" for="friendGuardR">Friend Guard</label>
+                    </div>
+                </div>
                 <table>
                     <thead>
                         <tr>
@@ -694,65 +744,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td><div class="left" title="Is this Pok&eacute;mon protected by Reflect and/or Light Screen?">
-                                <div hidden id="selectScreenInstruction">Is this Pok&eacute;mon protected by Reflect and/or Light Screen?</div>
-                                <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="reflectL" />
-                                <label class="btn btn-left" for="reflectL">Reflect</label>
-                                <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="lightScreenL" />
-                                <label class="btn btn-xwide btn-right" for="lightScreenL">Light Screen</label>
-                            </div></td>
-                            <td><div class="right" title="Is this Pok&eacute;mon protected by Reflect and/or Light Screen?">
-                                <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="reflectR" />
-                                <label class="btn btn-left" for="reflectR">Reflect</label>
-                                <input aria-describedby="selectScreenInstruction" class="visually-hidden calc-trigger" type="checkbox" id="lightScreenR" />
-                                <label class="btn btn-xwide btn-right" for="lightScreenR">Light Screen</label>
-                            </div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="left" title="Has this Pok&eacute;mon been affected by Leech Seed?">
-                                <div hidden id="selectLeechSeedInstruction">Has this Pok&eacute;mon been affected by Leech Seed?</div>
-                                <input aria-describedby="selectLeechSeedInstruction" class="visually-hidden calc-trigger" type="checkbox" id="leechSeedL" />
-                                <label class="btn btn-wide" for="leechSeedL">Leech Seed</label>
-                            </div></td>
-                            <td><div class="right" title="Has this Pok&eacute;mon been affected by Leech Seed?">
-                                <input aria-describedby="selectLeechSeedInstruction" class="visually-hidden calc-trigger" type="checkbox" id="leechSeedR" />
-                                <label class="btn btn-wide" for="leechSeedR">Leech Seed</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g2 g3 g4 g5 g6 g7">
-                            <td><div class="left" title="Has this Pok&eacute;mon been revealed with Foresight or Odor Sleuth?">
-                                <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been revealed with Foresight or Odor Sleuth?</div>
-                                <input aria-describedby="selectRevealInstruction" class="visually-hidden calc-trigger" type="checkbox" id="foresightL" />
-                                <label class="btn btn-wide" for="foresightL">Foresight</label>
-                            </div></td>
-                            <td><div class="right" title="Has this Pok&eacute;mon been revealed with Foresight or Odor Sleuth?">
-                                <input aria-describedby="selectRevealInstruction" class="visually-hidden calc-trigger" type="checkbox" id="foresightR" />
-                                <label class="btn btn-wide" for="foresightR">Foresight</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g3 g4 g5 g6 g7">
-                            <td><div class="left" title="Has this Pok&eacute;mon's power been boosted by an ally's Helping Hand?">
-                                <div hidden id="selectHelpingHandInstruction">Has this Pok&eacute;mon's power been boosted by an ally's Helping Hand?</div>
-                                <input aria-describedby="selectHelpingHandInstruction" class="visually-hidden calc-trigger" type="checkbox" id="helpingHandL" />
-                                <label class="btn btn-xxwide" for="helpingHandL">Helping Hand</label>
-                            </div></td>
-                            <td><div class="right" title="Has this Pok&eacute;mon's power been boosted by an ally's Helping Hand?">
-                                <input aria-describedby="selectHelpingHandInstruction" class="visually-hidden calc-trigger" type="checkbox" id="helpingHandR" />
-                                <label class="btn btn-xxwide" for="helpingHandR">Helping Hand</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g5 g6 g7">
-                            <td><div class="left" title="Is the Pok&eacute;mon protected by an ally's Friend Guard?">
-                                <div hidden id="selectFriendGuardInstruction">Is the Pok&eacute;mon protected by an ally's Friend Guard?</div>
-                                <input aria-describedby="selectFriendGuardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="friendGuardL" />
-                                <label class="btn btn-xxwide" for="friendGuardL">Friend Guard</label>
-                            </div></td>
-                            <td><div class="right" title="Is the Pok&eacute;mon protected by an ally's Friend Guard?">
-                                <input aria-describedby="selectFriendGuardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="friendGuardR" />
-                                <label class="btn btn-xxwide" for="friendGuardR">Friend Guard</label>
-                            </div></td>
-                        </tr>
                         <tr class="gen-specific g7">
                             <td><div class="left" title="Is the Pok&eacute;mon protected by an ally's Aurora Veil?">
                                 <div hidden id="selectAuroraVeilInstruction">Is the Pok&eacute;mon protected by an ally's Aurora Veil?</div>
