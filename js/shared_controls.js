@@ -239,7 +239,7 @@ function autosetWeather(ability, i) {
 
 var lastManualTerrain = "";
 var lastAutoTerrain = ["", ""];
-function autoSetTerrain()
+function autosetTerrain()
 {
     var ability1 = $("#p1 .ability").val()
     var ability2 = $("#p2 .ability").val()
