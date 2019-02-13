@@ -245,7 +245,7 @@
 		}
 	}
 
-	return "possibly the worst move ever";
+	return "nice chip damage";
 }
 
 function getKOChance(damage, multihit, hp, eot, hits, maxHP, toxicCounter, hasSitrus, hasFigy, hasIapapa, hasWiki, hasAguav, hasMago, gluttony) {
