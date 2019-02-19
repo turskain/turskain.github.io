@@ -258,3 +258,20 @@ $(document).ready(function () {
 	});
 	calculate();
 });
+
+function calcEvTotal(poke) {
+    var total = 0;
+    poke.find('.evs').each(function (idx, elt) { total += 1*$(elt).val(); });
+
+    var newClass = total > 510 ? 'overLimit' : 'underLimit';
+
+    var left = 510-total;
+
+    var newClassLeft = left < 0 ? 'overLimit' : 'underLimit';
+
+    var evTotal = poke.find('.ev-total');
+    evTotal.removeClass('underLimit overLimit').text(total).addClass(newClass);
+
+    var evLeft = poke.find('.ev-left');
+    evLeft.removeClass('underLimit overLimit').text(left).addClass(newClassLeft);
+}

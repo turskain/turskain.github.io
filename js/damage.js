@@ -5,6 +5,8 @@ function CALCULATE_ALL_MOVES_BW(p1, p2, field) {
 	checkForecast(p2, field.getWeather());
 	checkKlutz(p1);
 	checkKlutz(p2);
+	checkEvo(p1, p2);
+	checkMinimize(p1, p2);
 	checkSeedBoost(p1, field);
 	checkSeedBoost(p2, field);
 	checkStatBoost(p1, p2);
@@ -41,6 +43,8 @@ function CALCULATE_MOVES_OF_ATTACKER_BW(attacker, defender, field) {
 	checkForecast(defender, field.getWeather());
 	checkKlutz(attacker);
 	checkKlutz(defender);
+	checkEvo(attacker, defender);
+	checkStatBoost(attacker, defender);
 	attacker.stats[SP] = getFinalSpeed(attacker, field.getWeather());
 	defender.stats[DF] = getModifiedStat(defender.rawStats[DF], defender.boosts[DF]);
 	defender.stats[SD] = getModifiedStat(defender.rawStats[SD], defender.boosts[SD]);
@@ -359,6 +363,16 @@ function getDamageResult(attacker, defender, move, field) {
             (attacker.ability === "Iron Fist" && move.isPunch)) {
 		bpMods.push(0x1333);
 		description.attackerAbility = attacker.ability;
+	}
+	
+	if (field.isBattery && move.category === "Special") {
+		bpMods.push(0x14CD);
+		description.isBattery = true;
+	}
+
+	if (field.isMinimized && (move.name === "Stomp" || move.name === "Heavy Slam" || move.name === "Dragon Rush" || move.name === "Body Slam" || move.name === "Malicious Moonsault")) {
+		bpMods.push(0x2000);
+		description.isMinimized = true;
 	}
 
 	if (defAbility === "Heatproof" && move.type === "Fire") {
@@ -889,6 +903,32 @@ function checkIntimidate(source, target) {
 		} else {
 			target.boosts[AT] = Math.max(-6, target.boosts[AT] - 1);
 		}
+	}
+}
+
+function checkMinimize(p1, p2) {
+	if ($("#minimL").prop("checked")) {
+		p1.boosts[ES] = Math.min(6, p2.boosts[ES] + 2);
+	}
+	if ($("#minimR").prop("checked")) {
+		p2.boosts[ES] = Math.min(6, p2.boosts[ES] + 2);
+	}
+}
+
+function checkEvo(p1, p2) {
+	if ($("#evoL").prop("checked")) {
+		p1.boosts[AT] = Math.min(6, p1.boosts[AT] + 2);
+		p1.boosts[DF] = Math.min(6, p1.boosts[DF] + 2);
+		p1.boosts[SA] = Math.min(6, p1.boosts[SA] + 2);
+		p1.boosts[SD] = Math.min(6, p1.boosts[SD] + 2);
+		p1.boosts[SP] = Math.min(6, p1.boosts[SP] + 2);
+	}
+	if ($("#evoR").prop("checked")) {
+		p2.boosts[AT] = Math.min(6, p2.boosts[AT] + 2);
+		p2.boosts[DF] = Math.min(6, p2.boosts[DF] + 2);
+		p2.boosts[SA] = Math.min(6, p2.boosts[SA] + 2);
+		p2.boosts[SD] = Math.min(6, p2.boosts[SD] + 2);
+		p2.boosts[SP] = Math.min(6, p2.boosts[SP] + 2);
 	}
 }
 

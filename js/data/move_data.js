@@ -1,7 +1,5 @@
 var MOVES_RBY = {
-// LAZY SHIT DUMMY MOVES FOR SET LOOKUP/NOT HAVING LOTS OF "NO MOVE" LISTINGS PURPOSES
-// also overlaps with moves added into the move data for real
-// todo: never gonna make it better
+// DUMMY MOVES FOR SET LOOKUP/NOT HAVING LOTS OF "NO MOVE" LISTINGS PURPOSES
     'Block': {
         bp: 0,
         type: 'Normal'
@@ -9,6 +7,10 @@ var MOVES_RBY = {
     'Metal Burst': {
         bp: 0,
         type: 'Steel',
+    },
+    'Fissure': {
+        bp: 0,
+        type: 'Ground',
     },
     'Feather Dance': {
         bp: 0,
@@ -540,6 +542,86 @@ var MOVES_RBY = {
         bp: 0,
         type: 'Normal'
     },
+    'Counter': {
+        bp: 0,
+        type: 'Fighting'
+    },
+    'Aurora Veil': {
+        bp: 0,
+        type: 'Ice'
+    },
+    'Hail': {
+        bp: 0,
+        type: 'Ice'
+    },
+    'Floral Healing': {
+        bp: 0,
+        type: 'Fairy'
+    },
+    'Sand Attack': {
+        bp: 0,
+        type: 'Ground'
+    },
+    'Electric Terrain': {
+        bp: 0,
+        type: 'Electric'
+    },
+    'Mist': {
+        bp: 0,
+        type: 'Ice'
+    },
+    'Charge': {
+        bp: 0,
+        type: 'Electric'
+    },
+    'Tickle': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Copycat': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Instruct': {
+        bp: 0,
+        type: 'Psychic'
+    },
+    'Psychic Terrain': {
+        bp: 0,
+        type: 'Psychic'
+    },
+    'Shore Up': {
+        bp: 0,
+        type: 'Ground'
+    },
+    'Guillotine': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Horn Drill': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Growl': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Flash': {
+        bp: 0,
+        type: 'Normal'
+    },
+    'Strength Sap': {
+        bp: 0,
+        type: 'Grass'
+    },
+    'Baneful Bunker': {
+        bp: 0,
+        type: 'Poison'
+    },
+    'Cotton Spore': {
+        bp: 0,
+        type: 'Grass'
+    },
 // ENDS SOMEWHERE AROUND HERE MAYBE?
     '(No Move)': {
         bp: 0,
@@ -641,6 +723,12 @@ var MOVES_RBY = {
     'Double Team': {
         bp: 0,
         type: 'Normal'
+    },
+    'Dragon Breath': {
+        bp: 60,
+        type: 'Dragon',
+        category: 'Special',
+		hasSecondaryEffect: true
     },
     'Dream Eater': {
         bp: 100,
@@ -774,6 +862,13 @@ var MOVES_RBY = {
     'Leech Seed': {
         bp: 0,
         type: 'Grass'
+    },
+    'Lick': {
+        bp: 30,
+        type: 'Ghost',
+        category: 'Physical',
+        makesContact: true,
+        hasSecondaryEffect: true,
     },
     'Light Screen': {
         bp: 0,
@@ -1255,6 +1350,12 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
 		bp: 0,
 		type: 'Normal'
 	},
+	'Mud-Slap': {
+		bp: 20,
+		type: 'Ground',
+		category: 'Special',
+		hasSecondaryEffect: true
+	},
 	'Protect': {
 		bp: 0,
 		type: 'Normal'
@@ -1360,6 +1461,12 @@ var MOVES_GSC = $.extend(true, {}, MOVES_RBY, {
 		makesContact: true
 	},
 	'Tri Attack': {hasSecondaryEffect: true},
+	'Twister': {
+		bp: 40,
+		type: 'Dragon',
+		category: 'Special',
+		hasSecondaryEffect: true
+	},
 	'Whirlpool': {
 		bp: 15,
 		type: 'Water',
@@ -1700,7 +1807,7 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
 		isPunch: true
 	},
 	'Sheer Cold': {
-		bp: 1,
+		bp: 0,
 		type: 'Ice',
 		category: 'Special'
 	},
@@ -2969,6 +3076,11 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
 	},
 	'Energy Ball': {bp: 90},
 	'Facade': {ignoresBurn: true},
+	'Fairy Wind': {
+		bp: 40,
+		type: 'Fairy',
+		category: 'Special',
+	},
 	'Fell Stinger': {
 		bp: 30,
 		type: 'Bug',
