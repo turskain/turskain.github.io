@@ -11146,7 +11146,7 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 			"sp": 71
 		},
 		"w": 270.0,
-		"ab": "Tough Claws"
+		"ab": "Strong Jaw"
 	},
 	"Tyrunt": {
 		"t1": "Rock",
