@@ -351,7 +351,7 @@ th {
 select.toxic-counter {
     width: 4.5em;
 }
-.move-selector, .move-bp, .move-type, .move-cat, .move-hits {
+.move-selector, .move-bp, .move-type, .move-cat, .move-hits, .move-pp, .move-pp-total {
     font-size: 0.9em;
 }
 .move-selector {
@@ -361,10 +361,10 @@ select.toxic-counter {
     width: 2em;
 }
 .move-type {
-    width: 5.5em;
+    width: 5.4em;
 }
 .move-cat {
-    width: 5.7em;
+    width: 5.45em;
 }
 .move-hits {
     width: 4.5em;
@@ -429,7 +429,7 @@ select.toxic-counter {
 }
 
 .import-team-text {
-    min-width: 32em;
+    min-width: 338px;
     min-height: 10em;
     resize: both;
 }
