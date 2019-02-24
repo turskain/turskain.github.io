@@ -6,7 +6,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>A Pok&eacute;mon Calculator</title>
     <link type="text/css" rel="stylesheet" href="./select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./shared_controls.css?287e25e2" />
+    <link type="text/css" rel="stylesheet" href="./shared_controls.css?12788a73" />
     <link type="text/css" rel="stylesheet" href="./bootstrap.css" />
 </head>
 
@@ -464,6 +464,7 @@
                 <label class="btn crit-btn" for="critL1" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zL1"/>
                 <label class="btn z-btn gen-specific g7" for="zL1" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p1m1 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -497,6 +498,7 @@
                 <label class="btn crit-btn" for="critL2" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zL2"/>
                 <label class="btn z-btn gen-specific g7" for="zL2" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p1m2 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -530,6 +532,7 @@
                 <label class="btn crit-btn" for="critL3" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zL3"/>
                 <label class="btn z-btn gen-specific g7" for="zL3" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p1m3 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -563,6 +566,7 @@
                 <label class="btn crit-btn" for="critL4" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zL4"/>
                 <label class="btn z-btn gen-specific g7" for="zL4" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p1m4 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -1142,6 +1146,7 @@
                 <label class="btn crit-btn" for="critR1" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zR1"/>
                 <label class="btn z-btn gen-specific g7" for="zR1" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p2m1 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -1175,6 +1180,7 @@
                 <label class="btn crit-btn" for="critR2" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zR2"/>
                 <label class="btn z-btn gen-specific g7" for="zR2" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p2m2 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -1208,6 +1214,7 @@
                 <label class="btn crit-btn" for="critR3" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zR3"/>
                 <label class="btn z-btn gen-specific g7" for="zR3" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p2m4 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -1241,6 +1248,7 @@
                 <label class="btn crit-btn" for="critR4" title="Force this attack to be a critical hit?">Crit</label>
                 <input aria-describedby="zMoveInstruction" class="move-z calc-trigger visually-hidden" type="checkbox" id="zR4"/>
                 <label class="btn z-btn gen-specific g7" for="zR4" title="Make this attack a Z-move?">Z</label>
+		<input class="move-pp p2m4 calc-trigger" style="width: 30px" type="number" min="0" max="64" step="1" value="64" />
                 <select class="move-hits calc-trigger hide">
                     <option value="2">2 hits</option>
                     <option value="3">3 hits</option>
@@ -1270,29 +1278,29 @@
     <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="./js/lodash.min.js"></script>
     <script type="text/javascript" src="./select2/select2.min.js"></script>
-    <script type="text/javascript" src="./js/data/pokedex.js?"></script>
-    <script type="text/javascript" src="./js/data/setdex_sm.js?"></script>
-    <script type="text/javascript" src="./js/data/setdex_xy.js?"></script>
-    <script type="text/javascript" src="./js/data/setdex_bw.js?"></script>
-    <script type="text/javascript" src="./js/data/setdex_dpp.js?"></script>
-    <script type="text/javascript" src="./js/data/setdex_rse.js?"></script>
-    <script type="text/javascript" src="./js/data/setdex_gsc.js?"></script>
-    <script type="text/javascript" src="./js/data/setdex_rby.js?"></script>
-    <script type="text/javascript" src="./js/data/stat_data.js?"></script>
-    <script type="text/javascript" src="./js/data/type_data.js?"></script>
-    <script type="text/javascript" src="./js/data/nature_data.js?"></script>
-    <script type="text/javascript" src="./js/data/ability_data.js?"></script>
-    <script type="text/javascript" src="./js/data/item_data.js?"></script>
-    <script type="text/javascript" src="./js/data/move_data.js?"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?"></script>
-    <script type="text/javascript" src="./js/index_controls.js?"></script>
-    <script type="text/javascript" src="./js/damage.js?"></script>
-    <script type="text/javascript" src="./js/damage_dpp.js?"></script>
-    <script type="text/javascript" src="./js/damage_rse.js?"></script>
-    <script type="text/javascript" src="./js/damage_gsc.js?"></script>
-    <script type="text/javascript" src="./js/damage_rby.js?"></script>
-    <script type="text/javascript" src="./js/ko_chance.js?"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?"></script>
+    <script type="text/javascript" src="./js/data/pokedex.js?19af4fe1"></script>
+    <script type="text/javascript" src="./js/data/setdex_sm.js?efec2a98"></script>
+    <script type="text/javascript" src="./js/data/setdex_xy.js?ec3b06ee"></script>
+    <script type="text/javascript" src="./js/data/setdex_bw.js?ddb6a887"></script>
+    <script type="text/javascript" src="./js/data/setdex_dpp.js?35fffb9c"></script>
+    <script type="text/javascript" src="./js/data/setdex_rse.js?5f1d09b7"></script>
+    <script type="text/javascript" src="./js/data/setdex_gsc.js?35ddf684"></script>
+    <script type="text/javascript" src="./js/data/setdex_rby.js?eb4a9c36"></script>
+    <script type="text/javascript" src="./js/data/stat_data.js?6dd50d73"></script>
+    <script type="text/javascript" src="./js/data/type_data.js?b9e89839"></script>
+    <script type="text/javascript" src="./js/data/nature_data.js?0b9893dd"></script>
+    <script type="text/javascript" src="./js/data/ability_data.js?a85b6f9d"></script>
+    <script type="text/javascript" src="./js/data/item_data.js?68432129"></script>
+    <script type="text/javascript" src="./js/data/move_data.js?7e9c76fe"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?57508601"></script>
+    <script type="text/javascript" src="./js/index_controls.js?0a548cab"></script>
+    <script type="text/javascript" src="./js/damage.js?3e247d38"></script>
+    <script type="text/javascript" src="./js/damage_dpp.js?27014f8e"></script>
+    <script type="text/javascript" src="./js/damage_rse.js?21519192"></script>
+    <script type="text/javascript" src="./js/damage_gsc.js?5697bf01"></script>
+    <script type="text/javascript" src="./js/damage_rby.js?b4efa273"></script>
+    <script type="text/javascript" src="./js/ko_chance.js?8f66782c"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?d0b1f439"></script>
 </div>
 
     <div style="clear:both;padding:20px;text-align:right"><p><a href="https://github.com/turskain/turskain.github.io" target="_blank">GitHub repository for the damage calculator</a></p></div>
