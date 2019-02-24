@@ -78,7 +78,8 @@ var POKEDEX_RBY = {
 			"sp": 85,
 			"sl": 125
 		},
-		"w": 55.4
+		"w": 55.4,
+		"ab": "Pressure"
 	},
 	"Beedrill": {
 		"t1": "Bug",
@@ -1174,7 +1175,8 @@ var POKEDEX_RBY = {
 			"sp": 90,
 			"sl": 125
 		},
-		"w": 60.0
+		"w": 60.0,
+		"ab": "Pressure"
 	},
 	"Mr. Mime": {
 		"t1": "Psychic",
@@ -2100,7 +2102,8 @@ var POKEDEX_RBY = {
 			"sp": 100,
 			"sl": 125
 		},
-		"w": 52.6
+		"w": 52.6,
+		"ab": "Pressure"
 	},
 	"Zubat": {
 		"t1": "Poison",
@@ -5925,7 +5928,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 			"sd": 135,
 			"sp": 45
 		},
-		"w": 106.6
+		"w": 106.6,
+		"ab": "Pressure"
 	},
 	"Electivire": {
 		"t1": "Electric",
@@ -6872,7 +6876,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 			"sd": 108,
 			"sp": 35
 		},
-		"w": 108.0
+		"w": 108.0,
+		"ab": "Pressure"
 	},
 	"Staraptor": {
 		"t1": "Normal",
@@ -7019,7 +7024,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 			"sd": 102,
 			"sp": 40
 		},
-		"w": 38.5
+		"w": 38.5,
+		"ab": "Pressure"
 	},
 	"Weavile": {
 		"t1": "Dark",
@@ -7032,7 +7038,8 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 			"sd": 85,
 			"sp": 125
 		},
-		"w": 34.0
+		"w": 34.0,
+		"ab": "Pressure"
 	},
 	"Wormadam": {
 		"t1": "Bug",
