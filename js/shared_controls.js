@@ -302,6 +302,10 @@ $(".status").bind("keyup change", function () {
 	}
 });
 
+$(".ability").change(function () {
+	checkPressure();
+});
+
 var lockerMove = "";
 // auto-update move details on select
 $(".move-selector").change(function () {
@@ -312,6 +316,8 @@ $(".move-selector").change(function () {
 	moveGroupObj.children(".move-type").val(move.type);
 	moveGroupObj.children(".move-cat").val(move.category);
 	moveGroupObj.children(".move-crit").prop("checked", move.alwaysCrit === true);
+	moveGroupObj.children(".move-pp").val(move.pp);
+	moveGroupObj.children(".move-pp").attr("max", move.pp);
 	moveGroupObj.children(".metronome").prop("disabled", !!move.dropsStats);
 	if (move.isMultiHit) {
 		moveGroupObj.children(".stat-drops").hide();
@@ -557,6 +563,7 @@ function Pokemon(pokeInfo) {
 				type: defaultDetails.type,
 				category: defaultDetails.category,
 				isCrit: !!defaultDetails.alwaysCrit,
+				pp: defaultDetails.pp,
 				hits: defaultDetails.isMultiHit ? ((this.ability === "Skill Link" || this.item === "Grip Claw") ? 5 : 3) : defaultDetails.isTwoHit ? 2 : 1,
 				usedTimes: defaultDetails.usedTimes
 			}));
@@ -1010,6 +1017,27 @@ function loadDefaultLists() {
 
 function bothPokemon(selector) {
 	return "#p1 " + selector + ", #p2 " + selector; 
+}
+
+function checkPressure() {
+	if ($("#p1 .ability").val() === "Pressure") {
+		for (var i = 1; i < 5; i++) {
+			$("#p2").find(".move" + i + " .move-pp").attr("step", 2);
+		}
+	} else {
+		for (var i = 1; i < 5; i++) {
+			$("#p2").find(".move" + i + " .move-pp").attr("step", 1);
+		}
+	}
+	if ($("#p2 .ability").val() === "Pressure") {
+		for (var i = 1; i < 5; i++) {
+			$("#p1").find(".move" + i + " .move-pp").attr("step", 2);
+		}
+	} else {
+		for (var i = 1; i < 5; i++) {
+			$("#p1").find(".move" + i + " .move-pp").attr("step", 1);
+		}
+	}
 }
 
 function loadCustomList(id) {
