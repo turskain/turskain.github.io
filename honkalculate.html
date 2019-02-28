@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css" />
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/colvis/1.1.1/css/dataTables.colVis.css" />
     <link type="text/css" rel="stylesheet" href="./select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./shared_controls.css?12788a73" />
+    <link type="text/css" rel="stylesheet" href="./shared_controls.css?ec01a6f0" />
 </head>
 
 <body>
@@ -74,9 +74,13 @@
                         </div>
                         <div>
                             <label>Foe IVs</label>
-                            <input id="ivsoverride" value="31" />
+                            <input class="ivsoverridehonk" id="ivsoverridehonk" value="31" />
                         </div>
 
+                        <div class="hide">
+                            <label>Foe IVs hidden for making hack work</label>
+                            <input class="ivsoverride" id="ivsoverride" value="31" />
+                        </div>
                         <div class="hide">
                             <label>Weight (kg)</label>
                             <input class="weight" value="10.0" />
@@ -737,7 +741,7 @@
     <script type="text/javascript" src="https://cdn.datatables.net/colvis/1.1.1/js/dataTables.colVis.min.js"></script>
     <script type="text/javascript" src="./js/lodash.min.js"></script>
     <script type="text/javascript" src="./select2/select2.min.js"></script>
-    <script type="text/javascript" src="./js/data/pokedex.js?19af4fe1"></script>
+    <script type="text/javascript" src="./js/data/pokedex.js?877351a7"></script>
     <script type="text/javascript" src="./js/data/setdex_sm.js?efec2a98"></script>
     <script type="text/javascript" src="./js/data/setdex_xy.js?ec3b06ee"></script>
     <script type="text/javascript" src="./js/data/setdex_bw.js?ddb6a887"></script>
@@ -750,8 +754,8 @@
     <script type="text/javascript" src="./js/data/nature_data.js?0b9893dd"></script>
     <script type="text/javascript" src="./js/data/ability_data.js?a85b6f9d"></script>
     <script type="text/javascript" src="./js/data/item_data.js?68432129"></script>
-    <script type="text/javascript" src="./js/data/move_data.js?7e9c76fe"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?57508601"></script>
+    <script type="text/javascript" src="./js/data/move_data.js?f69f0ca7"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?66963a15"></script>
     <script type="text/javascript" src="./js/honkalculate_controls.js?bbc61282"></script>
     <script type="text/javascript" src="./js/damage.js?3e247d38"></script>
     <script type="text/javascript" src="./js/damage_dpp.js?27014f8e"></script>

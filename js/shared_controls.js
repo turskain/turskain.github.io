@@ -170,6 +170,14 @@ function drawHealthBar(poke, max, current) {
 
 	healthbar.css("background", "linear-gradient(to right, " + fillColor + " " + fillPercent + "%, white 0%");
 }
+
+//HACK! input validation
+$(".ivsoverride").keyup(function () {
+    validate($(this), 0, 31);
+});
+//HACK!!
+
+
 $(".current-hp").keyup(function () {
 	var max = $(this).parent().children(".max-hp").text();
 	validate($(this), 0, max);
@@ -366,15 +374,28 @@ $(".set-selector").change(function () {
 		var moveObj;
 		var abilityObj = pokeObj.find(".ability");
 		var itemObj = pokeObj.find(".item");
+
+
+    //HACK! blame turskain for this
+    this.ivsoverride = ~~pokeObj.find(".ivsoverride").val();
+				if (this.ivsoverride !== 31) {
+				  var ivsoverride = this.ivsoverride
+				} else {
+					var ivsoverride = 31
+        }
+    //HACK! following section: ivsoverride replaces the usual "31" being filled in
+
 		if (pokemonName in setdex && setName in setdex[pokemonName]) {
 			var set = setdex[pokemonName][setName];
 			pokeObj.find(".level").val(50);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
-			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
+			// pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
+			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : ivsoverride);
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : 15);
 			for (i = 0; i < STATS.length; i++) {
 				pokeObj.find("." + STATS[i] + " .evs").val((set.evs && set.evs[STATS[i]] !== undefined) ? set.evs[STATS[i]] : 0);
-				pokeObj.find("." + STATS[i] + " .ivs").val((set.ivs && set.ivs[STATS[i]] !== undefined) ? set.ivs[STATS[i]] : 31);
+			//	pokeObj.find("." + STATS[i] + " .ivs").val((set.ivs && set.ivs[STATS[i]] !== undefined) ? set.ivs[STATS[i]] : 31);
+				pokeObj.find("." + STATS[i] + " .ivs").val((set.ivs && set.ivs[STATS[i]] !== undefined) ? set.ivs[STATS[i]] : ivsoverride);
 				pokeObj.find("." + STATS[i] + " .dvs").val((set.dvs && set.dvs[STATS[i]] !== undefined) ? set.dvs[STATS[i]] : 15);
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
@@ -501,14 +522,13 @@ function Pokemon(pokeInfo) {
 
 		var set = setdex[this.name][setName];
 		this.level = set.level;
-		//HACK!
+		//HACK! level override for mass calc
 		this.leveloverride = +document.getElementById("leveloverride").value;
-		//HACK!
 		if (this.level !== this.leveloverride) {
 			this.level = this.leveloverride;
 		}
-
 		//HACK!
+    //
 		this.HPEVs = (set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0;
 		if (gen < 3) {
 			var HPDVs = 15;
@@ -529,15 +549,15 @@ function Pokemon(pokeInfo) {
 				var dvs = 15;
 				this.rawStats[stat] = ~~(((pokemon.bs[stat] + dvs) * 2 + 63) * this.level / 100) + 5;
 			} else {
-				this.ivsoverride = +document.getElementById("ivsoverride").value;
-				//HACK!
-				if (this.ivsoverride !== 31) {
-					this.realivs = this.ivsoverride;
-
+//HACK! blame turskain for this
+		    this.ivsoverridehonk = +document.getElementById("ivsoverridehonk").value;
+				if (this.ivsoverridehonk !== 31) {
+				  this.realivs = this.ivsoverridehonk;
 				} else {
 					this.realivs = 31;
 				}
 				var ivs = (set.ivs && typeof set.ivs[stat] !== "undefined") ? set.ivs[stat] : this.realivs;
+//HACK! blame ends here
 				var natureMods = NATURES[this.nature];
 				var nature = natureMods[0] === stat ? 1.1 : natureMods[1] === stat ? 0.9 : 1;
 				this.rawStats[stat] = ~~((~~((pokemon.bs[stat] * 2 + ivs + ~~(this.evs[stat] / 4)) * this.level / 100) + 5) * nature);
@@ -591,6 +611,10 @@ function Pokemon(pokeInfo) {
 		this.boosts = [];
 		this.stats = [];
 		this.evs = [];
+
+
+      
+
 		for (var i = 0; i < STATS.length; i++) {
 			this.rawStats[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .total").text();
 			this.boosts[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .boost").val();
