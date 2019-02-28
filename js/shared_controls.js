@@ -409,13 +409,11 @@ $(".set-selector").change(function () {
 		} else {
 			pokeObj.find(".level").val(50);
 			pokeObj.find(".hp .evs").val(0);
-			//pokeObj.find(".hp .ivs").val(31);
-			pokeObj.find(".hp .ivs").val(ivsoverride);
+			pokeObj.find(".hp .ivs").val(31);
 			pokeObj.find(".hp .dvs").val(15);
 			for (i = 0; i < STATS.length; i++) {
 				pokeObj.find("." + STATS[i] + " .evs").val(0);
-				//pokeObj.find("." + STATS[i] + " .ivs").val(31);
-				pokeObj.find("." + STATS[i] + " .ivs").val(ivsoverride);
+				pokeObj.find("." + STATS[i] + " .ivs").val(31);
 				pokeObj.find("." + STATS[i] + " .dvs").val(15);
 			}
 			pokeObj.find(".nature").val("Hardy");
