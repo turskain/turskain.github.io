@@ -378,7 +378,7 @@ $(".set-selector").change(function () {
 
     //HACK! blame turskain for this
     this.ivsoverride = ~~pokeObj.find(".ivsoverride").val();
-				if (this.ivsoverride !== 31) {
+				if (this.ivsoverride <= 31) {
 				  var ivsoverride = this.ivsoverride
 				} else {
 					var ivsoverride = 31
@@ -409,11 +409,13 @@ $(".set-selector").change(function () {
 		} else {
 			pokeObj.find(".level").val(50);
 			pokeObj.find(".hp .evs").val(0);
-			pokeObj.find(".hp .ivs").val(31);
+			//pokeObj.find(".hp .ivs").val(31);
+			pokeObj.find(".hp .ivs").val(ivsoverride);
 			pokeObj.find(".hp .dvs").val(15);
 			for (i = 0; i < STATS.length; i++) {
 				pokeObj.find("." + STATS[i] + " .evs").val(0);
-				pokeObj.find("." + STATS[i] + " .ivs").val(31);
+				//pokeObj.find("." + STATS[i] + " .ivs").val(31);
+				pokeObj.find("." + STATS[i] + " .ivs").val(ivsoverride);
 				pokeObj.find("." + STATS[i] + " .dvs").val(15);
 			}
 			pokeObj.find(".nature").val("Hardy");
@@ -523,12 +525,12 @@ function Pokemon(pokeInfo) {
 		var set = setdex[this.name][setName];
 		this.level = set.level;
 		//HACK! level override for mass calc
-		this.leveloverride = +document.getElementById("leveloverride").value;
+		this.leveloverride = ~~document.getElementById("leveloverride").value;
 		if (this.level !== this.leveloverride) {
 			this.level = this.leveloverride;
 		}
 		//HACK!
-    //
+    
 		this.HPEVs = (set.evs && typeof set.evs.hp !== "undefined") ? set.evs.hp : 0;
 		if (gen < 3) {
 			var HPDVs = 15;
@@ -536,7 +538,16 @@ function Pokemon(pokeInfo) {
 		} else if (pokemon.bs.hp === 1) {
 			this.maxHP = 1;
 		} else {
-			var HPIVs = 31;
+//HACK! blame turskain for this, HP IVs for some reason are separate from the rest
+		    this.ivsoverridehonk = ~~document.getElementById("ivsoverridehonk").value;
+				if (this.ivsoverridehonk <= 31) {
+				  var realhpivs = this.ivsoverridehonk;
+				} else {
+					var realhpivs = 31;
+        }
+			//var HPIVs = 31;
+			var HPIVs = realhpivs;
+//HACK! blame ends here
 			this.maxHP = ~~((pokemon.bs.hp * 2 + HPIVs + ~~(this.HPEVs / 4)) * this.level / 100) + this.level + 10;
 		}
 		this.curHP = this.maxHP;
@@ -550,8 +561,8 @@ function Pokemon(pokeInfo) {
 				this.rawStats[stat] = ~~(((pokemon.bs[stat] + dvs) * 2 + 63) * this.level / 100) + 5;
 			} else {
 //HACK! blame turskain for this
-		    this.ivsoverridehonk = +document.getElementById("ivsoverridehonk").value;
-				if (this.ivsoverridehonk !== 31) {
+		    this.ivsoverridehonk = ~~document.getElementById("ivsoverridehonk").value;
+				if (this.ivsoverridehonk <= 31) {
 				  this.realivs = this.ivsoverridehonk;
 				} else {
 					this.realivs = 31;
@@ -593,13 +604,6 @@ function Pokemon(pokeInfo) {
 			var pokemonName = setName.substring(0, setName.indexOf(" ("));
 			this.name = (pokedex[pokemonName].formes) ? pokeInfo.find(".forme").val() : pokemonName;
 		}
-
-		//HACK!
-		this.leveloverride = ~~pokeInfo.find(".leveloverride").val();
-		if (this.level !== this.leveloverride) {
-			this.level = this.leveloverride;
-		}
-		//HACK!
 
 		this.type1 = pokeInfo.find(".type1").val();
 		this.type2 = pokeInfo.find(".type2").val();
