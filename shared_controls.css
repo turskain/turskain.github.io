@@ -335,6 +335,10 @@ th {
     display: inline-block;
     width: 2.5em;
 }
+.leveloverride, .leveloverride span {
+    margin: 0 0 2px;
+    width: 1.8em;
+}
 .poke-info input[type="number"] {
     display: inline-block;
     width: 3em;
