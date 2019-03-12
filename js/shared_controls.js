@@ -175,6 +175,9 @@ function drawHealthBar(poke, max, current) {
 $(".ivsoverride").keyup(function () {
     validate($(this), 0, 31);
 });
+$(".leveloverride").keyup(function () {
+    validate($(this), 1, 100);
+});
 //HACK!!
 
 
@@ -383,11 +386,19 @@ $(".set-selector").change(function () {
 				} else {
 					var ivsoverride = 31
         }
-    //HACK! following section: ivsoverride replaces the usual "31" being filled in
+    //HACK! level override button
+		this.leveloverride = ~~document.getElementById("leveloverride").value;
+				if (this.leveloverride != 50) {
+				  var leveloverride = this.ivsoverride
+				} else {
+					var leveloverride = 50
+        }
+    //HACK! following section: ivsoverride replaces the usual "31" being filled in, leveloverride same thing
 
 		if (pokemonName in setdex && setName in setdex[pokemonName]) {
 			var set = setdex[pokemonName][setName];
-			pokeObj.find(".level").val(50);
+			//pokeObj.find(".level").val(50);
+			pokeObj.find(".level").val(this.leveloverride);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
 			// pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : ivsoverride);
