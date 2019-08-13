@@ -3800,6 +3800,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
 		type: 'Dark',
 		category: 'Physical',
 		makesContact: true,
+		ignoresDefenseBoosts: true,
 		zp: 160,
         pp: 10
 	},
@@ -4084,6 +4085,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
 		type: 'Dark',
 		category: 'Physical',
 		makesContact: true,
+		ignoresDefenseBoosts: true,
 		isZ: true
 	},
 	'Megahorn': {zp: 190},
