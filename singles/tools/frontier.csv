@@ -1,0 +1,950 @@
+ 406|Abomasnow|Calm|Lum Berry|Giga Drain|Ice Beam|Water Pulse|GrassWhistle|HP/SpA
+542|Abomasnow|Bold|Big Root|Giga Drain|Sheer Cold|Ingrain|Leech Seed|HP/Def/SpD
+678|Abomasnow|Quiet|Occa Berry|Energy Ball|Blizzard|Shadow Ball|Focus Blast|HP/SpA
+814|Abomasnow|Brave|Shell Bell|Wood Hammer|Avalanche|Earthquake|Rock Slide|HP/Atk
+374|Absol|Jolly|Chople Berry|Sucker Punch|Facade|Double Team|Taunt|Atk/Spe
+510|Absol|Adamant|Quick Claw|Punishment|Swagger|Attract|Thunder Wave|HP/Atk
+646|Absol|Jolly|Razor Claw|Night Slash|Psycho Cut|X-Scissor|Aerial Ace|Atk/Spe
+782|Absol|Adamant|Choice Band|Night Slash|Superpower|Giga Impact|Zen Headbutt|Atk/Spe
+443|Aerodactyl|Jolly|King's Rock|Rock Slide|Aerial Ace|Torment|Taunt|Atk/Spe
+579|Aerodactyl|Jolly|Razor Fang|Bite|Fire Fang|Thunder Fang|Ice Fang|Atk/Spe
+715|Aerodactyl|Adamant|Yache Berry|Giga Impact|Earthquake|Rock Slide|Crunch|Atk/Spe
+851|Aerodactyl|Adamant|Choice Band|Stone Edge|Aerial Ace|Earthquake|Dragon Claw|Atk/Spe
+463|Aggron|Adamant|Quick Claw|Iron Head|Rock Slide|Sandstorm|Screech|Atk/Def
+599|Aggron|Adamant|Quick Claw|Metal Claw|Fire Punch|ThunderPunch|Ice Punch|Atk/Def
+735|Aggron|Adamant|Muscle Band|Iron Tail|Dragon Rush|Avalanche|Aerial Ace|Atk/Def
+871|Aggron|Adamant|Focus Sash|Metal Burst|Stone Edge|Earthquake|Shadow Claw|Atk/Def
+105|Aipom|Adamant|Silk Scarf|Double Hit|U-turn|Thunder Wave|Fake Out|Atk/Spe
+401|Alakazam|Timid|Brightpowder|Psychic|Shadow Ball|Calm Mind|Future Sight|SpA/Spe
+537|Alakazam|Modest|Colbur Berry|Psychic|Focus Blast|Charge Beam|Recover|SpA/Spe
+673|Alakazam|Timid|Wise Glasses|Psychic|Charge Beam|Signal Beam|Grass Knot|SpA/Spe
+809|Alakazam|Modest|Expert Belt|Psychic|Shadow Ball|Energy Ball|Focus Blast|SpA/Spe
+404|Altaria|Careful|Chesto Berry|Dragon Claw|Aerial Ace|Dragon Dance|Rest|Atk/SpD
+540|Altaria|Modest|Shell Bell|Dragon Pulse|Ominous Wind|Sing|Perish Song|SpA/SpD
+676|Altaria|Adamant|Brightpowder|Dragon Rush|Sky Attack|Earthquake|Dragon Dance|Atk/SpD
+812|Altaria|Modest|White Herb|Draco Meteor|Air Cutter|Flamethrower|Ice Beam|SpA/Spe
+393|Ambipom|Jolly|Muscle Band|Double Hit|Shadow Claw|Brick Break|Knock Off|Atk/Spe
+529|Ambipom|Jolly|Metronome|Last Resort|Thunder Wave|Protect|Fake Out|Atk/Spe
+665|Ambipom|Adamant|Life Orb|Double Hit|Gunk Shot|Seed Bomb|Aerial Ace|Atk/Spe
+801|Ambipom|Adamant|Life Orb|Double Hit|Fire Punch|ThunderPunch|Ice Punch|Atk/Spe
+420|Ampharos|Modest|Shuca Berry|Thunderbolt|Power Gem|Light Screen|Thunder Wave|SpA/SpD
+556|Ampharos|Careful|Cheri Berry|ThunderPunch|Fire Punch|Focus Punch|Thunder Wave|Atk/SpD
+692|Ampharos|Modest|Chesto Berry|Charge Beam|Hyper Beam|Thunder Wave|Rest|HP/SpA
+828|Ampharos|Quiet|Zoom Lens|Thunder|Focus Blast|Signal Beam|Power Gem|HP/SpA
+104|Anorith|Adamant|Metronome|Fury Cutter|Rock Blast|Metal Claw|Protect|Atk/Spe
+194|Arbok|Adamant|Persim Berry|Poison Fang|Bite|Gastro Acid|Glare|HP/Atk
+294|Arbok|Docile|Payapa Berry|Sludge Bomb|Mud Bomb|Crunch|Glare|Atk/SpA
+480|Arcanine|Jolly|Lum Berry|Fire Fang|ExtremeSpeed|Crunch|Will-O-Wisp|Atk/Spe
+616|Arcanine|Jolly|Salac Berry|Flare Blitz|Thunder Fang|Reversal|Endure|Atk/Spe
+752|Arcanine|Modest|White Herb|Overheat|SolarBeam|Dragon Pulse|Sunny Day|SpA/Spe
+888|Arcanine|Adamant|Focus Band|Flare Blitz|ExtremeSpeed|Crunch|Thunder Fang|Atk/Spe
+130|Ariados|Adamant|SilverPowder|Bug Bite|Toxic|Shadow Sneak|Spider Web|HP/Atk
+410|Armaldo|Adamant|Razor Claw|X-Scissor|Rock Slide|Earthquake|Iron Defense|Atk/SpD
+546|Armaldo|Adamant|Scope Lens|Crush Claw|Aqua Tail|Aerial Ace|Swagger|Atk/SpD
+682|Armaldo|Adamant|Choice Band|Stone Edge|Superpower|Earthquake|Giga Impact|Atk/Def
+818|Armaldo|Adamant|Life Orb|Stone Edge|X-Scissor|Earthquake|Cross Poison|Atk/Def
+74|Aron|Impish|Metal Coat|Metal Claw|Rock Tomb|Iron Defense|Protect|Atk/Def
+895|Articuno|Docile|Icy Rock|Blizzard|Fly|Roost|Hail|Atk/SpA
+909|Articuno|Brave|Wacan Berry|Avalanche|Aerial Ace|Facade|Reflect|Atk/Def
+923|Articuno|Modest|Wise Glasses|Ice Beam|Signal Beam|Ominous Wind|Water Pulse|Def/SpA
+937|Articuno|Modest|Charti Berry|Ice Beam|Air Cutter|AncientPower|Sheer Cold|SpA/SpD
+150|Azumarill|Quiet|Pecha Berry|BubbleBeam|Rollout|Defense Curl|Tail Whip|SpA/SpD
+38|Bagon|Naughty|Dragon Fang|DragonBreath|Headbutt|Brick Break|Scary Face|Atk/Def
+36|Baltoy|Modest|Twisted Spoon|Psybeam|Mud-Slap|AncientPower|Light Screen|SpA/SpD
+218|Banette|Adamant|Rawst Berry|Shadow Sneak|Knock Off|Will-O-Wisp|Spite|HP/Atk
+318|Banette|Adamant|Colbur Berry|Shadow Claw|Faint Attack|Will-O-Wisp|Trick Room|HP/Atk
+411|Bastiodon|Impish|Focus Band|Iron Head|Stone Edge|Swagger|Taunt|Def/SpD
+547|Bastiodon|Modest|Persim Berry|AncientPower|Flamethrower|Thunderbolt|Ice Beam|HP/SpA
+683|Bastiodon|Careful|Leftovers|Iron Head|Fissure|Double Team|Iron Defense|HP/SpD
+819|Bastiodon|Adamant|Focus Sash|Metal Burst|Stone Edge|Avalanche|Curse|HP/Atk
+154|Bayleef|Modest|Sitrus Berry|Magical Leaf|AncientPower|Safeguard|Light Screen|HP/SpA
+254|Bayleef|Hardy|Chesto Berry|Giga Drain|Body Slam|GrassWhistle|Rest|Def/SpA/SpD
+125|Beautifly|Modest|SilverPowder|Silver Wind|Air Cutter|Mega Drain|Attract|SpA/Spe
+121|Beedrill|Jolly|Scope Lens|Twineedle|Toxic|Assurance|Agility|Atk/SpD
+240|Bellossom|Modest|Petaya Berry|Magical Leaf|Acid|Tickle|Stun Spore|HP/SpA
+340|Bellossom|Modest|Brightpowder|SolarBeam|Sludge Bomb|Sunny Day|Synthesis|HP/SpA
+167|Bibarel|Docile|Chople Berry|Headbutt|Water Pulse|Quick Attack|Growl|Atk/SpA
+267|Bibarel|Adamant|Shell Bell|Hyper Fang|Super Fang|Pluck|Attract|HP/Atk
+19|Bidoof|Adamant|Silk Scarf|Headbutt|Pluck|Growl|Yawn|HP/Atk
+353|Blastoise|Modest|Mystic Water|Hydro Pump|Signal Beam|Icy Wind|Mirror Coat|Def/SpA/SpD
+489|Blastoise|Adamant|Shell Bell|Waterfall|Focus Punch|Double Team|Aqua Ring|HP/Atk
+625|Blastoise|Adamant|Life Orb|Aqua Tail|Earthquake|Avalanche|Zen Headbutt|HP/Atk
+761|Blastoise|Modest|Shell Bell|Hydro Cannon|Ice Beam|Hyper Beam|Focus Blast|HP/SpA
+358|Blaziken|Adamant|Salac Berry|Blaze Kick|Reversal|Aerial Ace|Endure|Atk/Spe
+494|Blaziken|Timid|Brightpowder|Blast Burn|Focus Blast|SolarBeam|Sunny Day|SpA/Spe
+630|Blaziken|Adamant|Passho Berry|Blaze Kick|Earthquake|Shadow Claw|Stone Edge|Atk/Spe
+766|Blaziken|Adamant|White Herb|Flare Blitz|Superpower|ThunderPunch|Night Slash|Atk/Spe
+475|Blissey|Modest|Chople Berry|Hyper Beam|Shadow Ball|Water Pulse|Sing|HP/SpA
+611|Blissey|Calm|Chesto Berry|Toxic|Double Team|Softboiled|Counter|HP/SpD
+747|Blissey|Modest|Brightpowder|Flamethrower|Thunderbolt|Ice Beam|Calm Mind|HP/SpA
+883|Blissey|Calm|Leftovers|Dream Eater|Sing|Softboiled|Counter|HP/SpD
+25|Bonsly|Adamant|Rock Incense|Rock Slide|Low Kick|Copycat|Sandstorm|Atk/Def
+371|Breloom|Impish|Focus Sash|Seed Bomb|Sky Uppercut|Rock Slide|Counter|Atk/Def
+507|Breloom|Brave|Big Root|Drain Punch|Giga Drain|Synthesis|Leech Seed|Atk/SpA
+643|Breloom|Adamant|Toxic Orb|DynamicPunch|ThunderPunch|Stone Edge|Facade|Atk/Def
+779|Breloom|Adamant|Shell Bell|Focus Punch|Seed Bomb|Giga Impact|Spore|Atk/Def
+431|Bronzong|Impish|King's Rock|Extrasensory|Iron Head|Rock Slide|Trick Room|Def/SpD
+567|Bronzong|Calm|Lum Berry|Dream Eater|Hypnosis|Signal Beam|Trick Room|Def/SpD
+703|Bronzong|Modest|Leftovers|Psychic|Shadow Ball|Charge Beam|Signal Beam|HP/SpA
+839|Bronzong|Adamant|Quick Claw|Zen Headbutt|Iron Head|Earthquake|Explosion|HP/Atk
+39|Bronzor|Brave|Odd Incense|Confusion|Gyro Ball|AncientPower|Imprison|Atk/SpA
+22|Budew|Calm|Big Root|Mega Drain|Toxic|Growth|Worry Seed|SpA/SpD
+77|Buizel|Jolly|Wave Incense|Aqua Jet|Quick Attack|Pursuit|Growl|Atk/Spe
+1|Bulbasaur|Modest|Brightpowder|Magical Leaf|Toxic|Leech Seed|Sweet Scent|SpA/SpD
+99|Buneary|Adamant|Black Belt|Dizzy Punch|Drain Punch|Quick Attack|Foresight|Atk/Spe
+15|Burmy|Adamant|Sitrus Berry|Bug Bite|Tackle|Snore|Protect|HP/Atk
+120|Butterfree|Modest|Pecha Berry|Silver Wind|Air Cutter|Psybeam|Tailwind|SpA/SpD
+83|Cacnea|Adamant|Aspear Berry|Needle Arm|Faint Attack|Cotton Spore|GrassWhistle|HP/Atk
+239|Cacturne|Adamant|Chople Berry|Bullet Seed|Faint Attack|Spikes|Ingrain|HP/Atk
+339|Cacturne|Modest|Shell Bell|Giga Drain|Dark Pulse|Acid|Cotton Spore|HP/SpA
+225|Camerupt|Brave|Focus Band|Magnitude|Will-O-Wisp|Rock Tomb|Amnesia|HP/Atk
+325|Camerupt|Modest|Quick Claw|Earth Power|Eruption|AncientPower|Sandstorm|HP/SpA
+211|Carnivine|Adamant|Miracle Seed|Razor Leaf|Bite|Sweet Scent|Ingrain|HP/Atk
+311|Carnivine|Adamant|Occa Berry|Seed Bomb|Wring Out|Crunch|Ingrain|HP/Atk
+45|Carvanha|Adamant|Cheri Berry|Aqua Jet|Bite|Scary Face|Swagger|HP/Atk
+135|Castform|Timid|Persim Berry|Weather Ball|Sunny Day|Rain Dance|Hail|SpA/Spe
+206|Chansey|Sassy|Sitrus Berry|Metronome|Refresh|Defense Curl|Minimize|HP/SpD
+306|Chansey|Impish|Lucky Punch|Egg Bomb|Focus Punch|Sing|Softboiled|HP/SpD
+352|Charizard|Modest|Petaya Berry|Flamethrower|Air Slash|SmokeScreen|Scary Face|SpA/Spe
+488|Charizard|Modest|White Herb|Overheat|SolarBeam|Will-O-Wisp|Sunny Day|SpA/Spe
+624|Charizard|Adamant|Scope Lens|Flare Blitz|Earthquake|Crunch|Dragon Claw|Atk/Spe
+760|Charizard|Timid|Brightpowder|Blast Burn|Air Slash|Focus Blast|AncientPower|SpA/Spe
+2|Charmander|Adamant|Scope Lens|Fire Fang|Metal Claw|SmokeScreen|Scary Face|Atk/Spe
+152|Charmeleon|Naughty|Razor Claw|Fire Fang|Slash|SmokeScreen|Scary Face|Atk/Spe
+252|Charmeleon|Bashful|Razor Claw|Flamethrower|Shadow Claw|Aerial Ace|SmokeScreen|Atk/Spe
+141|Chatot|Calm|Persim Berry|Chatter|Swift|Sing|Mirror Move|SpD/Spe
+174|Cherrim|Bold|Persim Berry|Magical Leaf|Leech Seed|GrassWhistle|Synthesis|SpD/Spe
+274|Cherrim|Modest|Power Herb|SolarBeam|Leech Seed|Sunny Day|Synthesis|HP/SpA
+21|Cherubi|Modest|Rose Incense|Magical Leaf|Toxic|Leech Seed|Helping Hand|SpA/SpD
+4|Chikorita|Adamant|Lax Incense|Bullet Seed|Secret Power|Growl|Light Screen|HP/Atk
+11|Chimchar|Adamant|Passho Berry|Flame Wheel|Facade|Leer|Fake Out|Atk/Spe
+185|Chimecho|Calm|Pecha Berry|Psywave|Icy Wind|Heal Bell|Safeguard|SpA/SpD
+285|Chimecho|Quiet|Twisted Spoon|Psychic|Shadow Ball|Hypnosis|Dream Eater|HP/SpA
+69|Chinchou|Modest|Magnet|Shock Wave|BubbleBeam|Icy Wind|Thunder Wave|HP/SpA
+23|Chingling|Modest|Twisted Spoon|Confusion|Swift|Disable|Growl|SpA/SpD
+92|Clamperl|Bold|DeepSeaScale|Whirlpool|Toxic|Iron Defense|Protect|HP/Def
+429|Claydol|Brave|Kasib Berry|Earthquake|Zen Headbutt|Grass Knot|Trick Room|Def/SpD
+565|Claydol|Modest|Rindo Berry|Earth Power|AncientPower|Signal Beam|Shadow Ball|Def/SpA
+701|Claydol|Modest|Wise Glasses|Earth Power|Psychic|Charge Beam|Ice Beam|SpA/SpD
+837|Claydol|Adamant|Lax Incense|Earthquake|Zen Headbutt|Rock Slide|Explosion|Atk/SpD
+237|Clefable|Bashful|Chesto Berry|Metronome|Double Team|Reflect|Follow Me|Def/SpD
+337|Clefable|Adamant|Focus Band|Return|Meteor Mash|Zen Headbutt|Sing|HP/Atk
+58|Clefairy|Adamant|Brightpowder|Wake-Up Slap|Follow Me|Encore|Sing|HP/Atk
+250|Cloyster|Bold|NeverMeltIce|Aurora Beam|Water Pulse|Spikes|Supersonic|Def/SpA
+350|Cloyster|Impish|Leftovers|Avalanche|Dive|Toxic|Protect|Atk/Def
+18|Combee|Serious|SilverPowder|Bug Bite|Gust|Ominous Wind|Sweet Scent|Atk/SpA/Spe
+158|Combusken|Adamant|Liechi Berry|Fire Punch|Double Kick|Quick Attack|Sand-Attack|HP/Atk
+258|Combusken|Hardy|Scope Lens|Flamethrower|Sky Uppercut|Slash|Sand-Attack|Atk/SpA
+47|Corphish|Brave|Pecha Berry|BubbleBeam|ViceGrip|Knock Off|Swagger|HP/SpA
+115|Corsola|Modest|Focus Band|BubbleBeam|AncientPower|Mirror Coat|Barrier|SpA/SpD
+409|Cradily|Impish|Razor Claw|AncientPower|Energy Ball|Confuse Ray|Sandstorm|HP/Def/SpD
+545|Cradily|Impish|Leftovers|Toxic|Stockpile|Double Team|Ingrain|HP/Def/SpD
+681|Cradily|Calm|Big Root|Giga Drain|Sludge Bomb|Recover|Ingrain|HP/Def/SpD
+817|Cradily|Calm|Leftovers|Stone Edge|Seed Bomb|Earthquake|Mirror Coat|HP/Def/SpD
+97|Cranidos|Careful|Rock Incense|Rock Tomb|Pursuit|Scary Face|Leer|Def/SpD
+232|Crawdaunt|Modest|Persim Berry|BubbleBeam|Dark Pulse|Harden|Taunt|Def/SpA
+332|Crawdaunt|Adamant|Quick Claw|Crabhammer|Crunch|X-Scissor|Swords Dance|Atk/Def
+907|Cresselia|Bold|Heat Rock|Psychic|SolarBeam|Moonlight|Sunny Day|Def/SpD
+921|Cresselia|Bold|Lum Berry|Psychic|Toxic|Double Team|Moonlight|HP/Def/SpD
+935|Cresselia|Modest|Wise Glasses|Psychic|Shadow Ball|Energy Ball|Charge Beam|HP/SpA
+949|Cresselia|Modest|Leftovers|Psychic|Ice Beam|Signal Beam|Moonlight|HP/Def/SpD
+41|Croagunk|Adamant|Black Sludge|Poison Jab|Wake-Up Slap|Taunt|Swagger|HP/Atk
+467|Crobat|Jolly|Payapa Berry|Cross Poison|Aerial Ace|Roost|Hypnosis|Atk/Spe
+603|Crobat|Hardy|Razor Fang|Air Slash|Zen Headbutt|Bite|Twister|Atk/Spe
+739|Crobat|Modest|King's Rock|Air Slash|Sludge Bomb|Heat Wave|Dark Pulse|SpA/Spe
+875|Crobat|Adamant|Razor Claw|Cross Poison|Brave Bird|X-Scissor|Zen Headbutt|Atk/Spe
+156|Croconaw|Serious|Scope Lens|Water Pulse|Slash|Bite|Scary Face|Atk/SpA
+256|Croconaw|Adamant|Focus Band|Aqua Tail|Crunch|Rock Slide|Scary Face|Atk/Def
+55|Cubone|Adamant|Soft Sand|Bone Club|Headbutt|Brick Break|Leer|Atk/Def
+5|Cyndaquil|Adamant|Quick Claw|Flame Wheel|Double Kick|Swift|SmokeScreen|Atk/SpD
+116|Delcatty|Adamant|Sitrus Berry|Secret Power|Faint Attack|Fake Out|Foresight|HP/Atk
+71|Delibird|Adamant|NeverMeltIce|Present|Ice Ball|Aerial Ace|Hail|Atk/Spe
+379|Dewgong|Careful|Razor Fang|Waterfall|Avalanche|Headbutt|Fake Out|Atk/SpD
+515|Dewgong|Calm|Wacan Berry|Ice Beam|Signal Beam|Encore|Disable|SpA/SpD
+651|Dewgong|Calm|Salac Berry|Sheer Cold|Horn Drill|Rest|Sleep Talk|HP/Def/SpD
+787|Dewgong|Calm|Chesto Berry|Surf|Ice Beam|Signal Beam|Rest|SpA/SpD
+223|Dodrio|Jolly|Aspear Berry|Pluck|Fury Attack|Growl|Acupressure|Atk/Spe
+323|Dodrio|Jolly|King's Rock|Drill Peck|Frustration|Faint Attack|Acupressure|Atk/Spe
+48|Doduo|Jolly|Liechi Berry|Aerial Ace|Quick Attack|Faint Attack|Acupressure|Atk/Spe
+427|Donphan|Impish|Razor Claw|Earthquake|Rock Slide|Poison Jab|Sandstorm|Atk/Def
+563|Donphan|Adamant|White Herb|Earthquake|Superpower|Gunk Shot|Counter|Atk/Def
+699|Donphan|Brave|Lax Incense|Earthquake|Gyro Ball|Fire Fang|Thunder Fang|Atk/Def
+835|Donphan|Adamant|Quick Claw|Earthquake|Stone Edge|Seed Bomb|Fissure|Atk/Def
+175|Dragonair|Modest|Cheri Berry|DragonBreath|Water Pulse|Thunder Wave|Safeguard|SpA/SpD
+275|Dragonair|Docile|Haban Berry|Dragon Pulse|Aqua Tail|Slam|Dragon Dance|Atk/SpA
+481|Dragonite|Adamant|Lum Berry|Dragon Claw|Aerial Ace|Thunder Wave|Dragon Dance|Atk/SpD
+617|Dragonite|Adamant|Razor Claw|Dragon Rush|Fire Punch|ThunderPunch|Ice Punch|Atk/Def
+753|Dragonite|Modest|Expert Belt|Draco Meteor|Flamethrower|Thunderbolt|Surf|Def/SpA
+889|Dragonite|Adamant|Choice Band|Outrage|Giga Impact|Earthquake|Superpower|Atk/SpD
+432|Drapion|Adamant|Lum Berry|Poison Jab|Crunch|Aqua Tail|Acupressure|Atk/Def
+568|Drapion|Adamant|Iron Ball|Payback|Poison Jab|Fling|Knock Off|Atk/Def
+704|Drapion|Jolly|Scope Lens|Cross Poison|Fire Fang|Thunder Fang|Ice Fang|Atk/Spe
+840|Drapion|Adamant|Razor Claw|Cross Poison|Night Slash|Earthquake|Aerial Ace|Atk/Spe
+32|Dratini|Modest|Cheri Berry|Twister|Water Pulse|Thunder Wave|Supersonic|SpA/SpD
+414|Drifblim|Modest|Salac Berry|Ominous Wind|Air Cutter|Baton Pass|Endure|HP/SpA
+550|Drifblim|Adamant|Black Sludge|Payback|Facade|Will-O-Wisp|Trick|HP/Atk
+686|Drifblim|Modest|Wise Glasses|Psychic|Thunderbolt|Icy Wind|Destiny Bond|HP/SpA
+822|Drifblim|Docile|Lax Incense|Shadow Ball|Air Cutter|Silver Wind|Explosion|HP/Atk
+94|Drifloon|Modest|Petaya Berry|Ominous Wind|Air Cutter|Icy Wind|Will-O-Wisp|HP/SpA
+66|Drowzee|Modest|Rawst Berry|Psybeam|Assist|Disable|Barrier|SpA/SpD
+363|Dugtrio|Jolly|Grip Claw|Earthquake|Rock Slide|Astonish|Sand Tomb|Atk/Spe
+499|Dugtrio|Modest|Lax Incense|Earth Power|Sludge Bomb|Tri Attack|Sandstorm|SpA/Spe
+635|Dugtrio|Jolly|Razor Claw|Fissure|Giga Impact|Aerial Ace|Night Slash|Atk/Spe
+771|Dugtrio|Adamant|Muscle Band|Earthquake|Stone Edge|Slash|Shadow Claw|Atk/Spe
+109|Dunsparce|Adamant|Razor Claw|Headbutt|Bite|Spite|Glare|HP/Atk
+219|Dusclops|Impish|Rawst Berry|Shadow Sneak|Pain Split|Will-O-Wisp|Confuse Ray|Def/SpD
+319|Dusclops|Impish|Colbur Berry|Shadow Punch|Payback|Brick Break|Confuse Ray|HP/Def/SpD
+462|Dusknoir|Brave|Iron Ball|Shadow Punch|Fling|Will-O-Wisp|Trick Room|Atk/Def
+598|Dusknoir|Careful|Leftovers|Curse|Pain Split|Confuse Ray|Attract|Def/SpD
+734|Dusknoir|Adamant|Scope Lens|Shadow Punch|Fire Punch|ThunderPunch|Ice Punch|Atk/SpD
+870|Dusknoir|Adamant|Muscle Band|Shadow Punch|Earthquake|Brick Break|Rock Slide|Def/SpD
+27|Duskull|Adamant|Spell Tag|Shadow Sneak|Pain Split|Will-O-Wisp|Confuse Ray|Def/SpD
+126|Dustox|Modest|SilverPowder|Silver Wind|Toxic|Psybeam|Whirlwind|SpA/SpD
+64|Eevee|Jolly|Salac Berry|Take Down|Bite|Flail|Endure|Atk/Spe
+245|Electabuzz|Timid|Lansat Berry|Shock Wave|Swift|Thunder Wave|Light Screen|SpA/Spe
+345|Electabuzz|Modest|Brightpowder|Thunderbolt|Psychic|Focus Blast|Thunder Wave|SpA/Spe
+477|Electivire|Jolly|Scope Lens|ThunderPunch|Cross Chop|Thunder Wave|Screech|Atk/Spe
+613|Electivire|Quirky|Wide Lens|Thunder|DynamicPunch|Rock Slide|Iron Tail|Atk/SpA
+749|Electivire|Modest|Wise Glasses|Thunderbolt|Psychic|Focus Blast|Signal Beam|SpA/Spe
+885|Electivire|Adamant|Shuca Berry|ThunderPunch|Fire Punch|Ice Punch|Earthquake|Atk/Spe
+386|Electrode|Modest|Chesto Berry|Thunderbolt|Swift|Thunder Wave|Light Screen|SpA/Spe
+522|Electrode|Timid|Brightpowder|Charge Beam|Thunder Wave|Flash|Swagger|SpA/Spe
+658|Electrode|Timid|Damp Rock|Thunder|Hyper Beam|Magnet Rise|Rain Dance|SpA/Spe
+794|Electrode|Quirky|Focus Sash|Thunderbolt|Signal Beam|Explosion|Mirror Coat|SpA/Spe
+106|Elekid|Jolly|Cheri Berry|ThunderPunch|Karate Chop|Quick Attack|Light Screen|Atk/Spe
+362|Empoleon|Adamant|Razor Claw|Waterfall|Metal Claw|Brick Break|Knock Off|Atk/SpD
+498|Empoleon|Adamant|Razor Claw|Drill Peck|Aqua Jet|Shadow Claw|Rock Slide|Atk/SpD
+634|Empoleon|Brave|Quick Claw|Surf|Earthquake|Blizzard|Signal Beam|Atk/SpA
+770|Empoleon|Brave|Quick Claw|Hydro Cannon|Flash Cannon|Drill Peck|Earthquake|Atk/SpA
+899|Entei|Jolly|Shuca Berry|Fire Fang|Return|Roar|Reflect|Atk/Spe
+913|Entei|Jolly|King's Rock|Fire Fang|Bite|Iron Head|Stone Edge|Atk/Spe
+927|Entei|Modest|Shuca Berry|Fire Blast|SolarBeam|Hyper Beam|Sunny Day|SpA/Spe
+941|Entei|Modest|Shuca Berry|Overheat|Extrasensory|Shadow Ball|Calm Mind|SpA/Spe
+455|Espeon|Timid|Lum Berry|Psychic|Reflect|Calm Mind|Baton Pass|SpA/Spe
+591|Espeon|Timid|Brightpowder|Psychic|Swift|Charm|Attract|SpA/Spe
+727|Espeon|Modest|Lum Berry|Psychic|Shadow Ball|Hyper Beam|Grass Knot|SpA/Spe
+863|Espeon|Modest|Wise Glasses|Psychic|Shadow Ball|Signal Beam|Morning Sun|SpA/Spe
+63|Exeggcute|Modest|Odd Incense|Confusion|Grass Knot|Leech Seed|Light Screen|Def/SpA
+449|Exeggutor|Modest|Brightpowder|SolarBeam|Psychic|Synthesis|Sunny Day|HP/SpA
+585|Exeggutor|Modest|Lum Berry|Dream Eater|Hypnosis|Leech Seed|Ingrain|HP/SpA
+721|Exeggutor|Brave|Focus Sash|Wood Hammer|Zen Headbutt|Trick Room|Explosion|HP/Atk
+857|Exeggutor|Modest|Expert Belt|Leaf Storm|Psychic|Sludge Bomb|AncientPower|HP/SpA
+389|Exploud|Modest|Chople Berry|Hyper Voice|Extrasensory|Water Pulse|Torment|HP/SpA
+525|Exploud|Adamant|Life Orb|Facade|Fire Punch|ThunderPunch|Ice Punch|HP/Atk
+661|Exploud|Adamant|Life Orb|Facade|Earthquake|Avalanche|Crunch|HP/Atk
+797|Exploud|Modest|White Herb|Hyper Voice|Overheat|Surf|Ice Beam|HP/SpA
+100|Farfetch'd|Adamant|Stick|Slash|Air Cutter|Knock Off|Swords Dance|Atk/SpD
+202|Fearow|Adamant|Sharp Beak|Pluck|Facade|Growl|Leer|Atk/Spe
+302|Fearow|Adamant|Cheri Berry|Drill Peck|Frustration|Faint Attack|U-turn|Atk/Spe
+356|Feraligatr|Adamant|King's Rock|Waterfall|Ice Fang|Rock Slide|Scary Face|Atk/Def
+492|Feraligatr|Adamant|White Herb|Aqua Tail|Superpower|Dragon Claw|Shadow Claw|Atk/Def
+628|Feraligatr|Modest|Wise Glasses|Hydro Cannon|Ice Beam|Focus Blast|AncientPower|Def/SpA
+764|Feraligatr|Adamant|Lum Berry|Waterfall|Earthquake|Ice Fang|Dragon Dance|Atk/Def
+80|Finneon|Modest|Wave Incense|Water Pulse|Silver Wind|Attract|Aqua Ring|SpA/SpD
+112|Flaaffy|Modest|Light Clay|Shock Wave|Swift|Thunder Wave|Light Screen|HP/SpA
+454|Flareon|Adamant|Quick Claw|Fire Fang|Superpower|Curse|Baton Pass|Atk/SpD
+590|Flareon|Jolly|Salac Berry|Fire Fang|Flail|Endure|Sand-Attack|Atk/Spe
+726|Flareon|Modest|White Herb|Overheat|Shadow Ball|Mud-Slap|Will-O-Wisp|SpA/SpD
+862|Flareon|Adamant|White Herb|Fire Fang|Giga Impact|Superpower|Bite|Atk/SpD
+412|Floatzel|Jolly|Sitrus Berry|Waterfall|Ice Punch|Quick Attack|Rain Dance|Atk/Spe
+548|Floatzel|Jolly|Chesto Berry|Waterfall|Focus Punch|Double Team|Attract|Atk/Spe
+684|Floatzel|Modest|Wave Incense|Surf|Ice Beam|Focus Blast|Rain Dance|SpA/Spe
+820|Floatzel|Adamant|Razor Fang|Aqua Tail|Ice Fang|Crunch|Brick Break|Atk/Spe
+451|Flygon|Adamant|Yache Berry|Earthquake|Dragon Claw|Roost|Sandstorm|Atk/Spe
+587|Flygon|Jolly|Razor Fang|Fissure|Fire Punch|ThunderPunch|Aerial Ace|Atk/Spe
+723|Flygon|Timid|White Herb|Draco Meteor|Earth Power|Flamethrower|Giga Drain|SpA/Spe
+859|Flygon|Adamant|Lum Berry|Earthquake|Outrage|Crunch|Stone Edge|Atk/Spe
+372|Forretress|Brave|Occa Berry|Gyro Ball|Bug Bite|Revenge|Counter|Atk/Def
+508|Forretress|Brave|Sitrus Berry|Payback|Stealth Rock|Toxic Spikes|Spikes|Atk/Def
+644|Forretress|Adamant|Leftovers|Dig|Swagger|Toxic|Double Team|Atk/Def
+780|Forretress|Adamant|Lax Incense|Explosion|Double-Edge|Earthquake|Rock Slide|Atk/Def
+392|Froslass|Timid|Cheri Berry|Ice Beam|Ominous Wind|Confuse Ray|Attract|SpA/Spe
+528|Froslass|Adamant|Focus Band|Ice Punch|Sucker Punch|Swagger|Psych Up|Atk/Spe
+664|Froslass|Modest|Expert Belt|Ice Beam|Thunderbolt|Signal Beam|Destiny Bond|SpA/Spe
+800|Froslass|Modest|Lax Incense|Blizzard|Shadow Ball|Psychic|Hail|SpA/Spe
+172|Furret|Jolly|Liechi Berry|Slash|Sucker Punch|Helping Hand|Assist|Atk/Spe
+272|Furret|Adamant|Choice Band|Frustration|Shadow Claw|Trick|Assist|Atk/Spe
+168|Gabite|Adamant|Yache Berry|Dragon Rage|Sand Tomb|Slash|Sand-Attack|Atk/Spe
+268|Gabite|Adamant|Muscle Band|Dragon Claw|Earthquake|Slash|Sandstorm|Atk/Spe
+448|Gallade|Careful|Kasib Berry|Zen Headbutt|Brick Break|Thunder Wave|Confuse Ray|Atk/SpD
+584|Gallade|Jolly|Brightpowder|Drain Punch|Fire Punch|ThunderPunch|Ice Punch|Atk/Spe
+720|Gallade|Adamant|Scope Lens|Psycho Cut|Stone Edge|Aerial Ace|X-Scissor|Atk/SpD
+856|Gallade|Adamant|Scope Lens|Psycho Cut|Close Combat|Leaf Blade|Night Slash|Atk/SpD
+485|Garchomp|Jolly|Brightpowder|Dragon Claw|Earthquake|Double Team|Sandstorm|Atk/Spe
+621|Garchomp|Modest|White Herb|Draco Meteor|Earth Power|Flamethrower|Surf|SpA/Spe
+757|Garchomp|Adamant|Focus Sash|Dragon Rush|Stone Edge|Aqua Tail|Aerial Ace|Atk/Spe
+893|Garchomp|Adamant|Persim Berry|Outrage|Earthquake|Crunch|Fire Fang|Atk/Spe
+447|Gardevoir|Calm|Lum Berry|Psychic|Shadow Ball|Thunder Wave|Confuse Ray|SpA/SpD
+583|Gardevoir|Modest|Chesto Berry|Psychic|Thunderbolt|Calm Mind|Rest|SpA/SpD
+719|Gardevoir|Modest|Brightpowder|Psychic|Charge Beam|Energy Ball|Focus Blast|SpA/SpD
+855|Gardevoir|Timid|Wise Glasses|Psychic|Thunderbolt|Shadow Ball|Destiny Bond|SpA/Spe
+382|Gastrodon|Careful|Focus Sash|Waterfall|Earthquake|Recover|Mirror Coat|HP/SpD
+518|Gastrodon|Sassy|Zoom Lens|Muddy Water|Mud Bomb|Recover|Yawn|SpA/SpD
+654|Gastrodon|Adamant|Shell Bell|Waterfall|Earthquake|Stone Edge|Fissure|HP/Atk
+790|Gastrodon|Modest|Wise Glasses|Surf|Earth Power|Ice Beam|Sludge Bomb|HP/SpA
+419|Gengar|Timid|Payapa Berry|Shadow Ball|Sludge Bomb|Spite|Confuse Ray|SpA/Spe
+555|Gengar|Modest|Life Orb|Shadow Ball|Dream Eater|Hypnosis|Substitute|SpA/Spe
+691|Gengar|Modest|Scope Lens|Psychic|Energy Ball|Focus Blast|Confuse Ray|SpA/Spe
+827|Gengar|Modest|Lum Berry|Shadow Ball|Sludge Bomb|Thunderbolt|Destiny Bond|SpA/Spe
+31|Geodude|Adamant|Focus Band|Magnitude|Rock Blast|Strength|Protect|Atk/Def
+40|Gible|Adamant|Soft Sand|Dragon Rage|Sand Tomb|Metal Claw|Sandstorm|HP/Atk
+216|Girafarig|Modest|Petaya Berry|Psybeam|Swift|Baton Pass|Agility|SpA/Spe
+316|Girafarig|Adamant|Razor Claw|Zen Headbutt|Double Hit|Crunch|Thunder Wave|Atk/Spe
+458|Glaceon|Calm|Lax Incense|Ice Beam|Water Pulse|Double Team|Baton Pass|SpA/SpD
+594|Glaceon|Calm|Leftovers|Ice Beam|Double Team|Yawn|Hail|SpA/SpD
+730|Glaceon|Modest|Focus Sash|Blizzard|Hyper Beam|Hail|Mirror Coat|Def/SpA
+866|Glaceon|Modest|Wise Glasses|Ice Beam|Shadow Ball|Signal Beam|Water Pulse|Def/SpA
+390|Glalie|Brave|Iron Ball|Avalanche|Payback|Gyro Ball|Ice Shard|HP/Def/SpD
+526|Glalie|Adamant|Lum Berry|Ice Fang|Crunch|Earthquake|Explosion|HP/Atk
+662|Glalie|Modest|Scope Lens|Ice Beam|Shadow Ball|Signal Beam|Water Pulse|HP/SpA
+798|Glalie|Modest|Lax Incense|Blizzard|Dark Pulse|Sheer Cold|Hail|HP/SpA
+50|Glameow|Jolly|Razor Claw|Fury Swipes|Fake Out|Faint Attack|Attract|Atk/Spe
+186|Gligar|Adamant|Razor Claw|Aerial Ace|Sand Tomb|Metal Claw|Swords Dance|Atk/Def
+286|Gligar|Adamant|Quick Claw|Earthquake|Aerial Ace|Aqua Tail|Sandstorm|Atk/Spe
+441|Gliscor|Adamant|Yache Berry|Earthquake|Aerial Ace|Swords Dance|Baton Pass|Atk/Def
+577|Gliscor|Jolly|Razor Fang|Earthquake|Fire Fang|Thunder Fang|Ice Fang|Atk/Spe
+713|Gliscor|Jolly|Focus Sash|Guillotine|Earthquake|U-turn|Counter|HP/Spe
+849|Gliscor|Adamant|Expert Belt|Earthquake|Aerial Ace|X-Scissor|Stone Edge|Atk/Def
+133|Gloom|Modest|Miracle Seed|Mega Drain|Acid|Stun Spore|Moonlight|HP/SpA
+212|Golbat|Jolly|Payapa Berry|Aerial Ace|Toxic|Steel Wing|Confuse Ray|Atk/Spe
+312|Golbat|Adamant|Black Sludge|Poison Fang|Aerial Ace|Zen Headbutt|Confuse Ray|Atk/Spe
+56|Goldeen|Modest|Petaya Berry|Water Pulse|Psybeam|Supersonic|Rain Dance|Def/SpA
+415|Golduck|Modest|Rindo Berry|Surf|Psychic|Confuse Ray|Calm Mind|HP/SpA
+551|Golduck|Adamant|Shell Bell|Waterfall|Mud Bomb|Shadow Claw|Aerial Ace|Atk/Spe
+687|Golduck|Adamant|Scope Lens|Aqua Tail|Cross Chop|Ice Punch|Zen Headbutt|HP/Atk
+823|Golduck|Modest|Wacan Berry|Hydro Pump|Psychic|Ice Beam|Signal Beam|HP/SpA
+395|Golem|Impish|Focus Band|Earthquake|Rock Slide|Sucker Punch|Sandstorm|Atk/Def
+531|Golem|Adamant|White Herb|Earthquake|Superpower|Fire Punch|ThunderPunch|Atk/Def
+667|Golem|Brave|Iron Ball|Gyro Ball|Earthquake|Hammer Arm|Fling|Atk/Def
+803|Golem|Brave|Quick Claw|Earthquake|Stone Edge|Gyro Ball|Explosion|Atk/Def
+243|Gorebyss|Bold|Wave Incense|Water Pulse|Confusion|Rain Dance|Aqua Ring|HP/Def
+343|Gorebyss|Modest|Shell Bell|Surf|Psychic|Ice Beam|Rain Dance|Def/SpA
+367|Granbull|Adamant|Razor Claw|Return|Rock Slide|Crunch|Thunder Wave|HP/Atk
+503|Granbull|Adamant|Quick Claw|Facade|Fire Fang|Thunder Fang|Ice Fang|HP/Atk
+639|Granbull|Adamant|Muscle Band|Fire Punch|ThunderPunch|Ice Punch|Payback|HP/Atk
+775|Granbull|Adamant|Life Orb|Giga Impact|Close Combat|Earthquake|Stone Edge|HP/Atk
+128|Graveler|Adamant|Focus Band|Magnitude|Rock Tomb|Stealth Rock|Defense Curl|Atk/Def
+61|Grimer|Adamant|Black Sludge|Toxic|Shadow Sneak|Acid Armor|Minimize|HP/Atk
+160|Grotle|Relaxed|Big Root|Razor Leaf|Bite|Leech Seed|Synthesis|Atk/Def
+260|Grotle|Brave|Occa Berry|Seed Bomb|Crunch|Curse|Synthesis|Atk/Def
+157|Grovyle|Timid|Coba Berry|Magical Leaf|Swift|Mud-Slap|Detect|SpA/Spe
+257|Grovyle|Adamant|Coba Berry|Leaf Blade|Rock Slide|Crunch|Screech|Atk/Spe
+96|Growlithe|Adamant|Charcoal|Fire Fang|Bite|Roar|Agility|HP/Atk
+236|Grumpig|Calm|Petaya Berry|Psybeam|Grass Knot|Future Sight|Confuse Ray|SpA/SpD
+336|Grumpig|Calm|Colbur Berry|Psychic|Power Gem|Charge Beam|Mirror Coat|SpA/SpD
+472|Gyarados|Careful|Razor Fang|Aqua Tail|Ice Fang|Bite|Rain Dance|Atk/SpD
+608|Gyarados|Jolly|Lum Berry|Waterfall|Ice Fang|Iron Head|Dragon Dance|Atk/Spe
+744|Gyarados|Adamant|Persim Berry|Outrage|Waterfall|Stone Edge|Giga Impact|Atk/SpD
+880|Gyarados|Adamant|Chesto Berry|Waterfall|Earthquake|Rest|Dragon Dance|Atk/Spe
+14|Happiny|Adamant|Sitrus Berry|Present|Sweet Kiss|Copycat|Charm|HP/Def
+376|Hariyama|Adamant|Persim Berry|Arm Thrust|Earthquake|Facade|Fake Out|HP/Atk
+512|Hariyama|Adamant|Iron Ball|Revenge|Payback|Fling|Fake Out|HP/Atk
+648|Hariyama|Adamant|Life Orb|DynamicPunch|Fire Punch|ThunderPunch|Ice Punch|HP/Atk
+784|Hariyama|Adamant|Scope Lens|Cross Chop|Earthquake|Stone Edge|Poison Jab|HP/Atk
+142|Haunter|Timid|Persim Berry|Night Shade|Toxic|Confuse Ray|Grudge|SpA/Spe
+906|Heatran|Modest|Shuca Berry|Heat Wave|Flash Cannon|AncientPower|Scary Face|SpA/SpD
+920|Heatran|Adamant|Quick Claw|Iron Head|Earthquake|Stone Edge|Crunch|HP/Atk
+934|Heatran|Modest|Brightpowder|Flamethrower|Earth Power|Dragon Pulse|Dark Pulse|HP/SpA
+948|Heatran|Quiet|Focus Sash|Magma Storm|Flash Cannon|Earth Power|Explosion|Atk/SpA
+424|Heracross|Jolly|Focus Band|Megahorn|Focus Punch|Swagger|Attract|Atk/Spe
+560|Heracross|Adamant|Scope Lens|Close Combat|Aerial Ace|Night Slash|Bulk Up|Atk/SpD
+696|Heracross|Adamant|Coba Berry|Megahorn|Stone Edge|Facade|Shadow Claw|Atk/Spe
+832|Heracross|Jolly|Salac Berry|Megahorn|Earthquake|Reversal|Endure|Atk/Spe
+78|Hippopotas|Adamant|Chesto Berry|Dig|Rock Tomb|Sand Tomb|Yawn|HP/Atk
+460|Hippowdon|Impish|Persim Berry|Earthquake|Crunch|Slack Off|Curse|Atk/Def
+596|Hippowdon|Impish|Sitrus Berry|Earthquake|Swagger|Sand Tomb|Yawn|Atk/Def
+732|Hippowdon|Adamant|White Herb|Superpower|Fire Fang|Ice Fang|Fissure|HP/Atk
+868|Hippowdon|Adamant|Quick Claw|Earthquake|Stone Edge|Crunch|Thunder Fang|HP/Atk
+215|Hitmonchan|Adamant|King's Rock|Mach Punch|Bullet Punch|Mind Reader|Counter|Atk/SpD
+315|Hitmonchan|Adamant|King's Rock|Sky Uppercut|Mega Punch|Bullet Punch|Counter|Atk/SpD/Spe
+214|Hitmonlee|Careful|Black Belt|Rolling Kick|Facade|Foresight|Focus Energy|Atk/SpD
+314|Hitmonlee|Adamant|Salac Berry|Hi Jump Kick|Blaze Kick|Mega Kick|Endure|Atk/SpD/Spe
+217|Hitmontop|Adamant|Liechi Berry|Triple Kick|Mach Punch|Detect|Focus Energy|HP/Atk
+317|Hitmontop|Adamant|Muscle Band|Triple Kick|Bullet Punch|Aerial Ace|Counter|HP/Atk
+438|Honchkrow|Adamant|Wacan Berry|Night Slash|Aerial Ace|Torment|Taunt|HP/Atk
+574|Honchkrow|Adamant|White Herb|Superpower|Pluck|Confuse Ray|Thunder Wave|HP/Atk
+710|Honchkrow|Modest|Life Orb|Dark Pulse|Air Cutter|Psychic|Shadow Ball|HP/SpA
+846|Honchkrow|Adamant|Scope Lens|Night Slash|Drill Peck|Sucker Punch|Steel Wing|HP/Atk
+426|Houndoom|Jolly|Focus Sash|Fire Fang|Crunch|Roar|Counter|Atk/Spe
+562|Houndoom|Jolly|Focus Sash|Fire Fang|Thunder Fang|Reversal|Endure|Atk/Spe
+698|Houndoom|Modest|Passho Berry|Flamethrower|Shadow Ball|Sludge Bomb|Will-O-Wisp|SpA/Spe
+834|Houndoom|Timid|White Herb|Overheat|Dark Pulse|SolarBeam|Sunny Day|SpA/Spe
+72|Houndour|Adamant|Charcoal|Fire Fang|Bite|Roar|Will-O-Wisp|Atk/Spe
+242|Huntail|Docile|Mystic Water|Water Pulse|Bite|Screech|Rain Dance|Atk/Def
+342|Huntail|Adamant|Shell Bell|Aqua Tail|Crunch|Ice Fang|Rain Dance|Atk/Def
+394|Hypno|Brave|Iron Ball|Psycho Cut|Fling|Hypnosis|Trick Room|Atk/SpD
+530|Hypno|Quirky|Persim Berry|Dream Eater|Nightmare|Drain Punch|Hypnosis|SpA/SpD
+666|Hypno|Adamant|Sitrus Berry|Zen Headbutt|Fire Punch|ThunderPunch|Ice Punch|Atk/SpD
+802|Hypno|Modest|Choice Specs|Psychic|Shadow Ball|Signal Beam|Focus Blast|SpA/SpD
+137|Illumise|Timid|Petaya Berry|Silver Wind|Swift|Wish|Helping Hand|SpA/Spe
+361|Infernape|Jolly|Coba Berry|Close Combat|Fire Punch|U-turn|Fake Out|Atk/Spe
+497|Infernape|Adamant|Muscle Band|Blaze Kick|Shadow Claw|ThunderPunch|Gunk Shot|Atk/Spe
+633|Infernape|Modest|Brightpowder|Flamethrower|Focus Blast|SolarBeam|Sunny Day|SpA/Spe
+769|Infernape|Jolly|King's Rock|Flare Blitz|Close Combat|Earthquake|ThunderPunch|Atk/Spe
+151|Ivysaur|Careful|Salac Berry|Razor Leaf|PoisonPowder|Take Down|Leech Seed|Atk/SpD
+251|Ivysaur|Modest|Big Root|Giga Drain|Sludge Bomb|Sleep Powder|Leech Seed|SpA/SpD
+453|Jolteon|Timid|Focus Sash|Thunderbolt|Thunder Wave|Agility|Baton Pass|SpA/Spe
+589|Jolteon|Hardy|Razor Claw|Discharge|Double Kick|Dig|Thunder Wave|Atk/SpA
+725|Jolteon|Timid|Lax Incense|Thunder|Shadow Ball|Rain Dance|Yawn|SpA/Spe
+861|Jolteon|Modest|Razor Fang|Thunderbolt|Hyper Beam|Shadow Ball|Signal Beam|SpA/Spe
+208|Jumpluff|Jolly|Pecha Berry|Aerial Ace|Bullet Seed|Cotton Spore|Tail Whip|Atk/Spe
+308|Jumpluff|Adamant|Sitrus Berry|Seed Bomb|Bounce|Sleep Powder|Synthesis|Atk/Spe
+368|Jynx|Calm|Chesto Berry|Psychic|Ice Beam|Lovely Kiss|Fake Tears|SpA/SpD
+504|Jynx|Calm|Lax Incense|Dream Eater|Lovely Kiss|Perish Song|Mean Look|SpA/SpD
+640|Jynx|Modest|Expert Belt|Blizzard|Energy Ball|Signal Beam|Wring Out|SpA/Spe
+776|Jynx|Modest|Choice Specs|Ice Beam|Psychic|Focus Blast|Shadow Ball|SpA/Spe
+102|Kabuto|Adamant|Liechi Berry|Aqua Jet|Rock Tomb|Knock Off|Metal Sound|Atk/Def
+248|Kabutops|Impish|Sea Incense|Aqua Jet|Rock Tomb|Harden|Metal Sound|Atk/Def
+348|Kabutops|Adamant|Razor Claw|Waterfall|Rock Slide|Slash|Swords Dance|Atk/Def
+178|Kadabra|Timid|Twisted Spoon|Confusion|Role Play|Disable|Future Sight|SpD/Spe
+278|Kadabra|Modest|Cheri Berry|Psychic|Shadow Ball|Shock Wave|Reflect|SpA/Spe
+399|Kangaskhan|Jolly|Salac Berry|Double-Edge|Crunch|Reversal|Endure|Atk/Spe
+535|Kangaskhan|Adamant|Razor Claw|Dizzy Punch|Fire Punch|ThunderPunch|Ice Punch|HP/Atk
+671|Kangaskhan|Jolly|Life Orb|Double Hit|Hammer Arm|Shadow Claw|Rock Slide|Atk/Spe
+807|Kangaskhan|Adamant|Muscle Band|Giga Impact|Earthquake|Crunch|Outrage|HP/Atk
+200|Kecleon|Careful|Lansat Berry|Slash|Shadow Sneak|Tail Whip|Magic Coat|Atk/SpD
+300|Kecleon|Careful|Choice Scarf|Frustration|Shadow Claw|Aerial Ace|Trick|Atk/SpD
+474|Kingdra|Timid|Razor Fang|Surf|Dragon Pulse|SmokeScreen|Rain Dance|SpA/Spe
+610|Kingdra|Timid|Shell Bell|Brine|Ice Beam|Twister|Yawn|SpA/Spe
+746|Kingdra|Adamant|Lum Berry|Waterfall|Outrage|Iron Head|Dragon Dance|HP/Atk
+882|Kingdra|Modest|Wide Lens|Hydro Pump|Draco Meteor|Blizzard|Signal Beam|HP/SpA
+238|Kingler|Quiet|Wacan Berry|BubbleBeam|ViceGrip|Harden|Mud Sport|Def/SpA
+338|Kingler|Jolly|Salac Berry|Crabhammer|Guillotine|Flail|Endure|Atk/Spe
+84|Koffing|Modest|Poison Barb|Sludge|Psybeam|SmokeScreen|Spite|Def/SpA
+62|Krabby|Quiet|Pecha Berry|BubbleBeam|ViceGrip|Leer|Protect|Def/SpA
+13|Kricketot|Relaxed|Liechi Berry|Bug Bite|Bide|Mud-Slap|Growl|HP/Def/SpD
+119|Kricketune|Adamant|Metronome|Fury Cutter|Rock Smash|Knock Off|Focus Energy|HP/Atk
+191|Lairon|Impish|Metal Coat|Metal Claw|Rock Tomb|Iron Defense|Protect|Atk/Def
+291|Lairon|Impish|Sitrus Berry|Iron Head|Rock Slide|Earthquake|Roar|Atk/Def
+370|Lanturn|Modest|Rindo Berry|Surf|Discharge|Thunder Wave|Aqua Ring|HP/SpA
+506|Lanturn|Calm|Lum Berry|Dive|Confuse Ray|Thunder Wave|Attract|HP/SpD
+642|Lanturn|Modest|Sitrus Berry|Hydro Pump|Thunder|Blizzard|Rain Dance|HP/SpA
+778|Lanturn|Modest|Expert Belt|Surf|Thunderbolt|Ice Beam|Signal Beam|HP/SpA
+466|Lapras|Adamant|Leftovers|Aqua Tail|Avalanche|Ice Shard|Curse|HP/Atk
+602|Lapras|Impish|Quick Claw|Sheer Cold|Perish Song|Sing|Confuse Ray|Def/SpD
+738|Lapras|Adamant|Lum Berry|Waterfall|Outrage|Zen Headbutt|Dragon Dance|HP/Atk
+874|Lapras|Modest|Brightpowder|Surf|Ice Beam|Psychic|Thunderbolt|HP/SpA
+35|Larvitar|Adamant|Liechi Berry|Rock Slide|Dig|Bite|Scary Face|HP/Atk
+904|Latias|Calm|Lum Berry|Psychic|Dragon Pulse|Attract|Calm Mind|SpA/SpD
+918|Latias|Adamant|Expert Belt|Dragon Claw|Zen Headbutt|Earthquake|Aerial Ace|Atk/Spe
+932|Latias|Timid|Brightpowder|Psychic|Ice Beam|Energy Ball|Shadow Ball|SpA/Spe
+946|Latias|Modest|White Herb|Mist Ball|Draco Meteor|Thunderbolt|Surf|SpA/Spe
+905|Latios|Calm|Focus Band|Psychic|Dragon Pulse|Thunder Wave|Calm Mind|SpA/SpD
+919|Latios|Adamant|Lum Berry|Dragon Claw|Shadow Claw|Earthquake|Dragon Dance|Atk/Spe
+933|Latios|Timid|Brightpowder|Psychic|Thunderbolt|Ice Beam|Energy Ball|SpA/Spe
+947|Latios|Modest|White Herb|Luster Purge|Draco Meteor|Hyper Beam|Surf|SpA/Spe
+457|Leafeon|Jolly|Scope Lens|Leaf Blade|Aerial Ace|Double Team|Baton Pass|Atk/Spe
+593|Leafeon|Jolly|Brightpowder|Leaf Blade|Last Resort|Curse|GrassWhistle|Atk/Spe
+729|Leafeon|Adamant|Heat Rock|Leaf Blade|X-Scissor|Synthesis|Sunny Day|Atk/Def
+865|Leafeon|Adamant|Quick Claw|Leaf Blade|X-Scissor|Aerial Ace|Bite|Atk/Def
+129|Ledian|Timid|Razor Claw|Silver Wind|Air Cutter|Agility|Baton Pass|SpA/SpD
+445|Lickilicky|Careful|Chesto Berry|Return|Earthquake|Belly Drum|Rest|HP/Atk
+581|Lickilicky|Modest|Expert Belt|Surf|Ice Beam|Thunderbolt|Shadow Ball|HP/SpA
+717|Lickilicky|Brave|Lum Berry|Return|Gyro Ball|Curse|Rest|HP/Atk
+853|Lickilicky|Adamant|Lax Incense|Body Slam|Power Whip|Earthquake|Explosion|HP/Atk
+124|Lickitung|Adamant|Chesto Berry|Secret Power|Rock Tomb|Lick|Screech|HP/Atk
+103|Lileep|Calm|Lax Incense|AncientPower|Grass Knot|Ingrain|Confuse Ray|HP/Def/SpD
+177|Linoone|Jolly|Lansat Berry|Slash|Shadow Claw|Covet|Tickle|Atk/Spe
+277|Linoone|Jolly|Choice Scarf|Frustration|Shadow Claw|Dig|Switcheroo|Atk/Spe
+87|Lombre|Quiet|Damp Rock|Water Pulse|Mega Drain|Fake Out|Rain Dance|SpA/SpD
+391|Lopunny|Jolly|Focus Band|Return|Drain Punch|Charm|Mirror Coat|Atk/Spe
+527|Lopunny|Jolly|Brightpowder|Focus Punch|Sweet Kiss|Attract|Thunder Wave|HP/Spe
+663|Lopunny|Modest|Wise Glasses|Charge Beam|Ice Beam|Shadow Ball|Focus Blast|SpA/Spe
+799|Lopunny|Jolly|Muscle Band|Dizzy Punch|Fire Punch|ThunderPunch|Ice Punch|Atk/Spe
+107|Loudred|Adamant|Persim Berry|Stomp|Bite|Howl|Supersonic|HP/Atk
+459|Lucario|Modest|Brightpowder|Aura Sphere|Flash Cannon|Water Pulse|Roar|SpA/Spe
+595|Lucario|Adamant|Scope Lens|Cross Chop|Stone Edge|ThunderPunch|Ice Punch|Atk/Spe
+731|Lucario|Adamant|Muscle Band|Close Combat|Earthquake|Blaze Kick|Shadow Claw|Atk/Spe
+867|Lucario|Modest|Expert Belt|Aura Sphere|Psychic|Shadow Ball|Dragon Pulse|SpA/Spe
+387|Ludicolo|Adamant|Muscle Band|Waterfall|Razor Leaf|Drain Punch|Swords Dance|Atk/SpD
+523|Ludicolo|Impish|Leftovers|Leech Seed|Toxic|Double Team|Rain Dance|HP/Def/SpD
+659|Ludicolo|Modest|Wide Lens|Hydro Pump|Grass Knot|Blizzard|Focus Blast|HP/SpA
+795|Ludicolo|Modest|Lum Berry|Surf|Giga Drain|Ice Beam|Rain Dance|SpA/SpD
+227|Lumineon|Bashful|Wacan Berry|Water Gun|U-turn|Captivate|Attract|Atk/SpA
+327|Lumineon|Modest|Shell Bell|Surf|Silver Wind|Attract|Aqua Ring|SpA/Spe
+198|Lunatone|Modest|Sitrus Berry|AncientPower|Confusion|Cosmic Power|Reflect|SpA/SpD
+298|Lunatone|Modest|Passho Berry|Psychic|AncientPower|Shadow Ball|Cosmic Power|SpA/SpD
+76|Luvdisc|Timid|Damp Rock|Water Pulse|Attract|Sweet Kiss|Rain Dance|SpA/Spe
+173|Luxio|Adamant|Magnet|Thunder Fang|Bite|Flash|Swagger|HP/Atk
+273|Luxio|Modest|Petaya Berry|Thunderbolt|Signal Beam|Swift|Thunder Wave|HP/SpA
+433|Luxray|Adamant|Razor Claw|Thunder Fang|Crunch|Howl|Charge|HP/Atk
+569|Luxray|Modest|Wise Glasses|Thunderbolt|Signal Beam|Thunder Wave|Magnet Rise|HP/SpA
+705|Luxray|Adamant|White Herb|Thunder Fang|Ice Fang|Superpower|Thunder Wave|HP/Atk
+841|Luxray|Adamant|Muscle Band|Thunder Fang|Ice Fang|Crunch|Thunder Wave|HP/Atk
+435|Machamp|Adamant|Scope Lens|Cross Chop|Earthquake|Bullet Punch|Foresight|HP/Atk
+571|Machamp|Adamant|Focus Sash|Revenge|Earthquake|Payback|Counter|Def/SpD
+707|Machamp|Adamant|Quick Claw|DynamicPunch|Earthquake|Stone Edge|Ice Punch|HP/Atk
+843|Machamp|Adamant|Quick Claw|Cross Chop|Earthquake|ThunderPunch|Fire Punch|HP/Atk
+169|Machoke|Adamant|Focus Band|Karate Chop|Rock Tomb|Foresight|Scary Face|HP/Atk
+269|Machoke|Adamant|Scope Lens|Cross Chop|Facade|Rock Slide|Counter|HP/Atk
+43|Machop|Adamant|Scope Lens|Karate Chop|Rock Tomb|Foresight|Scary Face|HP/Atk
+113|Magby|Adamant|Pecha Berry|Fire Punch|Mach Punch|Leer|SmokeScreen|Atk/Spe
+164|Magcargo|Modest|Lax Incense|Lava Plume|AncientPower|Acid Armor|Sandstorm|HP/SpA
+264|Magcargo|Quiet|Quick Claw|Overheat|Rock Slide|Earthquake|Body Slam|Atk/SpA
+246|Magmar|Jolly|Lansat Berry|Fire Punch|Mach Punch|SmokeScreen|Will-O-Wisp|Atk/Spe
+346|Magmar|Modest|Lax Incense|Flamethrower|Psychic|Focus Blast|Confuse Ray|SpA/Spe
+478|Magmortar|Modest|Heat Rock|Fire Blast|Focus Blast|Will-O-Wisp|Sunny Day|SpA/Spe
+614|Magmortar|Adamant|Shuca Berry|Fire Punch|Focus Punch|Confuse Ray|SmokeScreen|Atk/Spe
+750|Magmortar|Adamant|Passho Berry|Flare Blitz|ThunderPunch|Earthquake|Brick Break|Atk/Spe
+886|Magmortar|Modest|White Herb|Overheat|Psychic|Focus Blast|Confuse Ray|SpA/Spe
+59|Magnemite|Bold|Rawst Berry|Shock Wave|Mirror Shot|Metal Sound|Reflect|Def/SpA
+228|Magneton|Docile|Petaya Berry|Shock Wave|Magnet Bomb|Thunder Wave|Supersonic|Atk/SpA
+328|Magneton|Modest|Shuca Berry|Thunderbolt|Mirror Shot|Thunder Wave|Magnet Rise|Def/SpA
+468|Magnezone|Bold|Light Clay|Thunderbolt|Mirror Shot|Light Screen|Reflect|Def/SpA
+604|Magnezone|Impish|Lum Berry|Iron Head|Explosion|Swagger|Psych Up|Atk/Def
+740|Magnezone|Modest|Chesto Berry|Charge Beam|Flash Cannon|Magnet Rise|Thunder Wave|Def/SpA
+876|Magnezone|Modest|Brightpowder|Thunderbolt|Flash Cannon|Tri Attack|Signal Beam|Def/SpA
+465|Mamoswine|Adamant|Icy Rock|Earthquake|Ice Fang|Peck|Hail|HP/Atk
+601|Mamoswine|Adamant|Sitrus Berry|Avalanche|Earthquake|Iron Head|Curse|HP/Atk
+737|Mamoswine|Adamant|Lax Incense|Earthquake|Superpower|Fissure|Hail|HP/Atk
+873|Mamoswine|Adamant|Life Orb|Earthquake|Ice Fang|Stone Edge|Double-Edge|HP/Atk
+380|Manectric|Adamant|Shuca Berry|Thunder Fang|Crunch|Roar|Thunder Wave|Atk/Spe
+516|Manectric|Modest|Damp Rock|Thunder|Hyper Beam|Thunder Wave|Rain Dance|SpA/Spe
+652|Manectric|Adamant|Quick Claw|Thunder Fang|Fire Fang|Ice Fang|Bite|Atk/Spe
+788|Manectric|Timid|Brightpowder|Thunderbolt|Flamethrower|Signal Beam|Swift|SpA/Spe
+229|Mantine|Quirky|Mystic Water|BubbleBeam|Wing Attack|Agility|Supersonic|Atk/SpA
+329|Mantine|Modest|Shell Bell|Surf|Air Cutter|Ice Beam|Confuse Ray|SpA/SpD
+93|Mantyke|Hardy|Mystic Water|BubbleBeam|Aerial Ace|Icy Wind|Agility|SpA/SpD
+364|Marowak|Adamant|Razor Claw|Bone Rush|Brick Break|Iron Tail|Sandstorm|Atk/Def
+500|Marowak|Adamant|Thick Club|Bone Rush|Fire Punch|ThunderPunch|Rock Slide|Atk/Def
+636|Marowak|Adamant|Thick Club|Earthquake|Giga Impact|Outrage|Fire Punch|Atk/Def
+772|Marowak|Adamant|Thick Club|Earthquake|Stone Edge|Iron Head|ThunderPunch|Atk/Def
+159|Marshtomp|Modest|Focus Band|Mud Shot|Water Pulse|AncientPower|Growl|SpA/SpD
+259|Marshtomp|Quiet|Persim Berry|Muddy Water|Earthquake|AncientPower|Protect|Atk/SpA
+171|Masquerain|Bold|SilverPowder|Silver Wind|Air Cutter|Sweet Scent|Scary Face|Def/SpA
+271|Masquerain|Quiet|Petaya Berry|Bug Buzz|Air Slash|Shadow Ball|Stun Spore|SpA/SpD
+118|Mawile|Impish|Brightpowder|Iron Head|Bite|Tickle|Iron Defense|HP/Def
+365|Medicham|Jolly|Salac Berry|Zen Headbutt|Reversal|Endure|Fake Out|Atk/Spe
+501|Medicham|Jolly|Cheri Berry|Drain Punch|Poison Jab|Detect|Recover|Atk/Spe
+637|Medicham|Modest|Wise Glasses|Psychic|Focus Blast|Shadow Ball|Calm Mind|SpA/Spe
+773|Medicham|Adamant|Scope Lens|Psycho Cut|Fire Punch|ThunderPunch|Ice Punch|Atk/Spe
+354|Meganium|Modest|Heat Rock|SolarBeam|AncientPower|Synthesis|Sunny Day|Def/SpD
+490|Meganium|Calm|Big Root|Giga Drain|Leech Seed|Toxic|Substitute|HP/Def/SpD
+626|Meganium|Bold|Light Clay|Leaf Storm|Wring Out|Light Screen|Reflect|HP/SpA
+762|Meganium|Modest|Lax Incense|Frenzy Plant|AncientPower|Hyper Beam|Light Screen|HP/SpA
+484|Metagross|Adamant|Brightpowder|Zen Headbutt|Bullet Punch|Facade|Light Screen|Atk/Def
+620|Metagross|Modest|Wise Glasses|Psychic|Flash Cannon|Shadow Ball|Sludge Bomb|Def/SpA
+756|Metagross|Adamant|Occa Berry|Hammer Arm|ThunderPunch|Ice Punch|Aerial Ace|Atk/Def
+892|Metagross|Adamant|Quick Claw|Meteor Mash|Zen Headbutt|Earthquake|Explosion|HP/Atk
+180|Metang|Quirky|Chesto Berry|Metal Claw|Confusion|Magnet Rise|Scary Face|Atk/SpA
+280|Metang|Adamant|Shuca Berry|Meteor Mash|Zen Headbutt|Bullet Punch|Scary Face|HP/Atk
+176|Mightyena|Jolly|Razor Fang|Bite|Poison Fang|Howl|Roar|Atk/Spe
+276|Mightyena|Adamant|Chople Berry|Crunch|Take Down|Sucker Punch|Howl|Atk/Def
+476|Milotic|Modest|Shell Bell|Surf|Ice Beam|Attract|Hypnosis|HP/SpA
+612|Milotic|Impish|Leftovers|Toxic|Confuse Ray|Double Team|Aqua Ring|HP/Def
+748|Milotic|Calm|Wide Lens|Hydro Pump|Blizzard|Mirror Coat|Recover|SpA/SpD
+884|Milotic|Modest|Lum Berry|Surf|Ice Beam|Dragon Pulse|Recover|HP/SpA
+403|Miltank|Impish|Cheri Berry|Return|Iron Head|Thunder Wave|Milk Drink|Atk/Def
+539|Miltank|Adamant|Salac Berry|Facade|Zen Headbutt|Reversal|Endure|Atk/Spe
+675|Miltank|Adamant|Scope Lens|Dizzy Punch|Fire Punch|ThunderPunch|Ice Punch|Atk/Def
+811|Miltank|Adamant|Muscle Band|Giga Impact|Earthquake|Rock Slide|Zen Headbutt|Atk/Spe
+51|Mime Jr.|Bold|Lax Incense|Copycat|Confusion|Barrier|Light Screen|SpA/SpD
+147|Minun|Timid|Salac Berry|Shock Wave|Swift|Encore|Helping Hand|SpA/Spe
+193|Misdreavus|Calm|Cheri Berry|Ominous Wind|Pain Split|Confuse Ray|Thunder Wave|SpA/SpD
+293|Misdreavus|Modest|Kasib Berry|Shadow Ball|Psychic|Thunder Wave|Confuse Ray|SpA/Spe
+413|Mismagius|Modest|Kasib Berry|Shadow Ball|Power Gem|Magical Leaf|Memento|SpA/Spe
+549|Mismagius|Modest|Lum Berry|Shadow Ball|Confuse Ray|Perish Song|Mean Look|SpA/SpD
+685|Mismagius|Timid|Wise Glasses|Shadow Ball|Energy Ball|Icy Wind|Destiny Bond|SpA/Spe
+821|Mismagius|Timid|Focus Sash|Shadow Ball|Psychic|Thunderbolt|Destiny Bond|SpA/Spe
+897|Moltres|Timid|Passho Berry|Flamethrower|Air Slash|AncientPower|Roost|SpA/Spe
+911|Moltres|Timid|Heat Rock|Fire Blast|SolarBeam|Hyper Beam|Sunny Day|HP/SpA
+925|Moltres|Adamant|Power Herb|Sky Attack|Return|Steel Wing|U-turn|Atk/Spe
+939|Moltres|Modest|White Herb|Overheat|Air Slash|AncientPower|Ominous Wind|SpA/Spe
+161|Monferno|Adamant|Coba Berry|Mach Punch|Flame Wheel|Fury Swipes|Taunt|Atk/Spe
+261|Monferno|Adamant|Scope Lens|Blaze Kick|Brick Break|Rock Slide|Torment|Atk/Spe
+182|Mothim|Modest|Petaya Berry|Silver Wind|Air Cutter|PoisonPowder|Captivate|HP/SpA
+282|Mothim|Modest|Coba Berry|Bug Buzz|Air Slash|Psychic|PoisonPowder|HP/SpA
+369|Mr. Mime|Calm|Cheri Berry|Psychic|Signal Beam|Copycat|Mimic|SpA/SpD
+505|Mr. Mime|Calm|Light Clay|Dream Eater|Hypnosis|Light Screen|Reflect|SpA/SpD
+641|Mr. Mime|Modest|Kasib Berry|Psychic|Thunderbolt|Energy Ball|Hyper Beam|SpA/SpD
+777|Mr. Mime|Modest|Choice Specs|Psychic|Charge Beam|Shadow Ball|Focus Blast|SpA/SpD
+9|Mudkip|Modest|Mystic Water|Water Pulse|Icy Wind|Mud-Slap|Growl|HP/SpA
+418|Muk|Adamant|Black Sludge|Poison Jab|Shadow Sneak|Minimize|Acid Armor|HP/Atk
+554|Muk|Adamant|Expert Belt|Poison Jab|Fire Punch|ThunderPunch|Ice Punch|HP/Atk
+690|Muk|Brave|Zoom Lens|Gunk Shot|Payback|Shadow Sneak|Curse|HP/Atk
+826|Muk|Adamant|Quick Claw|Gunk Shot|Shadow Sneak|Brick Break|Explosion|HP/Atk
+132|Munchlax|Relaxed|Sitrus Berry|Metronome|Recycle|Stockpile|Swallow|Def/SpD
+144|Murkrow|Jolly|BlackGlasses|Faint Attack|Wing Attack|Torment|Taunt|Atk/Spe
+57|Natu|Timid|Twisted Spoon|Night Shade|Air Cutter|Ominous Wind|Future Sight|SpA/Spe
+408|Nidoking|Impish|Focus Band|Earthquake|Poison Jab|Double Kick|Counter|HP/Atk
+544|Nidoking|Careful|Brightpowder|Focus Punch|Dragon Pulse|Horn Drill|Substitute|HP/Def/SpD
+680|Nidoking|Modest|Expert Belt|Earth Power|Sludge Bomb|Ice Beam|Shadow Ball|SpA/Spe
+816|Nidoking|Adamant|Muscle Band|Earthquake|Poison Jab|Megahorn|Outrage|Atk/Spe
+407|Nidoqueen|Adamant|Payapa Berry|Earthquake|Poison Fang|Aerial Ace|Charm|HP/Atk
+543|Nidoqueen|Adamant|Scope Lens|Poison Jab|Fire Punch|ThunderPunch|Ice Punch|HP/Atk
+679|Nidoqueen|Modest|Black Sludge|Sludge Bomb|Earth Power|Flamethrower|Ice Beam|HP/SpA
+815|Nidoqueen|Adamant|Razor Claw|Earthquake|Poison Jab|Superpower|Crunch|HP/Atk
+110|Nidorina|Adamant|Poison Barb|Poison Fang|Double Kick|Bite|Flatter|HP/Atk
+111|Nidorino|Adamant|Focus Band|Toxic|Double Kick|Facade|Flatter|HP/Atk
+434|Ninetales|Timid|Brightpowder|Fire Blast|SolarBeam|Attract|Sunny Day|SpA/Spe
+570|Ninetales|Timid|White Herb|Overheat|Dark Pulse|Nasty Plot|Confuse Ray|SpA/Spe
+706|Ninetales|Timid|Wide Lens|Heat Wave|Ominous Wind|Dream Eater|Hypnosis|SpD/Spe
+842|Ninetales|Modest|Passho Berry|Flamethrower|Extrasensory|Energy Ball|Calm Mind|SpA/Spe
+220|Ninjask|Adamant|Chesto Berry|Bug Bite|Aerial Ace|Sand-Attack|Baton Pass|HP/Atk
+320|Ninjask|Adamant|Razor Fang|X-Scissor|Aerial Ace|Night Slash|Baton Pass|HP/Atk
+203|Noctowl|Adamant|Persim Berry|Secret Power|Aerial Ace|Supersonic|Reflect|HP/Atk
+303|Noctowl|Quiet|Persim Berry|Air Slash|Swift|Psychic|Reflect|HP/SpA
+114|Nosepass|Modest|Hard Stone|AncientPower|Shock Wave|Thunder Wave|Sandstorm|Def/SpA
+46|Numel|Serious|Lax Incense|Magnitude|Ember|Rock Tomb|Sandstorm|Atk/SpA
+88|Nuzleaf|Adamant|Aspear Berry|Razor Leaf|Faint Attack|Swagger|Harden|HP/Atk
+241|Octillery|Modest|Wacan Berry|Octazooka|Icy Wind|Thunder Wave|Focus Energy|HP/SpA
+341|Octillery|Modest|Life Orb|Octazooka|Flamethrower|Psychic|Thunder Wave|HP/SpA
+53|Oddish|Bold|Rose Incense|Mega Drain|Acid|Sweet Scent|Moonlight|SpA/SpD
+101|Omanyte|Bold|Pecha Berry|AncientPower|Water Gun|Mud Shot|Protect|Def/SpA
+247|Omastar|Brave|Metronome|Water Gun|Rollout|Withdraw|Spikes|Atk/Def
+347|Omastar|Modest|Sitrus Berry|Surf|Stone Edge|Ice Beam|Toxic Spikes|Def/SpA
+123|Onix|Adamant|Hard Stone|Rock Slide|Dig|Screech|Sandstorm|Atk/Def
+148|Pachirisu|Jolly|Magnet|Spark|Quick Attack|Bite|Sweet Kiss|Atk/Spe
+140|Parasect|Jolly|Aspear Berry|Bug Bite|Grass Knot|Scratch|Stun Spore|SpD/Spe
+190|Pelipper|Modest|Chesto Berry|Water Pulse|Air Cutter|Stockpile|Swallow|Def/SpA
+290|Pelipper|Modest|Shell Bell|Surf|Air Cutter|Ice Beam|Tailwind|Def/SpA
+195|Persian|Jolly|Silk Scarf|Slash|U-turn|Captivate|Swagger|Atk/Spe
+295|Persian|Adamant|Razor Claw|Slash|Shadow Claw|Bite|Fake Out|Atk/Spe
+73|Phanpy|Adamant|Metronome|Rollout|Rock Tomb|Defense Curl|Sandstorm|HP/Atk
+233|Pidgeot|Adamant|Cheri Berry|Wing Attack|Facade|Tailwind|Sand-Attack|Atk/Spe
+333|Pidgeot|Adamant|Razor Claw|Return|Aerial Ace|Steel Wing|U-turn|Atk/Spe
+95|Pidgeotto|Adamant|Rawst Berry|Wing Attack|Quick Attack|FeatherDance|Mirror Move|Atk/Spe
+29|Pikachu|Modest|Sitrus Berry|ThunderShock|Swift|Thunder Wave|Double Team|SpA/Spe
+209|Piloswine|Modest|NeverMeltIce|Icy Wind|Mud Bomb|Mist|Hail|HP/SpA
+309|Piloswine|Adamant|Muscle Band|Ice Fang|Earthquake|Stone Edge|Curse|HP/Atk
+422|Pinsir|Adamant|Coba Berry|X-Scissor|Earthquake|Rock Slide|Swords Dance|Atk/Def
+558|Pinsir|Jolly|Salac Berry|X-Scissor|Revenge|Flail|Endure|Atk/Spe
+694|Pinsir|Adamant|Lax Incense|X-Scissor|Superpower|Stone Edge|Giga Impact|Atk/Def
+830|Pinsir|Adamant|Scope Lens|X-Scissor|Earthquake|Close Combat|Guillotine|Atk/Def
+12|Piplup|Bashful|Rindo Berry|BubbleBeam|Aerial Ace|Growl|Supersonic|Atk/SpA
+146|Plusle|Timid|Petaya Berry|Shock Wave|Swift|Fake Tears|Helping Hand|SpA/Spe
+421|Politoed|Calm|Lax Incense|Surf|Hyper Voice|Mud Bomb|Swagger|SpA/SpD
+557|Politoed|Impish|Chesto Berry|Dive|Brick Break|Hypnosis|Perish Song|HP/Atk
+693|Politoed|Careful|Chesto Berry|Waterfall|Earthquake|Belly Drum|Rest|Atk/SpD
+829|Politoed|Modest|Wacan Berry|Hydro Pump|Ice Beam|Psychic|Hypnosis|SpA/SpD
+122|Poliwhirl|Quirky|Liechi Berry|BubbleBeam|DoubleSlap|Mist|Rain Dance|Atk/SpA
+416|Poliwrath|Modest|Rindo Berry|Surf|Vacuum Wave|Psychic|Double Team|HP/SpA
+552|Poliwrath|Adamant|Lax Incense|Waterfall|DynamicPunch|Poison Jab|Bulk Up|HP/Atk
+688|Poliwrath|Modest|Wide Lens|Hydro Pump|Focus Blast|Blizzard|Mud Bomb|HP/SpA
+824|Poliwrath|Adamant|Expert Belt|Waterfall|Focus Punch|Earthquake|Hypnosis|HP/Atk
+149|Ponyta|Adamant|Chesto Berry|Flame Wheel|Stomp|Will-O-Wisp|Tail Whip|Atk/Spe
+134|Porygon|Modest|Persim Berry|Swift|Psybeam|Icy Wind|Recycle|HP/SpA
+444|Porygon2|Modest|Cheri Berry|Tri Attack|Charge Beam|Thunder Wave|Recycle|HP/SpA
+580|Porygon2|Quiet|Iron Ball|Tri Attack|Thunderbolt|Recover|Trick Room|HP/SpA
+716|Porygon2|Modest|Wise Glasses|Tri Attack|Thunderbolt|Psychic|Ice Beam|HP/SpA
+852|Porygon2|Modest|Lum Berry|Tri Attack|Signal Beam|Shadow Ball|Ice Beam|HP/SpA
+471|Porygon-Z|Modest|Sitrus Berry|Tri Attack|Shadow Ball|Recycle|Conversion 2|HP/SpA
+607|Porygon-Z|Timid|Choice Scarf|Tri Attack|Thunder Wave|Recover|Trick|SpA/Spe
+743|Porygon-Z|Modest|Wise Glasses|Psychic|Ice Beam|Signal Beam|Charge Beam|HP/SpA
+879|Porygon-Z|Modest|Expert Belt|Tri Attack|Shadow Ball|Thunderbolt|Recover|SpA/Spe
+213|Primeape|Jolly|Scope Lens|Karate Chop|Fury Swipes|Foresight|Focus Energy|Atk/Spe
+313|Primeape|Adamant|Expert Belt|Cross Chop|Earthquake|Rock Slide|Swagger|Atk/Spe
+162|Prinplup|Quiet|Wacan Berry|BubbleBeam|Metal Claw|Peck|Double Team|SpA/SpD
+262|Prinplup|Bashful|Focus Band|Surf|Drill Peck|Metal Claw|Rain Dance|Atk/SpA
+461|Probopass|Brave|Cheri Berry|AncientPower|Magnet Bomb|Thunder Wave|Protect|Atk/SpA
+597|Probopass|Adamant|Chople Berry|Iron Head|Fire Punch|ThunderPunch|Ice Punch|Atk/SpD
+733|Probopass|Adamant|Scope Lens|Stone Edge|Iron Head|Earthquake|Explosion|Atk/Def
+869|Probopass|Modest|Life Orb|Flash Cannon|Power Gem|Earth Power|Thunderbolt|SpA/SpD
+54|Psyduck|Modest|Chesto Berry|Water Gun|Confusion|Water Sport|Disable|HP/SpA
+165|Pupitar|Adamant|Hard Stone|Rock Tomb|Dig|Scary Face|Sandstorm|HP/Atk
+265|Pupitar|Adamant|Soft Sand|Earthquake|Rock Slide|Crunch|Scary Face|HP/Atk
+210|Purugly|Adamant|Silk Scarf|Slash|Faint Attack|Attract|Growl|Atk/Spe
+310|Purugly|Adamant|Liechi Berry|Body Slam|Shadow Claw|Attract|Fake Out|Atk/Spe
+366|Quagsire|Adamant|Rindo Berry|Earthquake|Aqua Tail|Brick Break|Counter|HP/Atk
+502|Quagsire|Careful|Leftovers|Dive|Yawn|Curse|Amnesia|HP/Def/SpD
+638|Quagsire|Modest|Quick Claw|Surf|Earth Power|Focus Blast|Sludge Bomb|HP/SpA
+774|Quagsire|Adamant|Muscle Band|Earthquake|Waterfall|Stone Edge|Ice Punch|HP/Atk
+155|Quilava|Adamant|Chesto Berry|Flame Wheel|Double Kick|Quick Attack|SmokeScreen|Atk/Spe
+255|Quilava|Serious|Focus Band|Flamethrower|Crush Claw|Quick Attack|SmokeScreen|Atk/SpA
+187|Qwilfish|Bashful|Cheri Berry|BubbleBeam|Toxic|Pin Missile|Harden|Atk/SpA
+287|Qwilfish|Adamant|Focus Band|Aqua Tail|Poison Jab|Revenge|Destiny Bond|Atk/Def
+378|Raichu|Adamant|Wide Lens|ThunderPunch|Iron Tail|Slam|Quick Attack|Atk/Spe
+514|Raichu|Jolly|Focus Band|ThunderPunch|Focus Punch|Sweet Kiss|Thunder Wave|Atk/Spe
+650|Raichu|Timid|Petaya Berry|Thunderbolt|Focus Blast|Signal Beam|Nasty Plot|SpA/Spe
+786|Raichu|Adamant|Brightpowder|Volt Tackle|Return|Brick Break|Thunder Wave|Atk/Spe
+898|Raikou|Timid|Lum Berry|Thunderbolt|Shadow Ball|Thunder Wave|Light Screen|SpA/Spe
+912|Raikou|Jolly|King's Rock|Thunder Fang|Crunch|Iron Head|Return|Atk/Spe
+926|Raikou|Modest|Wise Glasses|Thunder|Extrasensory|Signal Beam|Rain Dance|SpA/Spe
+940|Raikou|Modest|Shuca Berry|Thunderbolt|Extrasensory|Shadow Ball|Calm Mind|SpA/Spe
+430|Rampardos|Adamant|Toxic Orb|Rock Slide|Facade|Crunch|Screech|HP/Atk
+566|Rampardos|Brave|Iron Ball|Stone Edge|Payback|Avalanche|Fling|HP/Atk
+702|Rampardos|Adamant|Life Orb|Head Smash|Zen Headbutt|Fire Punch|ThunderPunch|HP/Atk
+838|Rampardos|Jolly|Choice Scarf|Head Smash|Earthquake|Giga Impact|Superpower|Atk/Spe
+417|Rapidash|Modest|Chesto Berry|Fire Blast|SolarBeam|Sunny Day|Rest|SpA/Spe
+553|Rapidash|Modest|White Herb|Overheat|SolarBeam|Swift|Sunny Day|SpA/Spe
+689|Rapidash|Adamant|Brightpowder|Flare Blitz|Poison Jab|Iron Tail|Horn Drill|Atk/Spe
+825|Rapidash|Jolly|Chesto Berry|Flare Blitz|Megahorn|Double-Edge|Hypnosis|Atk/Spe
+170|Raticate|Jolly|Silk Scarf|Endeavor|Pursuit|Quick Attack|Scary Face|Atk/Spe
+270|Raticate|Bashful|Chople Berry|Super Fang|Hyper Fang|Shadow Ball|Scary Face|Atk/SpA/Spe
+902|Regice|Modest|Lum Berry|Ice Beam|Signal Beam|Charge Beam|Amnesia|SpA/SpD
+916|Regice|Impish|Leftovers|Avalanche|Hammer Arm|Double Team|Curse|HP/Def
+930|Regice|Bold|Chesto Berry|Ice Beam|Flash Cannon|AncientPower|Rest|Def/SpA
+944|Regice|Modest|Shell Bell|Ice Beam|Thunderbolt|Hyper Beam|Focus Blast|HP/SpA
+908|Regigigas|Impish|Lax Incense|Return|Aerial Ace|Thunder Wave|Confuse Ray|HP/Def/SpD
+922|Regigigas|Careful|Leftovers|Facade|Zen Headbutt|Double Team|Substitute|HP/Def/SpD
+936|Regigigas|Modest|Wise Glasses|Earth Power|Focus Blast|Thunderbolt|AncientPower|HP/SpA
+950|Regigigas|Adamant|Brightpowder|Crush Grip|Earthquake|Stone Edge|Drain Punch|HP/Atk
+901|Regirock|Impish|Leftovers|Rock Slide|Earthquake|Brick Break|Sandstorm|Atk/Def
+915|Regirock|Adamant|Razor Claw|Fire Punch|ThunderPunch|Ice Punch|Drain Punch|HP/Atk
+929|Regirock|Careful|Chesto Berry|Stone Edge|Hammer Arm|Rest|Curse|HP/SpD
+943|Regirock|Careful|Quick Claw|Stone Edge|Earthquake|Hammer Arm|Explosion|Atk/SpD
+903|Registeel|Modest|Lum Berry|Flash Cannon|Thunderbolt|Thunder Wave|Amnesia|HP/SpA
+917|Registeel|Adamant|Leftovers|Iron Head|Toxic|Double Team|Iron Defense|HP/Def/SpD
+931|Registeel|Adamant|Razor Claw|Shadow Claw|Aerial Ace|ThunderPunch|Ice Punch|HP/Atk
+945|Registeel|Adamant|Shell Bell|Iron Head|Hammer Arm|Earthquake|Curse|HP/Def/SpD
+244|Relicanth|Relaxed|Wave Incense|Water Pulse|Rock Tomb|Mud Sport|Harden|Def/SpA
+344|Relicanth|Impish|Chesto Berry|Aqua Tail|Rock Slide|Rest|Yawn|Atk/Def
+34|Remoraid|Modest|Petaya Berry|BubbleBeam|Aurora Beam|Mud-Slap|Supersonic|SpA/Spe
+396|Rhydon|Adamant|Passho Berry|Earthquake|Rock Slide|Crunch|Scary Face|Atk/Def
+532|Rhydon|Adamant|Focus Sash|Earthquake|Fire Punch|ThunderPunch|Ice Punch|Atk/Def
+668|Rhydon|Brave|Persim Berry|Outrage|Hammer Arm|Shadow Claw|Avalanche|HP/Atk
+804|Rhydon|Adamant|Quick Claw|Earthquake|Stone Edge|Megahorn|Horn Drill|HP/Atk
+91|Rhyhorn|Adamant|Persim Berry|Dig|Rock Blast|Scary Face|Tail Whip|HP/Atk/Def
+469|Rhyperior|Adamant|Focus Band|Rock Wrecker|Earthquake|Crunch|Roar|Atk/Def
+605|Rhyperior|Adamant|Expert Belt|Fire Punch|ThunderPunch|Ice Punch|Aqua Tail|Atk/Def
+741|Rhyperior|Impish|Focus Sash|Horn Drill|Avalanche|Payback|Counter|HP/Def
+877|Rhyperior|Adamant|Choice Band|Rock Wrecker|Earthquake|Hammer Arm|Megahorn|HP/Atk
+24|Riolu|Adamant|Expert Belt|Brick Break|Bullet Punch|Foresight|Counter|Atk/Spe
+138|Roselia|Modest|Black Sludge|Mega Drain|Toxic|GrassWhistle|Cotton Spore|SpA/SpD
+437|Roserade|Calm|Coba Berry|Sludge Bomb|Magical Leaf|Stun Spore|Mud-Slap|SpA/SpD
+573|Roserade|Calm|Big Root|Giga Drain|Leech Seed|Ingrain|Synthesis|SpA/SpD
+709|Roserade|Modest|White Herb|Leaf Storm|Sludge Bomb|Hyper Beam|GrassWhistle|SpA/Spe
+845|Roserade|Modest|White Herb|Leaf Storm|Sludge Bomb|Shadow Ball|Weather Ball|SpA/Spe
+201|Rotom|Modest|Cheri Berry|ThunderShock|Astonish|Thunder Wave|Confuse Ray|SpA/Spe
+301|Rotom|Modest|Magnet|Discharge|Ominous Wind|Thunder Wave|Double Team|SpA/Spe
+117|Sableye|Impish|BlackGlasses|Faint Attack|Shadow Sneak|Fake Out|Detect|Atk/Def
+483|Salamence|Adamant|Cheri Berry|Dragon Claw|Aerial Ace|Aqua Tail|Scary Face|Atk/Spe
+619|Salamence|Jolly|Razor Fang|Dragon Claw|Fire Fang|Thunder Fang|Dragon Dance|Atk/Spe
+755|Salamence|Modest|Wise Glasses|Draco Meteor|Hydro Pump|Flamethrower|Ominous Wind|SpA/Spe
+891|Salamence|Adamant|Lum Berry|Outrage|Crunch|Earthquake|Zen Headbutt|Atk/Spe
+30|Sandshrew|Adamant|Soft Sand|Dig|Rock Tomb|Sandstorm|Sand-Attack|Atk/Def
+204|Sandslash|Adamant|Sitrus Berry|Dig|Rock Tomb|Defense Curl|Sandstorm|Atk/Def
+304|Sandslash|Adamant|Quick Claw|Earthquake|Rock Slide|Crush Claw|Sandstorm|Atk/Def
+357|Sceptile|Jolly|Liechi Berry|Leaf Blade|Crunch|Quick Attack|Screech|Atk/Spe
+493|Sceptile|Timid|Leftovers|Giga Drain|Leech Seed|Toxic|Double Team|SpA/Spe
+629|Sceptile|Adamant|Scope Lens|Leaf Blade|X-Scissor|Night Slash|Aerial Ace|Atk/Spe
+765|Sceptile|Timid|Occa Berry|Leaf Storm|Dragon Pulse|Focus Blast|Hyper Beam|SpA/Spe
+423|Scizor|Impish|Brightpowder|X-Scissor|Bullet Punch|Swords Dance|Baton Pass|Atk/Def
+559|Scizor|Careful|Sitrus Berry|Metal Claw|Night Slash|Iron Defense|Roost|Atk/SpD
+695|Scizor|Jolly|Salac Berry|X-Scissor|Quick Attack|Reversal|Endure|Atk/Spe
+831|Scizor|Adamant|Occa Berry|X-Scissor|Iron Head|Aerial Ace|Night Slash|Atk/Def
+249|Scyther|Jolly|Metronome|Fury Cutter|Wing Attack|Light Screen|Leer|HP/Spe
+349|Scyther|Adamant|Brightpowder|X-Scissor|Aerial Ace|Night Slash|Swords Dance|Atk/Spe
+196|Seadra|Bold|Razor Claw|BubbleBeam|Aurora Beam|SmokeScreen|Rain Dance|Def/SpA
+296|Seadra|Modest|Shell Bell|Surf|Ice Beam|Twister|SmokeScreen|Def/SpA
+207|Seaking|Modest|Pecha Berry|Water Pulse|Psybeam|Supersonic|Rain Dance|HP/SpA
+307|Seaking|Adamant|Quick Claw|Aqua Tail|Poison Jab|Facade|Aqua Ring|HP/Atk
+166|Sealeo|Relaxed|Icy Rock|Aurora Beam|Water Pulse|Encore|Hail|HP/SpA
+266|Sealeo|Quiet|Chesto Berry|Ice Beam|Surf|Signal Beam|Hail|HP/SpA
+60|Seel|Adamant|Aspear Berry|Aqua Jet|Ice Shard|Fake Out|Encore|Atk/SpD
+222|Seviper|Adamant|Scope Lens|Poison Tail|Lick|Knock Off|Glare|HP/Atk
+322|Seviper|Adamant|Black Sludge|Sludge Bomb|Crunch|Aqua Tail|Swagger|HP/Atk
+224|Sharpedo|Quirky|Cheri Berry|Water Pulse|Bite|Scary Face|Focus Energy|SpA/Spe
+324|Sharpedo|Adamant|Wacan Berry|Crunch|Waterfall|Ice Fang|Swagger|Atk/Spe
+16|Shedinja|Adamant|Lax Incense|Shadow Sneak|Fury Cutter|Confuse Ray|Sand-Attack|Atk/Spe
+179|Shelgon|Quiet|Aspear Berry|DragonBreath|Headbutt|Protect|Scary Face|Atk/SpA
+279|Shelgon|Adamant|Focus Band|Dragon Claw|Crunch|Dragon Dance|Scary Face|Atk/Def
+65|Shellos|Bold|Lax Incense|Water Pulse|Mud-Slap|Icy Wind|Harden|HP/SpA
+98|Shieldon|Sassy|Focus Band|Iron Head|Rock Tomb|Swagger|Iron Defense|Atk/Def
+388|Shiftry|Jolly|Persim Berry|Seed Bomb|Faint Attack|X-Scissor|Fake Out|Atk/Spe
+524|Shiftry|Calm|Leftovers|Giga Drain|Leech Seed|Double Team|Synthesis|HP/Def/SpD
+660|Shiftry|Modest|White Herb|Leaf Storm|Dark Pulse|Focus Blast|Shadow Ball|HP/SpA
+796|Shiftry|Adamant|Cheri Berry|Seed Bomb|Sucker Punch|Aerial Ace|Explosion|HP/Atk
+20|Shinx|Adamant|King's Rock|Thunder Fang|Bite|Howl|Leer|HP/Atk
+436|Shuckle|Impish|Lax Incense|Stone Edge|Bug Bite|Swagger|Power Trick|HP/Def/SpD
+572|Shuckle|Careful|Grip Claw|Wrap|Swagger|Attract|Toxic|HP/Def/SpD
+708|Shuckle|Impish|Lax Incense|Gyro Ball|Substitute|Double Team|Power Trick|HP/Def/SpD
+844|Shuckle|Calm|Leftovers|Toxic|Substitute|Double Team|Sandstorm|HP/Def/SpD
+26|Shuppet|Adamant|Spell Tag|Shadow Sneak|Knock Off|Will-O-Wisp|Grudge|HP/Atk
+373|Skarmory|Impish|Occa Berry|Drill Peck|Steel Wing|Spikes|Roar|Atk/Def
+509|Skarmory|Careful|Leftovers|Fly|Toxic|Double Team|Roost|HP/Def/SpD
+645|Skarmory|Impish|Razor Claw|Drill Peck|Slash|Payback|Night Slash|Atk/Def
+781|Skarmory|Adamant|Life Orb|Brave Bird|Steel Wing|X-Scissor|Rock Slide|Atk/Def
+86|Skiploom|Hardy|Big Root|Mega Drain|Aerial Ace|Confusion|Cotton Spore|Atk/SpA
+79|Skorupi|Impish|Poison Barb|Poison Fang|Bug Bite|Bite|Toxic Spikes|Atk/Def
+383|Skuntank|Adamant|Razor Claw|Sucker Punch|Poison Jab|Slash|Screech|HP/Atk
+519|Skuntank|Jolly|Chesto Berry|Crunch|Toxic|Swagger|Double Team|HP/Spe
+655|Skuntank|Timid|Shuca Berry|Sludge Bomb|Dark Pulse|Flamethrower|Shadow Ball|SpA/Spe
+791|Skuntank|Jolly|Muscle Band|Poison Jab|Night Slash|Crunch|Explosion|Atk/Spe
+486|Slaking|Impish|Lax Incense|Facade|Shadow Claw|Slack Off|Yawn|HP/Def
+622|Slaking|Adamant|Lum Berry|Crush Claw|Fire Punch|ThunderPunch|Ice Punch|Atk/Def
+758|Slaking|Jolly|Life Orb|Return|Night Slash|Gunk Shot|Aerial Ace|Atk/Spe
+894|Slaking|Adamant|Muscle Band|Giga Impact|Earthquake|Hammer Arm|Shadow Claw|HP/Atk
+397|Slowbro|Bold|Chesto Berry|Psychic|Surf|Calm Mind|Yawn|Def/SpA
+533|Slowbro|Adamant|Expert Belt|Zen Headbutt|Aqua Tail|Earthquake|Avalanche|HP/Atk
+669|Slowbro|Modest|Choice Specs|Psychic|Flamethrower|Shadow Ball|Signal Beam|HP/SpA
+805|Slowbro|Quiet|Leftovers|Psychic|Surf|Ice Beam|Trick Room|HP/SpA
+402|Slowking|Quiet|Shell Bell|Psychic|Brine|Yawn|Trick Room|HP/Def/SpD
+538|Slowking|Adamant|Quick Claw|Zen Headbutt|Aqua Tail|Earthquake|Curse|HP/Atk
+674|Slowking|Modest|Lum Berry|Psychic|Shadow Ball|Signal Beam|Focus Blast|SpA/SpD
+810|Slowking|Modest|Wise Glasses|Psychic|Surf|Ice Beam|Flamethrower|HP/SpA
+52|Slowpoke|Modest|Cheri Berry|Water Pulse|Confusion|Disable|Yawn|HP/SpA
+44|Smoochum|Mild|Brightpowder|Confusion|Icy Wind|Fake Out|Sweet Kiss|SpA/Spe
+188|Sneasel|Jolly|Persim Berry|Faint Attack|Ice Shard|Leer|Taunt|Atk/Spe
+288|Sneasel|Jolly|King's Rock|Ice Punch|Faint Attack|Crush Claw|Spite|Atk/Spe
+473|Snorlax|Adamant|Leftovers|Return|Rock Slide|Curse|Yawn|HP/Atk
+609|Snorlax|Adamant|Chesto Berry|Fire Punch|ThunderPunch|Ice Punch|Rest|Atk/SpD
+745|Snorlax|Adamant|White Herb|Outrage|Superpower|Gunk Shot|Seed Bomb|Atk/SpD
+881|Snorlax|Adamant|Life Orb|Double-Edge|Earthquake|Zen Headbutt|Crunch|HP/Atk
+37|Snorunt|Adamant|King's Rock|Ice Fang|Headbutt|Bite|Protect|HP/Atk
+81|Snover|Adamant|NeverMeltIce|Ice Punch|Razor Leaf|GrassWhistle|Ingrain|HP/Atk
+33|Snubbull|Adamant|Razor Claw|Headbutt|Bite|Swagger|Scary Face|HP/Atk
+199|Solrock|Adamant|Sitrus Berry|Psywave|Rock Tomb|Cosmic Power|Light Screen|Atk/Def
+299|Solrock|Adamant|Passho Berry|Zen Headbutt|Rock Slide|Will-O-Wisp|Cosmic Power|Atk/Def
+108|Spinda|Adamant|Silk Scarf|Dizzy Punch|Drain Punch|Faint Attack|Teeter Dance|HP/Atk
+75|Spoink|Modest|Sitrus Berry|Psywave|Swift|Magic Coat|Confuse Ray|SpA/SpD
+3|Squirtle|Adamant|Sea Incense|Aqua Jet|Bite|Withdraw|Protect|HP/Atk
+230|Stantler|Adamant|Liechi Berry|Stomp|Bite|Imprison|Confuse Ray|Atk/Spe
+330|Stantler|Adamant|Chople Berry|Frustration|Zen Headbutt|Thunder Wave|Confuse Ray|Atk/Spe
+381|Staraptor|Jolly|King's Rock|Return|Aerial Ace|Double Team|Roost|Atk/Spe
+517|Staraptor|Jolly|King's Rock|Endeavor|Aerial Ace|Endure|Quick Attack|Atk/Spe
+653|Staraptor|Adamant|Muscle Band|Brave Bird|Return|Steel Wing|Pursuit|Atk/Spe
+789|Staraptor|Adamant|Choice Band|Brave Bird|Giga Impact|Close Combat|U-turn|Atk/Spe
+90|Staravia|Adamant|Sharp Beak|Endeavor|Wing Attack|Quick Attack|Whirlwind|Atk/Spe
+17|Starly|Adamant|Sharp Beak|Wing Attack|Quick Attack|Endeavor|Growl|Atk/Spe
+450|Starmie|Timid|Lum Berry|Surf|Psychic|Confuse Ray|Thunder Wave|SpA/Spe
+586|Starmie|Timid|Wide Lens|Hydro Pump|Blizzard|Thunder|Recover|SpA/Spe
+722|Starmie|Modest|Wise Glasses|Surf|Psychic|Power Gem|Signal Beam|SpA/Spe
+858|Starmie|Modest|Expert Belt|Surf|Psychic|Thunderbolt|Ice Beam|SpA/Spe
+85|Staryu|Timid|Cheri Berry|BubbleBeam|Twister|Swift|Light Screen|SpA/Spe
+439|Steelix|Impish|Passho Berry|Earthquake|Iron Head|Crunch|Sandstorm|Atk/Def
+575|Steelix|Adamant|Shuca Berry|Earthquake|Fire Fang|Thunder Fang|Ice Fang|Atk/Def
+711|Steelix|Relaxed|Iron Ball|Gyro Ball|Payback|Swagger|Curse|Atk/Def
+847|Steelix|Brave|Quick Claw|Gyro Ball|Earthquake|Stone Edge|Explosion|Atk/Def
+67|Stunky|Adamant|BlackGlasses|Pursuit|Toxic|Slash|SmokeScreen|Atk/Spe
+163|Sudowoodo|Impish|Hard Stone|Rock Slide|Faint Attack|Sandstorm|Block|Atk/Def
+263|Sudowoodo|Adamant|Life Orb|Stone Edge|Earthquake|Mimic|Selfdestruct|Atk/Def
+900|Suicune|Calm|Focus Sash|Surf|Icy Wind|Ominous Wind|Mirror Coat|SpA/SpD
+914|Suicune|Jolly|King's Rock|Waterfall|Ice Fang|Iron Head|Bite|Atk/Spe
+928|Suicune|Bold|Lum Berry|Hydro Pump|Blizzard|Shadow Ball|Hail|Def/SpA
+942|Suicune|Modest|Wacan Berry|Surf|Ice Beam|Extrasensory|Calm Mind|HP/SpA
+184|Sunflora|Calm|Persim Berry|Mega Drain|Ingrain|Leech Seed|Light Screen|SpA/SpD
+284|Sunflora|Modest|Sitrus Berry|Giga Drain|Sludge Bomb|GrassWhistle|Double Team|HP/SpA
+49|Swablu|Modest|Mental Herb|Air Cutter|Swift|Mirror Move|Attract|SpA/SpD
+231|Swalot|Modest|Lax Incense|Sludge|Stockpile|Swallow|Spit Up|HP/Def/SpD
+331|Swalot|Modest|Black Sludge|Sludge Bomb|Shadow Ball|Giga Drain|Yawn|HP/SpA
+359|Swampert|Adamant|Shell Bell|Waterfall|Earthquake|Ice Punch|Protect|HP/Atk
+495|Swampert|Adamant|Lum Berry|Aqua Tail|Earthquake|Hammer Arm|Curse|HP/Atk
+631|Swampert|Modest|Expert Belt|Muddy Water|Earth Power|Ice Beam|Counter|HP/SpA
+767|Swampert|Adamant|Rindo Berry|Earthquake|Aqua Tail|Avalanche|Mirror Coat|HP/Atk
+189|Swellow|Jolly|King's Rock|Pluck|Quick Attack|Focus Energy|Growl|Atk/Spe
+289|Swellow|Adamant|Toxic Orb|Facade|Aerial Ace|Growl|U-turn|Atk/Spe
+192|Tangela|Bold|Pecha Berry|Mega Drain|AncientPower|Toxic|Bind|Def/SpA
+292|Tangela|Bold|Pecha Berry|Giga Drain|Sludge Bomb|Wring Out|Ingrain|Def/SpA
+470|Tangrowth|Modest|Coba Berry|Energy Ball|Sludge Bomb|Focus Blast|Sleep Powder|Def/SpA
+606|Tangrowth|Bold|Big Root|Giga Drain|Leech Seed|Toxic|Double Team|HP/Def/SpA
+742|Tangrowth|Modest|Heat Rock|SolarBeam|Wring Out|Synthesis|Sunny Day|Def/SpA
+878|Tangrowth|Adamant|Lax Incense|Power Whip|Earthquake|Aerial Ace|Brick Break|Atk/Def
+400|Tauros|Jolly|Persim Berry|Thrash|Zen Headbutt|Pursuit|Scary Face|Atk/Spe
+536|Tauros|Adamant|Life Orb|Facade|Earthquake|Rock Slide|Payback|Atk/Spe
+672|Tauros|Jolly|Lum Berry|Giga Impact|Earthquake|Outrage|Iron Tail|Atk/Spe
+808|Tauros|Adamant|Choice Band|Return|Earthquake|Stone Edge|Zen Headbutt|Atk/Spe
+70|Teddiursa|Impish|Chesto Berry|Secret Power|Faint Attack|Attract|Rest|HP/Atk
+82|Tentacool|Modest|Cheri Berry|BubbleBeam|Acid|Supersonic|Barrier|SpA/SpD
+442|Tentacruel|Timid|Wacan Berry|Surf|Sludge Bomb|Icy Wind|Barrier|SpA/Spe
+578|Tentacruel|Calm|Black Sludge|Toxic|Giga Drain|Attract|Confuse Ray|HP/SpD
+714|Tentacruel|Modest|Focus Sash|Surf|Sludge Bomb|Giga Drain|Mirror Coat|SpA/SpD
+850|Tentacruel|Timid|Scope Lens|Hydro Pump|Sludge Bomb|Ice Beam|Wring Out|SpA/Spe
+479|Togekiss|Adamant|Power Herb|Sky Attack|ExtremeSpeed|Drain Punch|Roost|Atk/SpD
+615|Togekiss|Modest|Scope Lens|Air Slash|Ominous Wind|Silver Wind|AncientPower|HP/SpA
+751|Togekiss|Modest|Wise Glasses|Air Slash|Heat Wave|Signal Beam|Magical Leaf|SpA/Spe
+887|Togekiss|Modest|Expert Belt|Hyper Beam|Air Slash|Aura Sphere|Psychic|SpA/Spe
+143|Togetic|Calm|Chesto Berry|Air Cutter|Swift|Magical Leaf|Wish|SpA/SpD
+8|Torchic|Hardy|Charcoal|Ember|Mirror Move|Mud-Slap|Double Team|Atk/SpA
+235|Torkoal|Bold|Petaya Berry|Ember|Mud-Slap|Smog|Amnesia|Def/SpA
+335|Torkoal|Bold|Quick Claw|Heat Wave|SolarBeam|Earth Power|Sunny Day|Def/SpA
+360|Torterra|Adamant|Yache Berry|Earthquake|Grass Knot|Rock Slide|Curse|HP/Atk
+496|Torterra|Sassy|Leftovers|Giga Drain|Leech Seed|Synthesis|Amnesia|HP/Def/SpD
+632|Torterra|Modest|Lax Incense|Frenzy Plant|Earth Power|Hyper Beam|Leech Seed|Def/SpA
+768|Torterra|Adamant|Quick Claw|Wood Hammer|Earthquake|Stone Edge|Crunch|HP/Atk
+6|Totodile|Adamant|Razor Claw|Dive|Slash|Screech|Scary Face|Atk/Def
+405|Toxicroak|Adamant|Black Sludge|Poison Jab|Brick Break|X-Scissor|Knock Off|Atk/Spe
+541|Toxicroak|Adamant|Wide Lens|DynamicPunch|Poison Jab|ThunderPunch|Ice Punch|Atk/Spe
+677|Toxicroak|Modest|Wise Glasses|Sludge Bomb|Focus Blast|Shadow Ball|Dark Pulse|SpA/Spe
+813|Toxicroak|Adamant|Razor Claw|Gunk Shot|Cross Chop|Earthquake|Stone Edge|Atk/Spe
+7|Treecko|Timid|Miracle Seed|Mega Drain|Swift|Flash|Double Team|SpA/Spe
+226|Tropius|Adamant|Lansat Berry|Razor Leaf|Aerial Ace|Leech Seed|Captivate|HP/Atk
+326|Tropius|Modest|Occa Berry|Giga Drain|Air Slash|Synthesis|Sunny Day|HP/SpA
+10|Turtwig|Adamant|Occa Berry|Razor Leaf|Bite|Tickle|Withdraw|HP/Atk
+355|Typhlosion|Adamant|Scope Lens|Fire Punch|ThunderPunch|Shadow Claw|Quick Attack|Atk/Spe
+491|Typhlosion|Serious|Salac Berry|Blast Burn|Earthquake|Reversal|Endure|Atk/SpA
+627|Typhlosion|Adamant|Shuca Berry|Flare Blitz|Earthquake|Shadow Claw|Aerial Ace|Atk/Spe
+763|Typhlosion|Modest|White Herb|Overheat|SolarBeam|Focus Blast|Sunny Day|SpA/Spe
+482|Tyranitar|Brave|Focus Band|Rock Slide|Payback|Avalanche|Curse|Atk/SpD
+618|Tyranitar|Jolly|Choice Scarf|Fire Punch|ThunderPunch|Ice Punch|Aerial Ace|Atk/Spe
+754|Tyranitar|Adamant|White Herb|Superpower|Dragon Claw|Shadow Claw|Aqua Tail|Atk/Def
+890|Tyranitar|Adamant|Chople Berry|Stone Edge|Crunch|Earthquake|Dragon Dance|HP/Atk
+456|Umbreon|Careful|Leftovers|Payback|Confuse Ray|Curse|Baton Pass|Def/SpD
+592|Umbreon|Impish|Leftovers|Toxic|Mean Look|Double Team|Confuse Ray|Def/SpD
+728|Umbreon|Impish|Lax Incense|Faint Attack|Swagger|Psych Up|Screech|HP/Def
+864|Umbreon|Impish|Brightpowder|Payback|Trump Card|Curse|Moonlight|Def/SpD
+425|Ursaring|Brave|Focus Sash|Slash|Payback|Avalanche|Counter|HP/Atk
+561|Ursaring|Adamant|Life Orb|Hammer Arm|Fire Punch|ThunderPunch|Ice Punch|HP/Atk
+697|Ursaring|Adamant|Toxic Orb|Facade|Superpower|Crunch|Protect|HP/Atk
+833|Ursaring|Adamant|Quick Claw|Return|Cross Chop|Earthquake|Aerial Ace|HP/Atk
+452|Vaporeon|Modest|Brightpowder|Surf|Ice Beam|Acid Armor|Baton Pass|HP/SpA
+588|Vaporeon|Modest|Damp Rock|Hydro Pump|Ice Beam|Acid Armor|Rain Dance|HP/SpA
+724|Vaporeon|Modest|Leftovers|Muddy Water|Blizzard|Aqua Ring|Yawn|HP/SpA
+860|Vaporeon|Modest|Expert Belt|Surf|Ice Beam|Shadow Ball|Signal Beam|HP/SpA
+205|Venomoth|Timid|Black Sludge|Silver Wind|Psybeam|Sleep Powder|Attract|SpA/Spe
+305|Venomoth|Modest|SilverPowder|Bug Buzz|Sludge Bomb|Psychic|Supersonic|SpA/Spe
+42|Venonat|Relaxed|SilverPowder|Bug Bite|PoisonPowder|Psybeam|Supersonic|HP/SpA
+351|Venusaur|Modest|White Herb|Leaf Storm|Sludge Bomb|Amnesia|Sleep Powder|SpA/SpD
+487|Venusaur|Bold|Big Root|Giga Drain|Ingrain|Leech Seed|Sleep Powder|HP/Def/SpD
+623|Venusaur|Adamant|Black Sludge|Seed Bomb|Earthquake|Outrage|Curse|Atk/SpD
+759|Venusaur|Modest|Wise Glasses|Frenzy Plant|Sludge Bomb|Hyper Beam|Synthesis|HP/SpA
+377|Vespiquen|Modest|Scope Lens|Silver Wind|Air Cutter|Ominous Wind|Swagger|Def/SpD
+513|Vespiquen|Careful|Persim Berry|X-Scissor|Toxic|Heal Order|Destiny Bond|HP/Def/SpD
+649|Vespiquen|Adamant|Muscle Band|X-Scissor|Aerial Ace|Pursuit|U-turn|HP/Atk
+785|Vespiquen|Adamant|Shell Bell|Attack Order|Defend Order|Heal Order|Confuse Ray|HP/Atk
+89|Vibrava|Modest|Aspear Berry|DragonBreath|Mud-Slap|Ominous Wind|Supersonic|SpA/Spe
+385|Victreebel|Modest|Payapa Berry|Leaf Storm|Sludge Bomb|Sleep Powder|Gastro Acid|HP/SpA
+521|Victreebel|Adamant|Black Sludge|Seed Bomb|Spit Up|Swallow|Stockpile|HP/Atk
+657|Victreebel|Modest|Power Herb|Sludge Bomb|SolarBeam|Hyper Beam|Synthesis|HP/SpA
+793|Victreebel|Modest|Focus Band|SolarBeam|Sludge Bomb|Wring Out|Sunny Day|HP/SpA
+197|Vigoroth|Adamant|Focus Band|Slash|Pursuit|Encore|Counter|HP/Atk
+297|Vigoroth|Adamant|Salac Berry|Crush Claw|Shadow Claw|Reversal|Endure|Atk/Spe
+384|Vileplume|Modest|Big Root|Giga Drain|Sludge Bomb|Sleep Powder|Ingrain|Def/SpA
+520|Vileplume|Bold|Black Sludge|Toxic|Grass Knot|Double Team|Attract|HP/Def/SpD
+656|Vileplume|Adamant|Lum Berry|Seed Bomb|Drain Punch|Frustration|Swords Dance|Atk/SpD
+792|Vileplume|Modest|Wise Glasses|Sludge Bomb|Energy Ball|Hyper Beam|Synthesis|HP/SpA
+136|Volbeat|Jolly|Liechi Berry|U-turn|Quick Attack|Confuse Ray|Helping Hand|Atk/Spe
+68|Voltorb|Modest|Petaya Berry|Shock Wave|Swift|Thunder Wave|Light Screen|SpA/Spe
+28|Vulpix|Calm|Brightpowder|Ember|Swift|Will-O-Wisp|Confuse Ray|SpA/SpD
+139|Wailmer|Modest|Sea Incense|Water Pulse|Icy Wind|Roar|Mist|SpA/Spe
+428|Wailord|Modest|Sitrus Berry|Surf|Ice Beam|Attract|Double Team|HP/SpA
+564|Wailord|Impish|Chesto Berry|Whirlpool|Toxic|Amnesia|Rest|HP/Def/SpD
+700|Wailord|Adamant|Leftovers|Waterfall|Avalanche|Earthquake|Curse|HP/Atk
+836|Wailord|Modest|Quick Claw|Hydro Pump|Blizzard|Hyper Beam|Fissure|HP/SpA
+464|Walrein|Adamant|Chople Berry|Ice Fang|Aqua Tail|Swagger|Encore|HP/Atk
+600|Walrein|Brave|Life Orb|Avalanche|Earthquake|Crunch|Curse|HP/Atk
+736|Walrein|Bold|Lax Incense|Sheer Cold|Fissure|Rest|Sleep Talk|Def/SpD
+872|Walrein|Modest|Leftovers|Surf|Ice Beam|Signal Beam|Hail|HP/SpA
+153|Wartortle|Adamant|Focus Band|Aqua Jet|Bite|Rapid Spin|Yawn|HP/Atk
+253|Wartortle|Serious|Shell Bell|Surf|Ice Beam|Brick Break|Fake Out|HP/SpA
+440|Weavile|Adamant|Chople Berry|Night Slash|Ice Punch|Screech|Fake Out|Atk/Spe
+576|Weavile|Jolly|Brightpowder|Night Slash|Attract|Double Team|Hail|Atk/Spe
+712|Weavile|Adamant|Focus Sash|Night Slash|X-Scissor|Metal Claw|Counter|Atk/Spe
+848|Weavile|Jolly|Razor Claw|Night Slash|Ice Punch|Aerial Ace|Brick Break|Atk/Spe
+127|Weepinbell|Quiet|Scope Lens|Razor Leaf|Acid|Wrap|Sweet Scent|Atk/SpA
+398|Weezing|Bold|Payapa Berry|Sludge Bomb|Dark Pulse|Shock Wave|Grudge|Def/SpA
+534|Weezing|Adamant|Sitrus Berry|Double Hit|Payback|Toxic|Swagger|Atk/Def
+670|Weezing|Sassy|Lax Incense|Sludge Bomb|Thunderbolt|Dark Pulse|Explosion|SpA/SpD
+806|Weezing|Modest|Quick Claw|Sludge Bomb|Flamethrower|Shadow Ball|Destiny Bond|Def/SpA
+375|Whiscash|Modest|Shell Bell|Surf|Earth Power|Icy Wind|Amnesia|HP/SpA
+511|Whiscash|Adamant|Persim Berry|Aqua Tail|Earthquake|Rock Slide|Thrash|HP/Atk
+647|Whiscash|Modest|Zoom Lens|Hydro Pump|Earth Power|Blizzard|Fissure|HP/SpA
+783|Whiscash|Adamant|Muscle Band|Earthquake|Aqua Tail|Zen Headbutt|Stone Edge|HP/Atk
+183|Wigglytuff|Adamant|Silk Scarf|Secret Power|Grass Knot|Wish|Sing|HP/Atk
+283|Wigglytuff|Modest|Sitrus Berry|Hyper Voice|Shadow Ball|Sing|Dream Eater|HP/SpA
+145|Wobbuffet|Jolly|Focus Band|Counter|Mirror Coat|Charm|Splash|Def/SpD/Spe
+181|Wormadam|Adamant|Coba Berry|Razor Leaf|Bug Bite|Protect|Captivate|Atk/SpD
+281|Wormadam|Modest|Coba Berry|Giga Drain|Signal Beam|Psychic|Attract|Def/SpA
+234|Xatu|Jolly|Sharp Beak|Zen Headbutt|Pluck|Tailwind|Future Sight|Atk/Spe
+334|Xatu|Modest|Colbur Berry|Psychic|Air Cutter|Ominous Wind|Confuse Ray|SpA/Spe
+131|Yanma|Timid|Lax Incense|Silver Wind|Air Cutter|Double Team|Detect|SpA/Spe
+446|Yanmega|Timid|Coba Berry|Signal Beam|Air Cutter|Detect|Double Team|SpA/Spe
+582|Yanmega|Adamant|Muscle Band|Aerial Ace|U-turn|Night Slash|Steel Wing|Atk/Spe
+718|Yanmega|Modest|Lum Berry|Silver Wind|AncientPower|Ominous Wind|Giga Drain|SpA/Spe
+854|Yanmega|Modest|Wise Glasses|Bug Buzz|Air Slash|Psychic|Shadow Ball|SpA/Spe
+221|Zangoose|Adamant|Persim Berry|Scratch|Pursuit|Detect|Leer|Atk/Spe
+321|Zangoose|Adamant|Razor Claw|Crush Claw|Shadow Claw|Aerial Ace|Taunt|Atk/Spe
+896|Zapdos|Serious|Yache Berry|Thunder|Drill Peck|Thunder Wave|Rain Dance|Atk/Spe
+910|Zapdos|Timid|Focus Band|Thunderbolt|AncientPower|Ominous Wind|Light Screen|SpA/Spe
+924|Zapdos|Jolly|King's Rock|Drill Peck|Twister|Steel Wing|U-turn|Atk/Spe
+938|Zapdos|Modest|Brightpowder|Thunderbolt|Air Cutter|Heat Wave|Signal Beam|SpA/Spe 
