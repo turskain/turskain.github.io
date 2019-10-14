@@ -389,7 +389,7 @@ $(".set-selector").change(function () {
     //HACK! level override button
 		this.leveloverride = ~~document.getElementById("leveloverride").value;
 				if (this.leveloverride != 50) {
-				  var leveloverride = this.ivsoverride
+				  var leveloverride = this.leveloverride
 				} else {
 					var leveloverride = 50
         }
