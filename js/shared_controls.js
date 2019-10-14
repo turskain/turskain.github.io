@@ -37,9 +37,11 @@ if (!Array.prototype.indexOf) {
 // input field validation
 var bounds = {
 	"level": [0, 100],
+	"leveloverride": [0, 100],
 	"base": [1, 255],
 	"evs": [0, 252],
 	"ivs": [0, 31],
+	"ivsoverride": [0, 31],
 	"dvs": [0, 15],
 	"move-bp": [0, 999]
 };
@@ -172,13 +174,15 @@ function drawHealthBar(poke, max, current) {
 }
 
 //HACK! input validation
-$(".ivsoverride").keyup(function () {
-    validate($(this), 0, 31);
-});
-$(".leveloverride").keyup(function () {
-    validate($(this), 1, 100);
-});
+//$(".ivsoverride").keyup(function () {
+//    validate($(this), 0, 31);
+//});
+//$(".leveloverride").keyup(function () {
+//    validate($(this), 1, 100);
+//});
 //HACK!!
+$(".leveloverride").val("50");
+//HACK to fix the 55 bug? idk where it comes from
 
 
 $(".current-hp").keyup(function () {
@@ -388,7 +392,7 @@ $(".set-selector").change(function () {
         }
     //HACK! level override button
 		this.leveloverride = ~~document.getElementById("leveloverride").value;
-				if (this.leveloverride != 50) {
+				if ( (this.leveloverride !== 50 ) || (this.leveloverride !== 55 )) {
 				  var leveloverride = this.leveloverride
 				} else {
 					var leveloverride = 50
