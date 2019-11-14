@@ -187,7 +187,10 @@ th {
     width: 28em;
 }
 .field-info, .poke-import {
-    width: 28em;
+    width: 100em;
+}
+.leder-result {
+    width: 100em;
 }
 .holder-0 {
     position: absolute;
