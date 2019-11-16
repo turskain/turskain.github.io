@@ -6,7 +6,7 @@ function placeBsBtn() {
 		var pokes = document.getElementsByClassName("import-team-text")[0].value;
     // var pokes = document.getElementsByClassName("import-team-text").value;
     // var Leder = $.csv.toArrays(pokes);
-    //console.log(pokes);
+    console.log(pokes);
 		addSets(pokes);
 	});
 
@@ -34,24 +34,16 @@ function addSets(pokes) {
 	var currentPoke;
 	var addedpokes = 0;
 	
-  var userIdPrev
   //var pokes;
   var i;
   var j;
   var FPlacement = 0;
   var UPlacement = 0;
   var APlacement = 0;
-
-  var FPlacementVisual = 0;
-  var UPlacementVisual = 0;
-  var APlacementVisual = 0;
-
-  var FPlacementVisual = 0;
-  var UPlacementVisual = 0;
   var Leder = $.csv.toArrays(pokes);
 //var pokes = document.getElementsByClassName("import-team-text")[0].value;
-  //console.log(pokes);
-  //console.log(Leder);
+  console.log(pokes);
+  console.log(Leder);
   
   var Ffullout = [];
   var Ufullout = [];
@@ -65,7 +57,6 @@ function addSets(pokes) {
      var url1 = Leder[i][3];
      var pokeAmount = Leder[i][4];
 
-
      var teamPokes = [];
 
      teamPokes[0] = Leder[i][5];
@@ -74,12 +65,7 @@ function addSets(pokes) {
      teamPokes[3] = Leder[i][8];
      teamPokes[4] = Leder[i][9];
      teamPokes[5] = Leder[i][10];
-
-    if ( i > 0 ) {
-      userIdPrev = Leder[i-1][1]
-    }
-
-    //console.log(parseInt(pokeAmount))
+    console.log(parseInt(pokeAmount))
      switch (parseInt(pokeAmount)) {
        case 1:
          var url1Text = teamPokes[0];
@@ -112,42 +98,20 @@ function addSets(pokes) {
 
      switch (finish) {
        case "F":
-         if ( userIdPrev === userId ) {
-           var FPlacementVisual = FPlacementVisual + 0;
-           var FPlacementCur = "   ";
-         } else {
-         var FPlacementVisual = FPlacementVisual + 1;
-         var FPlacementCur = "#" + String(FPlacementVisual) + ". ";
-         }
          var FPlacement = FPlacement + 1;
-         var Fout_bbcode = FPlacementCur + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         var Fout_bbcode = "#" + FPlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
          Ffullout[FPlacement] = Fout_bbcode;
          break;
 
        case "U":
-         if ( userIdPrev === userId ) {
-           var UPlacementVisual = UPlacementVisual + 0;
-           var UPlacementCur = "   ";
-         } else {
-         var UPlacementVisual = UPlacementVisual + 1;
-         var UPlacementCur = "#" + String(UPlacementVisual) + ". ";
-         }
          var UPlacement = UPlacement + 1;
-         var Uout_bbcode = UPlacementCur + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         var Uout_bbcode = "#" + UPlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
          Ufullout[UPlacement] = Uout_bbcode;
          break;
      }
-     
-     if ( userIdPrev === userId ) {
-       var APlacementVisual = APlacementVisual + 0;
-       var APlacementCur = "   ";
-     } else {
-     var APlacementVisual = APlacementVisual + 1;
-     var APlacementCur = "#" + String(APlacementVisual) + ". ";
-     }
 
      var APlacement = APlacement + 1;
-     var Aout_bbcode = APlacementCur + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+     var Aout_bbcode = "#" + APlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
      Afullout[APlacement] = Aout_bbcode;
 
 
