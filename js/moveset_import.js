@@ -37,17 +37,13 @@ function addSets(pokes) {
   //var pokes;
   var i;
   var j;
-  var FPlacement = 0;
-  var UPlacement = 0;
-  var APlacement = 0;
+
   var Leder = $.csv.toArrays(pokes);
 //var pokes = document.getElementsByClassName("import-team-text")[0].value;
   console.log(pokes);
   console.log(Leder);
   
-  var Ffullout = [];
-  var Ufullout = [];
-  var Afullout = [];
+  var fullout = [];
   //loop the outer array
   for (var i = 0; i < Leder.length; i++) {
      var innerArrayLength = Leder[i].length;
@@ -89,30 +85,11 @@ function addSets(pokes) {
 
 
      var streakFlags = Leder[i][11];
-     var finish = streakFlags.charAt(0);
      var url2 = Leder[i][12];
      var url2Text = Leder[i][13];
      var url3 = Leder[i][14];
      var url3Text = Leder[i][15];
 
-
-     switch (finish) {
-       case "F":
-         var FPlacement = FPlacement + 1;
-         var Fout_bbcode = "#" + FPlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
-         Ffullout[FPlacement] = Fout_bbcode;
-         break;
-
-       case "U":
-         var UPlacement = UPlacement + 1;
-         var Uout_bbcode = "#" + UPlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
-         Ufullout[UPlacement] = Uout_bbcode;
-         break;
-     }
-
-     var APlacement = APlacement + 1;
-     var Aout_bbcode = "#" + APlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
-     Afullout[APlacement] = Aout_bbcode;
 
 
      //var url1Text = teamPoke1 + " / " + teamPoke2 + " / " + teamPoke3 + " / " + teamPoke4;
@@ -120,16 +97,19 @@ function addSets(pokes) {
     //var TestingTesting = userName + userId + streakLen + url1 + teamPoke1 + teamPoke2 + teamPoke3 + teamPoke4 + streakFlags + url2 + url2Text + url3 + url3Text + url1Text;
     //console.log(TestingTesting);
 
+     var Placement = i + 1;
+     var out_bbcode = "#" + Placement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+
+     fullout[i] = out_bbcode
      //document.getElementsByClassName("leder-result-text")[0].value= TestingTesting;
      // loop the inner array
-     //for (var j = 0; j < innerArrayLength; j++) {
-     //console.log('[' + i + ',' + j + '] = ' + Leder[i][j]);
+     for (var j = 0; j < innerArrayLength; j++) {
+     console.log('[' + i + ',' + j + '] = ' + Leder[i][j]);
      
    }
+   }
  // output the list generated into the fullout array to output field 
-     document.getElementsByClassName("leder-result-text-F")[0].value= Ffullout.join("\n");
-     document.getElementsByClassName("leder-result-text-U")[0].value= Ufullout.join("\n");
-     document.getElementsByClassName("leder-result-text-A")[0].value= Afullout.join("\n");
+     document.getElementsByClassName("leder-result-text")[0].value= fullout.join("\n");
   }
 
 
