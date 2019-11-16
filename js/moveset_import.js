@@ -37,7 +37,13 @@ function addSets(pokes) {
   //var pokes;
   var i;
   var j;
+<<<<<<< HEAD
 
+=======
+  var FPlacement = 0;
+  var UPlacement = 0;
+  var APlacement = 0;
+>>>>>>> parent of d87bb24... More bordizer war crimes, spaghetti inside
   var Leder = $.csv.toArrays(pokes);
 //var pokes = document.getElementsByClassName("import-team-text")[0].value;
   console.log(pokes);
@@ -91,6 +97,27 @@ function addSets(pokes) {
      var url3Text = Leder[i][15];
 
 
+<<<<<<< HEAD
+=======
+     switch (finish) {
+       case "F":
+         var FPlacement = FPlacement + 1;
+         var Fout_bbcode = "#" + FPlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         Ffullout[FPlacement] = Fout_bbcode;
+         break;
+
+       case "U":
+         var UPlacement = UPlacement + 1;
+         var Uout_bbcode = "#" + UPlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         Ufullout[UPlacement] = Uout_bbcode;
+         break;
+     }
+
+     var APlacement = APlacement + 1;
+     var Aout_bbcode = "#" + APlacement + ". " + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+     Afullout[APlacement] = Aout_bbcode;
+
+>>>>>>> parent of d87bb24... More bordizer war crimes, spaghetti inside
 
      //var url1Text = teamPoke1 + " / " + teamPoke2 + " / " + teamPoke3 + " / " + teamPoke4;
     //console.log(userName, userId, streakLen, url1, teamPoke1, teamPoke2, teamPoke3, teamPoke4, streakFlags, url2, url2Text, url3, url3Text, url1Text);
