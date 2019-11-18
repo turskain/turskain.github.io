@@ -114,40 +114,45 @@ function addSets(pokes) {
        case "F":
          if ( userIdPrev === userId ) {
            var FPlacementVisual = FPlacementVisual + 0;
-           var FPlacementCur = "   ";
+           var FPlacementCur_bbcoded = "   ";
          } else {
          var FPlacementVisual = FPlacementVisual + 1;
-         var FPlacementCur = "#" + String(FPlacementVisual) + ". ";
+         var FPlacementCur_bbcoded = "#" + String(FPlacementVisual) + ". ";
          }
          var FPlacement = FPlacement + 1;
-         var Fout_bbcode = FPlacementCur + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         var Fout_bbcode = FPlacementCur_bbcoded + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
          Ffullout[FPlacement] = Fout_bbcode;
          break;
 
        case "U":
          if ( userIdPrev === userId ) {
            var UPlacementVisual = UPlacementVisual + 0;
-           var UPlacementCur = "   ";
+           var UPlacementCur_bbcoded = "   ";
          } else {
          var UPlacementVisual = UPlacementVisual + 1;
-         var UPlacementCur = "#" + String(UPlacementVisual) + ". ";
+         var UPlacementCur_bbcoded = "#" + String(UPlacementVisual) + ". ";
          }
          var UPlacement = UPlacement + 1;
-         var Uout_bbcode = UPlacementCur + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         var Uout_bbcode = UPlacementCur_bbcoded + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
          Ufullout[UPlacement] = Uout_bbcode;
          break;
      }
      
      if ( userIdPrev === userId ) {
        var APlacementVisual = APlacementVisual + 0;
-       var APlacementCur = "   ";
+       var APlacementCur_bbcoded = "   ";
      } else {
      var APlacementVisual = APlacementVisual + 1;
-     var APlacementCur = "#" + String(APlacementVisual) + ". ";
+     var APlacementCur_bbcoded = "#" + String(APlacementVisual) + ". ";
      }
 
+
+     var url1_bbcoded = "[url=" + url1 + "]" + url1Text + "[/url]"
+     var streakLen_bbcoded = "([b]" + streakLen + "[/b])"
+     var userName_bbcoded = "[b][user=" + userId + "]" + userName + "[/user][/b]"
+
      var APlacement = APlacement + 1;
-     var Aout_bbcode = APlacementCur + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+     var Aout_bbcode = APlacementCur_bbcoded + userName_bbcoded + " - " + streakLen_bbcoded + " - " + url1_bbcoded
      Afullout[APlacement] = Aout_bbcode;
 
 
