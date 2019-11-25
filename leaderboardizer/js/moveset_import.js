@@ -57,11 +57,19 @@ function addSets(pokes) {
   var Ufullout = [];
   var Afullout = [];
   //loop the outer array
-  for (var i = 0; i < Leder.length; i++) {
+  for (var i = 1; i < Leder.length; i++) {
      var innerArrayLength = Leder[i].length;
      var userName = Leder[i][0];
      var userId = Leder[i][1];
-     var streakLen = Leder[i][2];
+     //var streakLenO = Leder[i][2];
+     //var streakLenO = $.csv.toArray(Leder[i][2], options.separator="|");
+     var streakLenO = $.csv.toArray(Leder[i][2], {"separator" : "|"});
+     var streakLenNum = streakLenO[0];
+     var finish = streakLenO[1];
+     if ( finish === "O" ) { var streakLen = String(streakLenNum) + "[color=#aa0000]*[/color]"; } else {
+       var streakLen = streakLenNum;
+     }
+     console.log(streakLenO);
      var url1 = Leder[i][3];
      var pokeAmount = Leder[i][4];
 
@@ -103,11 +111,12 @@ function addSets(pokes) {
 
 
      var streakFlags = Leder[i][11];
-     var finish = streakFlags.charAt(0);
+     //var finish = streakFlags.charAt(0);
      var url2 = Leder[i][12];
      var url3 = Leder[i][13];
      var url4 = Leder[i][14];
      var url5 = Leder[i][15];
+    var urlsBbcode = ""
     for (i_url = 12; Leder[i][i_url]; i_url++) {
       if ( Leder[i][12] === "" ) {
         break
@@ -116,8 +125,8 @@ function addSets(pokes) {
         urlsBbcode = urlsBbcode.slice(0, -2);
         break
       }
-      var urlContents = $.csv.toArray(Leder[i][i_url], separator="|");
-      var urlsBbcode += "[url=" + urlContents[0] + "]" + urlContents[1] + "[/url], "
+      var urlContents = $.csv.toArray(Leder[i][i_url], {"separator" : "|"});
+      urlsBbcode += "[url=" + urlContents[0] + "]" + urlContents[1] + "[/url], ";
     }
 
         
@@ -158,7 +167,8 @@ function addSets(pokes) {
        var APlacementCur_bbcoded = "   ";
      } else {
      var APlacementVisual = APlacementVisual + 1;
-     var APlacementCur_bbcoded = "#" + String(APlacementVisual) + ". ";
+     if ( String(APlacementVisual).length === 1 ) { APlacementVisual2 = "0" + String(APlacementVisual); } else { APlacementVisual2 = APlacementVisual };
+     var APlacementCur_bbcoded = "#" + String(APlacementVisual2) + ". ";
      }
 
 
@@ -167,7 +177,7 @@ function addSets(pokes) {
      var userName_bbcoded = "[b][user=" + userId + "]" + userName + "[/user][/b]"
 
      var APlacement = APlacement + 1;
-     var Aout_bbcode = APlacementCur_bbcoded + userName_bbcoded + " - " + streakLen_bbcoded + " - " + url1_bbcoded
+     var Aout_bbcode = APlacementCur_bbcoded + userName_bbcoded + ", " + streakLen_bbcoded + " - " + url1_bbcoded
      Afullout[APlacement] = Aout_bbcode;
 
 
