@@ -105,9 +105,24 @@ function addSets(pokes) {
      var streakFlags = Leder[i][11];
      var finish = streakFlags.charAt(0);
      var url2 = Leder[i][12];
-     var url2Text = Leder[i][13];
-     var url3 = Leder[i][14];
-     var url3Text = Leder[i][15];
+     var url3 = Leder[i][13];
+     var url4 = Leder[i][14];
+     var url5 = Leder[i][15];
+    for (i_url = 12; Leder[i][i_url]; i_url++) {
+      if ( Leder[i][12] === "" ) {
+        break
+      }
+      if ( Leder[i][i_url] === "" ) {
+        urlsBbcode = urlsBbcode.slice(0, -2);
+        break
+      }
+      var urlContents = $.csv.toArray(Leder[i][i_url], separator="|");
+      var urlsBbcode += "[url=" + urlContents[0] + "]" + urlContents[1] + "[/url], "
+    }
+
+        
+      
+
 
 
      switch (finish) {
@@ -133,7 +148,7 @@ function addSets(pokes) {
          var UPlacementCur_bbcoded = "#" + String(UPlacementVisual) + ". ";
          }
          var UPlacement = UPlacement + 1;
-         var Uout_bbcode = UPlacementCur_bbcoded + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         var Uout_bbcode = UPlacementCur_bbcoded + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]" 
          Ufullout[UPlacement] = Uout_bbcode;
          break;
      }
