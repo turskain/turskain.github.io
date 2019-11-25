@@ -65,11 +65,16 @@ function addSets(pokes) {
      //var streakLenO = $.csv.toArray(Leder[i][2], options.separator="|");
      var streakLenO = $.csv.toArray(Leder[i][2], {"separator" : "|"});
      var streakLenNum = streakLenO[0];
-     var finish = streakLenO[1];
-     if ( finish === "O" ) { var streakLen = String(streakLenNum) + "[color=#aa0000]*[/color]"; } else {
-       var streakLen = streakLenNum;
+     if ( streakLenO.length > 1 ) {
+       if ( streakLenO[1] === "O" ) { var streakLen = String(streakLenNum) + "[color=#aa0000]*[/color]"; 
+         var finish = streakLenO[1];
+       } else {
+         var streakLen = String(streakLenNum);
+         var finish = "F";
+       }
      }
      console.log(streakLenO);
+     console.log(streakLen);
      var url1 = Leder[i][3];
      var pokeAmount = Leder[i][4];
 
@@ -122,12 +127,17 @@ function addSets(pokes) {
         break
       }
       if ( Leder[i][i_url] === "" ) {
-        urlsBbcode = urlsBbcode.slice(0, -2);
         break
       }
       var urlContents = $.csv.toArray(Leder[i][i_url], {"separator" : "|"});
-      urlsBbcode += "[url=" + urlContents[0] + "]" + urlContents[1] + "[/url], ";
+      //if ( i_url === 12 ) {
+      //  urlsBbcode += "[url=" + urlContents[0] + "]" + urlContents[1] + "[/url]";
+      //} else {
+        urlsBbcode += ", [url=" + urlContents[0] + "]" + urlContents[1] + "[/url]";
+      //}
     }
+
+    console.log(urlsBbcode)
 
         
       
@@ -177,7 +187,7 @@ function addSets(pokes) {
      var userName_bbcoded = "[b][user=" + userId + "]" + userName + "[/user][/b]"
 
      var APlacement = APlacement + 1;
-     var Aout_bbcode = APlacementCur_bbcoded + userName_bbcoded + ", " + streakLen_bbcoded + " - " + url1_bbcoded
+     var Aout_bbcode = APlacementCur_bbcoded + userName_bbcoded + ", " + streakLen_bbcoded + " - " + url1_bbcoded + urlsBbcode;
      Afullout[APlacement] = Aout_bbcode;
 
 
