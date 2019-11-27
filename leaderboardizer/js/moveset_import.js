@@ -34,7 +34,6 @@ function addSets(pokes) {
 	var currentPoke;
 	var addedpokes = 0;
 	
-  var userIdPrev
   //var pokes;
   var i;
   var j;
@@ -62,33 +61,17 @@ function addSets(pokes) {
   }
   for (var i = 1; i < Leder.length; i++) {
      var streakData = new Object(); 
+     var streakDataPrevious = new Object(); 
      for ( var itr in Leder[i] ) {
+       streakDataPrevious[String(Leder[0][itr])] = Leder[i-1][itr];
        streakData[String(Leder[0][itr])] = Leder[i][itr];
-       console.log(streakData)
      }
-     console.log(streakData["Team URL"]);
-     var innerArrayLength = Leder[i].length;
-     var userName = streakData["Player Name"];
-     var userId = streakData["User ID"];
-     //var streakLenO = Leder[i][2];
-     //var streakLenO = $.csv.toArray(Leder[i][2], options.separator="|");
-     var streakLenO = streakData["Streak Length"];
-     var ongoing = streakData["Ongoing"];
-     var url1 = streakData["Team URL"];
-     //var pokeAmount = ;
 
 
      var teamPokes = [];
 
-     teamPokes[0] = Leder[i][5];
-     teamPokes[1] = Leder[i][6];
-     teamPokes[2] = Leder[i][7];
-     teamPokes[3] = Leder[i][8];
-     teamPokes[4] = Leder[i][9];
-     teamPokes[5] = Leder[i][10];
 
-    if ( i > 0 ) {
-      userIdPrev = Leder[i-1][1]
+    if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
     }
 
     //console.log(parseInt(pokeAmount))
@@ -96,39 +79,25 @@ function addSets(pokes) {
 
      var url1Text = streakData["Team Name"];
 
-     var streakFlags = Leder[i][11];
-     //var finish = streakFlags.charAt(0);
-     var url2 = streakData["Extra URL 2"];
-     var url3 = streakData["Extra URL 3"];
-     var url4 = streakData["Extra URL 4"];
-     var url5 = streakData["Extra URL 5"];
-     var url6 = streakData["Extra URL 6"];
     var urlsBbcode = ""
-    for (i_url = 12; Leder[i][i_url]; i_url++) {
-      if ( Leder[i][12] === "" ) {
-        break
-      }
-      if ( Leder[i][i_url] === "" ) {
-        break
-      }
-      var urlContents = $.csv.toArray(Leder[i][i_url], {"separator" : "|"});
-      //if ( i_url === 12 ) {
-      //  urlsBbcode += "[url=" + urlContents[0] + "]" + urlContents[1] + "[/url]";
-      //} else {
-        urlsBbcode += ", [url=" + urlContents[0] + "]" + urlContents[1] + "[/url]";
-      //}
-    }
 
-    console.log(urlsBbcode)
-
-        
-      
+      for ( var itr = 2; itr < 7; itr++ ) {
+        var curUrl = streakData["Extra URL " + String(itr)];
+        var curUrlText = streakData["Extra URL " + String(itr) + " Text"];
+        console.log(curUrl);
+        if ( curUrl === "" ) {
+          break
+        } else {
+          urlsBbcode += ", [url=" + curUrl + "]" + curUrlText + "[/url]";
+        }
+      }
+     
 
      var finish = "";
 
      switch (finish) {
        case "F":
-         if ( userIdPrev === userId ) {
+         if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
            var FPlacementVisual = FPlacementVisual + 0;
            var FPlacementCur_bbcoded = "   ";
          } else {
@@ -141,7 +110,7 @@ function addSets(pokes) {
          break;
 
        case "U":
-         if ( userIdPrev === userId ) {
+         if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
            var UPlacementVisual = UPlacementVisual + 0;
            var UPlacementCur_bbcoded = "   ";
          } else {
@@ -154,7 +123,7 @@ function addSets(pokes) {
          break;
      }
      
-     if ( userIdPrev === userId ) {
+     if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
        var APlacementVisual = APlacementVisual + 0;
        var APlacementCur_bbcoded = "   ";
      } else {
@@ -171,15 +140,12 @@ function addSets(pokes) {
      };
 
 
-     var url1_bbcoded = "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + "[/url]"
-     var streakLen_bbcoded = "([b]" + streakData["Streak Length"] + OngoingStatusBbcode + "[/b])"
-     var userName_bbcoded = "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
 
      var APlacement = APlacement + 1;
      var Aout_bbcode = APlacementCur_bbcoded;
-     Aout_bbcode += userName_bbcoded + ", ";
-     Aout_bbcode += streakLen_bbcoded + " - ";
-     Aout_bbcode += url1_bbcoded;
+     Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
+     Aout_bbcode += "([b]" + streakData["Streak Length"] + OngoingStatusBbcode + "[/b])" + " - "
+     Aout_bbcode += "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + "[/url]"
      Aout_bbcode += urlsBbcode;
      Afullout[APlacement] = Aout_bbcode;
 
