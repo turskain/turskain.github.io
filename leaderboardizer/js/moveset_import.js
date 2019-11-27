@@ -164,8 +164,15 @@ function addSets(pokes) {
      }
 
 
+     if ( streakData["Ongoing"] === "Yes" ) {
+       var OngoingStatusBbcode = "[color=#bb0000]*[/color]";
+     } else {
+       var OngoingStatusBbcode = "";
+     };
+
+
      var url1_bbcoded = "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + "[/url]"
-     var streakLen_bbcoded = "([b]" + streakData["Streak Length"] + "[/b])"
+     var streakLen_bbcoded = "([b]" + streakData["Streak Length"] + OngoingStatusBbcode + "[/b])"
      var userName_bbcoded = "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
 
      var APlacement = APlacement + 1;
