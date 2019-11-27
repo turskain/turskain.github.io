@@ -57,26 +57,25 @@ function addSets(pokes) {
   var Ufullout = [];
   var Afullout = [];
   //loop the outer array
+  if ( Leder[0][0] != "Player Name" ) {
+    alert("Invalid data in input field, copypaste the spreadsheet after downloading it as .csv as-is, including the sheet's header");
+  }
   for (var i = 1; i < Leder.length; i++) {
+     var streakData = new Object(); 
+     for ( var itr in Leder[i] ) {
+       streakData[String(Leder[0][itr])] = Leder[i][itr];
+       console.log(streakData)
+     }
+     console.log(streakData["Team URL"]);
      var innerArrayLength = Leder[i].length;
-     var userName = Leder[i][0];
-     var userId = Leder[i][1];
+     var userName = streakData["Player Name"];
+     var userId = streakData["User ID"];
      //var streakLenO = Leder[i][2];
      //var streakLenO = $.csv.toArray(Leder[i][2], options.separator="|");
-     var streakLenO = $.csv.toArray(Leder[i][2], {"separator" : "|"});
-     var streakLenNum = streakLenO[0];
-     if ( streakLenO.length > 1 ) {
-       if ( streakLenO[1] === "O" ) { var streakLen = String(streakLenNum) + "[color=#aa0000]*[/color]"; 
-         var finish = streakLenO[1];
-       } else {
-         var streakLen = String(streakLenNum);
-         var finish = "F";
-       }
-     }
-     console.log(streakLenO);
-     console.log(streakLen);
-     var url1 = Leder[i][3];
-     var pokeAmount = Leder[i][4];
+     var streakLenO = streakData["Streak Length"];
+     var ongoing = streakData["Ongoing"];
+     var url1 = streakData["Team URL"];
+     //var pokeAmount = ;
 
 
      var teamPokes = [];
@@ -93,34 +92,17 @@ function addSets(pokes) {
     }
 
     //console.log(parseInt(pokeAmount))
-     switch (parseInt(pokeAmount)) {
-       case 1:
-         var url1Text = teamPokes[0];
-         break;
-       case 2:
-         var url1Text = teamPokes[0] + " / " + teamPokes[1];
-         break;
-       case 3:
-         var url1Text = teamPokes[0] + " / " + teamPokes[1] + " / " + teamPokes[2];
-         break;
-       case 4:
-         var url1Text = teamPokes[0] + " / " + teamPokes[1] + " / " + teamPokes[2] + " / " + teamPokes[3];
-         break;
-       case 5:
-         var url1Text = teamPokes[0] + " / " + teamPokes[1] + " / " + teamPokes[2] + " / " + teamPokes[3] + " / " +teamPokes[4];
-         break;
-       case 6:
-         var url1Text = teamPokes[0] + " / " + teamPokes[1] + " / " + teamPokes[2] + " / " + teamPokes[3] + " / " +teamPokes[4] + " / " + teamPokes[5];
-         break;
-     }
 
+
+     var url1Text = streakData["Team Name"];
 
      var streakFlags = Leder[i][11];
      //var finish = streakFlags.charAt(0);
-     var url2 = Leder[i][12];
-     var url3 = Leder[i][13];
-     var url4 = Leder[i][14];
-     var url5 = Leder[i][15];
+     var url2 = streakData["Extra URL 2"];
+     var url3 = streakData["Extra URL 3"];
+     var url4 = streakData["Extra URL 4"];
+     var url5 = streakData["Extra URL 5"];
+     var url6 = streakData["Extra URL 6"];
     var urlsBbcode = ""
     for (i_url = 12; Leder[i][i_url]; i_url++) {
       if ( Leder[i][12] === "" ) {
@@ -142,7 +124,7 @@ function addSets(pokes) {
         
       
 
-
+     var finish = "";
 
      switch (finish) {
        case "F":
@@ -182,12 +164,16 @@ function addSets(pokes) {
      }
 
 
-     var url1_bbcoded = "[url=" + url1 + "]" + url1Text + "[/url]"
-     var streakLen_bbcoded = "([b]" + streakLen + "[/b])"
-     var userName_bbcoded = "[b][user=" + userId + "]" + userName + "[/user][/b]"
+     var url1_bbcoded = "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + "[/url]"
+     var streakLen_bbcoded = "([b]" + streakData["Streak Length"] + "[/b])"
+     var userName_bbcoded = "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
 
      var APlacement = APlacement + 1;
-     var Aout_bbcode = APlacementCur_bbcoded + userName_bbcoded + ", " + streakLen_bbcoded + " - " + url1_bbcoded + urlsBbcode;
+     var Aout_bbcode = APlacementCur_bbcoded;
+     Aout_bbcode += userName_bbcoded + ", ";
+     Aout_bbcode += streakLen_bbcoded + " - ";
+     Aout_bbcode += url1_bbcoded;
+     Aout_bbcode += urlsBbcode;
      Afullout[APlacement] = Aout_bbcode;
 
 
