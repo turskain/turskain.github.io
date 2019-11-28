@@ -132,7 +132,9 @@ var ABILITIES_SS = ABILITIES_SM.concat([
     'Libero',
     'Ice Scales',
     'Power Spot',
-    'Intrepid Sword'
+    'Intrepid Sword',
+    "Gorilla Tactics",
+    "Punk Rock"
 ]);
 
 ABILITIES_XY.splice(ABILITIES_XY.indexOf('Lightning Rod'), 1, 'Lightning Rod');
