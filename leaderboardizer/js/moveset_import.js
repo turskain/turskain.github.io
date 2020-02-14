@@ -81,8 +81,6 @@ function addSets(pokes) {
   var UPlacementVisual = 0;
   var APlacementVisual = 0;
 
-  var FPlacementVisual = 0;
-  var UPlacementVisual = 0;
   var TheData = new Array();
   var Leder = $.csv.toArrays(pokes);
   for (var i = 1; i < Leder.length; i++) {
@@ -109,7 +107,6 @@ function addSets(pokes) {
 //var pokes = document.getElementsByClassName("import-team-text")[0].value;
   //console.log(pokes);
   //console.log(Leder);
-  
   var Ffullout = [];
   var Ufullout = [];
   var Afullout = [];
@@ -180,12 +177,21 @@ function addSets(pokes) {
          Ufullout[UPlacement] = Uout_bbcode;
          break;
      }
+
+
      
      if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
        var APlacementVisual = APlacementVisual + 0;
        var APlacementCur_bbcoded = "   ";
      } else {
-     var APlacementVisual = APlacementVisual + 1;
+
+     if ( streakDataPrevious["Streak Length"] === streakData["Streak Length"] ) {
+       var APlacementVisual = APlacementVisual + 0;
+       //var APlacementCur_bbcoded = "   ";
+     } else {
+      var APlacementVisual = APlacementVisual + 1;
+     }
+
      if ( String(APlacementVisual).length === 1 ) { APlacementVisual2 = "0" + String(APlacementVisual); } else { APlacementVisual2 = APlacementVisual };
      var APlacementCur_bbcoded = "#" + String(APlacementVisual2) + ". ";
      }
@@ -197,15 +203,32 @@ function addSets(pokes) {
        var OngoingStatusBbcode = "";
      };
 
+     if ( streakData["Rental"] === "Yes" ) {
+       var RentalBbcode = " [SIZE=1]([color=#007700]Rental[/color])[/SIZE]";
+     } else {
+       var RentalBbcode = "";
+     };
+
+
 
 
      var APlacement = APlacement + 1;
-     var Aout_bbcode = APlacementCur_bbcoded;
-     Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
-     Aout_bbcode += "([b]" + streakData["Streak Length"] + OngoingStatusBbcode + "[/b])" + " - "
-     Aout_bbcode += "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + "[/url]"
-     Aout_bbcode += urlsBbcode;
-     Afullout[APlacement] = Aout_bbcode;
+     if ( streakData["Streak Length"] === "0" || streakData["Streak Length"] === "" ) {
+       var Aout_bbcode = "";
+       Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
+       Aout_bbcode += " - "
+       Aout_bbcode += "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + RentalBbcode + "[/url]"
+       Aout_bbcode += urlsBbcode;
+       Afullout[APlacement] = Aout_bbcode;
+     } else {
+       var Aout_bbcode = APlacementCur_bbcoded;
+       Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
+       Aout_bbcode += " ([b]" + streakData["Streak Length"] + OngoingStatusBbcode + "[/b])" + " - "
+       Aout_bbcode += "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + RentalBbcode + "[/url]"
+       Aout_bbcode += urlsBbcode;
+       Afullout[APlacement] = Aout_bbcode;
+     }
+
 
 
      //var url1Text = teamPoke1 + " / " + teamPoke2 + " / " + teamPoke3 + " / " + teamPoke4;
