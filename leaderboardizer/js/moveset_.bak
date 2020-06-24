@@ -73,6 +73,13 @@ function addSets(pokes) {
   //var pokes;
   var i;
   var j;
+  var FPlacement = 0;
+  var UPlacement = 0;
+  var APlacement = 0;
+
+  var FPlacementVisual = 0;
+  var UPlacementVisual = 0;
+  var APlacementVisual = 0;
 
   var TheData = new Array();
   var Leder = $.csv.toArrays(pokes);
@@ -104,13 +111,19 @@ function addSets(pokes) {
   var Ffullout = [];
   var Ufullout = [];
   var Afullout = [];
-  var OUTPUT = [];
-  var streakDataPrevious;
   //loop the outer array
   if ( Leder[0][0] != "Player Name" ) {
     alert("Invalid data in input field, copypaste the spreadsheet after downloading it as .csv as-is, including the sheet's header");
   }
   for (var i = 1; i < Leder.length; i++) {
+     var streakData = new Object(); 
+     var streakDataPrevious = new Object(); 
+     //var streakDataFull = new Object(); 
+     for ( var itr in Leder[i] ) {
+       streakDataPrevious[String(Leder[0][itr])] = Leder[i-1][itr];
+       streakData[String(Leder[0][itr])] = Leder[i][itr];
+      // streakDataFull[i][String(Leder[0][itr])] = Leder[i][itr];
+     }
      
 
     console.log(streakDataFull);
@@ -122,43 +135,6 @@ function addSets(pokes) {
     }
     console.log(output)
 
-    var typeStreakData = new Object();
-    for ( const realType of output ) {
-      typeStreakData[realType] = new Array();
-    }
-
-    var flags2 = [], output2 = [], l = streakDataFull.length, i8;
-    for( i8=0; i8<l; i8++) {
-      for ( const realType of output ) {
-        if ( streakDataFull[i8]["Type"] === realType ) {
-          typeStreakData[realType].push(streakDataFull[i8]);
-        }
-      }
-    }
-    console.log(typeStreakData);
-
-    //we got the streaks separated by Type, into arrays typeStreakData["Fire"] and so on
-
-    for ( const realType of output ) {
-
-  var FPlacement = 0;
-  var UPlacement = 0;
-  //var realType = streakData["Type"];
-  var RealPlacement = new Object();
-  RealPlacement[realType] = 0;
-
-  var FPlacementVisual = 0;
-  var UPlacementVisual = 0;
-  var VisualPlacement = new Object();
-  VisualPlacement[realType] = 0;
-
-
-
-      for ( const streakData of typeStreakData[realType] ) {
-        //streakDataPrevious = streakData;
-     console.log(streakData); 
-
-
 
     //var CurStreakData = StreakData.filter(function(obj) {
     //  return obj.Type === "Bug" 
@@ -168,13 +144,12 @@ function addSets(pokes) {
      var teamPokes = [];
 
 
-    //if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
-    //}
+    if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
+    }
 
     //console.log(parseInt(pokeAmount))
 
 
-      
      var url1Text = streakData["Team Name"];
 
     var urlsBbcode = ""
@@ -191,33 +166,53 @@ function addSets(pokes) {
       }
      
 
+     var finish = "";
 
+     switch (finish) {
+       case "F":
+         if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
+           var FPlacementVisual = FPlacementVisual + 0;
+           var FPlacementCur_bbcoded = "   ";
+         } else {
+         var FPlacementVisual = FPlacementVisual + 1;
+         var FPlacementCur_bbcoded = "#" + String(FPlacementVisual) + ". ";
+         }
+         var FPlacement = FPlacement + 1;
+         var Fout_bbcode = FPlacementCur_bbcoded + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]"
+         Ffullout[FPlacement] = Fout_bbcode;
+         break;
 
-    if ( RealPlacement[realType] > 0 ) {
-
-     if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
-       VisualPlacement[realType] = VisualPlacement[realType] + 0;
-       RealPlacement.CurBbcoded = "   ";
+       case "U":
+         if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
+           var UPlacementVisual = UPlacementVisual + 0;
+           var UPlacementCur_bbcoded = "   ";
+         } else {
+         var UPlacementVisual = UPlacementVisual + 1;
+         var UPlacementCur_bbcoded = "#" + String(UPlacementVisual) + ". ";
+         }
+         var UPlacement = UPlacement + 1;
+         var Uout_bbcode = UPlacementCur_bbcoded + "[b][user=" + userId + "]" + userName + "[/user][/b], ([b]" + streakLen + "[/b] - [url=" + url1 + "]" + url1Text + "[/url]" 
+         Ufullout[UPlacement] = Uout_bbcode;
+         break;
      }
-     if ( streakDataPrevious["Streak Length"] === streakData["Streak Length"] ) {
-       VisualPlacement[realType] = VisualPlacement[realType] + 0;
-       RealPlacement.CurBbcoded = "   ";
-     } else {
-      VisualPlacement[realType] = VisualPlacement[realType] + 1;
-    }
-    } else {
-      VisualPlacement[realType] = VisualPlacement[realType] + 1;
-     if ( String(VisualPlacement[realType]).length === 1 ) { VisualPlacement2 = "0" + String(VisualPlacement[realType]); } else { VisualPlacement2 = VisualPlacement[realType] };
-     RealPlacement.CurBbcoded = "#" + String(VisualPlacement2) + ". ";
-    }
 
-
-      
-    
-
-      //VisualPlacement[realType] = VisualPlacement[realType] + 1;
 
      
+     if ( streakDataPrevious["User ID"] === streakData["User ID"] ) {
+       var APlacementVisual = APlacementVisual + 0;
+       var APlacementCur_bbcoded = "   ";
+     } else {
+
+     if ( streakDataPrevious["Streak Length"] === streakData["Streak Length"] ) {
+       var APlacementVisual = APlacementVisual + 0;
+       //var APlacementCur_bbcoded = "   ";
+     } else {
+      var APlacementVisual = APlacementVisual + 1;
+     }
+
+     if ( String(APlacementVisual).length === 1 ) { APlacementVisual2 = "0" + String(APlacementVisual); } else { APlacementVisual2 = APlacementVisual };
+     var APlacementCur_bbcoded = "#" + String(APlacementVisual2) + ". ";
+     }
 
 
      if ( streakData["Ongoing"] === "Yes" ) {
@@ -234,53 +229,23 @@ function addSets(pokes) {
 
 
 
-     console.log(RealPlacement)
-     console.log(RealPlacement.CurBbcoded)
-     console.log(VisualPlacement)
-     
 
-
-     RealPlacement[realType] = RealPlacement[realType] + 1;
+     var APlacement = APlacement + 1;
      if ( streakData["Streak Length"] === "0" || streakData["Streak Length"] === "" ) {
-       var Aout_bbcode = ""
+       var Aout_bbcode = "";
        Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
        Aout_bbcode += " - "
        Aout_bbcode += "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + RentalBbcode + "[/url]"
        Aout_bbcode += urlsBbcode;
-       Afullout[RealPlacement[realType]] = Aout_bbcode;
-       OUTPUT += Aout_bbcode + "\n";
+       Afullout[APlacement] = Aout_bbcode;
      } else {
-       if ( RealPlacement[realType] === 1 ) {
-        // var Aout_bbcode = "\n\nThis is the list for "  + realType + "\n\n"; } else {
-         var Aout_bbcode = "\n\n\n[img]https://play.pokemonshowdown.com/sprites/types/" + realType + ".png[/img]" + "\n"; } else {
-       var Aout_bbcode = ""; }
-
-       if  ( RealPlacement.CurBbcoded === "   " ) {
-       Aout_bbcode += "";
-      // Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
-       Aout_bbcode += ", ([b]" + streakData["Streak Length"] + OngoingStatusBbcode + "[/b])" + " - "
-       Aout_bbcode += "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + RentalBbcode + "[/url]"
-       Aout_bbcode += urlsBbcode;
-       Afullout[RealPlacement[realType]] = Aout_bbcode;
-       OUTPUT += Aout_bbcode;
-
-       } else {
-       Aout_bbcode += "\n" + RealPlacement.CurBbcoded;
+       var Aout_bbcode = APlacementCur_bbcoded;
        Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
        Aout_bbcode += " ([b]" + streakData["Streak Length"] + OngoingStatusBbcode + "[/b])" + " - "
        Aout_bbcode += "[url=" + streakData["Team URL"] + "]" + streakData["Team Name"] + RentalBbcode + "[/url]"
        Aout_bbcode += urlsBbcode;
-       Afullout[RealPlacement[realType]] = Aout_bbcode;
-       OUTPUT += Aout_bbcode;
-       }
-
-       streakDataPrevious = streakData;
+       Afullout[APlacement] = Aout_bbcode;
      }
-
-    
-      }  
-    }
-
 
 
 
@@ -296,9 +261,8 @@ function addSets(pokes) {
      
    }
  // output the list generated into the fullout array to output field 
-     //document.getElementsByClassName("leder-result-text-F")[0].value= Ffullout.join("\n");
-     console.log(OUTPUT);
-     document.getElementsByClassName("leder-result-text-U")[0].value= String(OUTPUT);
+     document.getElementsByClassName("leder-result-text-F")[0].value= Ffullout.join("\n");
+     document.getElementsByClassName("leder-result-text-U")[0].value= Ufullout.join("\n");
      document.getElementsByClassName("leder-result-text-A")[0].value= Afullout.join("\n");
   }
 
