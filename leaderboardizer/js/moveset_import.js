@@ -74,6 +74,7 @@ function addSets(pokes) {
   var i;
   var j;
 
+
   var TheData = new Array();
   var Leder = $.csv.toArrays(pokes);
   var streakDataFull = $.csv.toObjects(pokes);
@@ -106,6 +107,7 @@ function addSets(pokes) {
   var Afullout = [];
   var OUTPUT = [];
   var streakDataPrevious;
+  var RestrictedSparringOverall = [];
   //loop the outer array
   if ( Leder[0][0] != "Player Name" ) {
     alert("Invalid data in input field, copypaste the spreadsheet after downloading it as .csv as-is, including the sheet's header");
@@ -126,6 +128,8 @@ function addSets(pokes) {
     for ( const realType of output ) {
       typeStreakData[realType] = new Array();
     }
+
+    var userID = 0;
 
     var flags2 = [], output2 = [], l = streakDataFull.length, i8;
     for( i8=0; i8<l; i8++) {
@@ -157,8 +161,29 @@ function addSets(pokes) {
       for ( const streakData of typeStreakData[realType] ) {
         //streakDataPrevious = streakData;
      console.log(streakData); 
+      
 
 
+var userID = streakData["User ID"]
+
+        if ( RestrictedSparringOverall === undefined ) {
+          RestrictedSparringOverall = new Array();
+        } 
+
+        if ( RestrictedSparringOverall[userID] === undefined ) {
+          RestrictedSparringOverall[userID] = new Array();
+        } 
+
+        if ( RestrictedSparringOverall[userID].Streaks === undefined ) {
+          RestrictedSparringOverall[userID].Streaks = new Array();
+        } 
+        
+        if ( RestrictedSparringOverall[userID].Streaks[realType] === undefined ) {
+        RestrictedSparringOverall[userID].Streaks[realType] = new Object();
+        RestrictedSparringOverall[userID].Streaks[realType] = parseInt(streakData["Streak Length"]);
+        RestrictedSparringOverall[userID].UserID = streakData["User ID"];
+        RestrictedSparringOverall[userID].PlayerName = streakData["Player Name"];
+        }
 
     //var CurStreakData = StreakData.filter(function(obj) {
     //  return obj.Type === "Bug" 
@@ -294,14 +319,47 @@ function addSets(pokes) {
      //for (var j = 0; j < innerArrayLength; j++) {
      //console.log('[' + i + ',' + j + '] = ' + Leder[i][j]);
      
-   }
+   
  // output the list generated into the fullout array to output field 
      //document.getElementsByClassName("leder-result-text-F")[0].value= Ffullout.join("\n");
-     console.log(OUTPUT);
      document.getElementsByClassName("leder-result-text-U")[0].value= String(OUTPUT);
      document.getElementsByClassName("leder-result-text-A")[0].value= Afullout.join("\n");
-  }
 
+
+
+     const sumValues = obj => Object.values(obj).reduce((a, b) => a + b);
+
+     NewRSO = [];
+
+     RestrictedSparringOverall.forEach(function(item, i) {
+       RestrictedSparringOverall[i].TotalWins = sumValues ( RestrictedSparringOverall[i].Streaks );
+      NewRSO.push(RestrictedSparringOverall[i]) ;
+
+
+     })
+     console.log(RestrictedSparringOverall);
+     console.log(NewRSO);
+
+    resultino = _.sortBy(NewRSO, "TotalWins");
+
+
+
+    console.log(resultino.reverse());
+//    var obj = Stuff.Streaks.reduce(function(acc, cur, i) {
+//        acc[i] = cur;
+//        return acc;
+//    }, {});
+//        Stuff.TotalWins = sumValues( obj.Streaks );
+//
+ //       }
+
+     //resultino = Object.keys(RestrictedSparringOverall)
+
+     //console.log(resultino);
+     
+
+  }
+}
 
 
 $(document).ready(function () {
