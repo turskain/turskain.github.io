@@ -229,6 +229,8 @@ var userID = streakData["User ID"]
        RealPlacement.CurBbcoded = "   ";
      } else {
       VisualPlacement[realType] = VisualPlacement[realType] + 1;
+     if ( String(VisualPlacement[realType]).length === 1 ) { VisualPlacement2 = "0" + String(VisualPlacement[realType]); } else { VisualPlacement2 = VisualPlacement[realType] };
+     RealPlacement.CurBbcoded = "#" + String(VisualPlacement2) + ". ";
     }
     } else {
       VisualPlacement[realType] = VisualPlacement[realType] + 1;
@@ -266,6 +268,7 @@ var userID = streakData["User ID"]
 
 
      RealPlacement[realType] = RealPlacement[realType] + 1;
+
      if ( streakData["Streak Length"] === "0" || streakData["Streak Length"] === "" ) {
        var Aout_bbcode = ""
        Aout_bbcode += "[b][user=" + streakData["User ID"] + "]" + streakData["Player Name"] + "[/user][/b]"
@@ -277,7 +280,7 @@ var userID = streakData["User ID"]
      } else {
        if ( RealPlacement[realType] === 1 ) {
         // var Aout_bbcode = "\n\nThis is the list for "  + realType + "\n\n"; } else {
-         var Aout_bbcode = "\n\n\n[img]https://play.pokemonshowdown.com/sprites/types/" + realType + ".png[/img]" + "\n"; } else {
+         var Aout_bbcode = "\n\n\n\n[img]https://play.pokemonshowdown.com/sprites/types/" + realType + ".png[/img]" ; } else {
        var Aout_bbcode = ""; }
 
        if  ( RealPlacement.CurBbcoded === "   " ) {
