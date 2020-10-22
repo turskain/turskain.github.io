@@ -1,6 +1,6 @@
 var SETDEX_SS = {
 	"Abomasnow": {
-"OU Abomasnow-1": {
+    "NU Abomasnow-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28,7 +28,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Abomasnow-2": {
+    "NU Abomasnow-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -56,7 +56,7 @@ var SETDEX_SS = {
 				"Sheer Cold"
 			]
 		},
-"OU Abomasnow-3": {
+    "NU Abomasnow-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -84,7 +84,7 @@ var SETDEX_SS = {
 				"Aurora Veil"
 			]
 		},
-"OU Abomasnow-4": {
+    "NU Abomasnow-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -112,7 +112,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"UU Abomasnow-RS": {
+    "PU Abomasnow-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -142,7 +142,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Accelgor": {
-"OU Accelgor-1": {
+    "NU Accelgor-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -170,7 +170,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Accelgor-2": {
+    "NU Accelgor-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -198,7 +198,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Accelgor-3": {
+    "NU Accelgor-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -226,7 +226,7 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-"OU Accelgor-4": {
+    "NU Accelgor-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -254,7 +254,7 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-"UU Accelgor-RS": {
+    "PU Accelgor-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -284,7 +284,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Aegislash": {
-"OU Aegislash-1": {
+    "NU Aegislash-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -312,7 +312,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Aegislash-2": {
+    "NU Aegislash-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -340,7 +340,7 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-"OU Aegislash-3": {
+    "NU Aegislash-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -368,7 +368,7 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-"OU Aegislash-4": {
+    "NU Aegislash-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -478,7 +478,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Alakazam": {
-"UU Alakazam-RS": {
+    "PU Alakazam-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -508,7 +508,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Alcremie": {
-"OU Alcremie-1": {
+    "NU Alcremie-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -536,7 +536,7 @@ var SETDEX_SS = {
 				"Charm"
 			]
 		},
-"OU Alcremie-2": {
+    "NU Alcremie-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -564,7 +564,7 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-"OU Alcremie-3": {
+    "NU Alcremie-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -592,7 +592,7 @@ var SETDEX_SS = {
 				"Misty Terrain"
 			]
 		},
-"OU Alcremie-4": {
+    "NU Alcremie-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -620,7 +620,7 @@ var SETDEX_SS = {
 				"Tri Attack"
 			]
 		},
-"UU Alcremie-RS": {
+    "PU Alcremie-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -650,7 +650,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Amoonguss": {
-"UU Amoonguss-RS": {
+    "PU Amoonguss-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -680,7 +680,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Appletun": {
-"OU Appletun-1": {
+    "NU Appletun-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -708,7 +708,7 @@ var SETDEX_SS = {
 				"Bullet Seed"
 			]
 		},
-"OU Appletun-2": {
+    "NU Appletun-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -736,7 +736,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"UU Appletun-RS": {
+    "PU Appletun-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -766,7 +766,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Araquanid": {
-"OU Araquanid-1": {
+    "NU Araquanid-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -794,7 +794,7 @@ var SETDEX_SS = {
 				"X-Scissor"
 			]
 		},
-"OU Araquanid-2": {
+    "NU Araquanid-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -822,7 +822,7 @@ var SETDEX_SS = {
 				"Aqua Ring"
 			]
 		},
-"OU Araquanid-3": {
+    "NU Araquanid-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -850,7 +850,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Araquanid-4": {
+    "NU Araquanid-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -880,7 +880,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Arcanine": {
-"OU Arcanine-1": {
+    "NU Arcanine-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -908,7 +908,7 @@ var SETDEX_SS = {
 				"Fire Fang"
 			]
 		},
-"OU Arcanine-2": {
+    "NU Arcanine-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -936,7 +936,7 @@ var SETDEX_SS = {
 				"Howl"
 			]
 		},
-"OU Arcanine-3": {
+    "NU Arcanine-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -964,7 +964,7 @@ var SETDEX_SS = {
 				"Extreme Speed"
 			]
 		},
-"OU Arcanine-4": {
+    "NU Arcanine-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -994,7 +994,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Arctovish": {
-"OU Arctovish-1": {
+    "NU Arctovish-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1022,7 +1022,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Arctovish-2": {
+    "NU Arctovish-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1050,7 +1050,7 @@ var SETDEX_SS = {
 				"Hydro Pump"
 			]
 		},
-"OU Arctovish-3": {
+    "NU Arctovish-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1078,7 +1078,7 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-"OU Arctovish-4": {
+    "NU Arctovish-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1108,7 +1108,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Arctozolt": {
-"OU Arctozolt-1": {
+    "NU Arctozolt-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1136,7 +1136,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Arctozolt-2": {
+    "NU Arctozolt-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1164,7 +1164,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Arctozolt-3": {
+    "NU Arctozolt-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1192,7 +1192,7 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-"OU Arctozolt-4": {
+    "NU Arctozolt-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1222,7 +1222,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Aromatisse": {
-"OU Aromatisse-1": {
+    "NU Aromatisse-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1250,7 +1250,7 @@ var SETDEX_SS = {
 				"Ally Switch"
 			]
 		},
-"OU Aromatisse-2": {
+    "NU Aromatisse-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1278,7 +1278,7 @@ var SETDEX_SS = {
 				"After You"
 			]
 		},
-"OU Aromatisse-3": {
+    "NU Aromatisse-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1306,7 +1306,7 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-"OU Aromatisse-4": {
+    "NU Aromatisse-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1334,7 +1334,7 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-"UU Aromatisse-RS": {
+    "PU Aromatisse-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1364,7 +1364,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Avalugg": {
-"OU Avalugg-1": {
+    "NU Avalugg-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1392,7 +1392,7 @@ var SETDEX_SS = {
 				"Aurora Veil"
 			]
 		},
-"OU Avalugg-2": {
+    "NU Avalugg-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1420,7 +1420,7 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-"OU Avalugg-3": {
+    "NU Avalugg-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1448,7 +1448,7 @@ var SETDEX_SS = {
 				"Mirror Coat"
 			]
 		},
-"OU Avalugg-4": {
+    "NU Avalugg-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1478,7 +1478,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Azumarill": {
-"UU Azumarill-RS": {
+    "PU Azumarill-RS": {
 			"level": 50,
 			"evs": {
 				"hp": 252,
@@ -1508,7 +1508,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Barbaracle": {
-"OU Barbaracle-1": {
+    "NU Barbaracle-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1536,7 +1536,7 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-"OU Barbaracle-2": {
+    "NU Barbaracle-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1564,7 +1564,7 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-"OU Barbaracle-3": {
+    "NU Barbaracle-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1592,7 +1592,7 @@ var SETDEX_SS = {
 				"Cross Chop"
 			]
 		},
-"OU Barbaracle-4": {
+    "NU Barbaracle-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1622,7 +1622,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Barraskewda": {
-"OU Barraskewda-1": {
+    "NU Barraskewda-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1650,7 +1650,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Barraskewda-2": {
+    "NU Barraskewda-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1678,7 +1678,7 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-"OU Barraskewda-3": {
+    "NU Barraskewda-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1706,7 +1706,7 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-"OU Barraskewda-4": {
+    "NU Barraskewda-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1734,7 +1734,7 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-"UU Barraskewda-RS": {
+    "PU Barraskewda-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1764,7 +1764,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Basculin": {
-"OU Basculin-1": {
+    "NU Basculin-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1792,7 +1792,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Basculin-2": {
+    "NU Basculin-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1820,7 +1820,7 @@ var SETDEX_SS = {
 				"Endeavor"
 			]
 		},
-"OU Basculin-3": {
+    "NU Basculin-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1848,7 +1848,7 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-"OU Basculin-4": {
+    "NU Basculin-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1878,7 +1878,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Beartic": {
-"OU Beartic-1": {
+    "NU Beartic-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -1906,7 +1906,7 @@ var SETDEX_SS = {
 				"Frost Breath"
 			]
 		},
-"OU Beartic-2": {
+    "NU Beartic-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1934,7 +1934,7 @@ var SETDEX_SS = {
 				"Frost Breath"
 			]
 		},
-"OU Beartic-3": {
+    "NU Beartic-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1962,7 +1962,7 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-"OU Beartic-4": {
+    "NU Beartic-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -1990,7 +1990,7 @@ var SETDEX_SS = {
 				"Aqua Jet"
 			]
 		},
-"UU Beartic-RS": {
+    "PU Beartic-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2020,7 +2020,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Beheeyem": {
-"OU Beheeyem-1": {
+    "NU Beheeyem-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2048,7 +2048,7 @@ var SETDEX_SS = {
 				"Tri Attack"
 			]
 		},
-"OU Beheeyem-2": {
+    "NU Beheeyem-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2076,7 +2076,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Beheeyem-3": {
+    "NU Beheeyem-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2104,7 +2104,7 @@ var SETDEX_SS = {
 				"Psychic Terrain"
 			]
 		},
-"OU Beheeyem-4": {
+    "NU Beheeyem-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2132,7 +2132,7 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-"UU Beheeyem-RS": {
+    "PU Beheeyem-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -2162,7 +2162,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Bellossom": {
-"OU Bellossom-1": {
+    "NU Bellossom-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2190,7 +2190,7 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-"OU Bellossom-2": {
+    "NU Bellossom-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2218,7 +2218,7 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-"OU Bellossom-3": {
+    "NU Bellossom-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2246,7 +2246,7 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-"OU Bellossom-4": {
+    "NU Bellossom-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2276,7 +2276,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Bewear": {
-"OU Bewear-1": {
+    "NU Bewear-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -2304,7 +2304,7 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-"OU Bewear-2": {
+    "NU Bewear-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2332,7 +2332,7 @@ var SETDEX_SS = {
 				"Stomp"
 			]
 		},
-"OU Bewear-3": {
+    "NU Bewear-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -2360,7 +2360,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"OU Bewear-4": {
+    "NU Bewear-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2390,7 +2390,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Bisharp": {
-"OU Bisharp-1": {
+    "NU Bisharp-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2418,7 +2418,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Bisharp-2": {
+    "NU Bisharp-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2446,7 +2446,7 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-"OU Bisharp-3": {
+    "NU Bisharp-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2474,7 +2474,7 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-"OU Bisharp-4": {
+    "NU Bisharp-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -2502,7 +2502,7 @@ var SETDEX_SS = {
 				"Quick Guard"
 			]
 		},
-"UU Bisharp-RS": {
+    "PU Bisharp-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -2532,7 +2532,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Blissey": {
-"UU Blissey-RS": {
+    "PU Blissey-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2562,7 +2562,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Boltund": {
-"OU Boltund-1": {
+    "NU Boltund-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2590,7 +2590,7 @@ var SETDEX_SS = {
 				"Howl"
 			]
 		},
-"OU Boltund-2": {
+    "NU Boltund-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2618,7 +2618,7 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-"OU Boltund-3": {
+    "NU Boltund-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2646,7 +2646,7 @@ var SETDEX_SS = {
 				"Thunder Fang"
 			]
 		},
-"OU Boltund-4": {
+    "NU Boltund-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2786,7 +2786,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"UU Boltund-RS": {
+    "PU Boltund-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2816,7 +2816,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Bouffalant": {
-"UU Bouffalant-RS": {
+    "PU Bouffalant-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -2846,7 +2846,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Braviary": {
-"OU Braviary-1": {
+    "NU Braviary-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2874,7 +2874,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Braviary-2": {
+    "NU Braviary-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2902,7 +2902,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Braviary-3": {
+    "NU Braviary-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2930,7 +2930,7 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-"OU Braviary-4": {
+    "NU Braviary-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2958,7 +2958,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"UU Braviary-RS": {
+    "PU Braviary-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -2988,7 +2988,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Bronzong": {
-"OU Bronzong-1": {
+    "NU Bronzong-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3016,7 +3016,7 @@ var SETDEX_SS = {
 				"Weather Ball"
 			]
 		},
-"OU Bronzong-2": {
+    "NU Bronzong-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3044,7 +3044,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Bronzong-3": {
+    "NU Bronzong-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3072,7 +3072,7 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-"OU Bronzong-4": {
+    "NU Bronzong-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3102,7 +3102,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Butterfree": {
-"OU Butterfree-1": {
+    "NU Butterfree-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3130,7 +3130,7 @@ var SETDEX_SS = {
 				"Safeguard"
 			]
 		},
-"OU Butterfree-2": {
+    "NU Butterfree-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -3158,7 +3158,7 @@ var SETDEX_SS = {
 				"Substitute"
 			]
 		},
-"OU Butterfree-3": {
+    "NU Butterfree-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3186,7 +3186,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Butterfree-4": {
+    "NU Butterfree-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3214,7 +3214,7 @@ var SETDEX_SS = {
 				"Hurricane"
 			]
 		},
-"UU Butterfree-RS": {
+    "PU Butterfree-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -3244,7 +3244,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Centiskorch": {
-"OU Centiskorch-1": {
+    "NU Centiskorch-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -3272,7 +3272,7 @@ var SETDEX_SS = {
 				"Wrap"
 			]
 		},
-"OU Centiskorch-2": {
+    "NU Centiskorch-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3300,7 +3300,7 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-"OU Centiskorch-3": {
+    "NU Centiskorch-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3328,7 +3328,7 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-"OU Centiskorch-4": {
+    "NU Centiskorch-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -3468,7 +3468,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"UU Centiskorch-RS": {
+    "PU Centiskorch-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -3498,7 +3498,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Chandelure": {
-"OU Chandelure-1": {
+    "NU Chandelure-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3526,7 +3526,7 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-"OU Chandelure-2": {
+    "NU Chandelure-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3554,7 +3554,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Chandelure-3": {
+    "NU Chandelure-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3582,7 +3582,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Chandelure-4": {
+    "NU Chandelure-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3632,7 +3632,7 @@ var SETDEX_SS = {
 				"Weather Ball"
 			]
 		},
-"OU Charizard-1": {
+    "NU Charizard-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3660,7 +3660,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Charizard-2": {
+    "NU Charizard-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3690,7 +3690,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Cherrim": {
-"OU Cherrim-1": {
+    "NU Cherrim-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3718,7 +3718,7 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-"OU Cherrim-2": {
+    "NU Cherrim-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3746,7 +3746,7 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-"OU Cherrim-3": {
+    "NU Cherrim-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3774,7 +3774,7 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-"OU Cherrim-4": {
+    "NU Cherrim-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3804,7 +3804,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Cinccino": {
-"OU Cinccino-1": {
+    "NU Cinccino-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3832,7 +3832,7 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-"OU Cinccino-2": {
+    "NU Cinccino-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3860,7 +3860,7 @@ var SETDEX_SS = {
 				"Tail Slap"
 			]
 		},
-"OU Cinccino-3": {
+    "NU Cinccino-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -3888,7 +3888,7 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-"OU Cinccino-4": {
+    "NU Cinccino-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3916,7 +3916,7 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-"UU Cinccino-RS": {
+    "PU Cinccino-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3946,7 +3946,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Cinderace": {
-"OU Cinderace-1": {
+    "NU Cinderace-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -3974,7 +3974,7 @@ var SETDEX_SS = {
 				"Electro Ball"
 			]
 		},
-"OU Cinderace-2": {
+    "NU Cinderace-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4002,7 +4002,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"OU Cinderace-3": {
+    "NU Cinderace-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4030,7 +4030,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Cinderace-4": {
+    "NU Cinderace-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4252,7 +4252,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Clawitzer": {
-"UU Clawitzer-RS": {
+    "PU Clawitzer-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4282,7 +4282,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Claydol": {
-"OU Claydol-1": {
+    "NU Claydol-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4310,7 +4310,7 @@ var SETDEX_SS = {
 				"Extrasensory"
 			]
 		},
-"OU Claydol-2": {
+    "NU Claydol-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4338,7 +4338,7 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-"OU Claydol-3": {
+    "NU Claydol-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4366,7 +4366,7 @@ var SETDEX_SS = {
 				"Trick Room"
 			]
 		},
-"OU Claydol-4": {
+    "NU Claydol-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4396,7 +4396,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Clefable": {
-"OU Clefable-1": {
+    "NU Clefable-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4424,7 +4424,7 @@ var SETDEX_SS = {
 				"Follow Me"
 			]
 		},
-"OU Clefable-2": {
+    "NU Clefable-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4452,7 +4452,7 @@ var SETDEX_SS = {
 				"Follow Me"
 			]
 		},
-"OU Clefable-3": {
+    "NU Clefable-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4480,7 +4480,7 @@ var SETDEX_SS = {
 				"Stored Power"
 			]
 		},
-"OU Clefable-4": {
+    "NU Clefable-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4510,7 +4510,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Cloyster": {
-"OU Cloyster-1": {
+    "NU Cloyster-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4538,7 +4538,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Cloyster-2": {
+    "NU Cloyster-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4566,7 +4566,7 @@ var SETDEX_SS = {
 				"Razor Shell"
 			]
 		},
-"OU Cloyster-3": {
+    "NU Cloyster-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4594,7 +4594,7 @@ var SETDEX_SS = {
 				"Toxic Spikes"
 			]
 		},
-"OU Cloyster-4": {
+    "NU Cloyster-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4622,7 +4622,7 @@ var SETDEX_SS = {
 				"Shell Smash"
 			]
 		},
-"UU Cloyster-RS": {
+    "PU Cloyster-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4652,7 +4652,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Coalossal": {
-"OU Coalossal-1": {
+    "NU Coalossal-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4680,7 +4680,7 @@ var SETDEX_SS = {
 				"Mud-Slap"
 			]
 		},
-"OU Coalossal-2": {
+    "NU Coalossal-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4708,7 +4708,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Coalossal-3": {
+    "NU Coalossal-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4736,7 +4736,7 @@ var SETDEX_SS = {
 				"Burn Up"
 			]
 		},
-"OU Coalossal-4": {
+    "NU Coalossal-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4764,7 +4764,7 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-"UU Coalossal-RS": {
+    "PU Coalossal-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4794,7 +4794,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Comfey": {
-"UU Comfey-RS": {
+    "PU Comfey-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4824,7 +4824,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Conkeldurr": {
-"OU Conkeldurr-1": {
+    "NU Conkeldurr-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4852,7 +4852,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Conkeldurr-2": {
+    "NU Conkeldurr-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4880,7 +4880,7 @@ var SETDEX_SS = {
 				"Mach Punch"
 			]
 		},
-"OU Conkeldurr-3": {
+    "NU Conkeldurr-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -4908,7 +4908,7 @@ var SETDEX_SS = {
 				"Power-Up Punch"
 			]
 		},
-"OU Conkeldurr-4": {
+    "NU Conkeldurr-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4936,7 +4936,7 @@ var SETDEX_SS = {
 				"Mach Punch"
 			]
 		},
-"UU Conkeldurr-RS": {
+    "PU Conkeldurr-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4966,7 +4966,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Copperajah": {
-"OU Copperajah-1": {
+    "NU Copperajah-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -4994,7 +4994,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Copperajah-2": {
+    "NU Copperajah-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5022,7 +5022,7 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-"OU Copperajah-3": {
+    "NU Copperajah-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5050,7 +5050,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"OU Copperajah-4": {
+    "NU Copperajah-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5080,7 +5080,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Corviknight": {
-"OU Corviknight-1": {
+    "NU Corviknight-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5108,7 +5108,7 @@ var SETDEX_SS = {
 				"Tailwind"
 			]
 		},
-"OU Corviknight-2": {
+    "NU Corviknight-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5136,7 +5136,7 @@ var SETDEX_SS = {
 				"Fly"
 			]
 		},
-"OU Corviknight-3": {
+    "NU Corviknight-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5164,7 +5164,7 @@ var SETDEX_SS = {
 				"Hurricane"
 			]
 		},
-"OU Corviknight-4": {
+    "NU Corviknight-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5192,7 +5192,7 @@ var SETDEX_SS = {
 				"Bulk Up"
 			]
 		},
-"UU Corviknight-RS": {
+    "PU Corviknight-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5222,7 +5222,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Cramorant": {
-"OU Cramorant-1": {
+    "NU Cramorant-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5250,7 +5250,7 @@ var SETDEX_SS = {
 				"Fly"
 			]
 		},
-"OU Cramorant-2": {
+    "NU Cramorant-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5278,7 +5278,7 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-"OU Cramorant-3": {
+    "NU Cramorant-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5306,7 +5306,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"OU Cramorant-4": {
+    "NU Cramorant-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5334,7 +5334,7 @@ var SETDEX_SS = {
 				"Steel Wing"
 			]
 		},
-"UU Cramorant-RS": {
+    "PU Cramorant-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5364,7 +5364,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Crawdaunt": {
-"OU Crawdaunt-1": {
+    "NU Crawdaunt-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5392,7 +5392,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Crawdaunt-2": {
+    "NU Crawdaunt-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5420,7 +5420,7 @@ var SETDEX_SS = {
 				"Avalanche"
 			]
 		},
-"OU Crawdaunt-3": {
+    "NU Crawdaunt-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5448,7 +5448,7 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-"OU Crawdaunt-4": {
+    "NU Crawdaunt-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5476,7 +5476,7 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-"UU Crawdaunt-RS": {
+    "PU Crawdaunt-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5506,7 +5506,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Crustle": {
-"OU Crustle-1": {
+    "NU Crustle-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5534,7 +5534,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Crustle-2": {
+    "NU Crustle-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5562,7 +5562,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Crustle-3": {
+    "NU Crustle-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5590,7 +5590,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Crustle-4": {
+    "NU Crustle-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5618,7 +5618,7 @@ var SETDEX_SS = {
 				"X-Scissor"
 			]
 		},
-"UU Crustle-RS": {
+    "PU Crustle-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5648,7 +5648,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Cursola": {
-"OU Cursola-1": {
+    "NU Cursola-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5676,7 +5676,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Cursola-2": {
+    "NU Cursola-2": {
 			"level": "50",
 			"evs": {
 				"hp": 20,
@@ -5704,7 +5704,7 @@ var SETDEX_SS = {
 				"Amnesia"
 			]
 		},
-"OU Cursola-3": {
+    "NU Cursola-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5732,7 +5732,7 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-"OU Cursola-4": {
+    "NU Cursola-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5760,7 +5760,7 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-"UU Cursola-RS": {
+    "PU Cursola-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5790,7 +5790,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Darmanitan-Galar": {
-"OU Darmanitan-G-1": {
+    "NU Darmanitan-G-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5818,7 +5818,7 @@ var SETDEX_SS = {
 				"Fire Fang"
 			]
 		},
-"OU Darmanitan-G-2": {
+    "NU Darmanitan-G-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5846,7 +5846,7 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-"OU Darmanitan-G-3": {
+    "NU Darmanitan-G-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5874,7 +5874,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"OU Darmanitan-G-4": {
+    "NU Darmanitan-G-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5904,7 +5904,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dedenne": {
-"UU Dedenne-RS": {
+    "PU Dedenne-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5934,7 +5934,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Delibird": {
-"OU Delibird-1": {
+    "NU Delibird-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -5962,7 +5962,7 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-"OU Delibird-2": {
+    "NU Delibird-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -5990,7 +5990,7 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-"OU Delibird-3": {
+    "NU Delibird-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6018,7 +6018,7 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-"OU Delibird-4": {
+    "NU Delibird-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6048,7 +6048,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dhelmise": {
-"OU Dhelmise-1": {
+    "NU Dhelmise-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6076,7 +6076,7 @@ var SETDEX_SS = {
 				"Hydro Pump"
 			]
 		},
-"OU Dhelmise-2": {
+    "NU Dhelmise-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6104,7 +6104,7 @@ var SETDEX_SS = {
 				"Phantom Force"
 			]
 		},
-"OU Dhelmise-3": {
+    "NU Dhelmise-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6132,7 +6132,7 @@ var SETDEX_SS = {
 				"Liquidation"
 			]
 		},
-"OU Dhelmise-4": {
+    "NU Dhelmise-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6162,7 +6162,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Diggersby": {
-"OU Diggersby-1": {
+    "NU Diggersby-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6190,7 +6190,7 @@ var SETDEX_SS = {
 				"Quick Attack"
 			]
 		},
-"OU Diggersby-2": {
+    "NU Diggersby-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6218,7 +6218,7 @@ var SETDEX_SS = {
 				"Sand Tomb"
 			]
 		},
-"OU Diggersby-3": {
+    "NU Diggersby-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6246,7 +6246,7 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-"OU Diggersby-4": {
+    "NU Diggersby-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6276,7 +6276,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Ditto": {
-"OU Ditto-1": {
+    "NU Ditto-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -6301,7 +6301,7 @@ var SETDEX_SS = {
 				"Transform"
 			]
 		},
-"OU Ditto-2": {
+    "NU Ditto-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -6326,7 +6326,7 @@ var SETDEX_SS = {
 				"Transform"
 			]
 		},
-"OU Ditto-3": {
+    "NU Ditto-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -6351,7 +6351,7 @@ var SETDEX_SS = {
 				"Transform"
 			]
 		},
-"OU Ditto-4": {
+    "NU Ditto-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -6378,7 +6378,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dracovish": {
-"OU Dracovish-1": {
+    "NU Dracovish-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6406,7 +6406,7 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-"OU Dracovish-2": {
+    "NU Dracovish-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6434,7 +6434,7 @@ var SETDEX_SS = {
 				"Super Fang"
 			]
 		},
-"OU Dracovish-3": {
+    "NU Dracovish-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6462,7 +6462,7 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-"OU Dracovish-4": {
+    "NU Dracovish-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6492,7 +6492,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dracozolt": {
-"OU Dracozolt-1": {
+    "NU Dracozolt-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -6520,7 +6520,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Dracozolt-2": {
+    "NU Dracozolt-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6548,7 +6548,7 @@ var SETDEX_SS = {
 				"Iron Tail"
 			]
 		},
-"OU Dracozolt-3": {
+    "NU Dracozolt-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6576,7 +6576,7 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-"OU Dracozolt-4": {
+    "NU Dracozolt-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6606,7 +6606,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dragalge": {
-"UU Dragalge-RS": {
+    "PU Dragalge-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6636,7 +6636,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dragapult": {
-"OU Dragapult-1": {
+    "NU Dragapult-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -6664,7 +6664,7 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-"OU Dragapult-2": {
+    "NU Dragapult-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6734,7 +6734,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Drampa": {
-"OU Drampa-1": {
+    "NU Drampa-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6762,7 +6762,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Drampa-2": {
+    "NU Drampa-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6790,7 +6790,7 @@ var SETDEX_SS = {
 				"Glare"
 			]
 		},
-"OU Drampa-3": {
+    "NU Drampa-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6818,7 +6818,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Drampa-4": {
+    "NU Drampa-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6846,7 +6846,7 @@ var SETDEX_SS = {
 				"Draco Meteor"
 			]
 		},
-"UU Drampa-RS": {
+    "PU Drampa-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6876,7 +6876,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Drapion": {
-"OU Drapion-1": {
+    "NU Drapion-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6904,7 +6904,7 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-"OU Drapion-2": {
+    "NU Drapion-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6932,7 +6932,7 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-"OU Drapion-3": {
+    "NU Drapion-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -6960,7 +6960,7 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-"OU Drapion-4": {
+    "NU Drapion-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7100,7 +7100,7 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-"UU Drapion-RS": {
+    "PU Drapion-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7130,7 +7130,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Drednaw": {
-"OU Drednaw-1": {
+    "NU Drednaw-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7158,7 +7158,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"OU Drednaw-2": {
+    "NU Drednaw-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7186,7 +7186,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Drednaw-3": {
+    "NU Drednaw-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7214,7 +7214,7 @@ var SETDEX_SS = {
 				"Jaw Lock"
 			]
 		},
-"OU Drednaw-4": {
+    "NU Drednaw-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7242,7 +7242,7 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-"UU Drednaw-RS": {
+    "PU Drednaw-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7272,7 +7272,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Drifblim": {
-"OU Drifblim-1": {
+    "NU Drifblim-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7300,7 +7300,7 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-"OU Drifblim-2": {
+    "NU Drifblim-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7328,7 +7328,7 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-"OU Drifblim-3": {
+    "NU Drifblim-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7356,7 +7356,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Drifblim-4": {
+    "NU Drifblim-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7384,7 +7384,7 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-"UU Drifblim-RS": {
+    "PU Drifblim-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7414,7 +7414,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Druddigon": {
-"UU Druddigon-RS": {
+    "PU Druddigon-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7444,7 +7444,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dubwool": {
-"OU Dubwool-1": {
+    "NU Dubwool-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7472,7 +7472,7 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-"OU Dubwool-2": {
+    "NU Dubwool-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7500,7 +7500,7 @@ var SETDEX_SS = {
 				"Cotton Guard"
 			]
 		},
-"OU Dubwool-3": {
+    "NU Dubwool-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7528,7 +7528,7 @@ var SETDEX_SS = {
 				"Cotton Guard"
 			]
 		},
-"OU Dubwool-4": {
+    "NU Dubwool-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7556,7 +7556,7 @@ var SETDEX_SS = {
 				"Bounce"
 			]
 		},
-"UU Dubwool-RS": {
+    "PU Dubwool-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7586,7 +7586,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dugtrio": {
-"OU Dugtrio-1": {
+    "NU Dugtrio-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7614,7 +7614,7 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-"OU Dugtrio-2": {
+    "NU Dugtrio-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7642,7 +7642,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Dugtrio-3": {
+    "NU Dugtrio-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7670,7 +7670,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"OU Dugtrio-4": {
+    "NU Dugtrio-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7700,7 +7700,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dunsparce": {
-"UU Dunsparce-RS": {
+    "PU Dunsparce-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7730,7 +7730,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Duraludon": {
-"OU Duraludon-1": {
+    "NU Duraludon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7758,7 +7758,7 @@ var SETDEX_SS = {
 				"Metal Burst"
 			]
 		},
-"OU Duraludon-2": {
+    "NU Duraludon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7786,7 +7786,7 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-"OU Duraludon-3": {
+    "NU Duraludon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7814,7 +7814,7 @@ var SETDEX_SS = {
 				"Mirror Coat"
 			]
 		},
-"OU Duraludon-4": {
+    "NU Duraludon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7844,7 +7844,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Durant": {
-"OU Durant-1": {
+    "NU Durant-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7872,7 +7872,7 @@ var SETDEX_SS = {
 				"Thunder Fang"
 			]
 		},
-"OU Durant-2": {
+    "NU Durant-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -7900,7 +7900,7 @@ var SETDEX_SS = {
 				"Stomping Tantrum"
 			]
 		},
-"OU Durant-3": {
+    "NU Durant-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7928,7 +7928,7 @@ var SETDEX_SS = {
 				"Flail"
 			]
 		},
-"OU Durant-4": {
+    "NU Durant-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7958,7 +7958,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Dusknoir": {
-"OU Dusknoir-1": {
+    "NU Dusknoir-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -7986,7 +7986,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Dusknoir-2": {
+    "NU Dusknoir-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8014,7 +8014,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Dusknoir-3": {
+    "NU Dusknoir-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8042,7 +8042,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Dusknoir-4": {
+    "NU Dusknoir-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8182,7 +8182,7 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-"UU Dusknoir-RS": {
+    "PU Dusknoir-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -8212,7 +8212,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Eiscue": {
-"OU Eiscue-1": {
+    "NU Eiscue-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8240,7 +8240,7 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-"OU Eiscue-2": {
+    "NU Eiscue-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8268,7 +8268,7 @@ var SETDEX_SS = {
 				"Surf"
 			]
 		},
-"OU Eiscue-3": {
+    "NU Eiscue-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8296,7 +8296,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Eiscue-4": {
+    "NU Eiscue-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8326,7 +8326,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Eldegoss": {
-"OU Eldegoss-1": {
+    "NU Eldegoss-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8354,7 +8354,7 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-"OU Eldegoss-2": {
+    "NU Eldegoss-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8382,7 +8382,7 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-"OU Eldegoss-3": {
+    "NU Eldegoss-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8410,7 +8410,7 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-"OU Eldegoss-4": {
+    "NU Eldegoss-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8438,7 +8438,7 @@ var SETDEX_SS = {
 				"Synthesis"
 			]
 		},
-"UU Eldegoss-RS": {
+    "PU Eldegoss-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -8468,7 +8468,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Emolga": {
-"UU Emolga-RS": {
+    "PU Emolga-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -8498,7 +8498,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Escavalier": {
-"OU Escavalier-1": {
+    "NU Escavalier-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8526,7 +8526,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Escavalier-2": {
+    "NU Escavalier-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8554,7 +8554,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Escavalier-3": {
+    "NU Escavalier-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8582,7 +8582,7 @@ var SETDEX_SS = {
 				"Megahorn"
 			]
 		},
-"OU Escavalier-4": {
+    "NU Escavalier-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8722,7 +8722,7 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-"UU Escavalier-RS": {
+    "PU Escavalier-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -8752,7 +8752,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Espeon": {
-"OU Espeon-1": {
+    "NU Espeon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8780,7 +8780,7 @@ var SETDEX_SS = {
 				"Psybeam"
 			]
 		},
-"OU Espeon-2": {
+    "NU Espeon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8808,7 +8808,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Espeon-3": {
+    "NU Espeon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8836,7 +8836,7 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-"OU Espeon-4": {
+    "NU Espeon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8866,7 +8866,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Excadrill": {
-"OU Excadrill-1": {
+    "NU Excadrill-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -8894,7 +8894,7 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-"OU Excadrill-2": {
+    "NU Excadrill-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -8922,7 +8922,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Excadrill-3": {
+    "NU Excadrill-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8950,7 +8950,7 @@ var SETDEX_SS = {
 				"Rock Blast"
 			]
 		},
-"OU Excadrill-4": {
+    "NU Excadrill-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -8980,7 +8980,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Exeggutor": {
-"UU Exeggutor-RS": {
+    "PU Exeggutor-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -9010,7 +9010,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Exploud": {
-"UU Exploud-RS": {
+    "PU Exploud-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -9040,7 +9040,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Falinks": {
-"OU Falinks-1": {
+    "NU Falinks-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -9068,7 +9068,7 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-"OU Falinks-2": {
+    "NU Falinks-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9096,7 +9096,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"OU Falinks-3": {
+    "NU Falinks-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9124,7 +9124,7 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-"OU Falinks-4": {
+    "NU Falinks-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -9152,7 +9152,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"UU Falinks-RS": {
+    "PU Falinks-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -9182,7 +9182,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Ferrothorn": {
-"OU Ferrothorn-1": {
+    "NU Ferrothorn-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9210,7 +9210,7 @@ var SETDEX_SS = {
 				"Acid Spray"
 			]
 		},
-"OU Ferrothorn-2": {
+    "NU Ferrothorn-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9238,7 +9238,7 @@ var SETDEX_SS = {
 				"Gyro Ball"
 			]
 		},
-"OU Ferrothorn-3": {
+    "NU Ferrothorn-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9266,7 +9266,7 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-"OU Ferrothorn-4": {
+    "NU Ferrothorn-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9296,7 +9296,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Flapple": {
-"OU Flapple-1": {
+    "NU Flapple-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9324,7 +9324,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Flapple-2": {
+    "NU Flapple-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9352,7 +9352,7 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-"UU Flapple-RS": {
+    "PU Flapple-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9382,7 +9382,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Flareon": {
-"OU Flareon-1": {
+    "NU Flareon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9410,7 +9410,7 @@ var SETDEX_SS = {
 				"Fire Fang"
 			]
 		},
-"OU Flareon-2": {
+    "NU Flareon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9438,7 +9438,7 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-"OU Flareon-3": {
+    "NU Flareon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9466,7 +9466,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Flareon-4": {
+    "NU Flareon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9496,7 +9496,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Flygon": {
-"OU Flygon-1": {
+    "NU Flygon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9524,7 +9524,7 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-"OU Flygon-2": {
+    "NU Flygon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9552,7 +9552,7 @@ var SETDEX_SS = {
 				"Fire Punch"
 			]
 		},
-"OU Flygon-3": {
+    "NU Flygon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9580,7 +9580,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"OU Flygon-4": {
+    "NU Flygon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9610,7 +9610,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Froslass": {
-"OU Froslass-1": {
+    "NU Froslass-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9638,7 +9638,7 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-"OU Froslass-2": {
+    "NU Froslass-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9666,7 +9666,7 @@ var SETDEX_SS = {
 				"Ice Beam"
 			]
 		},
-"OU Froslass-3": {
+    "NU Froslass-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9694,7 +9694,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Froslass-4": {
+    "NU Froslass-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9722,7 +9722,7 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-"UU Froslass-RS": {
+    "PU Froslass-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9752,7 +9752,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Frosmoth": {
-"OU Frosmoth-1": {
+    "NU Frosmoth-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -9780,7 +9780,7 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-"OU Frosmoth-2": {
+    "NU Frosmoth-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9808,7 +9808,7 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-"OU Frosmoth-3": {
+    "NU Frosmoth-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9836,7 +9836,7 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-"OU Frosmoth-4": {
+    "NU Frosmoth-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -9978,7 +9978,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gallade": {
-"OU Gallade-1": {
+    "NU Gallade-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10006,7 +10006,7 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-"OU Gallade-2": {
+    "NU Gallade-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10034,7 +10034,7 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-"OU Gallade-3": {
+    "NU Gallade-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10062,7 +10062,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"OU Gallade-4": {
+    "NU Gallade-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10090,7 +10090,7 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-"UU Gallade-RS": {
+    "PU Gallade-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10120,7 +10120,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Galvantula": {
-"OU Galvantula-1": {
+    "NU Galvantula-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10148,7 +10148,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Galvantula-2": {
+    "NU Galvantula-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10176,7 +10176,7 @@ var SETDEX_SS = {
 				"Double Team"
 			]
 		},
-"OU Galvantula-3": {
+    "NU Galvantula-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10204,7 +10204,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"OU Galvantula-4": {
+    "NU Galvantula-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10232,7 +10232,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"UU Galvantula-RS": {
+    "PU Galvantula-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10262,7 +10262,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Garbodor": {
-"OU Garbodor-1": {
+    "NU Garbodor-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10290,7 +10290,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Garbodor-2": {
+    "NU Garbodor-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10318,7 +10318,7 @@ var SETDEX_SS = {
 				"Dark Pulse"
 			]
 		},
-"OU Garbodor-3": {
+    "NU Garbodor-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -10346,7 +10346,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Garbodor-4": {
+    "NU Garbodor-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10374,7 +10374,7 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-"UU Garbodor-RS": {
+    "PU Garbodor-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10404,7 +10404,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gardevoir": {
-"OU Gardevoir-1": {
+    "NU Gardevoir-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10432,7 +10432,7 @@ var SETDEX_SS = {
 				"Light Screen"
 			]
 		},
-"OU Gardevoir-2": {
+    "NU Gardevoir-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10460,7 +10460,7 @@ var SETDEX_SS = {
 				"Psychic Terrain"
 			]
 		},
-"OU Gardevoir-3": {
+    "NU Gardevoir-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10488,7 +10488,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Gardevoir-4": {
+    "NU Gardevoir-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10628,7 +10628,7 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-"UU Gardevoir-RS": {
+    "PU Gardevoir-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -10658,7 +10658,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gastrodon": {
-"OU Gastrodon-1": {
+    "NU Gastrodon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -10686,7 +10686,7 @@ var SETDEX_SS = {
 				"Yawn"
 			]
 		},
-"OU Gastrodon-2": {
+    "NU Gastrodon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10714,7 +10714,7 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-"OU Gastrodon-3": {
+    "NU Gastrodon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10742,7 +10742,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"OU Gastrodon-4": {
+    "NU Gastrodon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -10772,7 +10772,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gengar": {
-"OU Gengar-1": {
+    "NU Gengar-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10800,7 +10800,7 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-"OU Gengar-2": {
+    "NU Gengar-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10828,7 +10828,7 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-"OU Gengar-3": {
+    "NU Gengar-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10856,7 +10856,7 @@ var SETDEX_SS = {
 				"Phantom Force"
 			]
 		},
-"OU Gengar-4": {
+    "NU Gengar-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10886,7 +10886,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gigalith": {
-"OU Gigalith-1": {
+    "NU Gigalith-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10914,7 +10914,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Gigalith-2": {
+    "NU Gigalith-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10942,7 +10942,7 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-"OU Gigalith-3": {
+    "NU Gigalith-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10970,7 +10970,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"OU Gigalith-4": {
+    "NU Gigalith-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -10998,7 +10998,7 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-"UU Gigalith-RS": {
+    "PU Gigalith-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11028,7 +11028,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Glaceon": {
-"OU Glaceon-1": {
+    "NU Glaceon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11056,7 +11056,7 @@ var SETDEX_SS = {
 				"Icy Wind"
 			]
 		},
-"OU Glaceon-2": {
+    "NU Glaceon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11084,7 +11084,7 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-"OU Glaceon-3": {
+    "NU Glaceon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11112,7 +11112,7 @@ var SETDEX_SS = {
 				"Ice Shard"
 			]
 		},
-"OU Glaceon-4": {
+    "NU Glaceon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11142,7 +11142,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Glalie": {
-"OU Glalie-1": {
+    "NU Glalie-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11170,7 +11170,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Glalie-2": {
+    "NU Glalie-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11198,7 +11198,7 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-"OU Glalie-3": {
+    "NU Glalie-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11226,7 +11226,7 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-"OU Glalie-4": {
+    "NU Glalie-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11256,7 +11256,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Golduck": {
-"UU Golduck-RS": {
+    "PU Golduck-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11286,7 +11286,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Golisopod": {
-"OU Golisopod-1": {
+    "NU Golisopod-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11314,7 +11314,7 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-"OU Golisopod-2": {
+    "NU Golisopod-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11342,7 +11342,7 @@ var SETDEX_SS = {
 				"Drill Run"
 			]
 		},
-"OU Golisopod-3": {
+    "NU Golisopod-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11370,7 +11370,7 @@ var SETDEX_SS = {
 				"Liquidation"
 			]
 		},
-"OU Golisopod-4": {
+    "NU Golisopod-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11398,7 +11398,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"UU Golisopod-RS": {
+    "PU Golisopod-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11428,7 +11428,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Golurk": {
-"OU Golurk-1": {
+    "NU Golurk-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11456,7 +11456,7 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-"OU Golurk-2": {
+    "NU Golurk-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11484,7 +11484,7 @@ var SETDEX_SS = {
 				"Dig"
 			]
 		},
-"OU Golurk-3": {
+    "NU Golurk-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11512,7 +11512,7 @@ var SETDEX_SS = {
 				"Fire Punch"
 			]
 		},
-"OU Golurk-4": {
+    "NU Golurk-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11540,7 +11540,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"UU Golurk-RS": {
+    "PU Golurk-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11570,7 +11570,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Goodra": {
-"OU Goodra-1": {
+    "NU Goodra-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11598,7 +11598,7 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-"OU Goodra-2": {
+    "NU Goodra-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11626,7 +11626,7 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-"UU Goodra-RS": {
+    "PU Goodra-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11656,7 +11656,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gothitelle": {
-"OU Gothitelle-1": {
+    "NU Gothitelle-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11684,7 +11684,7 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-"OU Gothitelle-2": {
+    "NU Gothitelle-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11712,7 +11712,7 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-"OU Gothitelle-3": {
+    "NU Gothitelle-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11740,7 +11740,7 @@ var SETDEX_SS = {
 				"Dark Pulse"
 			]
 		},
-"OU Gothitelle-4": {
+    "NU Gothitelle-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11770,7 +11770,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gourgeist-Average": {
-"OU Gourgeist-1": {
+    "NU Gourgeist-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11798,7 +11798,7 @@ var SETDEX_SS = {
 				"Razor Leaf"
 			]
 		},
-"OU Gourgeist-2": {
+    "NU Gourgeist-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11826,7 +11826,7 @@ var SETDEX_SS = {
 				"Trick-or-Treat"
 			]
 		},
-"OU Gourgeist-3": {
+    "NU Gourgeist-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11854,7 +11854,7 @@ var SETDEX_SS = {
 				"Phantom Force"
 			]
 		},
-"OU Gourgeist-4": {
+    "NU Gourgeist-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11882,7 +11882,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"UU Gourgeist-RS": {
+    "PU Gourgeist-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11912,7 +11912,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Grapploct": {
-"OU Grapploct-1": {
+    "NU Grapploct-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11940,7 +11940,7 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-"OU Grapploct-2": {
+    "NU Grapploct-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -11968,7 +11968,7 @@ var SETDEX_SS = {
 				"Dive"
 			]
 		},
-"OU Grapploct-3": {
+    "NU Grapploct-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -11996,7 +11996,7 @@ var SETDEX_SS = {
 				"Dive"
 			]
 		},
-"OU Grapploct-4": {
+    "NU Grapploct-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12024,7 +12024,7 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-"UU Grapploct-RS": {
+    "PU Grapploct-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12054,7 +12054,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Greedent": {
-"OU Greedent-1": {
+    "NU Greedent-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12082,7 +12082,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Greedent-2": {
+    "NU Greedent-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12110,7 +12110,7 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-"OU Greedent-3": {
+    "NU Greedent-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12138,7 +12138,7 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-"OU Greedent-4": {
+    "NU Greedent-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12166,7 +12166,7 @@ var SETDEX_SS = {
 				"Superpower"
 			]
 		},
-"UU Greedent-RS": {
+    "PU Greedent-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12196,7 +12196,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Grimmsnarl": {
-"OU Grimmsnarl-1": {
+    "NU Grimmsnarl-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12224,7 +12224,7 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-"OU Grimmsnarl-2": {
+    "NU Grimmsnarl-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12252,7 +12252,7 @@ var SETDEX_SS = {
 				"Superpower"
 			]
 		},
-"OU Grimmsnarl-3": {
+    "NU Grimmsnarl-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12280,7 +12280,7 @@ var SETDEX_SS = {
 				"Dark Pulse"
 			]
 		},
-"OU Grimmsnarl-4": {
+    "NU Grimmsnarl-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12310,7 +12310,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Gyarados": {
-"OU Gyarados-1": {
+    "NU Gyarados-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12338,7 +12338,7 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-"OU Gyarados-2": {
+    "NU Gyarados-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12366,7 +12366,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"OU Gyarados-3": {
+    "NU Gyarados-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12394,7 +12394,7 @@ var SETDEX_SS = {
 				"Hydro Pump"
 			]
 		},
-"OU Gyarados-4": {
+    "NU Gyarados-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12422,7 +12422,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"UU Gyarados-RS": {
+    "PU Gyarados-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12452,7 +12452,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Hatterene": {
-"OU Hatterene-1": {
+    "NU Hatterene-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12480,7 +12480,7 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-"OU Hatterene-2": {
+    "NU Hatterene-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12508,7 +12508,7 @@ var SETDEX_SS = {
 				"Mystical Fire"
 			]
 		},
-"OU Hatterene-3": {
+    "NU Hatterene-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12536,7 +12536,7 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-"OU Hatterene-4": {
+    "NU Hatterene-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12566,7 +12566,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Hawlucha": {
-"OU Hawlucha-1": {
+    "NU Hawlucha-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12594,7 +12594,7 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-"OU Hawlucha-2": {
+    "NU Hawlucha-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12622,7 +12622,7 @@ var SETDEX_SS = {
 				"High Jump Kick"
 			]
 		},
-"OU Hawlucha-3": {
+    "NU Hawlucha-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12650,7 +12650,7 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-"OU Hawlucha-4": {
+    "NU Hawlucha-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12680,7 +12680,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Haxorus": {
-"OU Haxorus-1": {
+    "NU Haxorus-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12708,7 +12708,7 @@ var SETDEX_SS = {
 				"Leer"
 			]
 		},
-"OU Haxorus-2": {
+    "NU Haxorus-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12736,7 +12736,7 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-"OU Haxorus-3": {
+    "NU Haxorus-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12764,7 +12764,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Haxorus-4": {
+    "NU Haxorus-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12874,7 +12874,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Heatmor": {
-"OU Heatmor-1": {
+    "NU Heatmor-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12902,7 +12902,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Heatmor-2": {
+    "NU Heatmor-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12930,7 +12930,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"OU Heatmor-3": {
+    "NU Heatmor-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -12958,7 +12958,7 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-"OU Heatmor-4": {
+    "NU Heatmor-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -12988,7 +12988,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Heliolisk": {
-"OU Heliolisk-1": {
+    "NU Heliolisk-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13016,7 +13016,7 @@ var SETDEX_SS = {
 				"Volt Switch"
 			]
 		},
-"OU Heliolisk-2": {
+    "NU Heliolisk-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13044,7 +13044,7 @@ var SETDEX_SS = {
 				"Sand Storm"
 			]
 		},
-"OU Heliolisk-3": {
+    "NU Heliolisk-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13072,7 +13072,7 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-"OU Heliolisk-4": {
+    "NU Heliolisk-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13102,7 +13102,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Heracross": {
-"UU Heracross-RS": {
+    "PU Heracross-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13132,7 +13132,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Hippowdon": {
-"OU Hippowdon-1": {
+    "NU Hippowdon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13160,7 +13160,7 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-"OU Hippowdon-2": {
+    "NU Hippowdon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -13188,7 +13188,7 @@ var SETDEX_SS = {
 				"Stealth Rock"
 			]
 		},
-"OU Hippowdon-3": {
+    "NU Hippowdon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -13216,7 +13216,7 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-"OU Hippowdon-4": {
+    "NU Hippowdon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13246,7 +13246,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Hitmonchan": {
-"OU Hitmonchan-1": {
+    "NU Hitmonchan-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13274,7 +13274,7 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-"OU Hitmonchan-2": {
+    "NU Hitmonchan-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13302,7 +13302,7 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-"OU Hitmonchan-3": {
+    "NU Hitmonchan-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13330,7 +13330,7 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-"OU Hitmonchan-4": {
+    "NU Hitmonchan-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13360,7 +13360,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Hitmonlee": {
-"OU Hitmonlee-1": {
+    "NU Hitmonlee-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13388,7 +13388,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Hitmonlee-2": {
+    "NU Hitmonlee-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13416,7 +13416,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Hitmonlee-3": {
+    "NU Hitmonlee-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13444,7 +13444,7 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-"OU Hitmonlee-4": {
+    "NU Hitmonlee-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13474,7 +13474,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Hitmontop": {
-"OU Hitmontop-1": {
+    "NU Hitmontop-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13502,7 +13502,7 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-"OU Hitmontop-2": {
+    "NU Hitmontop-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13530,7 +13530,7 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-"OU Hitmontop-3": {
+    "NU Hitmontop-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13558,7 +13558,7 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-"OU Hitmontop-4": {
+    "NU Hitmontop-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13588,7 +13588,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Hydreigon": {
-"OU Hydreigon-1": {
+    "NU Hydreigon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13616,7 +13616,7 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-"OU Hydreigon-2": {
+    "NU Hydreigon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13644,7 +13644,7 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-"OU Hydreigon-3": {
+    "NU Hydreigon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13672,7 +13672,7 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-"OU Hydreigon-4": {
+    "NU Hydreigon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13702,7 +13702,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Indeedee-M": {
-"OU Indeedee-1": {
+    "NU Indeedee-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13730,7 +13730,7 @@ var SETDEX_SS = {
 				"Last Resort"
 			]
 		},
-"OU Indeedee-2": {
+    "NU Indeedee-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13758,7 +13758,7 @@ var SETDEX_SS = {
 				"Stored Power"
 			]
 		},
-"OU Indeedee-3": {
+    "NU Indeedee-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13786,7 +13786,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Indeedee-4": {
+    "NU Indeedee-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13816,7 +13816,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Indeedee-F": {
-"OU Indeedee-1": {
+    "NU Indeedee-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13844,7 +13844,7 @@ var SETDEX_SS = {
 				"Last Resort"
 			]
 		},
-"OU Indeedee-2": {
+    "NU Indeedee-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13872,7 +13872,7 @@ var SETDEX_SS = {
 				"Stored Power"
 			]
 		},
-"OU Indeedee-3": {
+    "NU Indeedee-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13900,7 +13900,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Indeedee-4": {
+    "NU Indeedee-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13930,7 +13930,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Inteleon": {
-"OU Inteleon-1": {
+    "NU Inteleon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13958,7 +13958,7 @@ var SETDEX_SS = {
 				"Mud Shot"
 			]
 		},
-"OU Inteleon-2": {
+    "NU Inteleon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -13986,7 +13986,7 @@ var SETDEX_SS = {
 				"Double Team"
 			]
 		},
-"OU Inteleon-3": {
+    "NU Inteleon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14014,7 +14014,7 @@ var SETDEX_SS = {
 				"Fell Stinger"
 			]
 		},
-"OU Inteleon-4": {
+    "NU Inteleon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14236,7 +14236,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Jellicent": {
-"OU Jellicent-1": {
+    "NU Jellicent-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -14264,7 +14264,7 @@ var SETDEX_SS = {
 				"Acid Armor"
 			]
 		},
-"OU Jellicent-2": {
+    "NU Jellicent-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -14292,7 +14292,7 @@ var SETDEX_SS = {
 				"Night Shade"
 			]
 		},
-"OU Jellicent-3": {
+    "NU Jellicent-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -14320,7 +14320,7 @@ var SETDEX_SS = {
 				"Trick Room"
 			]
 		},
-"OU Jellicent-4": {
+    "NU Jellicent-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14348,7 +14348,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"UU Jellicent-RS": {
+    "PU Jellicent-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -14378,7 +14378,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Jolteon": {
-"OU Jolteon-1": {
+    "NU Jolteon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14406,7 +14406,7 @@ var SETDEX_SS = {
 				"Electro Ball"
 			]
 		},
-"OU Jellicent-2": {
+    "NU Jellicent-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14434,7 +14434,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Jolteon-3": {
+    "NU Jolteon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14462,7 +14462,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Jolteon-4": {
+    "NU Jolteon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14492,7 +14492,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Kangaskhan": {
-"UU Kangaskhan-RS": {
+    "PU Kangaskhan-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -14522,7 +14522,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Kingdra": {
-"UU Kingdra-RS": {
+    "PU Kingdra-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14552,7 +14552,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Kingler": {
-"OU Kingler-1": {
+    "NU Kingler-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14580,7 +14580,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Kingler-2": {
+    "NU Kingler-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14608,7 +14608,7 @@ var SETDEX_SS = {
 				"Mud Shot"
 			]
 		},
-"OU Kingler-3": {
+    "NU Kingler-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14636,7 +14636,7 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-"OU Kingler-4": {
+    "NU Kingler-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14664,7 +14664,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"UU Kingler-RS": {
+    "PU Kingler-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14694,7 +14694,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Klefki": {
-"UU Klefki-RS": {
+    "PU Klefki-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -14724,7 +14724,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Klinklang": {
-"OU Klinklang-1": {
+    "NU Klinklang-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14752,7 +14752,7 @@ var SETDEX_SS = {
 				"Wild Charge"
 			]
 		},
-"OU Klinklang-2": {
+    "NU Klinklang-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14780,7 +14780,7 @@ var SETDEX_SS = {
 				"Shift Gear"
 			]
 		},
-"OU Klinklang-3": {
+    "NU Klinklang-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14808,7 +14808,7 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-"OU Klinklang-4": {
+    "NU Klinklang-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14836,7 +14836,7 @@ var SETDEX_SS = {
 				"Metal Sound"
 			]
 		},
-"UU Klinklang-RS": {
+    "PU Klinklang-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -14866,7 +14866,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Kommo-o": {
-"OU Kommo-o-1": {
+    "NU Kommo-o-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14894,7 +14894,7 @@ var SETDEX_SS = {
 				"Clangorous Soul"
 			]
 		},
-"OU Kommo-o-2": {
+    "NU Kommo-o-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14922,7 +14922,7 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-"OU Kommo-o-3": {
+    "NU Kommo-o-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14950,7 +14950,7 @@ var SETDEX_SS = {
 				"Clangorous Soul"
 			]
 		},
-"OU Kommo-o-4": {
+    "NU Kommo-o-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -14978,7 +14978,7 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-"UU Kommo-o-RS": {
+    "PU Kommo-o-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15008,7 +15008,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Krookodile": {
-"UU Krookodile-RS": {
+    "PU Krookodile-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -15038,7 +15038,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lanturn": {
-"OU Lanturn-1": {
+    "NU Lanturn-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -15066,7 +15066,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Lanturn-2": {
+    "NU Lanturn-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15094,7 +15094,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Lanturn-3": {
+    "NU Lanturn-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15122,7 +15122,7 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-"OU Lanturn-4": {
+    "NU Lanturn-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -15150,7 +15150,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"UU Lanturn-RS": {
+    "PU Lanturn-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -15180,7 +15180,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lapras": {
-"OU Lapras-1": {
+    "NU Lapras-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15208,7 +15208,7 @@ var SETDEX_SS = {
 				"Dragon Dance"
 			]
 		},
-"OU Lapras-2": {
+    "NU Lapras-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15236,7 +15236,7 @@ var SETDEX_SS = {
 				"Horn Drill"
 			]
 		},
-"OU Lapras-3": {
+    "NU Lapras-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15264,7 +15264,7 @@ var SETDEX_SS = {
 				"Avalanche"
 			]
 		},
-"OU Lapras-4": {
+    "NU Lapras-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15294,7 +15294,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Leafeon": {
-"OU Leafeon-1": {
+    "NU Leafeon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15322,7 +15322,7 @@ var SETDEX_SS = {
 				"Razor Leaf"
 			]
 		},
-"OU Leafeon-2": {
+    "NU Leafeon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15350,7 +15350,7 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-"OU Leafeon-3": {
+    "NU Leafeon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15378,7 +15378,7 @@ var SETDEX_SS = {
 				"Charm"
 			]
 		},
-"OU Leafeon-4": {
+    "NU Leafeon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15408,7 +15408,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lickilicky": {
-"UU Lickilicky-RS": {
+    "PU Lickilicky-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -15438,7 +15438,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Liepard": {
-"OU Liepard-1": {
+    "NU Liepard-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15466,7 +15466,7 @@ var SETDEX_SS = {
 				"Endure"
 			]
 		},
-"OU Liepard-2": {
+    "NU Liepard-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15494,7 +15494,7 @@ var SETDEX_SS = {
 				"Thunder Wave"
 			]
 		},
-"OU Liepard-3": {
+    "NU Liepard-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15522,7 +15522,7 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-"OU Liepard-4": {
+    "NU Liepard-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15552,7 +15552,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lilligant": {
-"UU Lilligant-RS": {
+    "PU Lilligant-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15582,7 +15582,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lopunny": {
-"UU Lopunny-RS": {
+    "PU Lopunny-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15612,7 +15612,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lucario": {
-"OU Lucario-1": {
+    "NU Lucario-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15640,7 +15640,7 @@ var SETDEX_SS = {
 				"Bullet Punch"
 			]
 		},
-"OU Lucario-2": {
+    "NU Lucario-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15668,7 +15668,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Lucario-3": {
+    "NU Lucario-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15696,7 +15696,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Lucario-4": {
+    "NU Lucario-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15838,7 +15838,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Ludicolo": {
-"OU Ludicolo-1": {
+    "NU Ludicolo-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -15866,7 +15866,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"OU Ludicolo-2": {
+    "NU Ludicolo-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15894,7 +15894,7 @@ var SETDEX_SS = {
 				"Bullet Seed"
 			]
 		},
-"OU Ludicolo-3": {
+    "NU Ludicolo-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15922,7 +15922,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"OU Ludicolo-4": {
+    "NU Ludicolo-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15952,7 +15952,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lunatone": {
-"OU Lunatone-1": {
+    "NU Lunatone-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -15980,7 +15980,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Lunatone-2": {
+    "NU Lunatone-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16008,7 +16008,7 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-"OU Lunatone-3": {
+    "NU Lunatone-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16036,7 +16036,7 @@ var SETDEX_SS = {
 				"Moonlight"
 			]
 		},
-"OU Lunatone-4": {
+    "NU Lunatone-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16064,7 +16064,7 @@ var SETDEX_SS = {
 				"Blizzard"
 			]
 		},
-"UU Lunatone-RS": {
+    "PU Lunatone-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16094,7 +16094,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lurantis": {
-"UU Lurantis-RS": {
+    "PU Lurantis-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16124,7 +16124,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Luxray": {
-"UU Luxray-RS": {
+    "PU Luxray-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16154,7 +16154,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lycanroc-Day": {
-"UU Lycanroc-RS": {
+    "PU Lycanroc-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16184,7 +16184,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Lycanroc-Night": {
-"UU Lycanroc-M-RS": {
+    "PU Lycanroc-M-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16214,7 +16214,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Machamp": {
-"OU Machamp-1": {
+    "NU Machamp-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16242,7 +16242,7 @@ var SETDEX_SS = {
 				"Bullet Punch"
 			]
 		},
-"OU Machamp-2": {
+    "NU Machamp-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16270,7 +16270,7 @@ var SETDEX_SS = {
 				"Bullet Punch"
 			]
 		},
-"OU Machamp-3": {
+    "NU Machamp-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16298,7 +16298,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Machamp-4": {
+    "NU Machamp-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16328,7 +16328,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Magneton": {
-"UU Magneton-RS": {
+    "PU Magneton-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16358,7 +16358,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Magnezone": {
-"UU Magnezone-RS": {
+    "PU Magnezone-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16388,7 +16388,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Malamar": {
-"OU Malamar-1": {
+    "NU Malamar-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16416,7 +16416,7 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-"OU Malamar-2": {
+    "NU Malamar-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16444,7 +16444,7 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-"OU Malamar-3": {
+    "NU Malamar-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16472,7 +16472,7 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-"OU Malamar-4": {
+    "NU Malamar-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16500,7 +16500,7 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-"UU Malamar-RS": {
+    "PU Malamar-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16530,7 +16530,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mamoswine": {
-"OU Mamoswine-1": {
+    "NU Mamoswine-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16558,7 +16558,7 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-"OU Mamoswine-2": {
+    "NU Mamoswine-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16586,7 +16586,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Mamoswine-3": {
+    "NU Mamoswine-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16614,7 +16614,7 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-"OU Mamoswine-4": {
+    "NU Mamoswine-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16642,7 +16642,7 @@ var SETDEX_SS = {
 				"Ice Shard"
 			]
 		},
-"UU Mamoswine-RS": {
+    "PU Mamoswine-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16672,7 +16672,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mandibuzz": {
-"OU Mandibuzz-1": {
+    "NU Mandibuzz-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16700,7 +16700,7 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-"OU Mandibuzz-2": {
+    "NU Mandibuzz-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16728,7 +16728,7 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-"OU Mandibuzz-3": {
+    "NU Mandibuzz-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16756,7 +16756,7 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-"OU Mandibuzz-4": {
+    "NU Mandibuzz-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16784,7 +16784,7 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-"UU Mandibuzz-RS": {
+    "PU Mandibuzz-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16814,7 +16814,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Manectric": {
-"OU Manectric-1": {
+    "NU Manectric-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16842,7 +16842,7 @@ var SETDEX_SS = {
 				"Agility"
 			]
 		},
-"OU Manectric-2": {
+    "NU Manectric-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16870,7 +16870,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Manectric-3": {
+    "NU Manectric-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16898,7 +16898,7 @@ var SETDEX_SS = {
 				"Volt Switch"
 			]
 		},
-"OU Manectric-4": {
+    "NU Manectric-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16928,7 +16928,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mantine": {
-"OU Mantine-1": {
+    "NU Mantine-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -16956,7 +16956,7 @@ var SETDEX_SS = {
 				"Tailwind"
 			]
 		},
-"OU Mantine-2": {
+    "NU Mantine-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -16984,7 +16984,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"OU Mantine-3": {
+    "NU Mantine-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17012,7 +17012,7 @@ var SETDEX_SS = {
 				"Roost"
 			]
 		},
-"OU Mantine-4": {
+    "NU Mantine-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17040,7 +17040,7 @@ var SETDEX_SS = {
 				"Roost"
 			]
 		},
-"UU Mantine-RS": {
+    "PU Mantine-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17070,7 +17070,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Maractus": {
-"OU Maractus-1": {
+    "NU Maractus-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17098,7 +17098,7 @@ var SETDEX_SS = {
 				"Solar Beam"
 			]
 		},
-"OU Maractus-2": {
+    "NU Maractus-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17126,7 +17126,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"OU Maractus-3": {
+    "NU Maractus-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17154,7 +17154,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Maractus-4": {
+    "NU Maractus-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17184,7 +17184,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Marowak": {
-"UU Marowak-RS": {
+    "PU Marowak-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17214,7 +17214,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mawile": {
-"OU Mawile-1": {
+    "NU Mawile-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17242,7 +17242,7 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-"OU Mawile-2": {
+    "NU Mawile-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17270,7 +17270,7 @@ var SETDEX_SS = {
 				"Ice Beam"
 			]
 		},
-"OU Mawile-3": {
+    "NU Mawile-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17298,7 +17298,7 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-"OU Mawile-4": {
+    "NU Mawile-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17328,7 +17328,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Meowstic": {
-"OU Meowstic-M-1": {
+    "NU Meowstic-M-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17356,7 +17356,7 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-"OU Meowstic-M-2": {
+    "NU Meowstic-M-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17384,7 +17384,7 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-"OU Meowstic-M-3": {
+    "NU Meowstic-M-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17412,7 +17412,7 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-"OU Meowstic-M-4": {
+    "NU Meowstic-M-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17440,7 +17440,7 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-"UU Meowstic-M-RS": {
+    "PU Meowstic-M-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17470,7 +17470,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mienshao": {
-"UU Mienshao-RS": {
+    "PU Mienshao-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17500,7 +17500,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Milotic": {
-"OU Milotic-1": {
+    "NU Milotic-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17528,7 +17528,7 @@ var SETDEX_SS = {
 				"Recover"
 			]
 		},
-"OU Milotic-2": {
+    "NU Milotic-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17556,7 +17556,7 @@ var SETDEX_SS = {
 				"Iron Tail"
 			]
 		},
-"OU Milotic-3": {
+    "NU Milotic-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17584,7 +17584,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Milotic-4": {
+    "NU Milotic-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17612,7 +17612,7 @@ var SETDEX_SS = {
 				"Mud Shot"
 			]
 		},
-"UU Milotic-RS": {
+    "PU Milotic-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17642,7 +17642,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Miltank": {
-"UU Miltank-RS": {
+    "PU Miltank-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17672,7 +17672,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mimikyu": {
-"OU Mimikyu-1": {
+    "NU Mimikyu-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17700,7 +17700,7 @@ var SETDEX_SS = {
 				"Will-O-Wisp"
 			]
 		},
-"OU Mimikyu-2": {
+    "NU Mimikyu-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17728,7 +17728,7 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-"OU Mimikyu-3": {
+    "NU Mimikyu-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17756,7 +17756,7 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-"OU Mimikyu-4": {
+    "NU Mimikyu-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17786,7 +17786,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Morpeko": {
-"OU Morpeko-1": {
+    "NU Morpeko-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17814,7 +17814,7 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-"OU Morpeko-2": {
+    "NU Morpeko-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17842,7 +17842,7 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-"OU Morpeko-3": {
+    "NU Morpeko-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17870,7 +17870,7 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-"OU Morpeko-4": {
+    "NU Morpeko-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17898,7 +17898,7 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-"UU Morpeko-RS": {
+    "PU Morpeko-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -17928,7 +17928,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mr. Rime": {
-"OU Mr. Rime-1": {
+    "NU Mr. Rime-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17956,7 +17956,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Mr. Rime-2": {
+    "NU Mr. Rime-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -17984,7 +17984,7 @@ var SETDEX_SS = {
 				"Psychic Terrain"
 			]
 		},
-"OU Mr. Rime-3": {
+    "NU Mr. Rime-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18012,7 +18012,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"OU Mr. Rime-4": {
+    "NU Mr. Rime-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18120,7 +18120,7 @@ var SETDEX_SS = {
 				"Thunder"
 			]
 		},
-"UU Mr. Rime-RS": {
+    "PU Mr. Rime-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -18150,7 +18150,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Mudsdale": {
-"OU Mudsdale-1": {
+    "NU Mudsdale-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18178,7 +18178,7 @@ var SETDEX_SS = {
 				"Stealth Rock"
 			]
 		},
-"OU Mudsdale-2": {
+    "NU Mudsdale-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18206,7 +18206,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Mudsdale-3": {
+    "NU Mudsdale-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -18234,7 +18234,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Mudsdale-4": {
+    "NU Mudsdale-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18264,7 +18264,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Musharna": {
-"OU Musharna-1": {
+    "NU Musharna-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18292,7 +18292,7 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-"OU Musharna-2": {
+    "NU Musharna-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18320,7 +18320,7 @@ var SETDEX_SS = {
 				"Trick Room"
 			]
 		},
-"OU Musharna-3": {
+    "NU Musharna-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -18348,7 +18348,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Musharna-4": {
+    "NU Musharna-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -18376,7 +18376,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"UU Musharna-RS": {
+    "PU Musharna-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -18406,7 +18406,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Ninetales": {
-"OU Ninetales-1": {
+    "NU Ninetales-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18434,7 +18434,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Ninetales-2": {
+    "NU Ninetales-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18462,7 +18462,7 @@ var SETDEX_SS = {
 				"Memento"
 			]
 		},
-"OU Ninetales-3": {
+    "NU Ninetales-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18490,7 +18490,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Ninetales-4": {
+    "NU Ninetales-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18520,7 +18520,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Ninjask": {
-"OU Ninjask-1": {
+    "NU Ninjask-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18548,7 +18548,7 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-"OU Ninjask-2": {
+    "NU Ninjask-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18576,7 +18576,7 @@ var SETDEX_SS = {
 				"Endure"
 			]
 		},
-"OU Ninjask-3": {
+    "NU Ninjask-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18604,7 +18604,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Ninjask-4": {
+    "NU Ninjask-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18634,7 +18634,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Noctowl": {
-"OU Noctowl-1": {
+    "NU Noctowl-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -18662,7 +18662,7 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-"OU Noctowl-2": {
+    "NU Noctowl-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18690,7 +18690,7 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-"OU Noctowl-3": {
+    "NU Noctowl-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18718,7 +18718,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Noctowl-4": {
+    "NU Noctowl-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18748,7 +18748,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Noivern": {
-"OU Noivern-1": {
+    "NU Noivern-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18776,7 +18776,7 @@ var SETDEX_SS = {
 				"Tailwind"
 			]
 		},
-"OU Noivern-2": {
+    "NU Noivern-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18804,7 +18804,7 @@ var SETDEX_SS = {
 				"Shadow Claw"
 			]
 		},
-"OU Noivern-3": {
+    "NU Noivern-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18832,7 +18832,7 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-"OU Noivern-4": {
+    "NU Noivern-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18862,7 +18862,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Obstagoon": {
-"OU Obstagoon-1": {
+    "NU Obstagoon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18890,7 +18890,7 @@ var SETDEX_SS = {
 				"Parting Shot"
 			]
 		},
-"OU Obstagoon-2": {
+    "NU Obstagoon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -18918,7 +18918,7 @@ var SETDEX_SS = {
 				"Obstruct"
 			]
 		},
-"OU Obstagoon-3": {
+    "NU Obstagoon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18946,7 +18946,7 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-"OU Obstagoon-4": {
+    "NU Obstagoon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -18974,7 +18974,7 @@ var SETDEX_SS = {
 				"Obstruct"
 			]
 		},
-"UU Obstagoon-RS": {
+    "PU Obstagoon-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19004,7 +19004,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Octillery": {
-"OU Octillery-1": {
+    "NU Octillery-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19032,7 +19032,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Octillery-2": {
+    "NU Octillery-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19060,7 +19060,7 @@ var SETDEX_SS = {
 				"Gunk Shot"
 			]
 		},
-"OU Octillery-3": {
+    "NU Octillery-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19088,7 +19088,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Octillery-4": {
+    "NU Octillery-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19116,7 +19116,7 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-"UU Octillery-RS": {
+    "PU Octillery-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19146,7 +19146,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Oranguru": {
-"OU Oranguru-1": {
+    "NU Oranguru-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19174,7 +19174,7 @@ var SETDEX_SS = {
 				"Last Resort"
 			]
 		},
-"OU Oranguru-2": {
+    "NU Oranguru-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19202,7 +19202,7 @@ var SETDEX_SS = {
 				"Instruct"
 			]
 		},
-"OU Oranguru-3": {
+    "NU Oranguru-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19230,7 +19230,7 @@ var SETDEX_SS = {
 				"Instruct"
 			]
 		},
-"OU Oranguru-4": {
+    "NU Oranguru-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19258,7 +19258,7 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-"UU Oranguru-RS": {
+    "PU Oranguru-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19288,7 +19288,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Orbeetle": {
-"OU Orbeetle-1": {
+    "NU Orbeetle-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19316,7 +19316,7 @@ var SETDEX_SS = {
 				"Light Screen"
 			]
 		},
-"OU Orbeetle-2": {
+    "NU Orbeetle-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19344,7 +19344,7 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-"OU Orbeetle-3": {
+    "NU Orbeetle-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19372,7 +19372,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Orbeetle-4": {
+    "NU Orbeetle-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19400,7 +19400,7 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-"UU Orbeetle-RS": {
+    "PU Orbeetle-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19430,7 +19430,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Palossand": {
-"UU Palossand-RS": {
+    "PU Palossand-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19460,7 +19460,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Pangoro": {
-"OU Pangoro-1": {
+    "NU Pangoro-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19488,7 +19488,7 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-"OU Pangoro-2": {
+    "NU Pangoro-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19516,7 +19516,7 @@ var SETDEX_SS = {
 				"Surf"
 			]
 		},
-"OU Pangoro-3": {
+    "NU Pangoro-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19544,7 +19544,7 @@ var SETDEX_SS = {
 				"Fire Punch"
 			]
 		},
-"OU Pangoro-4": {
+    "NU Pangoro-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19574,7 +19574,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Passimian": {
-"OU Passimian-1": {
+    "NU Passimian-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19602,7 +19602,7 @@ var SETDEX_SS = {
 				"Revenge"
 			]
 		},
-"OU Passimian-2": {
+    "NU Passimian-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19630,7 +19630,7 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-"OU Passimian-3": {
+    "NU Passimian-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19658,7 +19658,7 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-"OU Passimian-4": {
+    "NU Passimian-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19686,7 +19686,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"UU Passimian-RS": {
+    "PU Passimian-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19716,7 +19716,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Pelipper": {
-"OU Pelipper-1": {
+    "NU Pelipper-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19744,7 +19744,7 @@ var SETDEX_SS = {
 				"Icy Wind"
 			]
 		},
-"OU Pelipper-2": {
+    "NU Pelipper-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19772,7 +19772,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Pelipper-3": {
+    "NU Pelipper-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19800,7 +19800,7 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-"OU Pelipper-4": {
+    "NU Pelipper-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19828,7 +19828,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"UU Pelipper-RS": {
+    "PU Pelipper-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19858,7 +19858,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Perrserker": {
-"OU Perrserker-1": {
+    "NU Perrserker-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19886,7 +19886,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Perrserker-2": {
+    "NU Perrserker-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -19914,7 +19914,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Perrserker-3": {
+    "NU Perrserker-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19942,7 +19942,7 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-"OU Perrserker-4": {
+    "NU Perrserker-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -19970,7 +19970,7 @@ var SETDEX_SS = {
 				"Gunk Shot"
 			]
 		},
-"UU Perrserker-RS": {
+    "PU Perrserker-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20000,7 +20000,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Pikachu": {
-"UU Pikachu-RS": {
+    "PU Pikachu-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20030,7 +20030,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Pincurchin": {
-"OU Pincurchin-1": {
+    "NU Pincurchin-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20058,7 +20058,7 @@ var SETDEX_SS = {
 				"Electric Terrain"
 			]
 		},
-"OU Pincurchin-2": {
+    "NU Pincurchin-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20086,7 +20086,7 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-"OU Pincurchin-3": {
+    "NU Pincurchin-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20114,7 +20114,7 @@ var SETDEX_SS = {
 				"Discharge"
 			]
 		},
-"OU Pincurchin-4": {
+    "NU Pincurchin-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20142,7 +20142,7 @@ var SETDEX_SS = {
 				"Zing Zap"
 			]
 		},
-"UU Pincurchin-RS": {
+    "PU Pincurchin-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20172,7 +20172,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Pinsir": {
-"UU Pinsir-RS": {
+    "PU Pinsir-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20202,7 +20202,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Politoed": {
-"UU Politoed-RS": {
+    "PU Politoed-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20232,7 +20232,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Poliwrath": {
-"UU Poliwrath-RS": {
+    "PU Poliwrath-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20262,7 +20262,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Polteageist": {
-"OU Polteageist-1": {
+    "NU Polteageist-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20290,7 +20290,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Polteageist-2": {
+    "NU Polteageist-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20318,7 +20318,7 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-"OU Polteageist-3": {
+    "NU Polteageist-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20346,7 +20346,7 @@ var SETDEX_SS = {
 				"Will-O-Wisp"
 			]
 		},
-"OU Polteageist-4": {
+    "NU Polteageist-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20376,7 +20376,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Porygon2": {
-"UU Porygon2-RS": {
+    "PU Porygon2-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20406,7 +20406,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Porygon-Z": {
-"UU Porygon-Z-RS": {
+    "PU Porygon-Z-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20436,7 +20436,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Pyukumuku": {
-"OU Pyukumuku-1": {
+    "NU Pyukumuku-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20464,7 +20464,7 @@ var SETDEX_SS = {
 				"Spite"
 			]
 		},
-"OU Pyukumuku-2": {
+    "NU Pyukumuku-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20492,7 +20492,7 @@ var SETDEX_SS = {
 				"Recover"
 			]
 		},
-"OU Pyukumuku-3": {
+    "NU Pyukumuku-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20520,7 +20520,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Pyukumuku-4": {
+    "NU Pyukumuku-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20548,7 +20548,7 @@ var SETDEX_SS = {
 				"Soak"
 			]
 		},
-"UU Pyukumuku-RS": {
+    "PU Pyukumuku-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20578,7 +20578,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Quagsire": {
-"OU Quagsire-1": {
+    "NU Quagsire-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20606,7 +20606,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Quagsire-2": {
+    "NU Quagsire-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20634,7 +20634,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Quagsire-3": {
+    "NU Quagsire-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20662,7 +20662,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Quagsire-4": {
+    "NU Quagsire-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20690,7 +20690,7 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-"UU Quagsire-RS": {
+    "PU Quagsire-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20720,7 +20720,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Qwilfish": {
-"OU Qwilfish-1": {
+    "NU Qwilfish-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20748,7 +20748,7 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-"OU Qwilfish-2": {
+    "NU Qwilfish-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20776,7 +20776,7 @@ var SETDEX_SS = {
 				"Dive"
 			]
 		},
-"OU Qwilfish-3": {
+    "NU Qwilfish-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20804,7 +20804,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Qwilfish-4": {
+    "NU Qwilfish-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20834,7 +20834,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Raichu": {
-"OU Raichu-1": {
+    "NU Raichu-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20862,7 +20862,7 @@ var SETDEX_SS = {
 				"Reflect"
 			]
 		},
-"OU Raichu-2": {
+    "NU Raichu-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20890,7 +20890,7 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-"OU Raichu-3": {
+    "NU Raichu-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -20918,7 +20918,7 @@ var SETDEX_SS = {
 				"Surf"
 			]
 		},
-"OU Raichu-4": {
+    "NU Raichu-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20948,7 +20948,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Rapidash-Galar": {
-"OU Rapidash-G-1": {
+    "NU Rapidash-G-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -20976,7 +20976,7 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-"OU Rapidash-G-2": {
+    "NU Rapidash-G-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21004,7 +21004,7 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-"OU Rapidash-G-3": {
+    "NU Rapidash-G-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21032,7 +21032,7 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-"OU Rapidash-G-4": {
+    "NU Rapidash-G-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21174,7 +21174,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Reuniclus": {
-"OU Reuniclus-1": {
+    "NU Reuniclus-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -21202,7 +21202,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Reuniclus-2": {
+    "NU Reuniclus-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -21230,7 +21230,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Reuniclus-3": {
+    "NU Reuniclus-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -21258,7 +21258,7 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-"OU Reuniclus-4": {
+    "NU Reuniclus-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -21288,7 +21288,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Rhyperior": {
-"OU Rhyperior-1": {
+    "NU Rhyperior-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21316,7 +21316,7 @@ var SETDEX_SS = {
 				"Dragon Rush"
 			]
 		},
-"OU Rhyperior-2": {
+    "NU Rhyperior-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21344,7 +21344,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Rhyperior-3": {
+    "NU Rhyperior-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21372,7 +21372,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Rhyperior-4": {
+    "NU Rhyperior-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21480,7 +21480,7 @@ var SETDEX_SS = {
 				"Hammer Arm"
 			]
 		},
-"UU Rhyperior-RS": {
+    "PU Rhyperior-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21510,7 +21510,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Ribombee": {
-"OU Ribombee-1": {
+    "NU Ribombee-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21538,7 +21538,7 @@ var SETDEX_SS = {
 				"Aromatherapy"
 			]
 		},
-"OU Ribombee-2": {
+    "NU Ribombee-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21566,7 +21566,7 @@ var SETDEX_SS = {
 				"Stun Spore"
 			]
 		},
-"OU Ribombee-3": {
+    "NU Ribombee-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21594,7 +21594,7 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-"OU Ribombee-4": {
+    "NU Ribombee-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21734,7 +21734,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"UU Ribombee-RS": {
+    "PU Ribombee-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21764,7 +21764,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Rillaboom": {
-"OU Rillaboom-1": {
+    "NU Rillaboom-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -21792,7 +21792,7 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-"OU Rillaboom-2": {
+    "NU Rillaboom-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -21820,7 +21820,7 @@ var SETDEX_SS = {
 				"Leech Seed"
 			]
 		},
-"OU Rillaboom-3": {
+    "NU Rillaboom-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -21848,7 +21848,7 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-"OU Rillaboom-4": {
+    "NU Rillaboom-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22070,7 +22070,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Roserade": {
-"OU Roserade-1": {
+    "NU Roserade-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22098,7 +22098,7 @@ var SETDEX_SS = {
 				"Razor Leaf"
 			]
 		},
-"OU Roserade-2": {
+    "NU Roserade-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22126,7 +22126,7 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-"OU Roserade-3": {
+    "NU Roserade-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22154,7 +22154,7 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-"OU Roserade-4": {
+    "NU Roserade-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22184,7 +22184,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom": {
-"OU Rotom-1": {
+    "NU Rotom-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22212,7 +22212,7 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-"OU Rotom-2": {
+    "NU Rotom-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22240,7 +22240,7 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-"UU Rotom-RS": {
+    "PU Rotom-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22270,7 +22270,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom-Fan": {
-"OU Rotom-Fan-1": {
+    "NU Rotom-Fan-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22298,7 +22298,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Rotom-Fan-2": {
+    "NU Rotom-Fan-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22328,7 +22328,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom-Frost": {
-"OU Rotom-Frost-1": {
+    "NU Rotom-Frost-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22356,7 +22356,7 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-"OU Rotom-Frost-2": {
+    "NU Rotom-Frost-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22386,7 +22386,7 @@ var SETDEX_SS = {
 		}
 	},
 	 "Rotom-Heat": {
-"OU Rotom-Heat-1": {
+    "NU Rotom-Heat-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22414,7 +22414,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Rotom-Heat-2": {
+    "NU Rotom-Heat-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22444,7 +22444,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom-Mow": {
-"OU Rotom-Mow-1": {
+    "NU Rotom-Mow-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22472,7 +22472,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Rotom-Mow-2": {
+    "NU Rotom-Mow-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22502,7 +22502,7 @@ var SETDEX_SS = {
 		}
 	},
 	 "Rotom-Wash": {
-"OU Rotom-Wash-1": {
+    "NU Rotom-Wash-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22530,7 +22530,7 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-"OU Rotom-Wash-2": {
+    "NU Rotom-Wash-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22560,7 +22560,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Runerigus": {
-"OU Runerigus-1": {
+    "NU Runerigus-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22588,7 +22588,7 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-"OU Runerigus-2": {
+    "NU Runerigus-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22616,7 +22616,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"OU Runerigus-3": {
+    "NU Runerigus-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22644,7 +22644,7 @@ var SETDEX_SS = {
 				"Dragon Pulse"
 			]
 		},
-"OU Runerigus-4": {
+    "NU Runerigus-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22672,7 +22672,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"UU Runerigus-RS": {
+    "PU Runerigus-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22702,7 +22702,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sableye": {
-"OU Sableye-1": {
+    "NU Sableye-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22730,7 +22730,7 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-"OU Sableye-2": {
+    "NU Sableye-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22758,7 +22758,7 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-"OU Sableye-3": {
+    "NU Sableye-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22786,7 +22786,7 @@ var SETDEX_SS = {
 				"Power Gem"
 			]
 		},
-"OU Sableye-4": {
+    "NU Sableye-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22816,7 +22816,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Salazzle": {
-"OU Salazzle-1": {
+    "NU Salazzle-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22844,7 +22844,7 @@ var SETDEX_SS = {
 				"Fire Lash"
 			]
 		},
-"OU Salazzle-2": {
+    "NU Salazzle-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22872,7 +22872,7 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-"OU Salazzle-3": {
+    "NU Salazzle-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22900,7 +22900,7 @@ var SETDEX_SS = {
 				"Dragon Pulse"
 			]
 		},
-"OU Salazzle-4": {
+    "NU Salazzle-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22928,7 +22928,7 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-"UU Salazzle-RS": {
+    "PU Salazzle-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -22958,7 +22958,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sandaconda": {
-"OU Sandaconda-1": {
+    "NU Sandaconda-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -22986,7 +22986,7 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-"OU Sandaconda-2": {
+    "NU Sandaconda-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23014,7 +23014,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Sandaconda-3": {
+    "NU Sandaconda-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23042,7 +23042,7 @@ var SETDEX_SS = {
 				"High Horsepower"
 			]
 		},
-"OU Sandaconda-4": {
+    "NU Sandaconda-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23070,7 +23070,7 @@ var SETDEX_SS = {
 				"Coil"
 			]
 		},
-"UU Sandaconda-RS": {
+    "PU Sandaconda-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23100,7 +23100,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sandslash": {
-"UU Sandslash-RS": {
+    "PU Sandslash-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23130,7 +23130,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sawk": {
-"OU Sawk-1": {
+    "NU Sawk-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23158,7 +23158,7 @@ var SETDEX_SS = {
 				"Bulk Up"
 			]
 		},
-"OU Sawk-2": {
+    "NU Sawk-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23186,7 +23186,7 @@ var SETDEX_SS = {
 				"Low Sweep"
 			]
 		},
-"OU Sawk-3": {
+    "NU Sawk-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23214,7 +23214,7 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-"OU Sawk-4": {
+    "NU Sawk-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23244,7 +23244,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Scizor": {
-"UU Scizor-RS": {
+    "PU Scizor-RS": {
 			"level": 50,
 			"evs": {
 				"hp": 252,
@@ -23274,7 +23274,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Scolipede": {
-"UU Scolipede-RS": {
+    "PU Scolipede-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23304,7 +23304,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Scrafty": {
-"OU Scrafty-1": {
+    "NU Scrafty-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23332,7 +23332,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Scrafty-2": {
+    "NU Scrafty-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23360,7 +23360,7 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-"OU Scrafty-3": {
+    "NU Scrafty-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23388,7 +23388,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Scrafty-4": {
+    "NU Scrafty-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23416,7 +23416,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"UU Scrafty-RS": {
+    "PU Scrafty-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23446,7 +23446,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Seaking": {
-"OU Seaking-1": {
+    "NU Seaking-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23474,7 +23474,7 @@ var SETDEX_SS = {
 				"Haze"
 			]
 		},
-"OU Seaking-2": {
+    "NU Seaking-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23502,7 +23502,7 @@ var SETDEX_SS = {
 				"Horn Drill"
 			]
 		},
-"OU Seaking-3": {
+    "NU Seaking-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23530,7 +23530,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"OU Seaking-4": {
+    "NU Seaking-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23558,7 +23558,7 @@ var SETDEX_SS = {
 				"Drill Run"
 			]
 		},
-"UU Seaking-RS": {
+    "PU Seaking-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23588,7 +23588,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Seismitoad": {
-"OU Seismitoad-1": {
+    "NU Seismitoad-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23616,7 +23616,7 @@ var SETDEX_SS = {
 				"Gastro Acid"
 			]
 		},
-"OU Seismitoad-2": {
+    "NU Seismitoad-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23644,7 +23644,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Seismitoad-3": {
+    "NU Seismitoad-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23672,7 +23672,7 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-"OU Seismitoad-4": {
+    "NU Seismitoad-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23780,7 +23780,7 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-"UU Seismitoad-RS": {
+    "PU Seismitoad-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -23810,7 +23810,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sharpedo": {
-"UU Sharpedo-RS": {
+    "PU Sharpedo-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23840,7 +23840,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Shedinja": {
-"OU Shedinja-1": {
+    "NU Shedinja-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23868,7 +23868,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Shedinja-2": {
+    "NU Shedinja-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23896,7 +23896,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Shedinja-3": {
+    "NU Shedinja-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23924,7 +23924,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Shedinja-4": {
+    "NU Shedinja-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23954,7 +23954,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Shiftry": {
-"OU Shiftry-1": {
+    "NU Shiftry-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -23982,7 +23982,7 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-"OU Shiftry-2": {
+    "NU Shiftry-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24010,7 +24010,7 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-"OU Shiftry-3": {
+    "NU Shiftry-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24038,7 +24038,7 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-"OU Shiftry-4": {
+    "NU Shiftry-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24068,7 +24068,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Shiinotic": {
-"OU Shiinotic-1": {
+    "NU Shiinotic-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24096,7 +24096,7 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-"OU Shiinotic-2": {
+    "NU Shiinotic-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24124,7 +24124,7 @@ var SETDEX_SS = {
 				"Solar Beam"
 			]
 		},
-"OU Shiinotic-3": {
+    "NU Shiinotic-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24152,7 +24152,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"OU Shiinotic-4": {
+    "NU Shiinotic-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24182,7 +24182,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Shuckle": {
-"OU Shuckle-1": {
+    "NU Shuckle-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24210,7 +24210,7 @@ var SETDEX_SS = {
 				"Toxic"
 			]
 		},
-"OU Shuckle-2": {
+    "NU Shuckle-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24238,7 +24238,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"OU Shuckle-3": {
+    "NU Shuckle-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24266,7 +24266,7 @@ var SETDEX_SS = {
 				"Rock Tomb"
 			]
 		},
-"OU Shuckle-4": {
+    "NU Shuckle-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24296,7 +24296,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sigilyph": {
-"OU Sigilyph-1": {
+    "NU Sigilyph-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24324,7 +24324,7 @@ var SETDEX_SS = {
 				"Reflect"
 			]
 		},
-"OU Sigilyph-2": {
+    "NU Sigilyph-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24352,7 +24352,7 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-"OU Sigilyph-3": {
+    "NU Sigilyph-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24380,7 +24380,7 @@ var SETDEX_SS = {
 				"Heat Wave"
 			]
 		},
-"OU Sigilyph-4": {
+    "NU Sigilyph-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24410,7 +24410,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Silvally": {
-"OU Silvally-1": {
+    "NU Silvally-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24438,7 +24438,7 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-"OU Silvally-2": {
+    "NU Silvally-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24468,7 +24468,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sirfetch'd": {
-"OU Sirfetch'd-1": {
+    "NU Sirfetch'd-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24496,7 +24496,7 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-"OU Sirfetch'd-2": {
+    "NU Sirfetch'd-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24524,7 +24524,7 @@ var SETDEX_SS = {
 				"Sky Attack"
 			]
 		},
-"OU Sirfetch'd-3": {
+    "NU Sirfetch'd-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24552,7 +24552,7 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-"OU Sirfetch'd-4": {
+    "NU Sirfetch'd-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24692,7 +24692,7 @@ var SETDEX_SS = {
 				"First Impression"
 			]
 		},
-"UU Sirfetch'd-RS": {
+    "PU Sirfetch'd-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24722,7 +24722,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Skarmory": {
-"UU Skarmory-RS": {
+    "PU Skarmory-RS": {
 			"level": 50,
 			"evs": {
 				"at": 252,
@@ -24748,7 +24748,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Skuntank": {
-"OU Skuntank-1": {
+    "NU Skuntank-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24776,7 +24776,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Skuntank-2": {
+    "NU Skuntank-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24804,7 +24804,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"OU Skuntank-3": {
+    "NU Skuntank-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24832,7 +24832,7 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-"OU Skuntank-4": {
+    "NU Skuntank-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24860,7 +24860,7 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-"UU Skuntank-RS": {
+    "PU Skuntank-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24890,7 +24890,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Slurpuff": {
-"OU Slurpuff-1": {
+    "NU Slurpuff-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -24918,7 +24918,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Slurpuff-2": {
+    "NU Slurpuff-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24946,7 +24946,7 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-"OU Slurpuff-3": {
+    "NU Slurpuff-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -24974,7 +24974,7 @@ var SETDEX_SS = {
 				"Cotton Guard"
 			]
 		},
-"OU Slurpuff-4": {
+    "NU Slurpuff-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25002,7 +25002,7 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-"UU Slurpuff-RS": {
+    "PU Slurpuff-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25032,7 +25032,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Snorlax": {
-"OU Snorlax-1": {
+    "NU Snorlax-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25060,7 +25060,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Snorlax-2": {
+    "NU Snorlax-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25088,7 +25088,7 @@ var SETDEX_SS = {
 				"Heat Crash"
 			]
 		},
-"OU Snorlax-3": {
+    "NU Snorlax-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25116,7 +25116,7 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-"OU Snorlax-4": {
+    "NU Snorlax-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25146,7 +25146,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Solrock": {
-"OU Solrock-1": {
+    "NU Solrock-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25174,7 +25174,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"OU Solrock-2": {
+    "NU Solrock-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25202,7 +25202,7 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-"OU Solrock-3": {
+    "NU Solrock-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25230,7 +25230,7 @@ var SETDEX_SS = {
 				"Morning Sun"
 			]
 		},
-"OU Solrock-4": {
+    "NU Solrock-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25258,7 +25258,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"UU Solrock-RS": {
+    "PU Solrock-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25288,7 +25288,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Starmie": {
-"UU Starmie-RS": {
+    "PU Starmie-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25318,7 +25318,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Steelix": {
-"OU Steelix-1": {
+    "NU Steelix-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25346,7 +25346,7 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-"OU Steelix-2": {
+    "NU Steelix-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25374,7 +25374,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Steelix-3": {
+    "NU Steelix-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25402,7 +25402,7 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-"OU Steelix-4": {
+    "NU Steelix-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25430,7 +25430,7 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-"UU Steelix-RS": {
+    "PU Steelix-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25460,7 +25460,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Stonjourner": {
-"OU Stonjourner-1": {
+    "NU Stonjourner-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25488,7 +25488,7 @@ var SETDEX_SS = {
 				"Rock Polish"
 			]
 		},
-"OU Stonjourner-2": {
+    "NU Stonjourner-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25516,7 +25516,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"OU Stonjourner-3": {
+    "NU Stonjourner-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25544,7 +25544,7 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-"OU Stonjourner-4": {
+    "NU Stonjourner-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25574,7 +25574,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Stoutland": {
-"UU Stoutland-RS": {
+    "PU Stoutland-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25604,7 +25604,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Stunfisk-Galar": {
-"OU Stunfisk-G-1": {
+    "NU Stunfisk-G-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25632,7 +25632,7 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-"OU Stunfisk-G-2": {
+    "NU Stunfisk-G-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25660,7 +25660,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Stunfisk-G-3": {
+    "NU Stunfisk-G-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25688,7 +25688,7 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-"OU Stunfisk-G-4": {
+    "NU Stunfisk-G-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25718,7 +25718,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sudowoodo": {
-"OU Sudowoodo-1": {
+    "NU Sudowoodo-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25746,7 +25746,7 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-"OU Sudowoodo-2": {
+    "NU Sudowoodo-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25774,7 +25774,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Sudowoodo-3": {
+    "NU Sudowoodo-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25802,7 +25802,7 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-"OU Sudowoodo-4": {
+    "NU Sudowoodo-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25832,7 +25832,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Swoobat": {
-"OU Swoobat-1": {
+    "NU Swoobat-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25860,7 +25860,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Swoobat-2": {
+    "NU Swoobat-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25888,7 +25888,7 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-"OU Swoobat-3": {
+    "NU Swoobat-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25916,7 +25916,7 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-"OU Swoobat-4": {
+    "NU Swoobat-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -25944,7 +25944,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"UU Swoobat-RS": {
+    "PU Swoobat-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -25974,7 +25974,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Sylveon": {
-"OU Sylveon-1": {
+    "NU Sylveon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26002,7 +26002,7 @@ var SETDEX_SS = {
 				"Draining Kiss"
 			]
 		},
-"OU Sylveon-2": {
+    "NU Sylveon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26030,7 +26030,7 @@ var SETDEX_SS = {
 				"Misty Terrain"
 			]
 		},
-"OU Sylveon-3": {
+    "NU Sylveon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26058,7 +26058,7 @@ var SETDEX_SS = {
 				"Psyshock"
 			]
 		},
-"OU Sylveon-4": {
+    "NU Sylveon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26088,7 +26088,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Talonflame": {
-"UU Talonflame-RS": {
+    "PU Talonflame-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26118,7 +26118,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Tangrowth": {
-"UU Tangrowth-RS": {
+    "PU Tangrowth-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26148,7 +26148,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Tauros": {
-"UU Tauros-RS": {
+    "PU Tauros-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26178,7 +26178,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Tentacruel": {
-"UU Tentacruel-RS": {
+    "PU Tentacruel-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26208,7 +26208,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Thievul": {
-"OU Thievul-1": {
+    "NU Thievul-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26236,7 +26236,7 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-"OU Thievul-2": {
+    "NU Thievul-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26264,7 +26264,7 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-"OU Thievul-3": {
+    "NU Thievul-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26292,7 +26292,7 @@ var SETDEX_SS = {
 				"Parting Shot"
 			]
 		},
-"OU Thievul-4": {
+    "NU Thievul-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26432,7 +26432,7 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-"UU Thievul-RS": {
+    "PU Thievul-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26462,7 +26462,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Throh": {
-"OU Throh-1": {
+    "NU Throh-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26490,7 +26490,7 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-"OU Throh-2": {
+    "NU Throh-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26518,7 +26518,7 @@ var SETDEX_SS = {
 				"Dig"
 			]
 		},
-"OU Throh-3": {
+    "NU Throh-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26546,7 +26546,7 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-"OU Throh-4": {
+    "NU Throh-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26576,7 +26576,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Togedemaru": {
-"OU Togedemaru-1": {
+    "NU Togedemaru-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26604,7 +26604,7 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-"OU Togedemaru-2": {
+    "NU Togedemaru-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26632,7 +26632,7 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-"OU Togedemaru-3": {
+    "NU Togedemaru-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -26660,7 +26660,7 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-"OU Togedemaru-4": {
+    "NU Togedemaru-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26690,7 +26690,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Togekiss": {
-"OU Togekiss-1": {
+    "NU Togekiss-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26718,7 +26718,7 @@ var SETDEX_SS = {
 				"Follow Me"
 			]
 		},
-"OU Togekiss-2": {
+    "NU Togekiss-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26746,7 +26746,7 @@ var SETDEX_SS = {
 				"Morning Sun"
 			]
 		},
-"OU Togekiss-3": {
+    "NU Togekiss-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26774,7 +26774,7 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-"OU Togekiss-4": {
+    "NU Togekiss-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26916,7 +26916,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Torkoal": {
-"OU Torkoal-1": {
+    "NU Torkoal-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26944,7 +26944,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Torkoal-2": {
+    "NU Torkoal-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -26972,7 +26972,7 @@ var SETDEX_SS = {
 				"Sludge Bomb"
 			]
 		},
-"OU Torkoal-3": {
+    "NU Torkoal-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27000,7 +27000,7 @@ var SETDEX_SS = {
 				"Sludge Bomb"
 			]
 		},
-"OU Torkoal-4": {
+    "NU Torkoal-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27028,7 +27028,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"UU Torkoal-RS": {
+    "PU Torkoal-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27058,7 +27058,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Toxapex": {
-"OU Toxapex-1": {
+    "NU Toxapex-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27086,7 +27086,7 @@ var SETDEX_SS = {
 				"Pin Missile"
 			]
 		},
-"OU Toxapex-2": {
+    "NU Toxapex-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27114,7 +27114,7 @@ var SETDEX_SS = {
 				"Infestation"
 			]
 		},
-"OU Toxapex-3": {
+    "NU Toxapex-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27142,7 +27142,7 @@ var SETDEX_SS = {
 				"Muddy Water"
 			]
 		},
-"OU Toxapex-4": {
+    "NU Toxapex-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27170,7 +27170,7 @@ var SETDEX_SS = {
 				"Scald"
 			]
 		},
-"UU Toxapex-RS": {
+    "PU Toxapex-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27200,7 +27200,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Toxicroak": {
-"OU Toxicroak-1": {
+    "NU Toxicroak-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27228,7 +27228,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"OU Toxicroak-2": {
+    "NU Toxicroak-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27256,7 +27256,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Toxicroak-3": {
+    "NU Toxicroak-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27284,7 +27284,7 @@ var SETDEX_SS = {
 				"Vacuum Wave"
 			]
 		},
-"OU Toxicroak-4": {
+    "NU Toxicroak-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27312,7 +27312,7 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-"UU Toxicroak-RS": {
+    "PU Toxicroak-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27342,7 +27342,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Toxtricity": {
-"OU Toxtricity-1": {
+    "NU Toxtricity-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27370,7 +27370,7 @@ var SETDEX_SS = {
 				"Shift Gear"
 			]
 		},
-"OU Toxtricity-2": {
+    "NU Toxtricity-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27398,7 +27398,7 @@ var SETDEX_SS = {
 				"Magnetic Flux"
 			]
 		},
-"OU Toxtricity-3": {
+    "NU Toxtricity-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27426,7 +27426,7 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-"OU Toxtricity-4": {
+    "NU Toxtricity-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27456,7 +27456,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Trevenant": {
-"OU Trevenant-1": {
+    "NU Trevenant-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27484,7 +27484,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Trevenant-2": {
+    "NU Trevenant-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27512,7 +27512,7 @@ var SETDEX_SS = {
 				"Shadow Claw"
 			]
 		},
-"OU Trevenant-3": {
+    "NU Trevenant-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27540,7 +27540,7 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-"OU Trevenant-4": {
+    "NU Trevenant-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27568,7 +27568,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"UU Trevenant-RS": {
+    "PU Trevenant-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27598,7 +27598,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Tsareena": {
-"OU Tsareena-1": {
+    "NU Tsareena-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27626,7 +27626,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Tsareena-2": {
+    "NU Tsareena-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27654,7 +27654,7 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-"OU Tsareena-3": {
+    "NU Tsareena-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27682,7 +27682,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"OU Tsareena-4": {
+    "NU Tsareena-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27712,7 +27712,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Turtonator": {
-"OU Turtonator-1": {
+    "NU Turtonator-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27740,7 +27740,7 @@ var SETDEX_SS = {
 				"Wide Guard"
 			]
 		},
-"OU Turtonator-2": {
+    "NU Turtonator-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27768,7 +27768,7 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-"OU Turtonator-3": {
+    "NU Turtonator-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27796,7 +27796,7 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-"OU Turtonator-4": {
+    "NU Turtonator-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27824,7 +27824,7 @@ var SETDEX_SS = {
 				"Wide Guard"
 			]
 		},
-"UU Turtonator-RS": {
+    "PU Turtonator-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27854,7 +27854,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Tyranitar": {
-"OU Tyranitar-1": {
+    "NU Tyranitar-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27882,7 +27882,7 @@ var SETDEX_SS = {
 				"Thunder"
 			]
 		},
-"OU Tyranitar-2": {
+    "NU Tyranitar-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27912,7 +27912,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Umbreon": {
-"OU Umbreon-1": {
+    "NU Umbreon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27940,7 +27940,7 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-"OU Umbreon-2": {
+    "NU Umbreon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -27968,7 +27968,7 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-"OU Umbreon-3": {
+    "NU Umbreon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -27996,7 +27996,7 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-"OU Umbreon-4": {
+    "NU Umbreon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -28026,7 +28026,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Unfezant": {
-"OU Unfezant-1": {
+    "NU Unfezant-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28054,7 +28054,7 @@ var SETDEX_SS = {
 				"Work Up"
 			]
 		},
-"OU Unfezant-2": {
+    "NU Unfezant-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28082,7 +28082,7 @@ var SETDEX_SS = {
 				"Feather Dance"
 			]
 		},
-"OU Unfezant-3": {
+    "NU Unfezant-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28110,7 +28110,7 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-"OU Unfezant-4": {
+    "NU Unfezant-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28140,7 +28140,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Vanilluxe": {
-"OU Vanilluxe-1": {
+    "NU Vanilluxe-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28168,7 +28168,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Vanilluxe-2": {
+    "NU Vanilluxe-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28196,7 +28196,7 @@ var SETDEX_SS = {
 				"Ice Shard"
 			]
 		},
-"OU Vanilluxe-3": {
+    "NU Vanilluxe-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -28224,7 +28224,7 @@ var SETDEX_SS = {
 				"Aurora Veil"
 			]
 		},
-"OU Vanilluxe-4": {
+    "NU Vanilluxe-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -28252,7 +28252,7 @@ var SETDEX_SS = {
 				"Mirror Coat"
 			]
 		},
-"UU Vanilluxe-RS": {
+    "PU Vanilluxe-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28282,7 +28282,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Vaporeon": {
-"OU Vaporeon-1": {
+    "NU Vaporeon-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -28310,7 +28310,7 @@ var SETDEX_SS = {
 				"Water Pulse"
 			]
 		},
-"OU Vaporeon-2": {
+    "NU Vaporeon-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -28338,7 +28338,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Vaporeon-3": {
+    "NU Vaporeon-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -28366,7 +28366,7 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-"OU Vaporeon-4": {
+    "NU Vaporeon-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28396,7 +28396,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Vespiquen": {
-"OU Vespiquen-1": {
+    "NU Vespiquen-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28424,7 +28424,7 @@ var SETDEX_SS = {
 				"Attract"
 			]
 		},
-"OU Vespiquen-2": {
+    "NU Vespiquen-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28452,7 +28452,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Vespiquen-3": {
+    "NU Vespiquen-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28480,7 +28480,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Vespiquen-4": {
+    "NU Vespiquen-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28620,7 +28620,7 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-"UU Vespiquen-RS": {
+    "PU Vespiquen-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -28650,7 +28650,7 @@ var SETDEX_SS = {
 		}
 	},
 	  "Vikavolt": {
-"OU Vikavolt-1": {
+    "NU Vikavolt-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28678,7 +28678,7 @@ var SETDEX_SS = {
 				"Sticky Web"
 			]
 		},
-"OU Vikavolt-2": {
+    "NU Vikavolt-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28706,7 +28706,7 @@ var SETDEX_SS = {
 				"Substitute"
 			]
 		},
-"OU Vikavolt-3": {
+    "NU Vikavolt-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28734,7 +28734,7 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-"OU Vikavolt-4": {
+    "NU Vikavolt-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28876,7 +28876,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Vileplume": {
-"OU Vileplume-1": {
+    "NU Vileplume-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28904,7 +28904,7 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-"OU Vileplume-2": {
+    "NU Vileplume-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28932,7 +28932,7 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-"OU Vileplume-3": {
+    "NU Vileplume-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28960,7 +28960,7 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-"OU Vileplume-4": {
+    "NU Vileplume-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -28988,7 +28988,7 @@ var SETDEX_SS = {
 				"Nature Power"
 			]
 		},
-"UU Vileplume-RS": {
+    "PU Vileplume-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29018,7 +29018,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Volcarona": {
-"UU Volcarona-RS": {
+    "PU Volcarona-RS": {
 			"level": 50,
 			"evs": {
 				"sa": 252,
@@ -29044,7 +29044,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Wailord": {
-"OU Wailord-1": {
+    "NU Wailord-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29072,7 +29072,7 @@ var SETDEX_SS = {
 				"Amnesia"
 			]
 		},
-"OU Wailord-2": {
+    "NU Wailord-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29100,7 +29100,7 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-"OU Wailord-3": {
+    "NU Wailord-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29128,7 +29128,7 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-"OU Wailord-4": {
+    "NU Wailord-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29156,7 +29156,7 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-"UU Wailord-RS": {
+    "PU Wailord-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29186,7 +29186,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Weavile": {
-"OU Weavile-1": {
+    "NU Weavile-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29214,7 +29214,7 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-"OU Weavile-2": {
+    "NU Weavile-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29242,7 +29242,7 @@ var SETDEX_SS = {
 				"Feint"
 			]
 		},
-"OU Weavile-3": {
+    "NU Weavile-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29270,7 +29270,7 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-"OU Weavile-4": {
+    "NU Weavile-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29410,7 +29410,7 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-"UU Weavile-RS": {
+    "PU Weavile-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29440,7 +29440,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Weezing-Galar": {
-"OU Weezing-G-1": {
+    "NU Weezing-G-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29468,7 +29468,7 @@ var SETDEX_SS = {
 				"Will-O-Wisp"
 			]
 		},
-"OU Weezing-G-2": {
+    "NU Weezing-G-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29496,7 +29496,7 @@ var SETDEX_SS = {
 				"Sludge Wave"
 			]
 		},
-"OU Weezing-G-3": {
+    "NU Weezing-G-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29524,7 +29524,7 @@ var SETDEX_SS = {
 				"Strange Steam"
 			]
 		},
-"OU Weezing-G-4": {
+    "NU Weezing-G-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29554,7 +29554,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Whimsicott": {
-"OU Whimsicott-1": {
+    "NU Whimsicott-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29582,7 +29582,7 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-"OU Whimsicott-2": {
+    "NU Whimsicott-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29610,7 +29610,7 @@ var SETDEX_SS = {
 				"Leech Seed"
 			]
 		},
-"OU Whimsicott-3": {
+    "NU Whimsicott-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29638,7 +29638,7 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-"OU Whimsicott-4": {
+    "NU Whimsicott-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29668,7 +29668,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Whiscash": {
-"OU Whiscash-1": {
+    "NU Whiscash-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29696,7 +29696,7 @@ var SETDEX_SS = {
 				"Thrash"
 			]
 		},
-"OU Whiscash-2": {
+    "NU Whiscash-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29724,7 +29724,7 @@ var SETDEX_SS = {
 				"Future Sight"
 			]
 		},
-"OU Whiscash-3": {
+    "NU Whiscash-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29752,7 +29752,7 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-"OU Whiscash-4": {
+    "NU Whiscash-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29780,7 +29780,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"UU Whiscash-RS": {
+    "PU Whiscash-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29810,7 +29810,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Wishiwashi": {
-"OU Wishiwashi-1": {
+    "NU Wishiwashi-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29838,7 +29838,7 @@ var SETDEX_SS = {
 				"Endeavor"
 			]
 		},
-"OU Wishiwashi-2": {
+    "NU Wishiwashi-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29866,7 +29866,7 @@ var SETDEX_SS = {
 				"Tearful Look"
 			]
 		},
-"OU Wishiwashi-3": {
+    "NU Wishiwashi-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29894,7 +29894,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"OU Wishiwashi-4": {
+    "NU Wishiwashi-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -29922,7 +29922,7 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-"UU Wishiwashi-RS": {
+    "PU Wishiwashi-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29952,7 +29952,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Wobbuffet": {
-"OU Wobbuffet-1": {
+    "NU Wobbuffet-1": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -29980,7 +29980,7 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-"OU Wobbuffet-2": {
+    "NU Wobbuffet-2": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -30008,7 +30008,7 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-"OU Wobbuffet-3": {
+    "NU Wobbuffet-3": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -30036,7 +30036,7 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-"OU Wobbuffet-4": {
+    "NU Wobbuffet-4": {
 			"level": "50",
 			"evs": {
 				"hp": 252,
@@ -30066,7 +30066,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Xatu": {
-"OU Xatu-1": {
+    "NU Xatu-1": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -30094,7 +30094,7 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-"OU Xatu-2": {
+    "NU Xatu-2": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -30122,7 +30122,7 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-"OU Xatu-3": {
+    "NU Xatu-3": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -30150,7 +30150,7 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-"OU Xatu-4": {
+    "NU Xatu-4": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
@@ -30180,7 +30180,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Zoroark": {
-"UU Zoroark-RS": {
+    "PU Zoroark-RS": {
 			"level": "50",
 			"evs": {
 				"hp": 0,
