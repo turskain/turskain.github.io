@@ -75,13 +75,14 @@ function performCalculations() {
 			if (selectedTiers.indexOf(setTier) !== -1) {
 				var field = createField();
 				if (mode === "one-vs-all") {
-					attacker = createPokemon(pokeInfo);
 					defender = createPokemon(setOptions[i].id);
+					attacker = createPokemon(pokeInfo);
 				} else {
 					attacker = createPokemon(setOptions[i].id);
 					defender = createPokemon(pokeInfo);
 					field.swap();
 				}
+        console.log(defender);
 				if (attacker.ability === "Rivalry") {
 					attacker.gender = "N";
 				}

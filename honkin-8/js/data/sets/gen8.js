@@ -1,7 +1,10 @@
 var SETDEX_SS = {
 	"Abomasnow": {
-    "NU Abomasnow-1": {
-			"level": "50",
+    "PU Abomasnow Set1": {
+			"level": 50,
+			"ability": "Snow Warning",
+			"item": "Occa Berry",
+			"nature": "Brave",
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18,9 +21,6 @@ var SETDEX_SS = {
 				"sd": 16,
 				"sp": 16
 			},
-			"nature": "Brave",
-			"ability": "Snow Warning",
-			"item": "Occa Berry",
 			"moves": [
 				"Seed Bomb",
 				"Ice Shard",
@@ -28,8 +28,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Abomasnow-2": {
-			"level": "50",
+    "PU Abomasnow Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -56,8 +56,8 @@ var SETDEX_SS = {
 				"Sheer Cold"
 			]
 		},
-    "NU Abomasnow-3": {
-			"level": "50",
+    "PU Abomasnow Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -84,8 +84,8 @@ var SETDEX_SS = {
 				"Aurora Veil"
 			]
 		},
-    "NU Abomasnow-4": {
-			"level": "50",
+    "PU Abomasnow Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -112,8 +112,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "PU Abomasnow-RS": {
-			"level": "50",
+    "NU Abomasnow Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -142,8 +142,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Accelgor": {
-    "NU Accelgor-1": {
-			"level": "50",
+    "PU Accelgor Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -170,8 +170,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Accelgor-2": {
-			"level": "50",
+    "PU Accelgor Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -198,8 +198,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Accelgor-3": {
-			"level": "50",
+    "PU Accelgor Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -226,8 +226,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-    "NU Accelgor-4": {
-			"level": "50",
+    "PU Accelgor Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -254,8 +254,8 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-    "PU Accelgor-RS": {
-			"level": "50",
+    "NU Accelgor Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -284,8 +284,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Aegislash": {
-    "NU Aegislash-1": {
-			"level": "50",
+    "PU Aegislash Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -312,8 +312,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Aegislash-2": {
-			"level": "50",
+    "PU Aegislash Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -340,8 +340,8 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-    "NU Aegislash-3": {
-			"level": "50",
+    "PU Aegislash Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -368,8 +368,8 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-    "NU Aegislash-4": {
-			"level": "50",
+    "PU Aegislash Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -396,8 +396,8 @@ var SETDEX_SS = {
 				"Sacred Sword"
 			]
 		},
-		"Aegislash-1 (Leon)": {
-			"level": "50",
+		"Aegislash Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -416,8 +416,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-		"Aegislash-2 (Leon)": {
-			"level": "50",
+		"Aegislash Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -436,8 +436,8 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-		"Aegislash-3 (Leon)": {
-			"level": "50",
+		"Aegislash Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -456,8 +456,8 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-		"Aegislash-4 (Leon)": {
-			"level": "50",
+		"Aegislash Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -478,8 +478,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Alakazam": {
-    "PU Alakazam-RS": {
-			"level": "50",
+    "NU Alakazam Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -508,8 +508,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Alcremie": {
-    "NU Alcremie-1": {
-			"level": "50",
+    "PU Alcremie Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -536,8 +536,8 @@ var SETDEX_SS = {
 				"Charm"
 			]
 		},
-    "NU Alcremie-2": {
-			"level": "50",
+    "PU Alcremie Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -564,8 +564,8 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-    "NU Alcremie-3": {
-			"level": "50",
+    "PU Alcremie Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -592,8 +592,8 @@ var SETDEX_SS = {
 				"Misty Terrain"
 			]
 		},
-    "NU Alcremie-4": {
-			"level": "50",
+    "PU Alcremie Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -620,8 +620,8 @@ var SETDEX_SS = {
 				"Tri Attack"
 			]
 		},
-    "PU Alcremie-RS": {
-			"level": "50",
+    "NU Alcremie Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -650,8 +650,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Amoonguss": {
-    "PU Amoonguss-RS": {
-			"level": "50",
+    "NU Amoonguss Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -680,8 +680,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Appletun": {
-    "NU Appletun-1": {
-			"level": "50",
+    "PU Appletun Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -708,8 +708,8 @@ var SETDEX_SS = {
 				"Bullet Seed"
 			]
 		},
-    "NU Appletun-2": {
-			"level": "50",
+    "PU Appletun Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -736,8 +736,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "PU Appletun-RS": {
-			"level": "50",
+    "NU Appletun Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -766,8 +766,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Araquanid": {
-    "NU Araquanid-1": {
-			"level": "50",
+    "PU Araquanid Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -794,8 +794,8 @@ var SETDEX_SS = {
 				"X-Scissor"
 			]
 		},
-    "NU Araquanid-2": {
-			"level": "50",
+    "PU Araquanid Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -822,8 +822,8 @@ var SETDEX_SS = {
 				"Aqua Ring"
 			]
 		},
-    "NU Araquanid-3": {
-			"level": "50",
+    "PU Araquanid Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -850,8 +850,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Araquanid-4": {
-			"level": "50",
+    "PU Araquanid Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -880,8 +880,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Arcanine": {
-    "NU Arcanine-1": {
-			"level": "50",
+    "PU Arcanine Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -908,8 +908,8 @@ var SETDEX_SS = {
 				"Fire Fang"
 			]
 		},
-    "NU Arcanine-2": {
-			"level": "50",
+    "PU Arcanine Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -936,8 +936,8 @@ var SETDEX_SS = {
 				"Howl"
 			]
 		},
-    "NU Arcanine-3": {
-			"level": "50",
+    "PU Arcanine Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -964,8 +964,8 @@ var SETDEX_SS = {
 				"Extreme Speed"
 			]
 		},
-    "NU Arcanine-4": {
-			"level": "50",
+    "PU Arcanine Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -994,8 +994,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Arctovish": {
-    "NU Arctovish-1": {
-			"level": "50",
+    "PU Arctovish Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -1022,8 +1022,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Arctovish-2": {
-			"level": "50",
+    "PU Arctovish Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -1050,8 +1050,8 @@ var SETDEX_SS = {
 				"Hydro Pump"
 			]
 		},
-    "NU Arctovish-3": {
-			"level": "50",
+    "PU Arctovish Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1078,8 +1078,8 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-    "NU Arctovish-4": {
-			"level": "50",
+    "PU Arctovish Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1108,8 +1108,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Arctozolt": {
-    "NU Arctozolt-1": {
-			"level": "50",
+    "PU Arctozolt Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1136,8 +1136,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Arctozolt-2": {
-			"level": "50",
+    "PU Arctozolt Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1164,8 +1164,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Arctozolt-3": {
-			"level": "50",
+    "PU Arctozolt Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -1192,8 +1192,8 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-    "NU Arctozolt-4": {
-			"level": "50",
+    "PU Arctozolt Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1222,8 +1222,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Aromatisse": {
-    "NU Aromatisse-1": {
-			"level": "50",
+    "PU Aromatisse Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1250,8 +1250,8 @@ var SETDEX_SS = {
 				"Ally Switch"
 			]
 		},
-    "NU Aromatisse-2": {
-			"level": "50",
+    "PU Aromatisse Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1278,8 +1278,8 @@ var SETDEX_SS = {
 				"After You"
 			]
 		},
-    "NU Aromatisse-3": {
-			"level": "50",
+    "PU Aromatisse Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -1306,8 +1306,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-    "NU Aromatisse-4": {
-			"level": "50",
+    "PU Aromatisse Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1334,8 +1334,8 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-    "PU Aromatisse-RS": {
-			"level": "50",
+    "NU Aromatisse Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1364,8 +1364,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Avalugg": {
-    "NU Avalugg-1": {
-			"level": "50",
+    "PU Avalugg Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -1392,8 +1392,8 @@ var SETDEX_SS = {
 				"Aurora Veil"
 			]
 		},
-    "NU Avalugg-2": {
-			"level": "50",
+    "PU Avalugg Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1420,8 +1420,8 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-    "NU Avalugg-3": {
-			"level": "50",
+    "PU Avalugg Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1448,8 +1448,8 @@ var SETDEX_SS = {
 				"Mirror Coat"
 			]
 		},
-    "NU Avalugg-4": {
-			"level": "50",
+    "PU Avalugg Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -1478,7 +1478,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Azumarill": {
-    "PU Azumarill-RS": {
+    "NU Azumarill Sparring": {
 			"level": 50,
 			"evs": {
 				"hp": 252,
@@ -1508,8 +1508,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Barbaracle": {
-    "NU Barbaracle-1": {
-			"level": "50",
+    "PU Barbaracle Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -1536,8 +1536,8 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-    "NU Barbaracle-2": {
-			"level": "50",
+    "PU Barbaracle Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1564,8 +1564,8 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-    "NU Barbaracle-3": {
-			"level": "50",
+    "PU Barbaracle Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1592,8 +1592,8 @@ var SETDEX_SS = {
 				"Cross Chop"
 			]
 		},
-    "NU Barbaracle-4": {
-			"level": "50",
+    "PU Barbaracle Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1622,8 +1622,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Barraskewda": {
-    "NU Barraskewda-1": {
-			"level": "50",
+    "PU Barraskewda Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -1650,8 +1650,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Barraskewda-2": {
-			"level": "50",
+    "PU Barraskewda Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1678,8 +1678,8 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-    "NU Barraskewda-3": {
-			"level": "50",
+    "PU Barraskewda Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1706,8 +1706,8 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-    "NU Barraskewda-4": {
-			"level": "50",
+    "PU Barraskewda Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1734,8 +1734,8 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-    "PU Barraskewda-RS": {
-			"level": "50",
+    "NU Barraskewda Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1764,8 +1764,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Basculin": {
-    "NU Basculin-1": {
-			"level": "50",
+    "PU Basculin Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -1792,8 +1792,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Basculin-2": {
-			"level": "50",
+    "PU Basculin Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1820,8 +1820,8 @@ var SETDEX_SS = {
 				"Endeavor"
 			]
 		},
-    "NU Basculin-3": {
-			"level": "50",
+    "PU Basculin Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1848,8 +1848,8 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-    "NU Basculin-4": {
-			"level": "50",
+    "PU Basculin Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1878,8 +1878,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Beartic": {
-    "NU Beartic-1": {
-			"level": "50",
+    "PU Beartic Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -1906,8 +1906,8 @@ var SETDEX_SS = {
 				"Frost Breath"
 			]
 		},
-    "NU Beartic-2": {
-			"level": "50",
+    "PU Beartic Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1934,8 +1934,8 @@ var SETDEX_SS = {
 				"Frost Breath"
 			]
 		},
-    "NU Beartic-3": {
-			"level": "50",
+    "PU Beartic Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1962,8 +1962,8 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-    "NU Beartic-4": {
-			"level": "50",
+    "PU Beartic Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -1990,8 +1990,8 @@ var SETDEX_SS = {
 				"Aqua Jet"
 			]
 		},
-    "PU Beartic-RS": {
-			"level": "50",
+    "NU Beartic Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2020,8 +2020,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Beheeyem": {
-    "NU Beheeyem-1": {
-			"level": "50",
+    "PU Beheeyem Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2048,8 +2048,8 @@ var SETDEX_SS = {
 				"Tri Attack"
 			]
 		},
-    "NU Beheeyem-2": {
-			"level": "50",
+    "PU Beheeyem Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2076,8 +2076,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Beheeyem-3": {
-			"level": "50",
+    "PU Beheeyem Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2104,8 +2104,8 @@ var SETDEX_SS = {
 				"Psychic Terrain"
 			]
 		},
-    "NU Beheeyem-4": {
-			"level": "50",
+    "PU Beheeyem Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2132,8 +2132,8 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-    "PU Beheeyem-RS": {
-			"level": "50",
+    "NU Beheeyem Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -2162,8 +2162,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Bellossom": {
-    "NU Bellossom-1": {
-			"level": "50",
+    "PU Bellossom Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2190,8 +2190,8 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-    "NU Bellossom-2": {
-			"level": "50",
+    "PU Bellossom Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2218,8 +2218,8 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-    "NU Bellossom-3": {
-			"level": "50",
+    "PU Bellossom Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2246,8 +2246,8 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-    "NU Bellossom-4": {
-			"level": "50",
+    "PU Bellossom Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2276,8 +2276,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Bewear": {
-    "NU Bewear-1": {
-			"level": "50",
+    "PU Bewear Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -2304,8 +2304,8 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-    "NU Bewear-2": {
-			"level": "50",
+    "PU Bewear Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2332,8 +2332,8 @@ var SETDEX_SS = {
 				"Stomp"
 			]
 		},
-    "NU Bewear-3": {
-			"level": "50",
+    "PU Bewear Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -2360,8 +2360,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "NU Bewear-4": {
-			"level": "50",
+    "PU Bewear Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2390,8 +2390,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Bisharp": {
-    "NU Bisharp-1": {
-			"level": "50",
+    "PU Bisharp Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2418,8 +2418,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Bisharp-2": {
-			"level": "50",
+    "PU Bisharp Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2446,8 +2446,8 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-    "NU Bisharp-3": {
-			"level": "50",
+    "PU Bisharp Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2474,8 +2474,8 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-    "NU Bisharp-4": {
-			"level": "50",
+    "PU Bisharp Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -2502,8 +2502,8 @@ var SETDEX_SS = {
 				"Quick Guard"
 			]
 		},
-    "PU Bisharp-RS": {
-			"level": "50",
+    "NU Bisharp Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -2532,8 +2532,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Blissey": {
-    "PU Blissey-RS": {
-			"level": "50",
+    "NU Blissey Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2562,8 +2562,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Boltund": {
-    "NU Boltund-1": {
-			"level": "50",
+    "PU Boltund Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2590,8 +2590,8 @@ var SETDEX_SS = {
 				"Howl"
 			]
 		},
-    "NU Boltund-2": {
-			"level": "50",
+    "PU Boltund Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2618,8 +2618,8 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-    "NU Boltund-3": {
-			"level": "50",
+    "PU Boltund Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2646,8 +2646,8 @@ var SETDEX_SS = {
 				"Thunder Fang"
 			]
 		},
-    "NU Boltund-4": {
-			"level": "50",
+    "PU Boltund Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2675,7 +2675,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Boltund-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2703,7 +2703,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Boltund-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -2731,7 +2731,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Boltund-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2759,7 +2759,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Boltund-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2786,8 +2786,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "PU Boltund-RS": {
-			"level": "50",
+    "NU Boltund Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2816,8 +2816,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Bouffalant": {
-    "PU Bouffalant-RS": {
-			"level": "50",
+    "NU Bouffalant Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -2846,8 +2846,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Braviary": {
-    "NU Braviary-1": {
-			"level": "50",
+    "PU Braviary Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2874,8 +2874,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Braviary-2": {
-			"level": "50",
+    "PU Braviary Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2902,8 +2902,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Braviary-3": {
-			"level": "50",
+    "PU Braviary Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2930,8 +2930,8 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-    "NU Braviary-4": {
-			"level": "50",
+    "PU Braviary Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2958,8 +2958,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "PU Braviary-RS": {
-			"level": "50",
+    "NU Braviary Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -2988,8 +2988,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Bronzong": {
-    "NU Bronzong-1": {
-			"level": "50",
+    "PU Bronzong Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3016,8 +3016,8 @@ var SETDEX_SS = {
 				"Weather Ball"
 			]
 		},
-    "NU Bronzong-2": {
-			"level": "50",
+    "PU Bronzong Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3044,8 +3044,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Bronzong-3": {
-			"level": "50",
+    "PU Bronzong Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3072,8 +3072,8 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-    "NU Bronzong-4": {
-			"level": "50",
+    "PU Bronzong Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3102,8 +3102,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Butterfree": {
-    "NU Butterfree-1": {
-			"level": "50",
+    "PU Butterfree Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3130,8 +3130,8 @@ var SETDEX_SS = {
 				"Safeguard"
 			]
 		},
-    "NU Butterfree-2": {
-			"level": "50",
+    "PU Butterfree Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -3158,8 +3158,8 @@ var SETDEX_SS = {
 				"Substitute"
 			]
 		},
-    "NU Butterfree-3": {
-			"level": "50",
+    "PU Butterfree Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3186,8 +3186,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Butterfree-4": {
-			"level": "50",
+    "PU Butterfree Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3214,8 +3214,8 @@ var SETDEX_SS = {
 				"Hurricane"
 			]
 		},
-    "PU Butterfree-RS": {
-			"level": "50",
+    "NU Butterfree Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -3244,8 +3244,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Centiskorch": {
-    "NU Centiskorch-1": {
-			"level": "50",
+    "PU Centiskorch Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -3272,8 +3272,8 @@ var SETDEX_SS = {
 				"Wrap"
 			]
 		},
-    "NU Centiskorch-2": {
-			"level": "50",
+    "PU Centiskorch Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3300,8 +3300,8 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-    "NU Centiskorch-3": {
-			"level": "50",
+    "PU Centiskorch Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3328,8 +3328,8 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-    "NU Centiskorch-4": {
-			"level": "50",
+    "PU Centiskorch Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -3357,7 +3357,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Centiskorch-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -3385,7 +3385,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Centiskorch-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3413,7 +3413,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Centiskorch-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3441,7 +3441,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Centiskorch-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -3468,8 +3468,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "PU Centiskorch-RS": {
-			"level": "50",
+    "NU Centiskorch Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -3498,8 +3498,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Chandelure": {
-    "NU Chandelure-1": {
-			"level": "50",
+    "PU Chandelure Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3526,8 +3526,8 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-    "NU Chandelure-2": {
-			"level": "50",
+    "PU Chandelure Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3554,8 +3554,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Chandelure-3": {
-			"level": "50",
+    "PU Chandelure Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3582,8 +3582,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Chandelure-4": {
-			"level": "50",
+    "PU Chandelure Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3613,7 +3613,7 @@ var SETDEX_SS = {
 	},
 	"Charizard": {
 		"Leon's Charizard": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3632,8 +3632,8 @@ var SETDEX_SS = {
 				"Weather Ball"
 			]
 		},
-    "NU Charizard-1": {
-			"level": "50",
+    "PU Charizard Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3660,8 +3660,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Charizard-2": {
-			"level": "50",
+    "PU Charizard Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3690,8 +3690,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Cherrim": {
-    "NU Cherrim-1": {
-			"level": "50",
+    "PU Cherrim Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3718,8 +3718,8 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-    "NU Cherrim-2": {
-			"level": "50",
+    "PU Cherrim Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3746,8 +3746,8 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-    "NU Cherrim-3": {
-			"level": "50",
+    "PU Cherrim Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3774,8 +3774,8 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-    "NU Cherrim-4": {
-			"level": "50",
+    "PU Cherrim Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3804,8 +3804,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Cinccino": {
-    "NU Cinccino-1": {
-			"level": "50",
+    "PU Cinccino Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3832,8 +3832,8 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-    "NU Cinccino-2": {
-			"level": "50",
+    "PU Cinccino Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3860,8 +3860,8 @@ var SETDEX_SS = {
 				"Tail Slap"
 			]
 		},
-    "NU Cinccino-3": {
-			"level": "50",
+    "PU Cinccino Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -3888,8 +3888,8 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-    "NU Cinccino-4": {
-			"level": "50",
+    "PU Cinccino Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3916,8 +3916,8 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-    "PU Cinccino-RS": {
-			"level": "50",
+    "NU Cinccino Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -3946,8 +3946,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Cinderace": {
-    "NU Cinderace-1": {
-			"level": "50",
+    "PU Cinderace Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -3974,8 +3974,8 @@ var SETDEX_SS = {
 				"Electro Ball"
 			]
 		},
-    "NU Cinderace-2": {
-			"level": "50",
+    "PU Cinderace Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4002,8 +4002,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "NU Cinderace-3": {
-			"level": "50",
+    "PU Cinderace Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4030,8 +4030,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Cinderace-4": {
-			"level": "50",
+    "PU Cinderace Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4059,7 +4059,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Cinderace-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4087,7 +4087,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Cinderace-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4115,7 +4115,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Cinderace-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4143,7 +4143,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Cinderace-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4170,8 +4170,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-		"Cinderace-1 (Leon)": {
-			"level": "50",
+		"Cinderace Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4190,8 +4190,8 @@ var SETDEX_SS = {
 				"Electro Ball"
 			]
 		},
-		"Cinderace-2 (Leon)": {
-			"level": "50",
+		"Cinderace Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4210,8 +4210,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-		"Cinderace-3 (Leon)": {
-			"level": "50",
+		"Cinderace Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4230,8 +4230,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-		"Cinderace-4 (Leon)": {
-			"level": "50",
+		"Cinderace Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4252,8 +4252,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Clawitzer": {
-    "PU Clawitzer-RS": {
-			"level": "50",
+    "NU Clawitzer Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4282,8 +4282,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Claydol": {
-    "NU Claydol-1": {
-			"level": "50",
+    "PU Claydol Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4310,8 +4310,8 @@ var SETDEX_SS = {
 				"Extrasensory"
 			]
 		},
-    "NU Claydol-2": {
-			"level": "50",
+    "PU Claydol Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4338,8 +4338,8 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-    "NU Claydol-3": {
-			"level": "50",
+    "PU Claydol Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4366,8 +4366,8 @@ var SETDEX_SS = {
 				"Trick Room"
 			]
 		},
-    "NU Claydol-4": {
-			"level": "50",
+    "PU Claydol Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4396,8 +4396,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Clefable": {
-    "NU Clefable-1": {
-			"level": "50",
+    "PU Clefable Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4424,8 +4424,8 @@ var SETDEX_SS = {
 				"Follow Me"
 			]
 		},
-    "NU Clefable-2": {
-			"level": "50",
+    "PU Clefable Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -4452,8 +4452,8 @@ var SETDEX_SS = {
 				"Follow Me"
 			]
 		},
-    "NU Clefable-3": {
-			"level": "50",
+    "PU Clefable Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -4480,8 +4480,8 @@ var SETDEX_SS = {
 				"Stored Power"
 			]
 		},
-    "NU Clefable-4": {
-			"level": "50",
+    "PU Clefable Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4510,8 +4510,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Cloyster": {
-    "NU Cloyster-1": {
-			"level": "50",
+    "PU Cloyster Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4538,8 +4538,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Cloyster-2": {
-			"level": "50",
+    "PU Cloyster Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4566,8 +4566,8 @@ var SETDEX_SS = {
 				"Razor Shell"
 			]
 		},
-    "NU Cloyster-3": {
-			"level": "50",
+    "PU Cloyster Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4594,8 +4594,8 @@ var SETDEX_SS = {
 				"Toxic Spikes"
 			]
 		},
-    "NU Cloyster-4": {
-			"level": "50",
+    "PU Cloyster Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4622,8 +4622,8 @@ var SETDEX_SS = {
 				"Shell Smash"
 			]
 		},
-    "PU Cloyster-RS": {
-			"level": "50",
+    "NU Cloyster Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4652,8 +4652,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Coalossal": {
-    "NU Coalossal-1": {
-			"level": "50",
+    "PU Coalossal Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -4680,8 +4680,8 @@ var SETDEX_SS = {
 				"Mud-Slap"
 			]
 		},
-    "NU Coalossal-2": {
-			"level": "50",
+    "PU Coalossal Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4708,8 +4708,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Coalossal-3": {
-			"level": "50",
+    "PU Coalossal Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -4736,8 +4736,8 @@ var SETDEX_SS = {
 				"Burn Up"
 			]
 		},
-    "NU Coalossal-4": {
-			"level": "50",
+    "PU Coalossal Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4764,8 +4764,8 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-    "PU Coalossal-RS": {
-			"level": "50",
+    "NU Coalossal Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -4794,8 +4794,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Comfey": {
-    "PU Comfey-RS": {
-			"level": "50",
+    "NU Comfey Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -4824,8 +4824,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Conkeldurr": {
-    "NU Conkeldurr-1": {
-			"level": "50",
+    "PU Conkeldurr Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -4852,8 +4852,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Conkeldurr-2": {
-			"level": "50",
+    "PU Conkeldurr Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4880,8 +4880,8 @@ var SETDEX_SS = {
 				"Mach Punch"
 			]
 		},
-    "NU Conkeldurr-3": {
-			"level": "50",
+    "PU Conkeldurr Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -4908,8 +4908,8 @@ var SETDEX_SS = {
 				"Power-Up Punch"
 			]
 		},
-    "NU Conkeldurr-4": {
-			"level": "50",
+    "PU Conkeldurr Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -4936,8 +4936,8 @@ var SETDEX_SS = {
 				"Mach Punch"
 			]
 		},
-    "PU Conkeldurr-RS": {
-			"level": "50",
+    "NU Conkeldurr Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -4966,8 +4966,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Copperajah": {
-    "NU Copperajah-1": {
-			"level": "50",
+    "PU Copperajah Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -4994,8 +4994,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Copperajah-2": {
-			"level": "50",
+    "PU Copperajah Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5022,8 +5022,8 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-    "NU Copperajah-3": {
-			"level": "50",
+    "PU Copperajah Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -5050,8 +5050,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "NU Copperajah-4": {
-			"level": "50",
+    "PU Copperajah Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -5080,8 +5080,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Corviknight": {
-    "NU Corviknight-1": {
-			"level": "50",
+    "PU Corviknight Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5108,8 +5108,8 @@ var SETDEX_SS = {
 				"Tailwind"
 			]
 		},
-    "NU Corviknight-2": {
-			"level": "50",
+    "PU Corviknight Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5136,8 +5136,8 @@ var SETDEX_SS = {
 				"Fly"
 			]
 		},
-    "NU Corviknight-3": {
-			"level": "50",
+    "PU Corviknight Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5164,8 +5164,8 @@ var SETDEX_SS = {
 				"Hurricane"
 			]
 		},
-    "NU Corviknight-4": {
-			"level": "50",
+    "PU Corviknight Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5192,8 +5192,8 @@ var SETDEX_SS = {
 				"Bulk Up"
 			]
 		},
-    "PU Corviknight-RS": {
-			"level": "50",
+    "NU Corviknight Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -5222,8 +5222,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Cramorant": {
-    "NU Cramorant-1": {
-			"level": "50",
+    "PU Cramorant Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5250,8 +5250,8 @@ var SETDEX_SS = {
 				"Fly"
 			]
 		},
-    "NU Cramorant-2": {
-			"level": "50",
+    "PU Cramorant Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -5278,8 +5278,8 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-    "NU Cramorant-3": {
-			"level": "50",
+    "PU Cramorant Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -5306,8 +5306,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "NU Cramorant-4": {
-			"level": "50",
+    "PU Cramorant Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5334,8 +5334,8 @@ var SETDEX_SS = {
 				"Steel Wing"
 			]
 		},
-    "PU Cramorant-RS": {
-			"level": "50",
+    "NU Cramorant Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5364,8 +5364,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Crawdaunt": {
-    "NU Crawdaunt-1": {
-			"level": "50",
+    "PU Crawdaunt Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -5392,8 +5392,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Crawdaunt-2": {
-			"level": "50",
+    "PU Crawdaunt Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5420,8 +5420,8 @@ var SETDEX_SS = {
 				"Avalanche"
 			]
 		},
-    "NU Crawdaunt-3": {
-			"level": "50",
+    "PU Crawdaunt Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -5448,8 +5448,8 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-    "NU Crawdaunt-4": {
-			"level": "50",
+    "PU Crawdaunt Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5476,8 +5476,8 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-    "PU Crawdaunt-RS": {
-			"level": "50",
+    "NU Crawdaunt Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5506,8 +5506,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Crustle": {
-    "NU Crustle-1": {
-			"level": "50",
+    "PU Crustle Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5534,8 +5534,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Crustle-2": {
-			"level": "50",
+    "PU Crustle Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5562,8 +5562,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Crustle-3": {
-			"level": "50",
+    "PU Crustle Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5590,8 +5590,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Crustle-4": {
-			"level": "50",
+    "PU Crustle Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5618,8 +5618,8 @@ var SETDEX_SS = {
 				"X-Scissor"
 			]
 		},
-    "PU Crustle-RS": {
-			"level": "50",
+    "NU Crustle Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5648,8 +5648,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Cursola": {
-    "NU Cursola-1": {
-			"level": "50",
+    "PU Cursola Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5676,8 +5676,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Cursola-2": {
-			"level": "50",
+    "PU Cursola Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 20,
 				"at": 0,
@@ -5704,8 +5704,8 @@ var SETDEX_SS = {
 				"Amnesia"
 			]
 		},
-    "NU Cursola-3": {
-			"level": "50",
+    "PU Cursola Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5732,8 +5732,8 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-    "NU Cursola-4": {
-			"level": "50",
+    "PU Cursola Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -5760,8 +5760,8 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-    "PU Cursola-RS": {
-			"level": "50",
+    "NU Cursola Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5790,8 +5790,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Darmanitan-Galar": {
-    "NU Darmanitan-G-1": {
-			"level": "50",
+    "PU Darmanitan-G Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5818,8 +5818,8 @@ var SETDEX_SS = {
 				"Fire Fang"
 			]
 		},
-    "NU Darmanitan-G-2": {
-			"level": "50",
+    "PU Darmanitan-G Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5846,8 +5846,8 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-    "NU Darmanitan-G-3": {
-			"level": "50",
+    "PU Darmanitan-G Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5874,8 +5874,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "NU Darmanitan-G-4": {
-			"level": "50",
+    "PU Darmanitan-G Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5904,8 +5904,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dedenne": {
-    "PU Dedenne-RS": {
-			"level": "50",
+    "NU Dedenne Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5934,8 +5934,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Delibird": {
-    "NU Delibird-1": {
-			"level": "50",
+    "PU Delibird Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -5962,8 +5962,8 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-    "NU Delibird-2": {
-			"level": "50",
+    "PU Delibird Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -5990,8 +5990,8 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-    "NU Delibird-3": {
-			"level": "50",
+    "PU Delibird Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6018,8 +6018,8 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-    "NU Delibird-4": {
-			"level": "50",
+    "PU Delibird Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6048,8 +6048,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dhelmise": {
-    "NU Dhelmise-1": {
-			"level": "50",
+    "PU Dhelmise Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6076,8 +6076,8 @@ var SETDEX_SS = {
 				"Hydro Pump"
 			]
 		},
-    "NU Dhelmise-2": {
-			"level": "50",
+    "PU Dhelmise Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6104,8 +6104,8 @@ var SETDEX_SS = {
 				"Phantom Force"
 			]
 		},
-    "NU Dhelmise-3": {
-			"level": "50",
+    "PU Dhelmise Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6132,8 +6132,8 @@ var SETDEX_SS = {
 				"Liquidation"
 			]
 		},
-    "NU Dhelmise-4": {
-			"level": "50",
+    "PU Dhelmise Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6162,8 +6162,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Diggersby": {
-    "NU Diggersby-1": {
-			"level": "50",
+    "PU Diggersby Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6190,8 +6190,8 @@ var SETDEX_SS = {
 				"Quick Attack"
 			]
 		},
-    "NU Diggersby-2": {
-			"level": "50",
+    "PU Diggersby Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6218,8 +6218,8 @@ var SETDEX_SS = {
 				"Sand Tomb"
 			]
 		},
-    "NU Diggersby-3": {
-			"level": "50",
+    "PU Diggersby Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6246,8 +6246,8 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-    "NU Diggersby-4": {
-			"level": "50",
+    "PU Diggersby Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6276,8 +6276,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Ditto": {
-    "NU Ditto-1": {
-			"level": "50",
+    "PU Ditto Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -6301,8 +6301,8 @@ var SETDEX_SS = {
 				"Transform"
 			]
 		},
-    "NU Ditto-2": {
-			"level": "50",
+    "PU Ditto Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -6326,8 +6326,8 @@ var SETDEX_SS = {
 				"Transform"
 			]
 		},
-    "NU Ditto-3": {
-			"level": "50",
+    "PU Ditto Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -6351,8 +6351,8 @@ var SETDEX_SS = {
 				"Transform"
 			]
 		},
-    "NU Ditto-4": {
-			"level": "50",
+    "PU Ditto Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -6378,8 +6378,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dracovish": {
-    "NU Dracovish-1": {
-			"level": "50",
+    "PU Dracovish Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6406,8 +6406,8 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-    "NU Dracovish-2": {
-			"level": "50",
+    "PU Dracovish Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6434,8 +6434,8 @@ var SETDEX_SS = {
 				"Super Fang"
 			]
 		},
-    "NU Dracovish-3": {
-			"level": "50",
+    "PU Dracovish Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6462,8 +6462,8 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-    "NU Dracovish-4": {
-			"level": "50",
+    "PU Dracovish Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6492,8 +6492,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dracozolt": {
-    "NU Dracozolt-1": {
-			"level": "50",
+    "PU Dracozolt Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -6520,8 +6520,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Dracozolt-2": {
-			"level": "50",
+    "PU Dracozolt Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6548,8 +6548,8 @@ var SETDEX_SS = {
 				"Iron Tail"
 			]
 		},
-    "NU Dracozolt-3": {
-			"level": "50",
+    "PU Dracozolt Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6576,8 +6576,8 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-    "NU Dracozolt-4": {
-			"level": "50",
+    "PU Dracozolt Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6606,8 +6606,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dragalge": {
-    "PU Dragalge-RS": {
-			"level": "50",
+    "NU Dragalge Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6636,8 +6636,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dragapult": {
-    "NU Dragapult-1": {
-			"level": "50",
+    "PU Dragapult Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -6664,8 +6664,8 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-    "NU Dragapult-2": {
-			"level": "50",
+    "PU Dragapult Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6692,8 +6692,8 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-		"Dragapult-1 (Leon)": {
-			"level": "50",
+		"Dragapult Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -6712,8 +6712,8 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-		"Dragapult-2 (Leon)": {
-			"level": "50",
+		"Dragapult Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6734,8 +6734,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Drampa": {
-    "NU Drampa-1": {
-			"level": "50",
+    "PU Drampa Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6762,8 +6762,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Drampa-2": {
-			"level": "50",
+    "PU Drampa Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6790,8 +6790,8 @@ var SETDEX_SS = {
 				"Glare"
 			]
 		},
-    "NU Drampa-3": {
-			"level": "50",
+    "PU Drampa Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6818,8 +6818,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Drampa-4": {
-			"level": "50",
+    "PU Drampa Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6846,8 +6846,8 @@ var SETDEX_SS = {
 				"Draco Meteor"
 			]
 		},
-    "PU Drampa-RS": {
-			"level": "50",
+    "NU Drampa Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6876,8 +6876,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Drapion": {
-    "NU Drapion-1": {
-			"level": "50",
+    "PU Drapion Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6904,8 +6904,8 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-    "NU Drapion-2": {
-			"level": "50",
+    "PU Drapion Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6932,8 +6932,8 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-    "NU Drapion-3": {
-			"level": "50",
+    "PU Drapion Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -6960,8 +6960,8 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-    "NU Drapion-4": {
-			"level": "50",
+    "PU Drapion Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -6989,7 +6989,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Drapion-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -7017,7 +7017,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Drapion-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -7045,7 +7045,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Drapion-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -7073,7 +7073,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Drapion-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7100,8 +7100,8 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-    "PU Drapion-RS": {
-			"level": "50",
+    "NU Drapion Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7130,8 +7130,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Drednaw": {
-    "NU Drednaw-1": {
-			"level": "50",
+    "PU Drednaw Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7158,8 +7158,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "NU Drednaw-2": {
-			"level": "50",
+    "PU Drednaw Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7186,8 +7186,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Drednaw-3": {
-			"level": "50",
+    "PU Drednaw Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7214,8 +7214,8 @@ var SETDEX_SS = {
 				"Jaw Lock"
 			]
 		},
-    "NU Drednaw-4": {
-			"level": "50",
+    "PU Drednaw Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7242,8 +7242,8 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-    "PU Drednaw-RS": {
-			"level": "50",
+    "NU Drednaw Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -7272,8 +7272,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Drifblim": {
-    "NU Drifblim-1": {
-			"level": "50",
+    "PU Drifblim Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7300,8 +7300,8 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-    "NU Drifblim-2": {
-			"level": "50",
+    "PU Drifblim Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7328,8 +7328,8 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-    "NU Drifblim-3": {
-			"level": "50",
+    "PU Drifblim Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7356,8 +7356,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Drifblim-4": {
-			"level": "50",
+    "PU Drifblim Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7384,8 +7384,8 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-    "PU Drifblim-RS": {
-			"level": "50",
+    "NU Drifblim Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7414,8 +7414,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Druddigon": {
-    "PU Druddigon-RS": {
-			"level": "50",
+    "NU Druddigon Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -7444,8 +7444,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dubwool": {
-    "NU Dubwool-1": {
-			"level": "50",
+    "PU Dubwool Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7472,8 +7472,8 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-    "NU Dubwool-2": {
-			"level": "50",
+    "PU Dubwool Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -7500,8 +7500,8 @@ var SETDEX_SS = {
 				"Cotton Guard"
 			]
 		},
-    "NU Dubwool-3": {
-			"level": "50",
+    "PU Dubwool Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7528,8 +7528,8 @@ var SETDEX_SS = {
 				"Cotton Guard"
 			]
 		},
-    "NU Dubwool-4": {
-			"level": "50",
+    "PU Dubwool Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -7556,8 +7556,8 @@ var SETDEX_SS = {
 				"Bounce"
 			]
 		},
-    "PU Dubwool-RS": {
-			"level": "50",
+    "NU Dubwool Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7586,8 +7586,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dugtrio": {
-    "NU Dugtrio-1": {
-			"level": "50",
+    "PU Dugtrio Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7614,8 +7614,8 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-    "NU Dugtrio-2": {
-			"level": "50",
+    "PU Dugtrio Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7642,8 +7642,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Dugtrio-3": {
-			"level": "50",
+    "PU Dugtrio Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7670,8 +7670,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "NU Dugtrio-4": {
-			"level": "50",
+    "PU Dugtrio Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7700,8 +7700,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dunsparce": {
-    "PU Dunsparce-RS": {
-			"level": "50",
+    "NU Dunsparce Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7730,8 +7730,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Duraludon": {
-    "NU Duraludon-1": {
-			"level": "50",
+    "PU Duraludon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7758,8 +7758,8 @@ var SETDEX_SS = {
 				"Metal Burst"
 			]
 		},
-    "NU Duraludon-2": {
-			"level": "50",
+    "PU Duraludon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7786,8 +7786,8 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-    "NU Duraludon-3": {
-			"level": "50",
+    "PU Duraludon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -7814,8 +7814,8 @@ var SETDEX_SS = {
 				"Mirror Coat"
 			]
 		},
-    "NU Duraludon-4": {
-			"level": "50",
+    "PU Duraludon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7844,8 +7844,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Durant": {
-    "NU Durant-1": {
-			"level": "50",
+    "PU Durant Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7872,8 +7872,8 @@ var SETDEX_SS = {
 				"Thunder Fang"
 			]
 		},
-    "NU Durant-2": {
-			"level": "50",
+    "PU Durant Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -7900,8 +7900,8 @@ var SETDEX_SS = {
 				"Stomping Tantrum"
 			]
 		},
-    "NU Durant-3": {
-			"level": "50",
+    "PU Durant Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7928,8 +7928,8 @@ var SETDEX_SS = {
 				"Flail"
 			]
 		},
-    "NU Durant-4": {
-			"level": "50",
+    "PU Durant Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -7958,8 +7958,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Dusknoir": {
-    "NU Dusknoir-1": {
-			"level": "50",
+    "PU Dusknoir Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -7986,8 +7986,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Dusknoir-2": {
-			"level": "50",
+    "PU Dusknoir Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8014,8 +8014,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Dusknoir-3": {
-			"level": "50",
+    "PU Dusknoir Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8042,8 +8042,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Dusknoir-4": {
-			"level": "50",
+    "PU Dusknoir Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8071,7 +8071,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Dusknoir-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8099,7 +8099,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Dusknoir-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8127,7 +8127,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Dusknoir-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8155,7 +8155,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Dusknoir-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8182,8 +8182,8 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-    "PU Dusknoir-RS": {
-			"level": "50",
+    "NU Dusknoir Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -8212,8 +8212,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Eiscue": {
-    "NU Eiscue-1": {
-			"level": "50",
+    "PU Eiscue Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8240,8 +8240,8 @@ var SETDEX_SS = {
 				"Waterfall"
 			]
 		},
-    "NU Eiscue-2": {
-			"level": "50",
+    "PU Eiscue Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8268,8 +8268,8 @@ var SETDEX_SS = {
 				"Surf"
 			]
 		},
-    "NU Eiscue-3": {
-			"level": "50",
+    "PU Eiscue Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8296,8 +8296,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Eiscue-4": {
-			"level": "50",
+    "PU Eiscue Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8326,8 +8326,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Eldegoss": {
-    "NU Eldegoss-1": {
-			"level": "50",
+    "PU Eldegoss Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8354,8 +8354,8 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-    "NU Eldegoss-2": {
-			"level": "50",
+    "PU Eldegoss Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8382,8 +8382,8 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-    "NU Eldegoss-3": {
-			"level": "50",
+    "PU Eldegoss Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8410,8 +8410,8 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-    "NU Eldegoss-4": {
-			"level": "50",
+    "PU Eldegoss Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8438,8 +8438,8 @@ var SETDEX_SS = {
 				"Synthesis"
 			]
 		},
-    "PU Eldegoss-RS": {
-			"level": "50",
+    "NU Eldegoss Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -8468,8 +8468,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Emolga": {
-    "PU Emolga-RS": {
-			"level": "50",
+    "NU Emolga Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -8498,8 +8498,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Escavalier": {
-    "NU Escavalier-1": {
-			"level": "50",
+    "PU Escavalier Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8526,8 +8526,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Escavalier-2": {
-			"level": "50",
+    "PU Escavalier Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8554,8 +8554,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Escavalier-3": {
-			"level": "50",
+    "PU Escavalier Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8582,8 +8582,8 @@ var SETDEX_SS = {
 				"Megahorn"
 			]
 		},
-    "NU Escavalier-4": {
-			"level": "50",
+    "PU Escavalier Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8611,7 +8611,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Escavalier-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8639,7 +8639,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Escavalier-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8667,7 +8667,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Escavalier-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8695,7 +8695,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Escavalier-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8722,8 +8722,8 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-    "PU Escavalier-RS": {
-			"level": "50",
+    "NU Escavalier Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -8752,8 +8752,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Espeon": {
-    "NU Espeon-1": {
-			"level": "50",
+    "PU Espeon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8780,8 +8780,8 @@ var SETDEX_SS = {
 				"Psybeam"
 			]
 		},
-    "NU Espeon-2": {
-			"level": "50",
+    "PU Espeon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8808,8 +8808,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Espeon-3": {
-			"level": "50",
+    "PU Espeon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8836,8 +8836,8 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-    "NU Espeon-4": {
-			"level": "50",
+    "PU Espeon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -8866,8 +8866,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Excadrill": {
-    "NU Excadrill-1": {
-			"level": "50",
+    "PU Excadrill Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -8894,8 +8894,8 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-    "NU Excadrill-2": {
-			"level": "50",
+    "PU Excadrill Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -8922,8 +8922,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Excadrill-3": {
-			"level": "50",
+    "PU Excadrill Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8950,8 +8950,8 @@ var SETDEX_SS = {
 				"Rock Blast"
 			]
 		},
-    "NU Excadrill-4": {
-			"level": "50",
+    "PU Excadrill Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -8980,8 +8980,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Exeggutor": {
-    "PU Exeggutor-RS": {
-			"level": "50",
+    "NU Exeggutor Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -9010,8 +9010,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Exploud": {
-    "PU Exploud-RS": {
-			"level": "50",
+    "NU Exploud Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -9040,8 +9040,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Falinks": {
-    "NU Falinks-1": {
-			"level": "50",
+    "PU Falinks Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -9068,8 +9068,8 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-    "NU Falinks-2": {
-			"level": "50",
+    "PU Falinks Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9096,8 +9096,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "NU Falinks-3": {
-			"level": "50",
+    "PU Falinks Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9124,8 +9124,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-    "NU Falinks-4": {
-			"level": "50",
+    "PU Falinks Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -9152,8 +9152,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "PU Falinks-RS": {
-			"level": "50",
+    "NU Falinks Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -9182,8 +9182,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Ferrothorn": {
-    "NU Ferrothorn-1": {
-			"level": "50",
+    "PU Ferrothorn Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9210,8 +9210,8 @@ var SETDEX_SS = {
 				"Acid Spray"
 			]
 		},
-    "NU Ferrothorn-2": {
-			"level": "50",
+    "PU Ferrothorn Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9238,8 +9238,8 @@ var SETDEX_SS = {
 				"Gyro Ball"
 			]
 		},
-    "NU Ferrothorn-3": {
-			"level": "50",
+    "PU Ferrothorn Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9266,8 +9266,8 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-    "NU Ferrothorn-4": {
-			"level": "50",
+    "PU Ferrothorn Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9296,8 +9296,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Flapple": {
-    "NU Flapple-1": {
-			"level": "50",
+    "PU Flapple Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9324,8 +9324,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Flapple-2": {
-			"level": "50",
+    "PU Flapple Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9352,8 +9352,8 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-    "PU Flapple-RS": {
-			"level": "50",
+    "NU Flapple Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9382,8 +9382,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Flareon": {
-    "NU Flareon-1": {
-			"level": "50",
+    "PU Flareon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9410,8 +9410,8 @@ var SETDEX_SS = {
 				"Fire Fang"
 			]
 		},
-    "NU Flareon-2": {
-			"level": "50",
+    "PU Flareon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9438,8 +9438,8 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-    "NU Flareon-3": {
-			"level": "50",
+    "PU Flareon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9466,8 +9466,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Flareon-4": {
-			"level": "50",
+    "PU Flareon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9496,8 +9496,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Flygon": {
-    "NU Flygon-1": {
-			"level": "50",
+    "PU Flygon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9524,8 +9524,8 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-    "NU Flygon-2": {
-			"level": "50",
+    "PU Flygon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9552,8 +9552,8 @@ var SETDEX_SS = {
 				"Fire Punch"
 			]
 		},
-    "NU Flygon-3": {
-			"level": "50",
+    "PU Flygon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9580,8 +9580,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "NU Flygon-4": {
-			"level": "50",
+    "PU Flygon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9610,8 +9610,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Froslass": {
-    "NU Froslass-1": {
-			"level": "50",
+    "PU Froslass Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9638,8 +9638,8 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-    "NU Froslass-2": {
-			"level": "50",
+    "PU Froslass Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9666,8 +9666,8 @@ var SETDEX_SS = {
 				"Ice Beam"
 			]
 		},
-    "NU Froslass-3": {
-			"level": "50",
+    "PU Froslass Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9694,8 +9694,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Froslass-4": {
-			"level": "50",
+    "PU Froslass Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9722,8 +9722,8 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-    "PU Froslass-RS": {
-			"level": "50",
+    "NU Froslass Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -9752,8 +9752,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Frosmoth": {
-    "NU Frosmoth-1": {
-			"level": "50",
+    "PU Frosmoth Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -9780,8 +9780,8 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-    "NU Frosmoth-2": {
-			"level": "50",
+    "PU Frosmoth Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9808,8 +9808,8 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-    "NU Frosmoth-3": {
-			"level": "50",
+    "PU Frosmoth Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9836,8 +9836,8 @@ var SETDEX_SS = {
 				"Bug Buzz"
 			]
 		},
-    "NU Frosmoth-4": {
-			"level": "50",
+    "PU Frosmoth Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9865,7 +9865,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Frosmoth-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -9893,7 +9893,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Frosmoth-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9921,7 +9921,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Frosmoth-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9949,7 +9949,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Frosmoth-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -9978,8 +9978,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gallade": {
-    "NU Gallade-1": {
-			"level": "50",
+    "PU Gallade Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10006,8 +10006,8 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-    "NU Gallade-2": {
-			"level": "50",
+    "PU Gallade Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10034,8 +10034,8 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-    "NU Gallade-3": {
-			"level": "50",
+    "PU Gallade Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10062,8 +10062,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "NU Gallade-4": {
-			"level": "50",
+    "PU Gallade Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10090,8 +10090,8 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-    "PU Gallade-RS": {
-			"level": "50",
+    "NU Gallade Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10120,8 +10120,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Galvantula": {
-    "NU Galvantula-1": {
-			"level": "50",
+    "PU Galvantula Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10148,8 +10148,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Galvantula-2": {
-			"level": "50",
+    "PU Galvantula Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10176,8 +10176,8 @@ var SETDEX_SS = {
 				"Double Team"
 			]
 		},
-    "NU Galvantula-3": {
-			"level": "50",
+    "PU Galvantula Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10204,8 +10204,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "NU Galvantula-4": {
-			"level": "50",
+    "PU Galvantula Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10232,8 +10232,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "PU Galvantula-RS": {
-			"level": "50",
+    "NU Galvantula Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10262,8 +10262,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Garbodor": {
-    "NU Garbodor-1": {
-			"level": "50",
+    "PU Garbodor Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10290,8 +10290,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Garbodor-2": {
-			"level": "50",
+    "PU Garbodor Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10318,8 +10318,8 @@ var SETDEX_SS = {
 				"Dark Pulse"
 			]
 		},
-    "NU Garbodor-3": {
-			"level": "50",
+    "PU Garbodor Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -10346,8 +10346,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Garbodor-4": {
-			"level": "50",
+    "PU Garbodor Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10374,8 +10374,8 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-    "PU Garbodor-RS": {
-			"level": "50",
+    "NU Garbodor Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10404,8 +10404,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gardevoir": {
-    "NU Gardevoir-1": {
-			"level": "50",
+    "PU Gardevoir Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10432,8 +10432,8 @@ var SETDEX_SS = {
 				"Light Screen"
 			]
 		},
-    "NU Gardevoir-2": {
-			"level": "50",
+    "PU Gardevoir Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10460,8 +10460,8 @@ var SETDEX_SS = {
 				"Psychic Terrain"
 			]
 		},
-    "NU Gardevoir-3": {
-			"level": "50",
+    "PU Gardevoir Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10488,8 +10488,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Gardevoir-4": {
-			"level": "50",
+    "PU Gardevoir Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10517,7 +10517,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Gardevoir-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10545,7 +10545,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Gardevoir-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10573,7 +10573,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Gardevoir-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10601,7 +10601,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Gardevoir-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10628,8 +10628,8 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-    "PU Gardevoir-RS": {
-			"level": "50",
+    "NU Gardevoir Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -10658,8 +10658,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gastrodon": {
-    "NU Gastrodon-1": {
-			"level": "50",
+    "PU Gastrodon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -10686,8 +10686,8 @@ var SETDEX_SS = {
 				"Yawn"
 			]
 		},
-    "NU Gastrodon-2": {
-			"level": "50",
+    "PU Gastrodon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10714,8 +10714,8 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-    "NU Gastrodon-3": {
-			"level": "50",
+    "PU Gastrodon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10742,8 +10742,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "NU Gastrodon-4": {
-			"level": "50",
+    "PU Gastrodon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -10772,8 +10772,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gengar": {
-    "NU Gengar-1": {
-			"level": "50",
+    "PU Gengar Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10800,8 +10800,8 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-    "NU Gengar-2": {
-			"level": "50",
+    "PU Gengar Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10828,8 +10828,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-    "NU Gengar-3": {
-			"level": "50",
+    "PU Gengar Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10856,8 +10856,8 @@ var SETDEX_SS = {
 				"Phantom Force"
 			]
 		},
-    "NU Gengar-4": {
-			"level": "50",
+    "PU Gengar Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10886,8 +10886,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gigalith": {
-    "NU Gigalith-1": {
-			"level": "50",
+    "PU Gigalith Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -10914,8 +10914,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Gigalith-2": {
-			"level": "50",
+    "PU Gigalith Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10942,8 +10942,8 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-    "NU Gigalith-3": {
-			"level": "50",
+    "PU Gigalith Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10970,8 +10970,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "NU Gigalith-4": {
-			"level": "50",
+    "PU Gigalith Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -10998,8 +10998,8 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-    "PU Gigalith-RS": {
-			"level": "50",
+    "NU Gigalith Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11028,8 +11028,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Glaceon": {
-    "NU Glaceon-1": {
-			"level": "50",
+    "PU Glaceon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11056,8 +11056,8 @@ var SETDEX_SS = {
 				"Icy Wind"
 			]
 		},
-    "NU Glaceon-2": {
-			"level": "50",
+    "PU Glaceon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11084,8 +11084,8 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-    "NU Glaceon-3": {
-			"level": "50",
+    "PU Glaceon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11112,8 +11112,8 @@ var SETDEX_SS = {
 				"Ice Shard"
 			]
 		},
-    "NU Glaceon-4": {
-			"level": "50",
+    "PU Glaceon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11142,8 +11142,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Glalie": {
-    "NU Glalie-1": {
-			"level": "50",
+    "PU Glalie Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -11170,8 +11170,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Glalie-2": {
-			"level": "50",
+    "PU Glalie Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11198,8 +11198,8 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-    "NU Glalie-3": {
-			"level": "50",
+    "PU Glalie Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -11226,8 +11226,8 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-    "NU Glalie-4": {
-			"level": "50",
+    "PU Glalie Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11256,8 +11256,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Golduck": {
-    "PU Golduck-RS": {
-			"level": "50",
+    "NU Golduck Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -11286,8 +11286,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Golisopod": {
-    "NU Golisopod-1": {
-			"level": "50",
+    "PU Golisopod Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11314,8 +11314,8 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-    "NU Golisopod-2": {
-			"level": "50",
+    "PU Golisopod Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11342,8 +11342,8 @@ var SETDEX_SS = {
 				"Drill Run"
 			]
 		},
-    "NU Golisopod-3": {
-			"level": "50",
+    "PU Golisopod Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11370,8 +11370,8 @@ var SETDEX_SS = {
 				"Liquidation"
 			]
 		},
-    "NU Golisopod-4": {
-			"level": "50",
+    "PU Golisopod Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -11398,8 +11398,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "PU Golisopod-RS": {
-			"level": "50",
+    "NU Golisopod Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11428,8 +11428,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Golurk": {
-    "NU Golurk-1": {
-			"level": "50",
+    "PU Golurk Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -11456,8 +11456,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-    "NU Golurk-2": {
-			"level": "50",
+    "PU Golurk Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11484,8 +11484,8 @@ var SETDEX_SS = {
 				"Dig"
 			]
 		},
-    "NU Golurk-3": {
-			"level": "50",
+    "PU Golurk Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11512,8 +11512,8 @@ var SETDEX_SS = {
 				"Fire Punch"
 			]
 		},
-    "NU Golurk-4": {
-			"level": "50",
+    "PU Golurk Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11540,8 +11540,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "PU Golurk-RS": {
-			"level": "50",
+    "NU Golurk Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11570,8 +11570,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Goodra": {
-    "NU Goodra-1": {
-			"level": "50",
+    "PU Goodra Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11598,8 +11598,8 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-    "NU Goodra-2": {
-			"level": "50",
+    "PU Goodra Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11626,8 +11626,8 @@ var SETDEX_SS = {
 				"Focus Blast"
 			]
 		},
-    "PU Goodra-RS": {
-			"level": "50",
+    "NU Goodra Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -11656,8 +11656,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gothitelle": {
-    "NU Gothitelle-1": {
-			"level": "50",
+    "PU Gothitelle Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11684,8 +11684,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-    "NU Gothitelle-2": {
-			"level": "50",
+    "PU Gothitelle Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11712,8 +11712,8 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-    "NU Gothitelle-3": {
-			"level": "50",
+    "PU Gothitelle Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11740,8 +11740,8 @@ var SETDEX_SS = {
 				"Dark Pulse"
 			]
 		},
-    "NU Gothitelle-4": {
-			"level": "50",
+    "PU Gothitelle Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11770,8 +11770,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gourgeist-Average": {
-    "NU Gourgeist-1": {
-			"level": "50",
+    "PU Gourgeist Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -11798,8 +11798,8 @@ var SETDEX_SS = {
 				"Razor Leaf"
 			]
 		},
-    "NU Gourgeist-2": {
-			"level": "50",
+    "PU Gourgeist Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11826,8 +11826,8 @@ var SETDEX_SS = {
 				"Trick-or-Treat"
 			]
 		},
-    "NU Gourgeist-3": {
-			"level": "50",
+    "PU Gourgeist Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -11854,8 +11854,8 @@ var SETDEX_SS = {
 				"Phantom Force"
 			]
 		},
-    "NU Gourgeist-4": {
-			"level": "50",
+    "PU Gourgeist Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -11882,8 +11882,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "PU Gourgeist-RS": {
-			"level": "50",
+    "NU Gourgeist Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -11912,8 +11912,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Grapploct": {
-    "NU Grapploct-1": {
-			"level": "50",
+    "PU Grapploct Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11940,8 +11940,8 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-    "NU Grapploct-2": {
-			"level": "50",
+    "PU Grapploct Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -11968,8 +11968,8 @@ var SETDEX_SS = {
 				"Dive"
 			]
 		},
-    "NU Grapploct-3": {
-			"level": "50",
+    "PU Grapploct Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -11996,8 +11996,8 @@ var SETDEX_SS = {
 				"Dive"
 			]
 		},
-    "NU Grapploct-4": {
-			"level": "50",
+    "PU Grapploct Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12024,8 +12024,8 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-    "PU Grapploct-RS": {
-			"level": "50",
+    "NU Grapploct Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -12054,8 +12054,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Greedent": {
-    "NU Greedent-1": {
-			"level": "50",
+    "PU Greedent Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -12082,8 +12082,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Greedent-2": {
-			"level": "50",
+    "PU Greedent Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -12110,8 +12110,8 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-    "NU Greedent-3": {
-			"level": "50",
+    "PU Greedent Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -12138,8 +12138,8 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-    "NU Greedent-4": {
-			"level": "50",
+    "PU Greedent Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -12166,8 +12166,8 @@ var SETDEX_SS = {
 				"Superpower"
 			]
 		},
-    "PU Greedent-RS": {
-			"level": "50",
+    "NU Greedent Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -12196,8 +12196,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Grimmsnarl": {
-    "NU Grimmsnarl-1": {
-			"level": "50",
+    "PU Grimmsnarl Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -12224,8 +12224,8 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-    "NU Grimmsnarl-2": {
-			"level": "50",
+    "PU Grimmsnarl Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -12252,8 +12252,8 @@ var SETDEX_SS = {
 				"Superpower"
 			]
 		},
-    "NU Grimmsnarl-3": {
-			"level": "50",
+    "PU Grimmsnarl Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -12280,8 +12280,8 @@ var SETDEX_SS = {
 				"Dark Pulse"
 			]
 		},
-    "NU Grimmsnarl-4": {
-			"level": "50",
+    "PU Grimmsnarl Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12310,8 +12310,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Gyarados": {
-    "NU Gyarados-1": {
-			"level": "50",
+    "PU Gyarados Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -12338,8 +12338,8 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-    "NU Gyarados-2": {
-			"level": "50",
+    "PU Gyarados Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12366,8 +12366,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "NU Gyarados-3": {
-			"level": "50",
+    "PU Gyarados Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -12394,8 +12394,8 @@ var SETDEX_SS = {
 				"Hydro Pump"
 			]
 		},
-    "NU Gyarados-4": {
-			"level": "50",
+    "PU Gyarados Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12422,8 +12422,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "PU Gyarados-RS": {
-			"level": "50",
+    "NU Gyarados Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -12452,8 +12452,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Hatterene": {
-    "NU Hatterene-1": {
-			"level": "50",
+    "PU Hatterene Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -12480,8 +12480,8 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-    "NU Hatterene-2": {
-			"level": "50",
+    "PU Hatterene Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -12508,8 +12508,8 @@ var SETDEX_SS = {
 				"Mystical Fire"
 			]
 		},
-    "NU Hatterene-3": {
-			"level": "50",
+    "PU Hatterene Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12536,8 +12536,8 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-    "NU Hatterene-4": {
-			"level": "50",
+    "PU Hatterene Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -12566,8 +12566,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Hawlucha": {
-    "NU Hawlucha-1": {
-			"level": "50",
+    "PU Hawlucha Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12594,8 +12594,8 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-    "NU Hawlucha-2": {
-			"level": "50",
+    "PU Hawlucha Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12622,8 +12622,8 @@ var SETDEX_SS = {
 				"High Jump Kick"
 			]
 		},
-    "NU Hawlucha-3": {
-			"level": "50",
+    "PU Hawlucha Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12650,8 +12650,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-    "NU Hawlucha-4": {
-			"level": "50",
+    "PU Hawlucha Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12680,8 +12680,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Haxorus": {
-    "NU Haxorus-1": {
-			"level": "50",
+    "PU Haxorus Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12708,8 +12708,8 @@ var SETDEX_SS = {
 				"Leer"
 			]
 		},
-    "NU Haxorus-2": {
-			"level": "50",
+    "PU Haxorus Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12736,8 +12736,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-    "NU Haxorus-3": {
-			"level": "50",
+    "PU Haxorus Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12764,8 +12764,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Haxorus-4": {
-			"level": "50",
+    "PU Haxorus Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12792,8 +12792,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-		"Haxorus-1 (Leon)": {
-			"level": "50",
+		"Haxorus Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12812,8 +12812,8 @@ var SETDEX_SS = {
 				"Leer"
 			]
 		},
-		"Haxorus-2 (Leon)": {
-			"level": "50",
+		"Haxorus Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12832,8 +12832,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-		"Haxorus-3 (Leon)": {
-			"level": "50",
+		"Haxorus Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12852,8 +12852,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-		"Haxorus-4 (Leon)": {
-			"level": "50",
+		"Haxorus Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12874,8 +12874,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Heatmor": {
-    "NU Heatmor-1": {
-			"level": "50",
+    "PU Heatmor Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -12902,8 +12902,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Heatmor-2": {
-			"level": "50",
+    "PU Heatmor Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -12930,8 +12930,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "NU Heatmor-3": {
-			"level": "50",
+    "PU Heatmor Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -12958,8 +12958,8 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-    "NU Heatmor-4": {
-			"level": "50",
+    "PU Heatmor Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -12988,8 +12988,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Heliolisk": {
-    "NU Heliolisk-1": {
-			"level": "50",
+    "PU Heliolisk Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13016,8 +13016,8 @@ var SETDEX_SS = {
 				"Volt Switch"
 			]
 		},
-    "NU Heliolisk-2": {
-			"level": "50",
+    "PU Heliolisk Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13044,8 +13044,8 @@ var SETDEX_SS = {
 				"Sand Storm"
 			]
 		},
-    "NU Heliolisk-3": {
-			"level": "50",
+    "PU Heliolisk Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13072,8 +13072,8 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-    "NU Heliolisk-4": {
-			"level": "50",
+    "PU Heliolisk Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13102,8 +13102,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Heracross": {
-    "PU Heracross-RS": {
-			"level": "50",
+    "NU Heracross Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13132,8 +13132,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Hippowdon": {
-    "NU Hippowdon-1": {
-			"level": "50",
+    "PU Hippowdon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13160,8 +13160,8 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-    "NU Hippowdon-2": {
-			"level": "50",
+    "PU Hippowdon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -13188,8 +13188,8 @@ var SETDEX_SS = {
 				"Stealth Rock"
 			]
 		},
-    "NU Hippowdon-3": {
-			"level": "50",
+    "PU Hippowdon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -13216,8 +13216,8 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-    "NU Hippowdon-4": {
-			"level": "50",
+    "PU Hippowdon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13246,8 +13246,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Hitmonchan": {
-    "NU Hitmonchan-1": {
-			"level": "50",
+    "PU Hitmonchan Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13274,8 +13274,8 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-    "NU Hitmonchan-2": {
-			"level": "50",
+    "PU Hitmonchan Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13302,8 +13302,8 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-    "NU Hitmonchan-3": {
-			"level": "50",
+    "PU Hitmonchan Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13330,8 +13330,8 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-    "NU Hitmonchan-4": {
-			"level": "50",
+    "PU Hitmonchan Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13360,8 +13360,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Hitmonlee": {
-    "NU Hitmonlee-1": {
-			"level": "50",
+    "PU Hitmonlee Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13388,8 +13388,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Hitmonlee-2": {
-			"level": "50",
+    "PU Hitmonlee Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13416,8 +13416,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Hitmonlee-3": {
-			"level": "50",
+    "PU Hitmonlee Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13444,8 +13444,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-    "NU Hitmonlee-4": {
-			"level": "50",
+    "PU Hitmonlee Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13474,8 +13474,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Hitmontop": {
-    "NU Hitmontop-1": {
-			"level": "50",
+    "PU Hitmontop Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13502,8 +13502,8 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-    "NU Hitmontop-2": {
-			"level": "50",
+    "PU Hitmontop Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13530,8 +13530,8 @@ var SETDEX_SS = {
 				"Detect"
 			]
 		},
-    "NU Hitmontop-3": {
-			"level": "50",
+    "PU Hitmontop Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13558,8 +13558,8 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-    "NU Hitmontop-4": {
-			"level": "50",
+    "PU Hitmontop Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13588,8 +13588,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Hydreigon": {
-    "NU Hydreigon-1": {
-			"level": "50",
+    "PU Hydreigon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13616,8 +13616,8 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-    "NU Hydreigon-2": {
-			"level": "50",
+    "PU Hydreigon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13644,8 +13644,8 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-    "NU Hydreigon-3": {
-			"level": "50",
+    "PU Hydreigon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13672,8 +13672,8 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-    "NU Hydreigon-4": {
-			"level": "50",
+    "PU Hydreigon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13702,8 +13702,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Indeedee-M": {
-    "NU Indeedee-1": {
-			"level": "50",
+    "PU Indeedee Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13730,8 +13730,8 @@ var SETDEX_SS = {
 				"Last Resort"
 			]
 		},
-    "NU Indeedee-2": {
-			"level": "50",
+    "PU Indeedee Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13758,8 +13758,8 @@ var SETDEX_SS = {
 				"Stored Power"
 			]
 		},
-    "NU Indeedee-3": {
-			"level": "50",
+    "PU Indeedee Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13786,8 +13786,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Indeedee-4": {
-			"level": "50",
+    "PU Indeedee Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13816,8 +13816,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Indeedee-F": {
-    "NU Indeedee-1": {
-			"level": "50",
+    "PU Indeedee Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -13844,8 +13844,8 @@ var SETDEX_SS = {
 				"Last Resort"
 			]
 		},
-    "NU Indeedee-2": {
-			"level": "50",
+    "PU Indeedee Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13872,8 +13872,8 @@ var SETDEX_SS = {
 				"Stored Power"
 			]
 		},
-    "NU Indeedee-3": {
-			"level": "50",
+    "PU Indeedee Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13900,8 +13900,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Indeedee-4": {
-			"level": "50",
+    "PU Indeedee Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13930,8 +13930,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Inteleon": {
-    "NU Inteleon-1": {
-			"level": "50",
+    "PU Inteleon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13958,8 +13958,8 @@ var SETDEX_SS = {
 				"Mud Shot"
 			]
 		},
-    "NU Inteleon-2": {
-			"level": "50",
+    "PU Inteleon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -13986,8 +13986,8 @@ var SETDEX_SS = {
 				"Double Team"
 			]
 		},
-    "NU Inteleon-3": {
-			"level": "50",
+    "PU Inteleon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14014,8 +14014,8 @@ var SETDEX_SS = {
 				"Fell Stinger"
 			]
 		},
-    "NU Inteleon-4": {
-			"level": "50",
+    "PU Inteleon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14043,7 +14043,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Inteleon-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14071,7 +14071,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Inteleon-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14099,7 +14099,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Inteleon-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14127,7 +14127,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Inteleon-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14154,8 +14154,8 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-		"Inteleon-1 (Leon)": {
-			"level": "50",
+		"Inteleon Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14174,8 +14174,8 @@ var SETDEX_SS = {
 				"Mud Shot"
 			]
 		},
-		"Inteleon-2 (Leon)": {
-			"level": "50",
+		"Inteleon Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14194,8 +14194,8 @@ var SETDEX_SS = {
 				"Double Team"
 			]
 		},
-		"Inteleon-3 (Leon)": {
-			"level": "50",
+		"Inteleon Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14214,8 +14214,8 @@ var SETDEX_SS = {
 				"Fell Stinger"
 			]
 		},
-		"Inteleon-4 (Leon)": {
-			"level": "50",
+		"Inteleon Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14236,8 +14236,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Jellicent": {
-    "NU Jellicent-1": {
-			"level": "50",
+    "PU Jellicent Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -14264,8 +14264,8 @@ var SETDEX_SS = {
 				"Acid Armor"
 			]
 		},
-    "NU Jellicent-2": {
-			"level": "50",
+    "PU Jellicent Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -14292,8 +14292,8 @@ var SETDEX_SS = {
 				"Night Shade"
 			]
 		},
-    "NU Jellicent-3": {
-			"level": "50",
+    "PU Jellicent Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -14320,8 +14320,8 @@ var SETDEX_SS = {
 				"Trick Room"
 			]
 		},
-    "NU Jellicent-4": {
-			"level": "50",
+    "PU Jellicent Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14348,8 +14348,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "PU Jellicent-RS": {
-			"level": "50",
+    "NU Jellicent Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -14378,8 +14378,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Jolteon": {
-    "NU Jolteon-1": {
-			"level": "50",
+    "PU Jolteon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14406,8 +14406,8 @@ var SETDEX_SS = {
 				"Electro Ball"
 			]
 		},
-    "NU Jellicent-2": {
-			"level": "50",
+    "PU Jellicent Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14434,8 +14434,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Jolteon-3": {
-			"level": "50",
+    "PU Jolteon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14462,8 +14462,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Jolteon-4": {
-			"level": "50",
+    "PU Jolteon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14492,8 +14492,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Kangaskhan": {
-    "PU Kangaskhan-RS": {
-			"level": "50",
+    "NU Kangaskhan Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -14522,8 +14522,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Kingdra": {
-    "PU Kingdra-RS": {
-			"level": "50",
+    "NU Kingdra Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14552,8 +14552,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Kingler": {
-    "NU Kingler-1": {
-			"level": "50",
+    "PU Kingler Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14580,8 +14580,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Kingler-2": {
-			"level": "50",
+    "PU Kingler Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14608,8 +14608,8 @@ var SETDEX_SS = {
 				"Mud Shot"
 			]
 		},
-    "NU Kingler-3": {
-			"level": "50",
+    "PU Kingler Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14636,8 +14636,8 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-    "NU Kingler-4": {
-			"level": "50",
+    "PU Kingler Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14664,8 +14664,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "PU Kingler-RS": {
-			"level": "50",
+    "NU Kingler Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14694,8 +14694,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Klefki": {
-    "PU Klefki-RS": {
-			"level": "50",
+    "NU Klefki Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -14724,8 +14724,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Klinklang": {
-    "NU Klinklang-1": {
-			"level": "50",
+    "PU Klinklang Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14752,8 +14752,8 @@ var SETDEX_SS = {
 				"Wild Charge"
 			]
 		},
-    "NU Klinklang-2": {
-			"level": "50",
+    "PU Klinklang Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14780,8 +14780,8 @@ var SETDEX_SS = {
 				"Shift Gear"
 			]
 		},
-    "NU Klinklang-3": {
-			"level": "50",
+    "PU Klinklang Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14808,8 +14808,8 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-    "NU Klinklang-4": {
-			"level": "50",
+    "PU Klinklang Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14836,8 +14836,8 @@ var SETDEX_SS = {
 				"Metal Sound"
 			]
 		},
-    "PU Klinklang-RS": {
-			"level": "50",
+    "NU Klinklang Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -14866,8 +14866,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Kommo-o": {
-    "NU Kommo-o-1": {
-			"level": "50",
+    "PU Kommo-o Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14894,8 +14894,8 @@ var SETDEX_SS = {
 				"Clangorous Soul"
 			]
 		},
-    "NU Kommo-o-2": {
-			"level": "50",
+    "PU Kommo-o Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14922,8 +14922,8 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-    "NU Kommo-o-3": {
-			"level": "50",
+    "PU Kommo-o Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -14950,8 +14950,8 @@ var SETDEX_SS = {
 				"Clangorous Soul"
 			]
 		},
-    "NU Kommo-o-4": {
-			"level": "50",
+    "PU Kommo-o Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -14978,8 +14978,8 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-    "PU Kommo-o-RS": {
-			"level": "50",
+    "NU Kommo-o Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15008,8 +15008,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Krookodile": {
-    "PU Krookodile-RS": {
-			"level": "50",
+    "NU Krookodile Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -15038,8 +15038,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lanturn": {
-    "NU Lanturn-1": {
-			"level": "50",
+    "PU Lanturn Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -15066,8 +15066,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Lanturn-2": {
-			"level": "50",
+    "PU Lanturn Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15094,8 +15094,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Lanturn-3": {
-			"level": "50",
+    "PU Lanturn Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15122,8 +15122,8 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-    "NU Lanturn-4": {
-			"level": "50",
+    "PU Lanturn Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -15150,8 +15150,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "PU Lanturn-RS": {
-			"level": "50",
+    "NU Lanturn Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -15180,8 +15180,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lapras": {
-    "NU Lapras-1": {
-			"level": "50",
+    "PU Lapras Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15208,8 +15208,8 @@ var SETDEX_SS = {
 				"Dragon Dance"
 			]
 		},
-    "NU Lapras-2": {
-			"level": "50",
+    "PU Lapras Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15236,8 +15236,8 @@ var SETDEX_SS = {
 				"Horn Drill"
 			]
 		},
-    "NU Lapras-3": {
-			"level": "50",
+    "PU Lapras Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15264,8 +15264,8 @@ var SETDEX_SS = {
 				"Avalanche"
 			]
 		},
-    "NU Lapras-4": {
-			"level": "50",
+    "PU Lapras Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15294,8 +15294,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Leafeon": {
-    "NU Leafeon-1": {
-			"level": "50",
+    "PU Leafeon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15322,8 +15322,8 @@ var SETDEX_SS = {
 				"Razor Leaf"
 			]
 		},
-    "NU Leafeon-2": {
-			"level": "50",
+    "PU Leafeon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15350,8 +15350,8 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-    "NU Leafeon-3": {
-			"level": "50",
+    "PU Leafeon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15378,8 +15378,8 @@ var SETDEX_SS = {
 				"Charm"
 			]
 		},
-    "NU Leafeon-4": {
-			"level": "50",
+    "PU Leafeon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15408,8 +15408,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lickilicky": {
-    "PU Lickilicky-RS": {
-			"level": "50",
+    "NU Lickilicky Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -15438,8 +15438,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Liepard": {
-    "NU Liepard-1": {
-			"level": "50",
+    "PU Liepard Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15466,8 +15466,8 @@ var SETDEX_SS = {
 				"Endure"
 			]
 		},
-    "NU Liepard-2": {
-			"level": "50",
+    "PU Liepard Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15494,8 +15494,8 @@ var SETDEX_SS = {
 				"Thunder Wave"
 			]
 		},
-    "NU Liepard-3": {
-			"level": "50",
+    "PU Liepard Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15522,8 +15522,8 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-    "NU Liepard-4": {
-			"level": "50",
+    "PU Liepard Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15552,8 +15552,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lilligant": {
-    "PU Lilligant-RS": {
-			"level": "50",
+    "NU Lilligant Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15582,8 +15582,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lopunny": {
-    "PU Lopunny-RS": {
-			"level": "50",
+    "NU Lopunny Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15612,8 +15612,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lucario": {
-    "NU Lucario-1": {
-			"level": "50",
+    "PU Lucario Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15640,8 +15640,8 @@ var SETDEX_SS = {
 				"Bullet Punch"
 			]
 		},
-    "NU Lucario-2": {
-			"level": "50",
+    "PU Lucario Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15668,8 +15668,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Lucario-3": {
-			"level": "50",
+    "PU Lucario Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15696,8 +15696,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Lucario-4": {
-			"level": "50",
+    "PU Lucario Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15725,7 +15725,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Lucario-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15753,7 +15753,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Lucario-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15781,7 +15781,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Lucario-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15809,7 +15809,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Lucario-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15838,8 +15838,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Ludicolo": {
-    "NU Ludicolo-1": {
-			"level": "50",
+    "PU Ludicolo Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -15866,8 +15866,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "NU Ludicolo-2": {
-			"level": "50",
+    "PU Ludicolo Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -15894,8 +15894,8 @@ var SETDEX_SS = {
 				"Bullet Seed"
 			]
 		},
-    "NU Ludicolo-3": {
-			"level": "50",
+    "PU Ludicolo Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15922,8 +15922,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "NU Ludicolo-4": {
-			"level": "50",
+    "PU Ludicolo Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15952,8 +15952,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lunatone": {
-    "NU Lunatone-1": {
-			"level": "50",
+    "PU Lunatone Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -15980,8 +15980,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Lunatone-2": {
-			"level": "50",
+    "PU Lunatone Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16008,8 +16008,8 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-    "NU Lunatone-3": {
-			"level": "50",
+    "PU Lunatone Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16036,8 +16036,8 @@ var SETDEX_SS = {
 				"Moonlight"
 			]
 		},
-    "NU Lunatone-4": {
-			"level": "50",
+    "PU Lunatone Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -16064,8 +16064,8 @@ var SETDEX_SS = {
 				"Blizzard"
 			]
 		},
-    "PU Lunatone-RS": {
-			"level": "50",
+    "NU Lunatone Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16094,8 +16094,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lurantis": {
-    "PU Lurantis-RS": {
-			"level": "50",
+    "NU Lurantis Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -16124,8 +16124,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Luxray": {
-    "PU Luxray-RS": {
-			"level": "50",
+    "NU Luxray Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16154,8 +16154,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lycanroc-Day": {
-    "PU Lycanroc-RS": {
-			"level": "50",
+    "NU Lycanroc Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -16184,8 +16184,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Lycanroc-Night": {
-    "PU Lycanroc-M-RS": {
-			"level": "50",
+    "NU Lycanroc-M Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -16214,8 +16214,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Machamp": {
-    "NU Machamp-1": {
-			"level": "50",
+    "PU Machamp Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16242,8 +16242,8 @@ var SETDEX_SS = {
 				"Bullet Punch"
 			]
 		},
-    "NU Machamp-2": {
-			"level": "50",
+    "PU Machamp Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16270,8 +16270,8 @@ var SETDEX_SS = {
 				"Bullet Punch"
 			]
 		},
-    "NU Machamp-3": {
-			"level": "50",
+    "PU Machamp Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16298,8 +16298,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Machamp-4": {
-			"level": "50",
+    "PU Machamp Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -16328,8 +16328,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Magneton": {
-    "PU Magneton-RS": {
-			"level": "50",
+    "NU Magneton Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16358,8 +16358,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Magnezone": {
-    "PU Magnezone-RS": {
-			"level": "50",
+    "NU Magnezone Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -16388,8 +16388,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Malamar": {
-    "NU Malamar-1": {
-			"level": "50",
+    "PU Malamar Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16416,8 +16416,8 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-    "NU Malamar-2": {
-			"level": "50",
+    "PU Malamar Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16444,8 +16444,8 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-    "NU Malamar-3": {
-			"level": "50",
+    "PU Malamar Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -16472,8 +16472,8 @@ var SETDEX_SS = {
 				"Flamethrower"
 			]
 		},
-    "NU Malamar-4": {
-			"level": "50",
+    "PU Malamar Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16500,8 +16500,8 @@ var SETDEX_SS = {
 				"Psycho Cut"
 			]
 		},
-    "PU Malamar-RS": {
-			"level": "50",
+    "NU Malamar Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -16530,8 +16530,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mamoswine": {
-    "NU Mamoswine-1": {
-			"level": "50",
+    "PU Mamoswine Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -16558,8 +16558,8 @@ var SETDEX_SS = {
 				"Hail"
 			]
 		},
-    "NU Mamoswine-2": {
-			"level": "50",
+    "PU Mamoswine Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16586,8 +16586,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Mamoswine-3": {
-			"level": "50",
+    "PU Mamoswine Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16614,8 +16614,8 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-    "NU Mamoswine-4": {
-			"level": "50",
+    "PU Mamoswine Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -16642,8 +16642,8 @@ var SETDEX_SS = {
 				"Ice Shard"
 			]
 		},
-    "PU Mamoswine-RS": {
-			"level": "50",
+    "NU Mamoswine Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16672,8 +16672,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mandibuzz": {
-    "NU Mandibuzz-1": {
-			"level": "50",
+    "PU Mandibuzz Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -16700,8 +16700,8 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-    "NU Mandibuzz-2": {
-			"level": "50",
+    "PU Mandibuzz Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -16728,8 +16728,8 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-    "NU Mandibuzz-3": {
-			"level": "50",
+    "PU Mandibuzz Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16756,8 +16756,8 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-    "NU Mandibuzz-4": {
-			"level": "50",
+    "PU Mandibuzz Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16784,8 +16784,8 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-    "PU Mandibuzz-RS": {
-			"level": "50",
+    "NU Mandibuzz Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16814,8 +16814,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Manectric": {
-    "NU Manectric-1": {
-			"level": "50",
+    "PU Manectric Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16842,8 +16842,8 @@ var SETDEX_SS = {
 				"Agility"
 			]
 		},
-    "NU Manectric-2": {
-			"level": "50",
+    "PU Manectric Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -16870,8 +16870,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Manectric-3": {
-			"level": "50",
+    "PU Manectric Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16898,8 +16898,8 @@ var SETDEX_SS = {
 				"Volt Switch"
 			]
 		},
-    "NU Manectric-4": {
-			"level": "50",
+    "PU Manectric Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -16928,8 +16928,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mantine": {
-    "NU Mantine-1": {
-			"level": "50",
+    "PU Mantine Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -16956,8 +16956,8 @@ var SETDEX_SS = {
 				"Tailwind"
 			]
 		},
-    "NU Mantine-2": {
-			"level": "50",
+    "PU Mantine Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -16984,8 +16984,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "NU Mantine-3": {
-			"level": "50",
+    "PU Mantine Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17012,8 +17012,8 @@ var SETDEX_SS = {
 				"Roost"
 			]
 		},
-    "NU Mantine-4": {
-			"level": "50",
+    "PU Mantine Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17040,8 +17040,8 @@ var SETDEX_SS = {
 				"Roost"
 			]
 		},
-    "PU Mantine-RS": {
-			"level": "50",
+    "NU Mantine Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17070,8 +17070,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Maractus": {
-    "NU Maractus-1": {
-			"level": "50",
+    "PU Maractus Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17098,8 +17098,8 @@ var SETDEX_SS = {
 				"Solar Beam"
 			]
 		},
-    "NU Maractus-2": {
-			"level": "50",
+    "PU Maractus Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17126,8 +17126,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "NU Maractus-3": {
-			"level": "50",
+    "PU Maractus Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17154,8 +17154,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Maractus-4": {
-			"level": "50",
+    "PU Maractus Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17184,8 +17184,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Marowak": {
-    "PU Marowak-RS": {
-			"level": "50",
+    "NU Marowak Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -17214,8 +17214,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mawile": {
-    "NU Mawile-1": {
-			"level": "50",
+    "PU Mawile Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17242,8 +17242,8 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-    "NU Mawile-2": {
-			"level": "50",
+    "PU Mawile Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17270,8 +17270,8 @@ var SETDEX_SS = {
 				"Ice Beam"
 			]
 		},
-    "NU Mawile-3": {
-			"level": "50",
+    "PU Mawile Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17298,8 +17298,8 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-    "NU Mawile-4": {
-			"level": "50",
+    "PU Mawile Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17328,8 +17328,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Meowstic": {
-    "NU Meowstic-M-1": {
-			"level": "50",
+    "PU Meowstic-M Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17356,8 +17356,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-    "NU Meowstic-M-2": {
-			"level": "50",
+    "PU Meowstic-M Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17384,8 +17384,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-    "NU Meowstic-M-3": {
-			"level": "50",
+    "PU Meowstic-M Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17412,8 +17412,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-    "NU Meowstic-M-4": {
-			"level": "50",
+    "PU Meowstic-M Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17440,8 +17440,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-    "PU Meowstic-M-RS": {
-			"level": "50",
+    "NU Meowstic-M Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17470,8 +17470,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mienshao": {
-    "PU Mienshao-RS": {
-			"level": "50",
+    "NU Mienshao Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17500,8 +17500,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Milotic": {
-    "NU Milotic-1": {
-			"level": "50",
+    "PU Milotic Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17528,8 +17528,8 @@ var SETDEX_SS = {
 				"Recover"
 			]
 		},
-    "NU Milotic-2": {
-			"level": "50",
+    "PU Milotic Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17556,8 +17556,8 @@ var SETDEX_SS = {
 				"Iron Tail"
 			]
 		},
-    "NU Milotic-3": {
-			"level": "50",
+    "PU Milotic Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17584,8 +17584,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Milotic-4": {
-			"level": "50",
+    "PU Milotic Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17612,8 +17612,8 @@ var SETDEX_SS = {
 				"Mud Shot"
 			]
 		},
-    "PU Milotic-RS": {
-			"level": "50",
+    "NU Milotic Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17642,8 +17642,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Miltank": {
-    "PU Miltank-RS": {
-			"level": "50",
+    "NU Miltank Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17672,8 +17672,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mimikyu": {
-    "NU Mimikyu-1": {
-			"level": "50",
+    "PU Mimikyu Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17700,8 +17700,8 @@ var SETDEX_SS = {
 				"Will-O-Wisp"
 			]
 		},
-    "NU Mimikyu-2": {
-			"level": "50",
+    "PU Mimikyu Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -17728,8 +17728,8 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-    "NU Mimikyu-3": {
-			"level": "50",
+    "PU Mimikyu Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17756,8 +17756,8 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-    "NU Mimikyu-4": {
-			"level": "50",
+    "PU Mimikyu Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17786,8 +17786,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Morpeko": {
-    "NU Morpeko-1": {
-			"level": "50",
+    "PU Morpeko Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17814,8 +17814,8 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-    "NU Morpeko-2": {
-			"level": "50",
+    "PU Morpeko Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17842,8 +17842,8 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-    "NU Morpeko-3": {
-			"level": "50",
+    "PU Morpeko Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17870,8 +17870,8 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-    "NU Morpeko-4": {
-			"level": "50",
+    "PU Morpeko Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -17898,8 +17898,8 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-    "PU Morpeko-RS": {
-			"level": "50",
+    "NU Morpeko Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -17928,8 +17928,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mr. Rime": {
-    "NU Mr. Rime-1": {
-			"level": "50",
+    "PU Mr. Rime Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17956,8 +17956,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Mr. Rime-2": {
-			"level": "50",
+    "PU Mr. Rime Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -17984,8 +17984,8 @@ var SETDEX_SS = {
 				"Psychic Terrain"
 			]
 		},
-    "NU Mr. Rime-3": {
-			"level": "50",
+    "PU Mr. Rime Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18012,8 +18012,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "NU Mr. Rime-4": {
-			"level": "50",
+    "PU Mr. Rime Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18040,8 +18040,8 @@ var SETDEX_SS = {
 				"Thunder"
 			]
 		},
-		"Mr. Rime-1 (Leon)": {
-			"level": "50",
+		"Mr. Rime Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18060,8 +18060,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-		"Mr. Rime-2 (Leon)": {
-			"level": "50",
+		"Mr. Rime Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18080,8 +18080,8 @@ var SETDEX_SS = {
 				"Psychic Terrain"
 			]
 		},
-		"Mr. Rime-3 (Leon)": {
-			"level": "50",
+		"Mr. Rime Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18100,8 +18100,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-		"Mr. Rime-4 (Leon)": {
-			"level": "50",
+		"Mr. Rime Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18120,8 +18120,8 @@ var SETDEX_SS = {
 				"Thunder"
 			]
 		},
-    "PU Mr. Rime-RS": {
-			"level": "50",
+    "NU Mr. Rime Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -18150,8 +18150,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Mudsdale": {
-    "NU Mudsdale-1": {
-			"level": "50",
+    "PU Mudsdale Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18178,8 +18178,8 @@ var SETDEX_SS = {
 				"Stealth Rock"
 			]
 		},
-    "NU Mudsdale-2": {
-			"level": "50",
+    "PU Mudsdale Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18206,8 +18206,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Mudsdale-3": {
-			"level": "50",
+    "PU Mudsdale Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -18234,8 +18234,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Mudsdale-4": {
-			"level": "50",
+    "PU Mudsdale Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18264,8 +18264,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Musharna": {
-    "NU Musharna-1": {
-			"level": "50",
+    "PU Musharna Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18292,8 +18292,8 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-    "NU Musharna-2": {
-			"level": "50",
+    "PU Musharna Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18320,8 +18320,8 @@ var SETDEX_SS = {
 				"Trick Room"
 			]
 		},
-    "NU Musharna-3": {
-			"level": "50",
+    "PU Musharna Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -18348,8 +18348,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Musharna-4": {
-			"level": "50",
+    "PU Musharna Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -18376,8 +18376,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "PU Musharna-RS": {
-			"level": "50",
+    "NU Musharna Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -18406,8 +18406,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Ninetales": {
-    "NU Ninetales-1": {
-			"level": "50",
+    "PU Ninetales Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18434,8 +18434,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Ninetales-2": {
-			"level": "50",
+    "PU Ninetales Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18462,8 +18462,8 @@ var SETDEX_SS = {
 				"Memento"
 			]
 		},
-    "NU Ninetales-3": {
-			"level": "50",
+    "PU Ninetales Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18490,8 +18490,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Ninetales-4": {
-			"level": "50",
+    "PU Ninetales Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18520,8 +18520,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Ninjask": {
-    "NU Ninjask-1": {
-			"level": "50",
+    "PU Ninjask Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18548,8 +18548,8 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-    "NU Ninjask-2": {
-			"level": "50",
+    "PU Ninjask Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18576,8 +18576,8 @@ var SETDEX_SS = {
 				"Endure"
 			]
 		},
-    "NU Ninjask-3": {
-			"level": "50",
+    "PU Ninjask Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18604,8 +18604,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Ninjask-4": {
-			"level": "50",
+    "PU Ninjask Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18634,8 +18634,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Noctowl": {
-    "NU Noctowl-1": {
-			"level": "50",
+    "PU Noctowl Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -18662,8 +18662,8 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-    "NU Noctowl-2": {
-			"level": "50",
+    "PU Noctowl Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18690,8 +18690,8 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-    "NU Noctowl-3": {
-			"level": "50",
+    "PU Noctowl Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18718,8 +18718,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Noctowl-4": {
-			"level": "50",
+    "PU Noctowl Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18748,8 +18748,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Noivern": {
-    "NU Noivern-1": {
-			"level": "50",
+    "PU Noivern Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18776,8 +18776,8 @@ var SETDEX_SS = {
 				"Tailwind"
 			]
 		},
-    "NU Noivern-2": {
-			"level": "50",
+    "PU Noivern Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18804,8 +18804,8 @@ var SETDEX_SS = {
 				"Shadow Claw"
 			]
 		},
-    "NU Noivern-3": {
-			"level": "50",
+    "PU Noivern Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18832,8 +18832,8 @@ var SETDEX_SS = {
 				"Acrobatics"
 			]
 		},
-    "NU Noivern-4": {
-			"level": "50",
+    "PU Noivern Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18862,8 +18862,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Obstagoon": {
-    "NU Obstagoon-1": {
-			"level": "50",
+    "PU Obstagoon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -18890,8 +18890,8 @@ var SETDEX_SS = {
 				"Parting Shot"
 			]
 		},
-    "NU Obstagoon-2": {
-			"level": "50",
+    "PU Obstagoon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -18918,8 +18918,8 @@ var SETDEX_SS = {
 				"Obstruct"
 			]
 		},
-    "NU Obstagoon-3": {
-			"level": "50",
+    "PU Obstagoon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18946,8 +18946,8 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-    "NU Obstagoon-4": {
-			"level": "50",
+    "PU Obstagoon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -18974,8 +18974,8 @@ var SETDEX_SS = {
 				"Obstruct"
 			]
 		},
-    "PU Obstagoon-RS": {
-			"level": "50",
+    "NU Obstagoon Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19004,8 +19004,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Octillery": {
-    "NU Octillery-1": {
-			"level": "50",
+    "PU Octillery Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19032,8 +19032,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Octillery-2": {
-			"level": "50",
+    "PU Octillery Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19060,8 +19060,8 @@ var SETDEX_SS = {
 				"Gunk Shot"
 			]
 		},
-    "NU Octillery-3": {
-			"level": "50",
+    "PU Octillery Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19088,8 +19088,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Octillery-4": {
-			"level": "50",
+    "PU Octillery Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19116,8 +19116,8 @@ var SETDEX_SS = {
 				"Focus Energy"
 			]
 		},
-    "PU Octillery-RS": {
-			"level": "50",
+    "NU Octillery Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19146,8 +19146,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Oranguru": {
-    "NU Oranguru-1": {
-			"level": "50",
+    "PU Oranguru Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19174,8 +19174,8 @@ var SETDEX_SS = {
 				"Last Resort"
 			]
 		},
-    "NU Oranguru-2": {
-			"level": "50",
+    "PU Oranguru Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19202,8 +19202,8 @@ var SETDEX_SS = {
 				"Instruct"
 			]
 		},
-    "NU Oranguru-3": {
-			"level": "50",
+    "PU Oranguru Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19230,8 +19230,8 @@ var SETDEX_SS = {
 				"Instruct"
 			]
 		},
-    "NU Oranguru-4": {
-			"level": "50",
+    "PU Oranguru Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19258,8 +19258,8 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-    "PU Oranguru-RS": {
-			"level": "50",
+    "NU Oranguru Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19288,8 +19288,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Orbeetle": {
-    "NU Orbeetle-1": {
-			"level": "50",
+    "PU Orbeetle Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19316,8 +19316,8 @@ var SETDEX_SS = {
 				"Light Screen"
 			]
 		},
-    "NU Orbeetle-2": {
-			"level": "50",
+    "PU Orbeetle Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19344,8 +19344,8 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-    "NU Orbeetle-3": {
-			"level": "50",
+    "PU Orbeetle Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19372,8 +19372,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Orbeetle-4": {
-			"level": "50",
+    "PU Orbeetle Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19400,8 +19400,8 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-    "PU Orbeetle-RS": {
-			"level": "50",
+    "NU Orbeetle Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19430,8 +19430,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Palossand": {
-    "PU Palossand-RS": {
-			"level": "50",
+    "NU Palossand Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19460,8 +19460,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Pangoro": {
-    "NU Pangoro-1": {
-			"level": "50",
+    "PU Pangoro Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -19488,8 +19488,8 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-    "NU Pangoro-2": {
-			"level": "50",
+    "PU Pangoro Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19516,8 +19516,8 @@ var SETDEX_SS = {
 				"Surf"
 			]
 		},
-    "NU Pangoro-3": {
-			"level": "50",
+    "PU Pangoro Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19544,8 +19544,8 @@ var SETDEX_SS = {
 				"Fire Punch"
 			]
 		},
-    "NU Pangoro-4": {
-			"level": "50",
+    "PU Pangoro Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19574,8 +19574,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Passimian": {
-    "NU Passimian-1": {
-			"level": "50",
+    "PU Passimian Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19602,8 +19602,8 @@ var SETDEX_SS = {
 				"Revenge"
 			]
 		},
-    "NU Passimian-2": {
-			"level": "50",
+    "PU Passimian Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19630,8 +19630,8 @@ var SETDEX_SS = {
 				"Counter"
 			]
 		},
-    "NU Passimian-3": {
-			"level": "50",
+    "PU Passimian Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19658,8 +19658,8 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-    "NU Passimian-4": {
-			"level": "50",
+    "PU Passimian Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19686,8 +19686,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "PU Passimian-RS": {
-			"level": "50",
+    "NU Passimian Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19716,8 +19716,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Pelipper": {
-    "NU Pelipper-1": {
-			"level": "50",
+    "PU Pelipper Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19744,8 +19744,8 @@ var SETDEX_SS = {
 				"Icy Wind"
 			]
 		},
-    "NU Pelipper-2": {
-			"level": "50",
+    "PU Pelipper Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19772,8 +19772,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Pelipper-3": {
-			"level": "50",
+    "PU Pelipper Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19800,8 +19800,8 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-    "NU Pelipper-4": {
-			"level": "50",
+    "PU Pelipper Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19828,8 +19828,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "PU Pelipper-RS": {
-			"level": "50",
+    "NU Pelipper Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19858,8 +19858,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Perrserker": {
-    "NU Perrserker-1": {
-			"level": "50",
+    "PU Perrserker Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -19886,8 +19886,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Perrserker-2": {
-			"level": "50",
+    "PU Perrserker Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -19914,8 +19914,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Perrserker-3": {
-			"level": "50",
+    "PU Perrserker Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19942,8 +19942,8 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-    "NU Perrserker-4": {
-			"level": "50",
+    "PU Perrserker Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -19970,8 +19970,8 @@ var SETDEX_SS = {
 				"Gunk Shot"
 			]
 		},
-    "PU Perrserker-RS": {
-			"level": "50",
+    "NU Perrserker Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -20000,8 +20000,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Pikachu": {
-    "PU Pikachu-RS": {
-			"level": "50",
+    "NU Pikachu Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -20030,8 +20030,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Pincurchin": {
-    "NU Pincurchin-1": {
-			"level": "50",
+    "PU Pincurchin Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20058,8 +20058,8 @@ var SETDEX_SS = {
 				"Electric Terrain"
 			]
 		},
-    "NU Pincurchin-2": {
-			"level": "50",
+    "PU Pincurchin Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20086,8 +20086,8 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-    "NU Pincurchin-3": {
-			"level": "50",
+    "PU Pincurchin Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20114,8 +20114,8 @@ var SETDEX_SS = {
 				"Discharge"
 			]
 		},
-    "NU Pincurchin-4": {
-			"level": "50",
+    "PU Pincurchin Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -20142,8 +20142,8 @@ var SETDEX_SS = {
 				"Zing Zap"
 			]
 		},
-    "PU Pincurchin-RS": {
-			"level": "50",
+    "NU Pincurchin Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20172,8 +20172,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Pinsir": {
-    "PU Pinsir-RS": {
-			"level": "50",
+    "NU Pinsir Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -20202,8 +20202,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Politoed": {
-    "PU Politoed-RS": {
-			"level": "50",
+    "NU Politoed Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20232,8 +20232,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Poliwrath": {
-    "PU Poliwrath-RS": {
-			"level": "50",
+    "NU Poliwrath Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -20262,8 +20262,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Polteageist": {
-    "NU Polteageist-1": {
-			"level": "50",
+    "PU Polteageist Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20290,8 +20290,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Polteageist-2": {
-			"level": "50",
+    "PU Polteageist Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20318,8 +20318,8 @@ var SETDEX_SS = {
 				"Psychic"
 			]
 		},
-    "NU Polteageist-3": {
-			"level": "50",
+    "PU Polteageist Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20346,8 +20346,8 @@ var SETDEX_SS = {
 				"Will-O-Wisp"
 			]
 		},
-    "NU Polteageist-4": {
-			"level": "50",
+    "PU Polteageist Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20376,8 +20376,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Porygon2": {
-    "PU Porygon2-RS": {
-			"level": "50",
+    "NU Porygon2 Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20406,8 +20406,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Porygon-Z": {
-    "PU Porygon-Z-RS": {
-			"level": "50",
+    "NU Porygon-Z Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20436,8 +20436,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Pyukumuku": {
-    "NU Pyukumuku-1": {
-			"level": "50",
+    "PU Pyukumuku Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20464,8 +20464,8 @@ var SETDEX_SS = {
 				"Spite"
 			]
 		},
-    "NU Pyukumuku-2": {
-			"level": "50",
+    "PU Pyukumuku Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20492,8 +20492,8 @@ var SETDEX_SS = {
 				"Recover"
 			]
 		},
-    "NU Pyukumuku-3": {
-			"level": "50",
+    "PU Pyukumuku Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20520,8 +20520,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Pyukumuku-4": {
-			"level": "50",
+    "PU Pyukumuku Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20548,8 +20548,8 @@ var SETDEX_SS = {
 				"Soak"
 			]
 		},
-    "PU Pyukumuku-RS": {
-			"level": "50",
+    "NU Pyukumuku Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20578,8 +20578,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Quagsire": {
-    "NU Quagsire-1": {
-			"level": "50",
+    "PU Quagsire Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20606,8 +20606,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Quagsire-2": {
-			"level": "50",
+    "PU Quagsire Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20634,8 +20634,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Quagsire-3": {
-			"level": "50",
+    "PU Quagsire Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20662,8 +20662,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Quagsire-4": {
-			"level": "50",
+    "PU Quagsire Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -20690,8 +20690,8 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-    "PU Quagsire-RS": {
-			"level": "50",
+    "NU Quagsire Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20720,8 +20720,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Qwilfish": {
-    "NU Qwilfish-1": {
-			"level": "50",
+    "PU Qwilfish Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -20748,8 +20748,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-    "NU Qwilfish-2": {
-			"level": "50",
+    "PU Qwilfish Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20776,8 +20776,8 @@ var SETDEX_SS = {
 				"Dive"
 			]
 		},
-    "NU Qwilfish-3": {
-			"level": "50",
+    "PU Qwilfish Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20804,8 +20804,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Qwilfish-4": {
-			"level": "50",
+    "PU Qwilfish Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -20834,8 +20834,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Raichu": {
-    "NU Raichu-1": {
-			"level": "50",
+    "PU Raichu Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20862,8 +20862,8 @@ var SETDEX_SS = {
 				"Reflect"
 			]
 		},
-    "NU Raichu-2": {
-			"level": "50",
+    "PU Raichu Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -20890,8 +20890,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-    "NU Raichu-3": {
-			"level": "50",
+    "PU Raichu Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -20918,8 +20918,8 @@ var SETDEX_SS = {
 				"Surf"
 			]
 		},
-    "NU Raichu-4": {
-			"level": "50",
+    "PU Raichu Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -20948,8 +20948,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Rapidash-Galar": {
-    "NU Rapidash-G-1": {
-			"level": "50",
+    "PU Rapidash-G Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -20976,8 +20976,8 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-    "NU Rapidash-G-2": {
-			"level": "50",
+    "PU Rapidash-G Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21004,8 +21004,8 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-    "NU Rapidash-G-3": {
-			"level": "50",
+    "PU Rapidash-G Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21032,8 +21032,8 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-    "NU Rapidash-G-4": {
-			"level": "50",
+    "PU Rapidash-G Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21061,7 +21061,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rapidash-G-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21089,7 +21089,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rapidash-G-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21117,7 +21117,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rapidash-G-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21145,7 +21145,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rapidash-G-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21174,8 +21174,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Reuniclus": {
-    "NU Reuniclus-1": {
-			"level": "50",
+    "PU Reuniclus Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -21202,8 +21202,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Reuniclus-2": {
-			"level": "50",
+    "PU Reuniclus Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -21230,8 +21230,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Reuniclus-3": {
-			"level": "50",
+    "PU Reuniclus Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -21258,8 +21258,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-    "NU Reuniclus-4": {
-			"level": "50",
+    "PU Reuniclus Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -21288,8 +21288,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Rhyperior": {
-    "NU Rhyperior-1": {
-			"level": "50",
+    "PU Rhyperior Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21316,8 +21316,8 @@ var SETDEX_SS = {
 				"Dragon Rush"
 			]
 		},
-    "NU Rhyperior-2": {
-			"level": "50",
+    "PU Rhyperior Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21344,8 +21344,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Rhyperior-3": {
-			"level": "50",
+    "PU Rhyperior Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21372,8 +21372,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Rhyperior-4": {
-			"level": "50",
+    "PU Rhyperior Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21400,8 +21400,8 @@ var SETDEX_SS = {
 				"Hammer Arm"
 			]
 		},
-		"Rhyperior-1 (Leon)": {
-			"level": "50",
+		"Rhyperior Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21420,8 +21420,8 @@ var SETDEX_SS = {
 				"Dragon Rush"
 			]
 		},
-		"Rhyperior-2 (Leon)": {
-			"level": "50",
+		"Rhyperior Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21440,8 +21440,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-		"Rhyperior-3 (Leon)": {
-			"level": "50",
+		"Rhyperior Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21460,8 +21460,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-		"Rhyperior-4 (Leon)": {
-			"level": "50",
+		"Rhyperior Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21480,8 +21480,8 @@ var SETDEX_SS = {
 				"Hammer Arm"
 			]
 		},
-    "PU Rhyperior-RS": {
-			"level": "50",
+    "NU Rhyperior Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21510,8 +21510,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Ribombee": {
-    "NU Ribombee-1": {
-			"level": "50",
+    "PU Ribombee Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21538,8 +21538,8 @@ var SETDEX_SS = {
 				"Aromatherapy"
 			]
 		},
-    "NU Ribombee-2": {
-			"level": "50",
+    "PU Ribombee Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21566,8 +21566,8 @@ var SETDEX_SS = {
 				"Stun Spore"
 			]
 		},
-    "NU Ribombee-3": {
-			"level": "50",
+    "PU Ribombee Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21594,8 +21594,8 @@ var SETDEX_SS = {
 				"Helping Hand"
 			]
 		},
-    "NU Ribombee-4": {
-			"level": "50",
+    "PU Ribombee Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21623,7 +21623,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Ribombee-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21651,7 +21651,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Ribombee-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21679,7 +21679,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Ribombee-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21707,7 +21707,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Ribombee-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21734,8 +21734,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "PU Ribombee-RS": {
-			"level": "50",
+    "NU Ribombee Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -21764,8 +21764,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Rillaboom": {
-    "NU Rillaboom-1": {
-			"level": "50",
+    "PU Rillaboom Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -21792,8 +21792,8 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-    "NU Rillaboom-2": {
-			"level": "50",
+    "PU Rillaboom Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -21820,8 +21820,8 @@ var SETDEX_SS = {
 				"Leech Seed"
 			]
 		},
-    "NU Rillaboom-3": {
-			"level": "50",
+    "PU Rillaboom Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21848,8 +21848,8 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-    "NU Rillaboom-4": {
-			"level": "50",
+    "PU Rillaboom Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21877,7 +21877,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rillaboom-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -21905,7 +21905,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rillaboom-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -21933,7 +21933,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rillaboom-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21961,7 +21961,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Rillaboom-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -21988,8 +21988,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-		"Rillaboom-1 (Leon)": {
-			"level": "50",
+		"Rillaboom Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22008,8 +22008,8 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-		"Rillaboom-2 (Leon)": {
-			"level": "50",
+		"Rillaboom Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -22028,8 +22028,8 @@ var SETDEX_SS = {
 				"Leech Seed"
 			]
 		},
-		"Rillaboom-3 (Leon)": {
-			"level": "50",
+		"Rillaboom Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22048,8 +22048,8 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-		"Rillaboom-4 (Leon)": {
-			"level": "50",
+		"Rillaboom Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22070,8 +22070,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Roserade": {
-    "NU Roserade-1": {
-			"level": "50",
+    "PU Roserade Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22098,8 +22098,8 @@ var SETDEX_SS = {
 				"Razor Leaf"
 			]
 		},
-    "NU Roserade-2": {
-			"level": "50",
+    "PU Roserade Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22126,8 +22126,8 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-    "NU Roserade-3": {
-			"level": "50",
+    "PU Roserade Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22154,8 +22154,8 @@ var SETDEX_SS = {
 				"Swords Dance"
 			]
 		},
-    "NU Roserade-4": {
-			"level": "50",
+    "PU Roserade Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22184,8 +22184,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom": {
-    "NU Rotom-1": {
-			"level": "50",
+    "PU Rotom Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22212,8 +22212,8 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-    "NU Rotom-2": {
-			"level": "50",
+    "PU Rotom Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22240,8 +22240,8 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-    "PU Rotom-RS": {
-			"level": "50",
+    "NU Rotom Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22270,8 +22270,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom-Fan": {
-    "NU Rotom-Fan-1": {
-			"level": "50",
+    "PU Rotom-Fan Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22298,8 +22298,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Rotom-Fan-2": {
-			"level": "50",
+    "PU Rotom-Fan Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22328,8 +22328,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom-Frost": {
-    "NU Rotom-Frost-1": {
-			"level": "50",
+    "PU Rotom-Frost Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22356,8 +22356,8 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-    "NU Rotom-Frost-2": {
-			"level": "50",
+    "PU Rotom-Frost Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22386,8 +22386,8 @@ var SETDEX_SS = {
 		}
 	},
 	 "Rotom-Heat": {
-    "NU Rotom-Heat-1": {
-			"level": "50",
+    "PU Rotom-Heat Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22414,8 +22414,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Rotom-Heat-2": {
-			"level": "50",
+    "PU Rotom-Heat Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22444,8 +22444,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Rotom-Mow": {
-    "NU Rotom-Mow-1": {
-			"level": "50",
+    "PU Rotom-Mow Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22472,8 +22472,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Rotom-Mow-2": {
-			"level": "50",
+    "PU Rotom-Mow Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22502,8 +22502,8 @@ var SETDEX_SS = {
 		}
 	},
 	 "Rotom-Wash": {
-    "NU Rotom-Wash-1": {
-			"level": "50",
+    "PU Rotom-Wash Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22530,8 +22530,8 @@ var SETDEX_SS = {
 				"Hex"
 			]
 		},
-    "NU Rotom-Wash-2": {
-			"level": "50",
+    "PU Rotom-Wash Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22560,8 +22560,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Runerigus": {
-    "NU Runerigus-1": {
-			"level": "50",
+    "PU Runerigus Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22588,8 +22588,8 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-    "NU Runerigus-2": {
-			"level": "50",
+    "PU Runerigus Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22616,8 +22616,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "NU Runerigus-3": {
-			"level": "50",
+    "PU Runerigus Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22644,8 +22644,8 @@ var SETDEX_SS = {
 				"Dragon Pulse"
 			]
 		},
-    "NU Runerigus-4": {
-			"level": "50",
+    "PU Runerigus Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22672,8 +22672,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "PU Runerigus-RS": {
-			"level": "50",
+    "NU Runerigus Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22702,8 +22702,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sableye": {
-    "NU Sableye-1": {
-			"level": "50",
+    "PU Sableye Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22730,8 +22730,8 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-    "NU Sableye-2": {
-			"level": "50",
+    "PU Sableye Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22758,8 +22758,8 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-    "NU Sableye-3": {
-			"level": "50",
+    "PU Sableye Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22786,8 +22786,8 @@ var SETDEX_SS = {
 				"Power Gem"
 			]
 		},
-    "NU Sableye-4": {
-			"level": "50",
+    "PU Sableye Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22816,8 +22816,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Salazzle": {
-    "NU Salazzle-1": {
-			"level": "50",
+    "PU Salazzle Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22844,8 +22844,8 @@ var SETDEX_SS = {
 				"Fire Lash"
 			]
 		},
-    "NU Salazzle-2": {
-			"level": "50",
+    "PU Salazzle Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22872,8 +22872,8 @@ var SETDEX_SS = {
 				"Leech Life"
 			]
 		},
-    "NU Salazzle-3": {
-			"level": "50",
+    "PU Salazzle Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22900,8 +22900,8 @@ var SETDEX_SS = {
 				"Dragon Pulse"
 			]
 		},
-    "NU Salazzle-4": {
-			"level": "50",
+    "PU Salazzle Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -22928,8 +22928,8 @@ var SETDEX_SS = {
 				"Foul Play"
 			]
 		},
-    "PU Salazzle-RS": {
-			"level": "50",
+    "NU Salazzle Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -22958,8 +22958,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sandaconda": {
-    "NU Sandaconda-1": {
-			"level": "50",
+    "PU Sandaconda Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -22986,8 +22986,8 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-    "NU Sandaconda-2": {
-			"level": "50",
+    "PU Sandaconda Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -23014,8 +23014,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Sandaconda-3": {
-			"level": "50",
+    "PU Sandaconda Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -23042,8 +23042,8 @@ var SETDEX_SS = {
 				"High Horsepower"
 			]
 		},
-    "NU Sandaconda-4": {
-			"level": "50",
+    "PU Sandaconda Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23070,8 +23070,8 @@ var SETDEX_SS = {
 				"Coil"
 			]
 		},
-    "PU Sandaconda-RS": {
-			"level": "50",
+    "NU Sandaconda Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -23100,8 +23100,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sandslash": {
-    "PU Sandslash-RS": {
-			"level": "50",
+    "NU Sandslash Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23130,8 +23130,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sawk": {
-    "NU Sawk-1": {
-			"level": "50",
+    "PU Sawk Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23158,8 +23158,8 @@ var SETDEX_SS = {
 				"Bulk Up"
 			]
 		},
-    "NU Sawk-2": {
-			"level": "50",
+    "PU Sawk Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23186,8 +23186,8 @@ var SETDEX_SS = {
 				"Low Sweep"
 			]
 		},
-    "NU Sawk-3": {
-			"level": "50",
+    "PU Sawk Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23214,8 +23214,8 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-    "NU Sawk-4": {
-			"level": "50",
+    "PU Sawk Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23244,7 +23244,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Scizor": {
-    "PU Scizor-RS": {
+    "NU Scizor Sparring": {
 			"level": 50,
 			"evs": {
 				"hp": 252,
@@ -23274,8 +23274,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Scolipede": {
-    "PU Scolipede-RS": {
-			"level": "50",
+    "NU Scolipede Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -23304,8 +23304,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Scrafty": {
-    "NU Scrafty-1": {
-			"level": "50",
+    "PU Scrafty Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -23332,8 +23332,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Scrafty-2": {
-			"level": "50",
+    "PU Scrafty Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -23360,8 +23360,8 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-    "NU Scrafty-3": {
-			"level": "50",
+    "PU Scrafty Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -23388,8 +23388,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Scrafty-4": {
-			"level": "50",
+    "PU Scrafty Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -23416,8 +23416,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "PU Scrafty-RS": {
-			"level": "50",
+    "NU Scrafty Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -23446,8 +23446,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Seaking": {
-    "NU Seaking-1": {
-			"level": "50",
+    "PU Seaking Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -23474,8 +23474,8 @@ var SETDEX_SS = {
 				"Haze"
 			]
 		},
-    "NU Seaking-2": {
-			"level": "50",
+    "PU Seaking Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -23502,8 +23502,8 @@ var SETDEX_SS = {
 				"Horn Drill"
 			]
 		},
-    "NU Seaking-3": {
-			"level": "50",
+    "PU Seaking Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -23530,8 +23530,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "NU Seaking-4": {
-			"level": "50",
+    "PU Seaking Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23558,8 +23558,8 @@ var SETDEX_SS = {
 				"Drill Run"
 			]
 		},
-    "PU Seaking-RS": {
-			"level": "50",
+    "NU Seaking Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23588,8 +23588,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Seismitoad": {
-    "NU Seismitoad-1": {
-			"level": "50",
+    "PU Seismitoad Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -23616,8 +23616,8 @@ var SETDEX_SS = {
 				"Gastro Acid"
 			]
 		},
-    "NU Seismitoad-2": {
-			"level": "50",
+    "PU Seismitoad Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23644,8 +23644,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Seismitoad-3": {
-			"level": "50",
+    "PU Seismitoad Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -23672,8 +23672,8 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-    "NU Seismitoad-4": {
-			"level": "50",
+    "PU Seismitoad Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -23700,8 +23700,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-		"Seismitoad-1 (Leon)": {
-			"level": "50",
+		"Seismitoad Set1 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -23720,8 +23720,8 @@ var SETDEX_SS = {
 				"Gastro Acid"
 			]
 		},
-		"Seismitoad-2 (Leon)": {
-			"level": "50",
+		"Seismitoad Set2 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23740,8 +23740,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-		"Seismitoad-3 (Leon)": {
-			"level": "50",
+		"Seismitoad Set3 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -23760,8 +23760,8 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-		"Seismitoad-4 (Leon)": {
-			"level": "50",
+		"Seismitoad Set4 (Leon)": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -23780,8 +23780,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-    "PU Seismitoad-RS": {
-			"level": "50",
+    "NU Seismitoad Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -23810,14 +23810,10 @@ var SETDEX_SS = {
 		}
 	},
 	"Sharpedo": {
-    "PU Sharpedo-RS": {
-			"level": "50",
+    "NU Sharpedo Sparring": {
+			"level": 50,
 			"evs": {
-				"hp": 0,
 				"at": 252,
-				"df": 0,
-				"sa": 0,
-				"sd": 0,
 				"sp": 252
 			},
 			"ivs": {
@@ -23840,8 +23836,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Shedinja": {
-    "NU Shedinja-1": {
-			"level": "50",
+    "PU Shedinja Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23868,8 +23864,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Shedinja-2": {
-			"level": "50",
+    "PU Shedinja Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23896,8 +23892,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Shedinja-3": {
-			"level": "50",
+    "PU Shedinja Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -23924,8 +23920,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Shedinja-4": {
-			"level": "50",
+    "PU Shedinja Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23954,8 +23950,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Shiftry": {
-    "NU Shiftry-1": {
-			"level": "50",
+    "PU Shiftry Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -23982,8 +23978,8 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-    "NU Shiftry-2": {
-			"level": "50",
+    "PU Shiftry Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24010,8 +24006,8 @@ var SETDEX_SS = {
 				"Nasty Plot"
 			]
 		},
-    "NU Shiftry-3": {
-			"level": "50",
+    "PU Shiftry Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24038,8 +24034,8 @@ var SETDEX_SS = {
 				"Sunny Day"
 			]
 		},
-    "NU Shiftry-4": {
-			"level": "50",
+    "PU Shiftry Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24068,8 +24064,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Shiinotic": {
-    "NU Shiinotic-1": {
-			"level": "50",
+    "PU Shiinotic Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24096,8 +24092,8 @@ var SETDEX_SS = {
 				"Dazzling Gleam"
 			]
 		},
-    "NU Shiinotic-2": {
-			"level": "50",
+    "PU Shiinotic Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24124,8 +24120,8 @@ var SETDEX_SS = {
 				"Solar Beam"
 			]
 		},
-    "NU Shiinotic-3": {
-			"level": "50",
+    "PU Shiinotic Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24152,8 +24148,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "NU Shiinotic-4": {
-			"level": "50",
+    "PU Shiinotic Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24182,8 +24178,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Shuckle": {
-    "NU Shuckle-1": {
-			"level": "50",
+    "PU Shuckle Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24210,8 +24206,8 @@ var SETDEX_SS = {
 				"Toxic"
 			]
 		},
-    "NU Shuckle-2": {
-			"level": "50",
+    "PU Shuckle Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24238,8 +24234,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "NU Shuckle-3": {
-			"level": "50",
+    "PU Shuckle Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24266,8 +24262,8 @@ var SETDEX_SS = {
 				"Rock Tomb"
 			]
 		},
-    "NU Shuckle-4": {
-			"level": "50",
+    "PU Shuckle Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24296,8 +24292,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sigilyph": {
-    "NU Sigilyph-1": {
-			"level": "50",
+    "PU Sigilyph Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24324,8 +24320,8 @@ var SETDEX_SS = {
 				"Reflect"
 			]
 		},
-    "NU Sigilyph-2": {
-			"level": "50",
+    "PU Sigilyph Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24352,8 +24348,8 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-    "NU Sigilyph-3": {
-			"level": "50",
+    "PU Sigilyph Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24380,8 +24376,8 @@ var SETDEX_SS = {
 				"Heat Wave"
 			]
 		},
-    "NU Sigilyph-4": {
-			"level": "50",
+    "PU Sigilyph Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24410,8 +24406,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Silvally": {
-    "NU Silvally-1": {
-			"level": "50",
+    "PU Silvally Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24438,8 +24434,8 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-    "NU Silvally-2": {
-			"level": "50",
+    "PU Silvally Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24468,8 +24464,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sirfetch'd": {
-    "NU Sirfetch'd-1": {
-			"level": "50",
+    "PU Sirfetch'd Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24496,8 +24492,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-    "NU Sirfetch'd-2": {
-			"level": "50",
+    "PU Sirfetch'd Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24524,8 +24520,8 @@ var SETDEX_SS = {
 				"Sky Attack"
 			]
 		},
-    "NU Sirfetch'd-3": {
-			"level": "50",
+    "PU Sirfetch'd Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24552,8 +24548,8 @@ var SETDEX_SS = {
 				"Knock Off"
 			]
 		},
-    "NU Sirfetch'd-4": {
-			"level": "50",
+    "PU Sirfetch'd Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24581,7 +24577,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Sirfetch'd-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24609,7 +24605,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Sirfetch'd-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24637,7 +24633,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Sirfetch'd-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24665,7 +24661,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Sirfetch'd-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24692,8 +24688,8 @@ var SETDEX_SS = {
 				"First Impression"
 			]
 		},
-    "PU Sirfetch'd-RS": {
-			"level": "50",
+    "NU Sirfetch'd Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24722,7 +24718,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Skarmory": {
-    "PU Skarmory-RS": {
+    "NU Skarmory Sparring": {
 			"level": 50,
 			"evs": {
 				"at": 252,
@@ -24748,8 +24744,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Skuntank": {
-    "NU Skuntank-1": {
-			"level": "50",
+    "PU Skuntank Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24776,8 +24772,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Skuntank-2": {
-			"level": "50",
+    "PU Skuntank Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24804,8 +24800,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "NU Skuntank-3": {
-			"level": "50",
+    "PU Skuntank Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24832,8 +24828,8 @@ var SETDEX_SS = {
 				"Belch"
 			]
 		},
-    "NU Skuntank-4": {
-			"level": "50",
+    "PU Skuntank Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24860,8 +24856,8 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-    "PU Skuntank-RS": {
-			"level": "50",
+    "NU Skuntank Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24890,8 +24886,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Slurpuff": {
-    "NU Slurpuff-1": {
-			"level": "50",
+    "PU Slurpuff Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -24918,8 +24914,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Slurpuff-2": {
-			"level": "50",
+    "PU Slurpuff Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -24946,8 +24942,8 @@ var SETDEX_SS = {
 				"Thunderbolt"
 			]
 		},
-    "NU Slurpuff-3": {
-			"level": "50",
+    "PU Slurpuff Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -24974,8 +24970,8 @@ var SETDEX_SS = {
 				"Cotton Guard"
 			]
 		},
-    "NU Slurpuff-4": {
-			"level": "50",
+    "PU Slurpuff Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25002,8 +24998,8 @@ var SETDEX_SS = {
 				"Energy Ball"
 			]
 		},
-    "PU Slurpuff-RS": {
-			"level": "50",
+    "NU Slurpuff Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25032,8 +25028,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Snorlax": {
-    "NU Snorlax-1": {
-			"level": "50",
+    "PU Snorlax Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -25060,8 +25056,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Snorlax-2": {
-			"level": "50",
+    "PU Snorlax Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25088,8 +25084,8 @@ var SETDEX_SS = {
 				"Heat Crash"
 			]
 		},
-    "NU Snorlax-3": {
-			"level": "50",
+    "PU Snorlax Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25116,8 +25112,8 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-    "NU Snorlax-4": {
-			"level": "50",
+    "PU Snorlax Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25146,8 +25142,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Solrock": {
-    "NU Solrock-1": {
-			"level": "50",
+    "PU Solrock Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25174,8 +25170,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "NU Solrock-2": {
-			"level": "50",
+    "PU Solrock Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25202,8 +25198,8 @@ var SETDEX_SS = {
 				"Explosion"
 			]
 		},
-    "NU Solrock-3": {
-			"level": "50",
+    "PU Solrock Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -25230,8 +25226,8 @@ var SETDEX_SS = {
 				"Morning Sun"
 			]
 		},
-    "NU Solrock-4": {
-			"level": "50",
+    "PU Solrock Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25258,8 +25254,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "PU Solrock-RS": {
-			"level": "50",
+    "NU Solrock Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -25288,8 +25284,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Starmie": {
-    "PU Starmie-RS": {
-			"level": "50",
+    "NU Starmie Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25318,8 +25314,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Steelix": {
-    "NU Steelix-1": {
-			"level": "50",
+    "PU Steelix Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25346,8 +25342,8 @@ var SETDEX_SS = {
 				"Sandstorm"
 			]
 		},
-    "NU Steelix-2": {
-			"level": "50",
+    "PU Steelix Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25374,8 +25370,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Steelix-3": {
-			"level": "50",
+    "PU Steelix Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25402,8 +25398,8 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-    "NU Steelix-4": {
-			"level": "50",
+    "PU Steelix Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25430,8 +25426,8 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-    "PU Steelix-RS": {
-			"level": "50",
+    "NU Steelix Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25460,8 +25456,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Stonjourner": {
-    "NU Stonjourner-1": {
-			"level": "50",
+    "PU Stonjourner Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25488,8 +25484,8 @@ var SETDEX_SS = {
 				"Rock Polish"
 			]
 		},
-    "NU Stonjourner-2": {
-			"level": "50",
+    "PU Stonjourner Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25516,8 +25512,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "NU Stonjourner-3": {
-			"level": "50",
+    "PU Stonjourner Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25544,8 +25540,8 @@ var SETDEX_SS = {
 				"Body Press"
 			]
 		},
-    "NU Stonjourner-4": {
-			"level": "50",
+    "PU Stonjourner Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25574,8 +25570,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Stoutland": {
-    "PU Stoutland-RS": {
-			"level": "50",
+    "NU Stoutland Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25604,8 +25600,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Stunfisk-Galar": {
-    "NU Stunfisk-G-1": {
-			"level": "50",
+    "PU Stunfisk-G Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25632,8 +25628,8 @@ var SETDEX_SS = {
 				"Earth Power"
 			]
 		},
-    "NU Stunfisk-G-2": {
-			"level": "50",
+    "PU Stunfisk-G Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25660,8 +25656,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Stunfisk-G-3": {
-			"level": "50",
+    "PU Stunfisk-G Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25688,8 +25684,8 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-    "NU Stunfisk-G-4": {
-			"level": "50",
+    "PU Stunfisk-G Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25718,8 +25714,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sudowoodo": {
-    "NU Sudowoodo-1": {
-			"level": "50",
+    "PU Sudowoodo Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25746,8 +25742,8 @@ var SETDEX_SS = {
 				"Rock Slide"
 			]
 		},
-    "NU Sudowoodo-2": {
-			"level": "50",
+    "PU Sudowoodo Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25774,8 +25770,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Sudowoodo-3": {
-			"level": "50",
+    "PU Sudowoodo Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25802,8 +25798,8 @@ var SETDEX_SS = {
 				"Ice Punch"
 			]
 		},
-    "NU Sudowoodo-4": {
-			"level": "50",
+    "PU Sudowoodo Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25832,8 +25828,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Swoobat": {
-    "NU Swoobat-1": {
-			"level": "50",
+    "PU Swoobat Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -25860,8 +25856,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Swoobat-2": {
-			"level": "50",
+    "PU Swoobat Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25888,8 +25884,8 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-    "NU Swoobat-3": {
-			"level": "50",
+    "PU Swoobat Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25916,8 +25912,8 @@ var SETDEX_SS = {
 				"Calm Mind"
 			]
 		},
-    "NU Swoobat-4": {
-			"level": "50",
+    "PU Swoobat Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -25944,8 +25940,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "PU Swoobat-RS": {
-			"level": "50",
+    "NU Swoobat Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -25974,8 +25970,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Sylveon": {
-    "NU Sylveon-1": {
-			"level": "50",
+    "PU Sylveon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26002,8 +25998,8 @@ var SETDEX_SS = {
 				"Draining Kiss"
 			]
 		},
-    "NU Sylveon-2": {
-			"level": "50",
+    "PU Sylveon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26030,8 +26026,8 @@ var SETDEX_SS = {
 				"Misty Terrain"
 			]
 		},
-    "NU Sylveon-3": {
-			"level": "50",
+    "PU Sylveon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26058,8 +26054,8 @@ var SETDEX_SS = {
 				"Psyshock"
 			]
 		},
-    "NU Sylveon-4": {
-			"level": "50",
+    "PU Sylveon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26088,8 +26084,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Talonflame": {
-    "PU Talonflame-RS": {
-			"level": "50",
+    "NU Talonflame Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26118,8 +26114,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Tangrowth": {
-    "PU Tangrowth-RS": {
-			"level": "50",
+    "NU Tangrowth Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -26148,8 +26144,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Tauros": {
-    "PU Tauros-RS": {
-			"level": "50",
+    "NU Tauros Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26178,8 +26174,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Tentacruel": {
-    "PU Tentacruel-RS": {
-			"level": "50",
+    "NU Tentacruel Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26208,8 +26204,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Thievul": {
-    "NU Thievul-1": {
-			"level": "50",
+    "PU Thievul Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26236,8 +26232,8 @@ var SETDEX_SS = {
 				"Baton Pass"
 			]
 		},
-    "NU Thievul-2": {
-			"level": "50",
+    "PU Thievul Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26264,8 +26260,8 @@ var SETDEX_SS = {
 				"Ice Fang"
 			]
 		},
-    "NU Thievul-3": {
-			"level": "50",
+    "PU Thievul Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26292,8 +26288,8 @@ var SETDEX_SS = {
 				"Parting Shot"
 			]
 		},
-    "NU Thievul-4": {
-			"level": "50",
+    "PU Thievul Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -26321,7 +26317,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Thievul-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26349,7 +26345,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Thievul-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26377,7 +26373,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Thievul-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26405,7 +26401,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Thievul-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -26432,8 +26428,8 @@ var SETDEX_SS = {
 				"Play Rough"
 			]
 		},
-    "PU Thievul-RS": {
-			"level": "50",
+    "NU Thievul Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26462,8 +26458,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Throh": {
-    "NU Throh-1": {
-			"level": "50",
+    "PU Throh Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26490,8 +26486,8 @@ var SETDEX_SS = {
 				"Payback"
 			]
 		},
-    "NU Throh-2": {
-			"level": "50",
+    "PU Throh Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26518,8 +26514,8 @@ var SETDEX_SS = {
 				"Dig"
 			]
 		},
-    "NU Throh-3": {
-			"level": "50",
+    "PU Throh Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26546,8 +26542,8 @@ var SETDEX_SS = {
 				"Rest"
 			]
 		},
-    "NU Throh-4": {
-			"level": "50",
+    "PU Throh Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -26576,8 +26572,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Togedemaru": {
-    "NU Togedemaru-1": {
-			"level": "50",
+    "PU Togedemaru Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26604,8 +26600,8 @@ var SETDEX_SS = {
 				"Iron Head"
 			]
 		},
-    "NU Togedemaru-2": {
-			"level": "50",
+    "PU Togedemaru Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26632,8 +26628,8 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-    "NU Togedemaru-3": {
-			"level": "50",
+    "PU Togedemaru Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -26660,8 +26656,8 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-    "NU Togedemaru-4": {
-			"level": "50",
+    "PU Togedemaru Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26690,8 +26686,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Togekiss": {
-    "NU Togekiss-1": {
-			"level": "50",
+    "PU Togekiss Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26718,8 +26714,8 @@ var SETDEX_SS = {
 				"Follow Me"
 			]
 		},
-    "NU Togekiss-2": {
-			"level": "50",
+    "PU Togekiss Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26746,8 +26742,8 @@ var SETDEX_SS = {
 				"Morning Sun"
 			]
 		},
-    "NU Togekiss-3": {
-			"level": "50",
+    "PU Togekiss Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26774,8 +26770,8 @@ var SETDEX_SS = {
 				"Brick Break"
 			]
 		},
-    "NU Togekiss-4": {
-			"level": "50",
+    "PU Togekiss Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26803,7 +26799,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Togekiss-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26831,7 +26827,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Togekiss-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26859,7 +26855,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Togekiss-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -26887,7 +26883,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Togekiss-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26916,8 +26912,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Torkoal": {
-    "NU Torkoal-1": {
-			"level": "50",
+    "PU Torkoal Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26944,8 +26940,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Torkoal-2": {
-			"level": "50",
+    "PU Torkoal Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -26972,8 +26968,8 @@ var SETDEX_SS = {
 				"Sludge Bomb"
 			]
 		},
-    "NU Torkoal-3": {
-			"level": "50",
+    "PU Torkoal Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27000,8 +26996,8 @@ var SETDEX_SS = {
 				"Sludge Bomb"
 			]
 		},
-    "NU Torkoal-4": {
-			"level": "50",
+    "PU Torkoal Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27028,8 +27024,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "PU Torkoal-RS": {
-			"level": "50",
+    "NU Torkoal Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27058,8 +27054,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Toxapex": {
-    "NU Toxapex-1": {
-			"level": "50",
+    "PU Toxapex Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27086,8 +27082,8 @@ var SETDEX_SS = {
 				"Pin Missile"
 			]
 		},
-    "NU Toxapex-2": {
-			"level": "50",
+    "PU Toxapex Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27114,8 +27110,8 @@ var SETDEX_SS = {
 				"Infestation"
 			]
 		},
-    "NU Toxapex-3": {
-			"level": "50",
+    "PU Toxapex Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27142,8 +27138,8 @@ var SETDEX_SS = {
 				"Muddy Water"
 			]
 		},
-    "NU Toxapex-4": {
-			"level": "50",
+    "PU Toxapex Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27170,8 +27166,8 @@ var SETDEX_SS = {
 				"Scald"
 			]
 		},
-    "PU Toxapex-RS": {
-			"level": "50",
+    "NU Toxapex Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27200,8 +27196,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Toxicroak": {
-    "NU Toxicroak-1": {
-			"level": "50",
+    "PU Toxicroak Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27228,8 +27224,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "NU Toxicroak-2": {
-			"level": "50",
+    "PU Toxicroak Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27256,8 +27252,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Toxicroak-3": {
-			"level": "50",
+    "PU Toxicroak Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27284,8 +27280,8 @@ var SETDEX_SS = {
 				"Vacuum Wave"
 			]
 		},
-    "NU Toxicroak-4": {
-			"level": "50",
+    "PU Toxicroak Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27312,8 +27308,8 @@ var SETDEX_SS = {
 				"Stone Edge"
 			]
 		},
-    "PU Toxicroak-RS": {
-			"level": "50",
+    "NU Toxicroak Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27342,8 +27338,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Toxtricity": {
-    "NU Toxtricity-1": {
-			"level": "50",
+    "PU Toxtricity Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27370,8 +27366,8 @@ var SETDEX_SS = {
 				"Shift Gear"
 			]
 		},
-    "NU Toxtricity-2": {
-			"level": "50",
+    "PU Toxtricity Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27398,8 +27394,8 @@ var SETDEX_SS = {
 				"Magnetic Flux"
 			]
 		},
-    "NU Toxtricity-3": {
-			"level": "50",
+    "PU Toxtricity Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27426,8 +27422,8 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-    "NU Toxtricity-4": {
-			"level": "50",
+    "PU Toxtricity Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27456,8 +27452,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Trevenant": {
-    "NU Trevenant-1": {
-			"level": "50",
+    "PU Trevenant Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27484,8 +27480,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Trevenant-2": {
-			"level": "50",
+    "PU Trevenant Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27512,8 +27508,8 @@ var SETDEX_SS = {
 				"Shadow Claw"
 			]
 		},
-    "NU Trevenant-3": {
-			"level": "50",
+    "PU Trevenant Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27540,8 +27536,8 @@ var SETDEX_SS = {
 				"Sucker Punch"
 			]
 		},
-    "NU Trevenant-4": {
-			"level": "50",
+    "PU Trevenant Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -27568,8 +27564,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "PU Trevenant-RS": {
-			"level": "50",
+    "NU Trevenant Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -27598,8 +27594,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Tsareena": {
-    "NU Tsareena-1": {
-			"level": "50",
+    "PU Tsareena Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27626,8 +27622,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Tsareena-2": {
-			"level": "50",
+    "PU Tsareena Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27654,8 +27650,8 @@ var SETDEX_SS = {
 				"U-turn"
 			]
 		},
-    "NU Tsareena-3": {
-			"level": "50",
+    "PU Tsareena Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27682,8 +27678,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "NU Tsareena-4": {
-			"level": "50",
+    "PU Tsareena Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27712,8 +27708,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Turtonator": {
-    "NU Turtonator-1": {
-			"level": "50",
+    "PU Turtonator Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27740,8 +27736,8 @@ var SETDEX_SS = {
 				"Wide Guard"
 			]
 		},
-    "NU Turtonator-2": {
-			"level": "50",
+    "PU Turtonator Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27768,8 +27764,8 @@ var SETDEX_SS = {
 				"Flash Cannon"
 			]
 		},
-    "NU Turtonator-3": {
-			"level": "50",
+    "PU Turtonator Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -27796,8 +27792,8 @@ var SETDEX_SS = {
 				"Curse"
 			]
 		},
-    "NU Turtonator-4": {
-			"level": "50",
+    "PU Turtonator Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27824,8 +27820,8 @@ var SETDEX_SS = {
 				"Wide Guard"
 			]
 		},
-    "PU Turtonator-RS": {
-			"level": "50",
+    "NU Turtonator Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27854,8 +27850,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Tyranitar": {
-    "NU Tyranitar-1": {
-			"level": "50",
+    "PU Tyranitar Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27882,8 +27878,8 @@ var SETDEX_SS = {
 				"Thunder"
 			]
 		},
-    "NU Tyranitar-2": {
-			"level": "50",
+    "PU Tyranitar Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -27912,8 +27908,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Umbreon": {
-    "NU Umbreon-1": {
-			"level": "50",
+    "PU Umbreon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27940,8 +27936,8 @@ var SETDEX_SS = {
 				"Snarl"
 			]
 		},
-    "NU Umbreon-2": {
-			"level": "50",
+    "PU Umbreon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -27968,8 +27964,8 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-    "NU Umbreon-3": {
-			"level": "50",
+    "PU Umbreon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -27996,8 +27992,8 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-    "NU Umbreon-4": {
-			"level": "50",
+    "PU Umbreon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -28026,8 +28022,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Unfezant": {
-    "NU Unfezant-1": {
-			"level": "50",
+    "PU Unfezant Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28054,8 +28050,8 @@ var SETDEX_SS = {
 				"Work Up"
 			]
 		},
-    "NU Unfezant-2": {
-			"level": "50",
+    "PU Unfezant Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28082,8 +28078,8 @@ var SETDEX_SS = {
 				"Feather Dance"
 			]
 		},
-    "NU Unfezant-3": {
-			"level": "50",
+    "PU Unfezant Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28110,8 +28106,8 @@ var SETDEX_SS = {
 				"Defog"
 			]
 		},
-    "NU Unfezant-4": {
-			"level": "50",
+    "PU Unfezant Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -28140,8 +28136,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Vanilluxe": {
-    "NU Vanilluxe-1": {
-			"level": "50",
+    "PU Vanilluxe Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -28168,8 +28164,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Vanilluxe-2": {
-			"level": "50",
+    "PU Vanilluxe Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -28196,8 +28192,8 @@ var SETDEX_SS = {
 				"Ice Shard"
 			]
 		},
-    "NU Vanilluxe-3": {
-			"level": "50",
+    "PU Vanilluxe Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -28224,8 +28220,8 @@ var SETDEX_SS = {
 				"Aurora Veil"
 			]
 		},
-    "NU Vanilluxe-4": {
-			"level": "50",
+    "PU Vanilluxe Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -28252,8 +28248,8 @@ var SETDEX_SS = {
 				"Mirror Coat"
 			]
 		},
-    "PU Vanilluxe-RS": {
-			"level": "50",
+    "NU Vanilluxe Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28282,8 +28278,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Vaporeon": {
-    "NU Vaporeon-1": {
-			"level": "50",
+    "PU Vaporeon Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -28310,8 +28306,8 @@ var SETDEX_SS = {
 				"Water Pulse"
 			]
 		},
-    "NU Vaporeon-2": {
-			"level": "50",
+    "PU Vaporeon Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -28338,8 +28334,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Vaporeon-3": {
-			"level": "50",
+    "PU Vaporeon Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -28366,8 +28362,8 @@ var SETDEX_SS = {
 				"Shadow Ball"
 			]
 		},
-    "NU Vaporeon-4": {
-			"level": "50",
+    "PU Vaporeon Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28396,8 +28392,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Vespiquen": {
-    "NU Vespiquen-1": {
-			"level": "50",
+    "PU Vespiquen Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28424,8 +28420,8 @@ var SETDEX_SS = {
 				"Attract"
 			]
 		},
-    "NU Vespiquen-2": {
-			"level": "50",
+    "PU Vespiquen Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28452,8 +28448,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Vespiquen-3": {
-			"level": "50",
+    "PU Vespiquen Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -28480,8 +28476,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Vespiquen-4": {
-			"level": "50",
+    "PU Vespiquen Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28509,7 +28505,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vespiquen-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28537,7 +28533,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vespiquen-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28565,7 +28561,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vespiquen-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -28593,7 +28589,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vespiquen-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28620,8 +28616,8 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-    "PU Vespiquen-RS": {
-			"level": "50",
+    "NU Vespiquen Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -28650,8 +28646,8 @@ var SETDEX_SS = {
 		}
 	},
 	  "Vikavolt": {
-    "NU Vikavolt-1": {
-			"level": "50",
+    "PU Vikavolt Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28678,8 +28674,8 @@ var SETDEX_SS = {
 				"Sticky Web"
 			]
 		},
-    "NU Vikavolt-2": {
-			"level": "50",
+    "PU Vikavolt Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28706,8 +28702,8 @@ var SETDEX_SS = {
 				"Substitute"
 			]
 		},
-    "NU Vikavolt-3": {
-			"level": "50",
+    "PU Vikavolt Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -28734,8 +28730,8 @@ var SETDEX_SS = {
 				"Crunch"
 			]
 		},
-    "NU Vikavolt-4": {
-			"level": "50",
+    "PU Vikavolt Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28763,7 +28759,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vikavolt-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28791,7 +28787,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vikavolt-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28819,7 +28815,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vikavolt-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -28847,7 +28843,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Vikavolt-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28876,8 +28872,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Vileplume": {
-    "NU Vileplume-1": {
-			"level": "50",
+    "PU Vileplume Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28904,8 +28900,8 @@ var SETDEX_SS = {
 				"Protect"
 			]
 		},
-    "NU Vileplume-2": {
-			"level": "50",
+    "PU Vileplume Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28932,8 +28928,8 @@ var SETDEX_SS = {
 				"Giga Drain"
 			]
 		},
-    "NU Vileplume-3": {
-			"level": "50",
+    "PU Vileplume Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28960,8 +28956,8 @@ var SETDEX_SS = {
 				"Drain Punch"
 			]
 		},
-    "NU Vileplume-4": {
-			"level": "50",
+    "PU Vileplume Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -28988,8 +28984,8 @@ var SETDEX_SS = {
 				"Nature Power"
 			]
 		},
-    "PU Vileplume-RS": {
-			"level": "50",
+    "NU Vileplume Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29018,7 +29014,7 @@ var SETDEX_SS = {
 		}
 	},
 	"Volcarona": {
-    "PU Volcarona-RS": {
+    "NU Volcarona Sparring": {
 			"level": 50,
 			"evs": {
 				"sa": 252,
@@ -29044,8 +29040,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Wailord": {
-    "NU Wailord-1": {
-			"level": "50",
+    "PU Wailord Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29072,8 +29068,8 @@ var SETDEX_SS = {
 				"Amnesia"
 			]
 		},
-    "NU Wailord-2": {
-			"level": "50",
+    "PU Wailord Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29100,8 +29096,8 @@ var SETDEX_SS = {
 				"Body Slam"
 			]
 		},
-    "NU Wailord-3": {
-			"level": "50",
+    "PU Wailord Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29128,8 +29124,8 @@ var SETDEX_SS = {
 				"Hyper Voice"
 			]
 		},
-    "NU Wailord-4": {
-			"level": "50",
+    "PU Wailord Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -29156,8 +29152,8 @@ var SETDEX_SS = {
 				"Earthquake"
 			]
 		},
-    "PU Wailord-RS": {
-			"level": "50",
+    "NU Wailord Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -29186,8 +29182,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Weavile": {
-    "NU Weavile-1": {
-			"level": "50",
+    "PU Weavile Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29214,8 +29210,8 @@ var SETDEX_SS = {
 				"Fake Out"
 			]
 		},
-    "NU Weavile-2": {
-			"level": "50",
+    "PU Weavile Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -29242,8 +29238,8 @@ var SETDEX_SS = {
 				"Feint"
 			]
 		},
-    "NU Weavile-3": {
-			"level": "50",
+    "PU Weavile Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29270,8 +29266,8 @@ var SETDEX_SS = {
 				"Throat Chop"
 			]
 		},
-    "NU Weavile-4": {
-			"level": "50",
+    "PU Weavile Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29299,7 +29295,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Weavile-5": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29327,7 +29323,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Weavile-6": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -29355,7 +29351,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Weavile-7": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29383,7 +29379,7 @@ var SETDEX_SS = {
 			]
 		},
 		"Weavile-8": {
-			"level": "50",
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29410,8 +29406,8 @@ var SETDEX_SS = {
 				"Poison Jab"
 			]
 		},
-    "PU Weavile-RS": {
-			"level": "50",
+    "NU Weavile Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29440,8 +29436,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Weezing-Galar": {
-    "NU Weezing-G-1": {
-			"level": "50",
+    "PU Weezing-G Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29468,8 +29464,8 @@ var SETDEX_SS = {
 				"Will-O-Wisp"
 			]
 		},
-    "NU Weezing-G-2": {
-			"level": "50",
+    "PU Weezing-G Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29496,8 +29492,8 @@ var SETDEX_SS = {
 				"Sludge Wave"
 			]
 		},
-    "NU Weezing-G-3": {
-			"level": "50",
+    "PU Weezing-G Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29524,8 +29520,8 @@ var SETDEX_SS = {
 				"Strange Steam"
 			]
 		},
-    "NU Weezing-G-4": {
-			"level": "50",
+    "PU Weezing-G Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29554,8 +29550,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Whimsicott": {
-    "NU Whimsicott-1": {
-			"level": "50",
+    "PU Whimsicott Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29582,8 +29578,8 @@ var SETDEX_SS = {
 				"Seed Bomb"
 			]
 		},
-    "NU Whimsicott-2": {
-			"level": "50",
+    "PU Whimsicott Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29610,8 +29606,8 @@ var SETDEX_SS = {
 				"Leech Seed"
 			]
 		},
-    "NU Whimsicott-3": {
-			"level": "50",
+    "PU Whimsicott Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29638,8 +29634,8 @@ var SETDEX_SS = {
 				"Taunt"
 			]
 		},
-    "NU Whimsicott-4": {
-			"level": "50",
+    "PU Whimsicott Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29668,8 +29664,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Whiscash": {
-    "NU Whiscash-1": {
-			"level": "50",
+    "PU Whiscash Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29696,8 +29692,8 @@ var SETDEX_SS = {
 				"Thrash"
 			]
 		},
-    "NU Whiscash-2": {
-			"level": "50",
+    "PU Whiscash Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29724,8 +29720,8 @@ var SETDEX_SS = {
 				"Future Sight"
 			]
 		},
-    "NU Whiscash-3": {
-			"level": "50",
+    "PU Whiscash Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29752,8 +29748,8 @@ var SETDEX_SS = {
 				"Rain Dance"
 			]
 		},
-    "NU Whiscash-4": {
-			"level": "50",
+    "PU Whiscash Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 252,
@@ -29780,8 +29776,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "PU Whiscash-RS": {
-			"level": "50",
+    "NU Whiscash Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29810,8 +29806,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Wishiwashi": {
-    "NU Wishiwashi-1": {
-			"level": "50",
+    "PU Wishiwashi Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29838,8 +29834,8 @@ var SETDEX_SS = {
 				"Endeavor"
 			]
 		},
-    "NU Wishiwashi-2": {
-			"level": "50",
+    "PU Wishiwashi Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29866,8 +29862,8 @@ var SETDEX_SS = {
 				"Tearful Look"
 			]
 		},
-    "NU Wishiwashi-3": {
-			"level": "50",
+    "PU Wishiwashi Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -29894,8 +29890,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "NU Wishiwashi-4": {
-			"level": "50",
+    "PU Wishiwashi Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -29922,8 +29918,8 @@ var SETDEX_SS = {
 				"Sleep Talk"
 			]
 		},
-    "PU Wishiwashi-RS": {
-			"level": "50",
+    "NU Wishiwashi Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29952,8 +29948,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Wobbuffet": {
-    "NU Wobbuffet-1": {
-			"level": "50",
+    "PU Wobbuffet Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -29980,8 +29976,8 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-    "NU Wobbuffet-2": {
-			"level": "50",
+    "PU Wobbuffet Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -30008,8 +30004,8 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-    "NU Wobbuffet-3": {
-			"level": "50",
+    "PU Wobbuffet Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -30036,8 +30032,8 @@ var SETDEX_SS = {
 				"Destiny Bond"
 			]
 		},
-    "NU Wobbuffet-4": {
-			"level": "50",
+    "PU Wobbuffet Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 252,
 				"at": 0,
@@ -30066,8 +30062,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Xatu": {
-    "NU Xatu-1": {
-			"level": "50",
+    "PU Xatu Set1": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -30094,8 +30090,8 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-    "NU Xatu-2": {
-			"level": "50",
+    "PU Xatu Set2": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -30122,8 +30118,8 @@ var SETDEX_SS = {
 				"Air Slash"
 			]
 		},
-    "NU Xatu-3": {
-			"level": "50",
+    "PU Xatu Set3": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 252,
@@ -30150,8 +30146,8 @@ var SETDEX_SS = {
 				"Zen Headbutt"
 			]
 		},
-    "NU Xatu-4": {
-			"level": "50",
+    "PU Xatu Set4": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
@@ -30180,8 +30176,8 @@ var SETDEX_SS = {
 		}
 	},
 	"Zoroark": {
-    "PU Zoroark-RS": {
-			"level": "50",
+    "NU Zoroark Sparring": {
+			"level": 50,
 			"evs": {
 				"hp": 0,
 				"at": 0,
