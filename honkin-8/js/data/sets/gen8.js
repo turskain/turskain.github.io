@@ -11769,7 +11769,7 @@ var SETDEX_SS = {
 			]
 		}
 	},
-	"Gourgeist-Average": {
+	"Gourgeist": {
     "PU Gourgeist Set1": {
 			"level": 50,
 			"evs": {
@@ -16153,7 +16153,7 @@ var SETDEX_SS = {
 			]
 		}
 	},
-	"Lycanroc-Day": {
+	"Lycanroc": {
     "NU Lycanroc Sparring": {
 			"level": 50,
 			"evs": {
@@ -16183,7 +16183,7 @@ var SETDEX_SS = {
 			]
 		}
 	},
-	"Lycanroc-Night": {
+	"Lycanroc-Midnight": {
     "NU Lycanroc-M Sparring": {
 			"level": 50,
 			"evs": {
@@ -24463,7 +24463,7 @@ var SETDEX_SS = {
 			]
 		}
 	},
-	"Sirfetch'd": {
+	"Sirfetch’d": {
     "PU Sirfetch'd Set1": {
 			"level": 50,
 			"evs": {
