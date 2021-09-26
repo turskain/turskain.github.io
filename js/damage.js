@@ -483,6 +483,19 @@ function getDamageResult(attacker, defender, move, field) {
 			}
 		}
 	}
+	
+		if (isGroundedForCalc(attacker, field)) {
+		if (field.terrain === "Electric" && move.type === "Electric") {
+			bpMods.push(0x1800);
+			description.terrain = field.terrain;
+		} else if (field.terrain === "Grassy" && move.type === "Grass") {
+			bpMods.push(0x1800);
+			description.terrain = field.terrain;
+		} else if (field.terrain === "Psychic" && move.type === "Psychic") {
+			bpMods.push(0x1800);
+			description.terrain = field.terrain;
+		}
+	}
 
 	basePower = Math.max(1, pokeRound(basePower * chainMods(bpMods) / 0x1000));
 
@@ -632,18 +645,6 @@ function getDamageResult(attacker, defender, move, field) {
 		description.weather = field.weather;
 	} else if ((field.weather === "Harsh Sunshine" && move.type === "Water") || (field.weather === "Heavy Rain" && move.type === "Fire")) {
 		return {"damage": [0], "description": buildDescription(description)};
-	}
-	if (isGroundedForCalc(attacker, field)) {
-		if (field.terrain === "Electric" && move.type === "Electric") {
-			baseDamage = pokeRound(baseDamage * 0x1800 / 0x1000);
-			description.terrain = field.terrain;
-		} else if (field.terrain === "Grassy" && move.type === "Grass") {
-			baseDamage = pokeRound(baseDamage * 0x1800 / 0x1000);
-			description.terrain = field.terrain;
-		} else if (field.terrain === "Psychic" && move.type === "Psychic") {
-			baseDamage = pokeRound(baseDamage * 0x1800 / 0x1000);
-			description.terrain = field.terrain;
-		}
 	}
 	if (isGroundedForCalc(defender, field)) {
 		if (field.terrain === "Misty" && move.type === "Dragon") {
@@ -840,9 +841,15 @@ function getMoveEffectiveness(move, type, isGhostRevealed, isGravity) {
 }
 
 function getModifiedStat(stat, mod) {
-	return mod > 0 ? Math.floor(stat * (2 + mod) / 2) :
-		mod < 0 ? Math.floor(stat * 2 / (2 - mod)) :
-			stat;
+  const boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];
+
+  if (mod >= 0) {
+    stat = Math.floor(stat * boostTable[mod]);
+  } else {
+    stat = Math.floor(stat / boostTable[-mod]);
+  }
+
+  return stat;
 }
 
 function getFinalSpeed(pokemon, weather) {
