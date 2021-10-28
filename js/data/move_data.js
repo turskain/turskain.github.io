@@ -1848,7 +1848,7 @@ var MOVES_DPP = $.extend(true, {}, MOVES_ADV, {
 		type: 'Flying',
 		category: 'Special',
 		hasSecondaryEffect: true,
-        pp: 20
+        pp: 15
 	},
 	'Aqua Jet': {
 		bp: 40,
