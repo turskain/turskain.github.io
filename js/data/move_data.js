@@ -365,6 +365,12 @@ var MOVES_RBY = {
         percentHealed: 0.5,
         pp: 15
     },
+	'Mega Kick': {
+        bp: 120,
+        type: 'Normal',
+	category: 'Physical',
+        pp: 5
+    },
     'Minimize': {
         bp: 0,
         type: 'Normal',
