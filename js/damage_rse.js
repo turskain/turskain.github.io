@@ -206,7 +206,7 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
 		}
 	}
 
-	if ((move.name !== ["Explosion", "Self-Destruct", "Earthquake", "Magnitude"]) && (field.format !== "Singles" && move.isSpread)) {
+	if ((move.name !== "Explosion" || move.name !== "Self-Destruct" || move.name !== "Earthquake" || move.name !== "Magnitude") && (field.format !== "Singles" && move.isSpread)) {
 		// weird gen 3 spread damage mechanics
 		baseDamage = Math.floor(baseDamage / 2);
 	}
