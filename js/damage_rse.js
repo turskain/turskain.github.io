@@ -206,9 +206,11 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
 		}
 	}
 
-	if ((move.name !== "Explosion" || move.name !== "Self-Destruct" || move.name !== "Earthquake" || move.name !== "Magnitude") && (field.format !== "Singles" && move.isSpread)) {
+	if (field.format !== "Singles" && move.isSpread) {
 		// weird gen 3 spread damage mechanics
+		if (move.name !== "Explosion" || move.name !== "Self-Destruct" || move.name !== "Earthquake" || move.name !== "Magnitude") {
 		baseDamage = Math.floor(baseDamage / 2);
+		}
 	}
 
 	if ((field.weather === "Sun" && move.type === "Fire") || (field.weather === "Rain" && move.type === "Water")) {
