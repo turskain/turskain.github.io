@@ -206,9 +206,9 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
 		}
 	}
 
-	if (field.format !== "Singles" && move.isSpread) {
-		// some sources say 3/4, some say 2/3, some say 1/2...using 3/4 for now since that's what DPP+ use
-		baseDamage = Math.floor(baseDamage * 3 / 4);
+	if (field.format !== "Singles" && move.isSpread && move.name !== ["Explosion", "Self-Destruct", "Earthquake", "Magnitude"]) {
+		// weird gen 3 spread damage mechanics
+		baseDamage = Math.floor(baseDamage / 2);
 	}
 
 	if ((field.weather === "Sun" && move.type === "Fire") || (field.weather === "Rain" && move.type === "Water")) {
