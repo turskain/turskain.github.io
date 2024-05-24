@@ -103,6 +103,9 @@ function calculate() {
 						while (data.length > 1) {
 							data.pop();
 						}
+            //
+            //console.log(defender.stats[SD]);
+            //
 						data.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
 						data.push(minPercentage + " - " + maxPercentage + "%");
 						data.push(minPixels + " - " + maxPixels + "px");
@@ -113,6 +116,8 @@ function calculate() {
 				data.push((mode === "one-vs-all") ? defender.type2 : attacker.type2);
 				data.push((mode === "one-vs-all") ? defender.ability : attacker.ability);
 				data.push((mode === "one-vs-all") ? defender.item : attacker.item);
+        // speed stat, same logic as rest
+				data.push((mode === "one-vs-all") ? defender.stats[SP] : attacker.stats[SP]);
 				dataSet.push(data);
 			}
 		}
