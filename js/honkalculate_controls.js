@@ -103,9 +103,6 @@ function calculate() {
 						while (data.length > 1) {
 							data.pop();
 						}
-            //
-            //console.log(defender.stats[SD]);
-            //
 						data.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
 						data.push(minPercentage + " - " + maxPercentage + "%");
 						data.push(minPixels + " - " + maxPixels + "px");
@@ -116,8 +113,12 @@ function calculate() {
 				data.push((mode === "one-vs-all") ? defender.type2 : attacker.type2);
 				data.push((mode === "one-vs-all") ? defender.ability : attacker.ability);
 				data.push((mode === "one-vs-all") ? defender.item : attacker.item);
-        // speed stat, same logic as rest
+        // speed stat, same logic as rest, non-scarfed/IB'd speed for ADV, post-item speed for rest
+	      if (gen <= 3) {
+				data.push((mode === "one-vs-all") ? defender.rawStats[SP] : attacker.rawStats[SP]);
+        } else {
 				data.push((mode === "one-vs-all") ? defender.stats[SP] : attacker.stats[SP]);
+        }
 				dataSet.push(data);
 			}
 		}
@@ -129,7 +130,12 @@ function getSelectedTiers() {
 	var selectedTiers = $('.tiers input:checked').map(function () {
 		return this.id;
 	}).get();
+  // use all sets if nothing's checked instead of doing the pop-up nag
+  if (!selectedTiers.length) {
+  selectedTiers = ["Maison"];
+  }
 	return selectedTiers;
+  
 }
 
 var calculateMovesOfAttacker;
@@ -318,6 +324,9 @@ $(document).ready(function () {
 	$("#" + mode).prop("checked", true);
 	$("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
 	$("#holder-2").show();
+
+  //$("#tiers").prop("All sets", true);
+// ('.tiers input:checked')
 
 	calcDTDimensions();
 	constructDataTable();
