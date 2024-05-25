@@ -35,13 +35,21 @@ function CALCULATE_DAMAGE_RBY(attacker, defender, move, field) {
 		"defenderName": defender.name
 	};
 
+	var lv = attacker.level;
+    if (move.name === "Seismic Toss" || move.name === "Night Shade") {
+        return {"damage":[lv], "description":buildDescription(description)};
+    }
+
+    if (move.name === "Sonic Boom") {
+        return {"damage":20, "description":buildDescription(description)};
+    }
+
+    if (move.name === "Dragon Rage") {
+        return {"damage":40, "description":buildDescription(description)};
+    }
+
 	if (move.bp === 0) {
 		return {"damage": [0], "description": buildDescription(description)};
-	}
-
-	var lv = attacker.level;
-	if (move.name === "Seismic Toss" || move.name === "Night Shade") {
-		return {"damage": [lv], "description": buildDescription(description)};
 	}
 
 	var typeEffect1 = typeChart[move.type][defender.type1];

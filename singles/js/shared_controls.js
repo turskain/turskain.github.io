@@ -62,33 +62,75 @@ $(".level").keyup(function () {
 	var poke = $(this).closest(".poke-info");
 	calcHP(poke);
 	calcStats(poke);
+	calcBoosts(poke);
 });
 $(".nature").bind("keyup change", function () {
-	calcStats($(this).closest(".poke-info"));
+	var poke = $(this).closest(".poke-info");
+	calcStats(poke);
+	calcBoosts(poke);
 });
 $(".hp .base, .hp .evs, .hp .ivs").bind("keyup change", function () {
 	calcHP($(this).closest(".poke-info"));
 });
 $(".at .base, .at .evs, .at .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'at');
+	var poke = $(this).closest(".poke-info");
+	calcStat(poke, 'at');
+	calcBoosted(poke, 'at');
 });
 $(".df .base, .df .evs, .df .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'df');
+	var poke = $(this).closest(".poke-info");
+	calcStat(poke, 'df');
+	calcBoosted(poke, 'df');
 });
 $(".sa .base, .sa .evs, .sa .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'sa');
+	var poke = $(this).closest(".poke-info");
+	calcStat(poke, 'sa');
+	calcBoosted(poke, 'sa');
 });
 $(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'sd');
+	var poke = $(this).closest(".poke-info");
+	calcStat(poke, 'sd');
+	calcBoosted(poke, 'sd');
 });
 $(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
-	calcStat($(this).closest(".poke-info"), 'sp');
+	var poke = $(this).closest(".poke-info");
+	calcStat(poke, 'sp');
+	calcBoosted(poke, 'sp');
 });
+$(".at .boost").bind("keyup change", function () {
+	var poke = $(this).closest(".poke-info");
+	calcBoosted(poke, 'at');
+});
+$(".df .boost").bind("keyup change", function () {
+	var poke = $(this).closest(".poke-info");
+	calcBoosted(poke, 'df');
+});
+$(".sa .boost").bind("keyup change", function () {
+	var poke = $(this).closest(".poke-info");
+	calcBoosted(poke, 'sa');
+});
+$(".sd .boost").bind("keyup change", function () {
+	var poke = $(this).closest(".poke-info");
+	calcBoosted(poke, 'sd');
+});
+$(".sp .boost").bind("keyup change", function () {
+	var poke = $(this).closest(".poke-info");
+	calcBoosted(poke, 'sp');
+});
+$(bothPokemon("#resetBoosts")).click(function () {
+	var poke = $(this).closest(".poke-info");
+	var boosts = poke.find(".boost").val(0);
+	calcBoosts(poke);
+	calculate();
+});
+
 $(".evs").bind("keyup change", function () {
 	calcEvTotal($(this).closest(".poke-info"));
 });
 $(".sl .base").keyup(function () {
-	calcStat($(this).closest(".poke-info"), 'sl');
+	var poke = $(this).closest(".poke-info");
+	calcStat(poke, 'sl');
+	calcBoosted(poke, 'sl')
 });
 $(".at .dvs").keyup(function () {
 	var poke = $(this).closest(".poke-info");
@@ -136,6 +178,12 @@ function calcStats(poke) {
 	}
 }
 
+function calcBoosts(poke) {
+	for (var i = 0; i < STATS.length; i++) {
+		calcBoosted(poke, STATS[i]);
+	}
+}
+
 function calcEvTotal(poke) {
 	var total = 0;
 	poke.find('.evs').each(function (idx, elt) { total += 1 * $(elt).val(); });
@@ -177,11 +225,10 @@ function drawHealthBar(poke, max, current) {
 //$(".ivsoverride").keyup(function () {
 //    validate($(this), 0, 31);
 //});
-//$(".leveloverride").keyup(function () {
-//    validate($(this), 1, 100);
-//});
+$(".leveloverride").keyup(function () {
+	localStorage.defaultLevel = $(".leveloverride input").val();
+});
 //HACK!!
-$(".leveloverride").val("50");
 $(".ivsoverrideR1").val("31");
 $(".ivsoverrideL1").val("31");
 //HACK to fix the 55 bug? idk where it comes from
@@ -312,6 +359,8 @@ $(".status").bind("keyup change", function () {
 	} else {
 		$(this).parent().children(".toxic-counter").hide();
 	}
+	var poke = $(this).closest(".poke-info");
+	calcBoosted(poke, 'sp');
 });
 
 $(".ability").change(function () {
@@ -385,21 +434,18 @@ $(".set-selector").change(function () {
 		var itemObj = pokeObj.find(".item");
 
 
-    //HACK! blame turskain for this
-    this.ivsoverride = ~~pokeObj.find(".ivsoverride").val();
-				if (this.ivsoverride <= 31) {
-				  var ivsoverride = this.ivsoverride
-				} else {
-					var ivsoverride = 31
+        //HACK! blame turskain for this
+        this.ivsoverride = ~~pokeObj.find(".ivsoverride").val();
+		if (this.ivsoverride <= 31) {
+		    var ivsoverride = this.ivsoverride
+		} else {
+			var ivsoverride = 31
         }
-    //HACK! level override button
+        //HACK! level override button
 		this.leveloverride = ~~document.getElementById("leveloverride").value;
-				if ( (this.leveloverride !== 50 ) || (this.leveloverride !== 55 )) {
-				  var leveloverride = this.leveloverride
-				} else {
-					var leveloverride = 50
-        }
-    //HACK! following section: ivsoverride replaces the usual "31" being filled in, leveloverride same thing
+	    var leveloverride = this.leveloverride;
+
+        //HACK! following section: ivsoverride replaces the usual "31" being filled in, leveloverride same thing
 
 		if (pokemonName in setdex && setName in setdex[pokemonName]) {
 			var set = setdex[pokemonName][setName];
@@ -451,6 +497,7 @@ $(".set-selector").change(function () {
 		}
 		calcHP(pokeObj);
 		calcStats(pokeObj);
+		calcBoosts(pokeObj);
 		calcEvTotal(pokeObj);
 		abilityObj.change();
 		itemObj.change();
@@ -626,17 +673,17 @@ function Pokemon(pokeInfo) {
 		this.maxHP = ~~pokeInfo.find(".hp .total").text();
 		this.curHP = ~~pokeInfo.find(".current-hp").val();
 		this.HPEVs = ~~pokeInfo.find(".hp .evs").val();
+		this.HPIVs = ~~pokeInfo.find(".hp .ivs").val();
 		this.rawStats = [];
 		this.boosts = [];
 		this.stats = [];
 		this.evs = [];
-
-
-      
+		this.ivs = [];      
 
 		for (var i = 0; i < STATS.length; i++) {
 			this.rawStats[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .total").text();
 			this.boosts[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .boost").val();
+			this.ivs[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .ivs").val();
 			this.evs[STATS[i]] = ~~pokeInfo.find("." + STATS[i] + " .evs").val();
 		}
 		this.nature = pokeInfo.find(".nature").val();
@@ -781,6 +828,7 @@ $(".gen").change(function () {
 		STATS = STATS_RBY;
 		calcHP = CALC_HP_RBY;
 		calcStat = CALC_STAT_RBY;
+		calcBoosted = CALC_BOOSTED_ADV;
 		break;
 	case 2:
 		pokedex = POKEDEX_GSC;
@@ -792,6 +840,7 @@ $(".gen").change(function () {
 		STATS = STATS_GSC;
 		calcHP = CALC_HP_RBY;
 		calcStat = CALC_STAT_RBY;
+		calcBoosted = CALC_BOOSTED_ADV;
 		break;
 	case 3:
 		pokedex = POKEDEX_ADV;
@@ -803,6 +852,7 @@ $(".gen").change(function () {
 		STATS = STATS_GSC;
 		calcHP = CALC_HP_ADV;
 		calcStat = CALC_STAT_ADV;
+		calcBoosted = CALC_BOOSTED_ADV;
 		break;
 	case 4:
 		pokedex = POKEDEX_DPP;
@@ -814,6 +864,7 @@ $(".gen").change(function () {
 		STATS = STATS_GSC;
 		calcHP = CALC_HP_ADV;
 		calcStat = CALC_STAT_ADV;
+		calcBoosted = CALC_BOOSTED_ADV;
 		break;
 	case 5:
 		pokedex = POKEDEX_BW;
@@ -825,6 +876,7 @@ $(".gen").change(function () {
 		STATS = STATS_GSC;
 		calcHP = CALC_HP_ADV;
 		calcStat = CALC_STAT_ADV;
+		calcBoosted = CALC_BOOSTED_ADV;
 		break;
 	case 6:
 		pokedex = POKEDEX_XY;
@@ -836,6 +888,7 @@ $(".gen").change(function () {
 		STATS = STATS_GSC;
 		calcHP = CALC_HP_ADV;
 		calcStat = CALC_STAT_ADV;
+		calcBoosted = CALC_BOOSTED_ADV;
 		break;
 	default:
 		pokedex = POKEDEX_SM;
@@ -847,6 +900,7 @@ $(".gen").change(function () {
 		STATS = STATS_GSC;
 		calcHP = CALC_HP_ADV;
 		calcStat = CALC_STAT_ADV;
+		calcBoosted = CALC_BOOSTED_ADV;
 	}
 	clearField();
 	$("#importedSets").prop("checked", false);
@@ -872,7 +926,7 @@ $(".notation").change(function () {
 });
 
 function clearField() {
-	$("#doubles-format").prop("checked", false);
+	$("#singles-format").prop("checked", true);
 	$("#clear").prop("checked", true);
 	$("#gscClear").prop("checked", true);
 	$("#gravity").prop("checked", false);
@@ -1028,6 +1082,31 @@ function getTerrainEffects() {
 	}
 }
 
+function loadDefaultList(id) {
+	$("#" + id + " .set-selector").select2({
+		formatResult: function (object) {
+			return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
+		},
+		query: function (query) {
+			var pageSize = 30;
+			var results = _.filter(getSetOptions(), function (option) {
+				var pokeName = option.pokemon.toUpperCase();
+				return !query.term || query.term.toUpperCase().split(" ").every(function (term) {
+					return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0 || pokeName.indexOf(" " + term) >= 0;
+				});
+			});
+			query.callback({
+				results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
+				more: results.length >= query.page * pageSize
+			});
+		},
+		initSelection: function (element, callback) {
+			var data = getSetOptions()[gen < 3 ? 3 : 1];
+			callback(data);
+		}
+	});
+}
+
 function loadDefaultLists() {
 	$(".set-selector").select2({
 		formatResult: function (object) {
@@ -1095,8 +1174,8 @@ function loadCustomList(id) {
 }
 
 $(document).ready(function () {
-	$("#gen7").prop("checked", true);
-	$("#gen7").change();
+	$("#gen4").prop("checked", true);
+	$("#gen4").change();
 	$("#percentage").prop("checked", true);
 	$("#percentage").change();
 	loadDefaultLists();
@@ -1109,5 +1188,29 @@ $(document).ready(function () {
 	});
 	$(".set-selector").val(getSetOptions()[gen < 3 ? 3 : 1].id);
 	$(".set-selector").change();
-    	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
+   	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
+
+	if(localStorage.defaultLevel)
+	{
+		$(".leveloverride").val(localStorage.defaultLevel);
+	}
+	else
+	{
+		$(".leveloverride").val("50");
+	}
+});
+
+$(".ivsoverride").change(function() {
+    var ivTier = $(this).val();
+    
+    var poke = $(this).closest(".poke-info");
+    
+    poke.find(".hp .ivs").val(ivTier);
+    for (i = 0; i < STATS.length; i++) {
+        poke.find("." + STATS[i] + " .ivs").val(ivTier);
+    }
+    
+    calcHP(poke);
+    calcStats(poke);
+    calcBoosts(poke);
 });

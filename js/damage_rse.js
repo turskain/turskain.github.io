@@ -37,6 +37,34 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
 		"defenderName": defender.name
 	};
 
+	var typeEffect1 = getMoveEffectiveness(move, defender.type1, field.isForesight);
+	var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, field.isForesight) : 1;
+	var typeEffectiveness = typeEffect1 * typeEffect2;
+
+	if (typeEffectiveness === 0) {
+		return {"damage": [0], "description": buildDescription(description)};
+	}
+
+    var lv = attacker.level;
+    if (move.name === "Seismic Toss" || move.name === "Night Shade") {
+        return {"damage":[lv], "description":buildDescription(description)};
+    }
+
+    if (move.name === "Psywave") {
+        var damage = []
+        for (var i = 0; i <= 10; i++) {
+            damage[i] = Math.max(1, Math.floor(lv * (i*10 + 50) / 100));
+        }
+        return {"damage": damage, "description":buildDescription(description)};
+    }
+    if (move.name === "Sonic Boom") {
+        return {"damage":[20], "description":buildDescription(description)};
+    }
+
+    if (move.name === "Dragon Rage") {
+        return {"damage":[40], "description":buildDescription(description)};
+    }
+
 	if (move.bp === 0) {
 		return {"damage": [0], "description": buildDescription(description)};
 	}
@@ -57,14 +85,6 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
 		description.moveBP = move.bp;
 	}
 
-	var typeEffect1 = getMoveEffectiveness(move, defender.type1, field.isForesight);
-	var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, field.isForesight) : 1;
-	var typeEffectiveness = typeEffect1 * typeEffect2;
-
-	if (typeEffectiveness === 0) {
-		return {"damage": [0], "description": buildDescription(description)};
-	}
-
 	if ((defender.ability.indexOf("Flash Fire") !== -1 && move.type === "Fire") ||
             (defender.ability === "Levitate" && move.type === "Ground") ||
             (defender.ability === "Volt Absorb" && move.type === "Electric") ||
@@ -76,11 +96,6 @@ function CALCULATE_DAMAGE_ADV(attacker, defender, move, field) {
 	}
 
 	description.HPEVs = defender.HPEVs + " HP";
-
-	var lv = attacker.level;
-	if (move.name === "Seismic Toss" || move.name === "Night Shade") {
-		return {"damage": [lv], "description": buildDescription(description)};
-	}
 
 	if (move.hits > 1) {
 		description.hits = move.hits;

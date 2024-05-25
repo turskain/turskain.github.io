@@ -51,3 +51,21 @@ function CALC_STAT_ADV(poke, statName) {
 	var total = Math.floor((Math.floor((base * 2 + ivs + Math.floor(evs / 4)) * level / 100) + 5) * nature);
 	stat.find(".total").text(total);
 }
+
+function CALC_BOOSTED_ADV(poke, statName) {
+	var stat = poke.find("." + statName);
+	var level = ~~poke.find(".level").val();
+	var total = stat.find(".total").text();
+	var boost = stat.find(".boost").val();
+	var boosted = getModifiedStat(total, boost);
+
+	if(statName === 'sp')
+	{
+		var status = poke.find(".status").val();
+		if(status === 'Paralyzed')
+		{
+			boosted = Math.floor(boosted * 0.25);
+		}
+	}
+	stat.find(".boosted").text(boosted);
+}

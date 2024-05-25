@@ -197,8 +197,8 @@ function calculate() {
 	}
 	bestResult.prop("checked", true);
 	bestResult.change();
-	$("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
-	$("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
+	$("#resultHeaderL").text(p1.name + "'s Moves");
+	$("#resultHeaderR").text(p2.name + "'s Moves");
 }
 
 $(".result-move").change(function () {
@@ -250,6 +250,12 @@ $(".mode").change(function () {
 
 $(".notation").change(function () {
 	calculate();
+});
+
+$("#fieldToggle").click(function() {
+	var fieldPanel = $("#fieldPanel");
+	var oldValue = fieldPanel.css('display');
+	fieldPanel.css('display', oldValue == 'none' ? 'inline-block' : 'none');
 });
 
 $(document).ready(function () {
